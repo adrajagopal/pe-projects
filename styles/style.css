@@ -5,7 +5,7 @@
 * { box-sizing: border-box; }
 
 body {
-	background-color:darkslategray;
+	background-color:snow;
 	max-width:800px;
 	margin-left:auto;
 	margin-right:auto;
@@ -15,8 +15,7 @@ body {
 
 nav {
 	padding: 10px;
-	background-image: linear-gradient(90deg, darkslategray 10%, indianred 40%, darkslategray 70%);
-	border: 2px solid darkslategray;
+	background-image: linear-gradient(90deg, snow, lavender, mistyrose, lavenderblush, snow);
 	border-radius: 10px;
 	max-width: 70%;
 }
@@ -27,14 +26,14 @@ nav li {
 }
 
 nav a {
-	color: snow;
+	color: firebrick;
 }
 
 h1 {
 	font-family:sans-serif;
 	font-size:2.5em;
 	font-weight:bold;
-	color:#DB8A8A;
+	color:indianred;
 	margin-top: 1em;
 }
 
@@ -43,14 +42,14 @@ h2 {
 	font-size:1.875em;
 	font-weight:normal;
 	line-height:1;
-	color:#DB8A8A;
+	color:darkslategrey;
 }
 
 h3 {
 	font-family:sans-serif;
 	font-size:1.4em;
 	font-weight:bold;
-	color:#E9B8B8;
+	color:indianred;
 }
 
 p, ul, ol {
@@ -58,25 +57,25 @@ p, ul, ol {
 	font-family:Baskerville;
 	font-size:16px;
 	font-weight:normal;
-	color:snow;
+	color: darkslategrey;
 	letter-spacing:.01em;
 	word-spacing:0.15em;
-	line-height:1.25;
+	line-height:1.5;
 }
 
 a {
-	color:mistyrose;
+	color:firebrick;
 	font-family:Baskerville;
 	font-size:16px;
 }
 
 a:hover {
-	background-color: #446F6F;
+	background-color: mistyrose;
 }
 
 table {
 	font-family:Baskerville;
-	color:#E9B8B8;
+	color:#E19F9F;
 	border-color:mistyrose;
 	border-style:solid;
 	border-width:2px;
@@ -160,10 +159,10 @@ h2 + h2 {
 
 .resume-skill {
 	display:inline-block;
-	background-color: cornflowerblue;
-	border: 1px solid cornflowerblue;
+	background-color: lavender;
+	border: 1px solid lavender;
 	border-radius: 10px;
-	color: snow;
+	color: indigo;
 	padding: 1px 5px;
 }
 
