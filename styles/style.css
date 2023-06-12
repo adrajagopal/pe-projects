@@ -75,7 +75,7 @@ a:hover {
 
 table {
 	font-family:Baskerville;
-	color:#E19F9F;
+	color:darkslategrey;
 	border-color:mistyrose;
 	border-style:solid;
 	border-width:2px;
@@ -88,7 +88,7 @@ img, table {
 }
 
 td {
-	border-color:mistyrose;
+	border-color:darkslategrey;
 	border-style:solid;
 	border-width:2px;
 	padding:5px;
