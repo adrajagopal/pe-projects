@@ -6,7 +6,9 @@ html {
 }
 
 body {
-/*	border: 2px solid blue;*/
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 h1 {
@@ -26,58 +28,50 @@ p {
 	padding: 20px 15px;
 }
 
-/* COLOR STYLING FOR ALL SCREEN SIZES -------------------------- */
+/* ELEMENT ATTRIBUTES FOR ALL SCREEN SIZES -------------------------- */
+
+.site-header{
+	background-color: lightblue;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+}
+
+.site-footer {
+	background-color: slategrey;
+	color: snow;
+}
+
+.site-header .inner-column {
+	padding: 10px;
+}
+
 .article-content {
-	background-color: #C1FEDC;
+	background-color: lightblue;
 }
 
 .large-background {
-			background-image: url(https://ashevilletrails.com/wp-content/uploads/2018/02/craggy-pinnacle-craggy-gardens-02.jpg);
-			background-size: cover;
-			background-position: center center;
-	}
+	background-image: url(https://ashevilletrails.com/wp-content/uploads/2018/02/craggy-pinnacle-craggy-gardens-02.jpg);
+	background-size: cover;
+	background-position: center top;
+	flex-grow: 1;
+}
 
 .page-header, .page-footer {
 	background-color: rgba(204, 204, 204, 0.5);
 }
 
 .article-content p {
-	color: #005200;
+	color: darkslategrey;
 }
 
 .page-footer p {
 	color: mintcream;
-	text-shadow: 1px 1px 2px blue;
+	text-shadow: 1px 1px 2px #005200;
 }
 
-
-/* IF PAGE <=500px ---------------------------- */
-@media (max-width: 500px) {
-
-	h1 {
-		color: black;
-		background-color: none;
-	}
+h1 {
+	color: black;
 }
-
-/* IF PAGE >500px ---------------------------- */
-@media (min-width: 501px) {
-
-	h1 {
-		color: #005200;
-	}
-
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
