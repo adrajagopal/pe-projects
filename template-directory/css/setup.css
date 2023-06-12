@@ -4,10 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	padding: 15px;
-}
-
 h1, h2, h3, h4, p, ul, ol, li,
 span, a, table, tr, td, blockquote {
 	line-height: 1.5;
