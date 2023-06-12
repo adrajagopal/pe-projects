@@ -1,5 +1,3 @@
-@import "meyer-reset.css";
-
 /* Boilerplate formatting/styling - should not be custom to any project */
 
 * {
@@ -53,25 +51,3 @@ p a { /* "all links in paragraphs..." */
 	color: blue; /* put back styles for normal links */
 }
 /* yes! you might also want to do this for other headings and list items etc --- this is just a basic use-case */
-
-
-/* This section handles the formatting of ul and ol,
-	where you want markers for each li.
-	if you use this, make sure to add classes
-	to your ul/ol and span elements in your lists */
-
-.bulleted-list {
-	margin-left: 20px;
-	list-style-type: disc;
-}
-
-.numbered-list {
-	margin-left: 20px;
-	list-style-type: decimal;
-}
-
-.list-item-title {
-	font-family: inherit;
-	font-weight:600;
-	font-size: inherit;
-}
