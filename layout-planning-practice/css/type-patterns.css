@@ -1,0 +1,35 @@
+.shoutout-voice {
+	font-family: Helvetica Neue, sans-serif;
+	font-size: clamp(20px, 12vw, 50px);
+	font-weight: 700;
+}
+
+.loud-voice {
+	font-family: Helvetica Neue, sans-serif;
+	font-size: clamp(16px, 10vw, 40px);
+}
+
+.intro-voice {
+	font-family: Garamond, serif;
+	font-size: clamp(12px, 8vw, 32px);
+	font-style: italic;
+}
+
+.conversational-voice {
+	font-family: Garamond, serif;
+	font-size: clamp(12px, 6vw, 20px);
+}
+
+@media (min-width: 600px) {
+	.shoutout-voice {
+		color: navy;
+		letter-spacing: 0.1em;
+		word-spacing: 0.25em;
+		text-transform: uppercase;
+	}
+	
+	.loud-voice {
+		color: darkslateblue;
+		font-weight: 600;
+	}
+}

@@ -1,0 +1,77 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+html {
+	background-color: mintcream;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: Serif;
+}
+
+p {
+	font-size: 16px;
+}
+
+.inner-column {
+	max-width: 72ch;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 15px;
+}
+
+/* ELEMENT ATTRIBUTES FOR ALL SCREEN SIZES -------------------------- */
+
+.site-header{
+	background-color: lightblue;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+}
+
+.site-footer {
+	background-color: slategrey;
+	color: snow;
+}
+
+.site-header .inner-column {
+	padding: 10px;
+}
+
+.article-content {
+	background-color: lightblue;
+}
+
+.large-background {
+	background-image: url(https://ashevilletrails.com/wp-content/uploads/2018/02/craggy-pinnacle-craggy-gardens-02.jpg);
+	background-size: cover;
+	background-position: center top;
+	flex-grow: 1;
+}
+
+.page-header, .page-footer {
+	background-color: rgba(204, 204, 204, 0.5);
+}
+
+.article-content p {
+	color: darkslategrey;
+}
+
+.page-footer p {
+	color: mintcream;
+	text-shadow: 1px 1px 2px #005200;
+}
+
+h1 {
+	color: black;
+}
+
+

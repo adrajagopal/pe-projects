@@ -6,9 +6,9 @@
 
 h1, h2, h3, h4, p, ul, ol, li,
 span, a, table, tr, td, blockquote {
-	line-height: 1.25em;
+	line-height: 1.5;
 	letter-spacing: normal;
-	padding: 10px 25px;
+	margin-top: 10px;
 }
 
 table {
