@@ -1,5 +1,6 @@
 @import "meyer-reset.css";
 @import "setup.css";
+@import "type-patterns.css";
 
 html {
 	background-color: mintcream;
@@ -11,10 +12,10 @@ body {
 	flex-direction: column;
 }
 
-h1 {
+/*h1 {
 	font-size: 40px;
 	font-family: Serif;
-}
+}*/
 
 p {
 	font-size: 16px;
@@ -69,9 +70,9 @@ p {
 	color: mintcream;
 	text-shadow: 1px 1px 2px #005200;
 }
-
+/*
 h1 {
 	color: black;
-}
+}*/
 
 
