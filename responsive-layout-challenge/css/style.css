@@ -1,7 +1,16 @@
-style.css
 @import "meyer-reset.css";
 @import "setup.css";
 
+
+body {
+	margin: 20px;
+	border: 2px solid aquamarine;
+}
+
+picture {
+	width: 100px;
+	height: 100px;
+}
 
 /* Inner column */
 
