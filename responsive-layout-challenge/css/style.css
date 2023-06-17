@@ -7,12 +7,16 @@ body {
 	border: 2px solid aquamarine;
 }
 
-/* Inner column */
+/* Inner column & padding */
 
 .inner-column {
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.site-header, .hero, .main, .footer {
+	padding: 20px;
 }
 
 /* Site header -------------- */
@@ -59,23 +63,33 @@ body {
 
 /* Hero section -------------- */
 
+.splash-img, .hero-items, .splash-text {
+	border: 2px solid cornflowerblue;
+}
+
 .splash-img {
 	width: 75vw;
 }
 
 @media (min-width: 610px) {
+	.hero-items {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 15px;
+	}
+
 	.splash-img {
-		width: 40vw;
+		width: 50%;
+	}
+
+	.splash-text {
+		width: 50%;
 	}
 
 }
 
-@media (min-width: 990px) {
-	.splash-img {
-		width: 40vw;
-	}
-
-}
 
 /* Main section -------------- */
 
