@@ -93,6 +93,17 @@ body {
 
 /* Main section -------------- */
 
+
+/*	Borders -------*/
+
+.main-list {
+	border: 5px solid slateblue;
+}
+
+.main-list-item {
+	border: 2px solid hotpink;
+}
+
 .main-list-img {
 	width: 25vw;
 }
