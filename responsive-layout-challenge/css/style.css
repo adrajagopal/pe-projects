@@ -54,14 +54,15 @@ body {
 
 @media (min-width: 610px) {
 	.main-list-img {
-		width: 33vw;
+		width: 25vw;
 	}
 
 }
 
 @media (min-width: 990px) {
 	.main-list-img {
-		width: 33vw;
+		width: 25vw;
+		max-width: 250px;
 	}
 
 }
