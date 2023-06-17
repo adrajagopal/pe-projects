@@ -22,34 +22,14 @@ body {
 }
 
 
-/* Hero section -------------- */
-
-
-
-
-
-
-/* Main section -------------- */
-
-
-
-
-
-
-/* Site footer -------------- */
-
-/*Image sizing --------------*/
-
 .site-logo {
 	width: 50px;
 }
 
+/* Hero section -------------- */
+
 .splash-img {
 	width: 75vw;
-}
-
-.main-list-img {
-	width: 25vw;
 }
 
 @media (min-width: 610px) {
@@ -58,4 +38,38 @@ body {
 	}
 
 }
+
+@media (min-width: 990px) {
+	.splash-img {
+		width: 40vw;
+	}
+
+}
+
+/* Main section -------------- */
+
+.main-list-img {
+	width: 25vw;
+}
+
+@media (min-width: 610px) {
+	.main-list-img {
+		width: 33vw;
+	}
+
+}
+
+@media (min-width: 990px) {
+	.main-list-img {
+		width: 33vw;
+	}
+
+}
+
+
+/* Site footer -------------- */
+
+
+
+
 
