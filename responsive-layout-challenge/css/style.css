@@ -22,18 +22,14 @@ body {
 	padding: 20px;
 }
 
-.child1, .child2 {
-	padding: 10px;
-	background-color: rgba(0,240,0,.5);
-}
-
 .header-items {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
+	gap: 10px 25px;
 	border: 2px solid gold;
 }
 
