@@ -7,11 +7,6 @@ body {
 	border: 2px solid aquamarine;
 }
 
-picture {
-	width: 100px;
-	height: 100px;
-}
-
 /* Inner column */
 
 .inner-column {
@@ -19,7 +14,6 @@ picture {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 
 /* Site header -------------- */
 
@@ -43,3 +37,25 @@ picture {
 
 
 /* Site footer -------------- */
+
+/*Image sizing --------------*/
+
+.site-logo {
+	width: 50px;
+}
+
+.splash-img {
+	width: 75vw;
+}
+
+.main-list-img {
+	width: 25vw;
+}
+
+@media (min-width: 610px) {
+	.splash-img {
+		width: 40vw;
+	}
+
+}
+
