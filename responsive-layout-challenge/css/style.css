@@ -19,11 +19,31 @@ body {
 
 .site-header {
 	border: 2px solid red;
+	padding: 20px;
+}
+
+.header-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 15px;
+}
+
+.nav-items {
+	border: 2px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 15px;
 }
 
 
 .site-logo {
 	width: 50px;
+	flex-shrink: 0;
 }
 
 /* Hero section -------------- */
