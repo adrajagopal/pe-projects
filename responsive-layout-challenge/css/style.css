@@ -123,6 +123,23 @@ body {
 
 }
 
+/*Flexes -----------------*/
+
+.main-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+@media (min-width: 990px) {
+	.main-list {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+
 
 /* Site footer -------------- */
 
