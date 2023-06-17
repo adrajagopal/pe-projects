@@ -15,7 +15,7 @@ body {
 	margin-right: auto;
 }
 
-.site-header, .hero, .main, .footer {
+.site-header, .hero, .main, .site-footer {
 	padding: 20px;
 }
 
@@ -115,7 +115,23 @@ body {
 
 /* Site footer -------------- */
 
+.footer-list {
+	border: 2px solid firebrick;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 20px;
+}
 
+.footer-text {
+	border: 2px solid pink;
+}
 
+@media (min-width: 610px) {
+	.footer-list {
+		flex-direction: row;
+	}
+}
 
 
