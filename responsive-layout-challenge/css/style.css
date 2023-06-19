@@ -3,7 +3,6 @@
 
 
 body {
-	border: 2px solid aquamarine;
 	background-color: #D6E1FA;
 }
 
@@ -22,7 +21,6 @@ body {
 /* Site header -------------- */
 
 .site-header {
-	border: 2px solid red;
 	padding: 20px;
 }
 
@@ -34,7 +32,6 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 10px 25px;
-	border: 2px solid gold;
 }
 
 .brand-slot {
@@ -43,11 +40,9 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	gap: 15px;
-	border: 2px solid red;
 }
 
 .nav-items {
-	border: 2px solid red;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -64,7 +59,6 @@ body {
 /* Hero section -------------- */
 
 .hero {
-	border: 10px solid salmon;
 	position: relative;
 	overflow: hidden;
 	background-color: rgba(118, 156, 242, 0.25);
@@ -101,11 +95,6 @@ body {
 	fill: none;
 }
 
-
-.splash-img, .hero-items, .splash-text {
-	border: 2px solid cornflowerblue;
-}
-
 .splash-img {
 	width: 75vw;
 }
@@ -140,7 +129,6 @@ body {
 
 .main {
 	position: relative;
-	border: 10px solid gold;
 	overflow: hidden;
 }
 
@@ -156,7 +144,6 @@ body {
 		right:-75px;
 		fill: rgba(0,0,0,0.25);
 		max-width: 200px;
-/*	can't get this to sit in the right spot!!	*/
 	}
 }
 
@@ -168,36 +155,10 @@ body {
 	}
 }
 
-/*	Borders -------*/
-
-.main-list {
-	border: 5px solid slateblue;
-}
-
-.main-list-item {
-	border: 2px solid hotpink;
-}
-
 .main-list-img {
 	width: 25vw;
 	border-radius: 50%;
 	overflow: hidden;
-}
-
-.main-list-img {
-	border: 2px solid red;
-}
-
-.main-list-subhead {
-	border: 2px solid blueviolet;
-}
-
-.main-list-text {
-	border: 2px solid gold;
-}
-
-.main-list-content {
-	border: 5px solid firebrick;
 }
 
 /*Image sizing*/
@@ -259,7 +220,6 @@ body {
 }
 
 .footer-list {
-	border: 2px solid firebrick;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -267,14 +227,55 @@ body {
 	gap: 20px;
 }
 
-.footer-text {
-	border: 2px solid pink;
-}
 
 @media (min-width: 610px) {
 	.footer-list {
 		flex-direction: row;
 	}
 }
+
+/*miscellaneous borders
+
+.brand-slot {border: 2px solid red;}
+
+.nav-items {border: 2px solid red;}
+
+.header-items {border: 2px solid gold;}
+
+.brand-slot {border: 2px solid red;}
+
+.splash-img, .hero-items, .splash-text {
+	border: 2px solid cornflowerblue;
+}
+
+.nav-items {border: 2px solid red;}
+
+.hero {border: 10px solid salmon;}
+
+.main {border: 10px solid gold;}
+
+body {border: 5px solid gold;}
+
+.footer-text {border: 2px solid pink;}
+
+.footer-list {border: 2px solid firebrick;}
+
+.site-header {border: 2px solid red;}
+
+.main-list-img {border: 2px solid red;}
+
+.main-list-subhead {border: 2px solid blueviolet;}
+
+.main-list-text {border: 2px solid gold;}
+
+.main-list-content {border: 5px solid firebrick;}
+
+.main-list {border: 5px solid slateblue;}
+
+.main-list-item {border: 2px solid hotpink;}
+
+*/
+
+
 
 
