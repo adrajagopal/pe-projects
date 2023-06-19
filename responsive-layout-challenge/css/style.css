@@ -2,11 +2,19 @@
 @import "setup.css";
 
 
+/*structure - don't touch*/
+
 body {
-	background-color: #D6E1FA;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
-/* Inner column & padding */
+.page-wrapper {
+	flex-grow:1;
+}
+
+/*/* Inner column & padding */
 
 .inner-column {
 	max-width: 800px;
@@ -16,6 +24,12 @@ body {
 
 .site-header, .hero, .main, .site-footer {
 	padding: 20px;
+}
+
+/*????*/
+
+body {
+	background-color: #D6E1FA;
 }
 
 /* Site header -------------- */
@@ -64,6 +78,10 @@ body {
 	background-color: rgba(118, 156, 242, 0.25);
 }
 
+.inner-column {
+	position: relative;
+}
+
 .cog-main, .cloud-main {
 	display: none;
 }
@@ -77,17 +95,21 @@ body {
 		display: flex;
 		position: absolute;
 		fill: rgba(0,0,0,0.25);
-		max-width: 400px;
+		width: 15vw;
 	}
 
 	.cog-main {
-		bottom: -100px;
-		left: -100px;
+		bottom: 0;
+		left: 0;
+		transform: translate(-25%, 25%);
+
 	}
 
 	.cloud-main {
-		bottom: -100px;
-		left: 50%;
+		bottom: 0;
+		right: 0;
+		transform: translate(-25%, 50%);
+
 	}
 }
 
@@ -138,20 +160,13 @@ body {
 
 @media (min-width: 610px) {
 	.cog-main2 {
+		fill: rgba(0,0,0,0.25);
+		max-width: 25vw;
 		display: flex;
 		position: absolute;
-		bottom:-250px;
-		right:-75px;
-		fill: rgba(0,0,0,0.25);
-		max-width: 200px;
-	}
-}
-
-@media (min-width: 990px) {
-	.cog-main2 {
-		bottom:-175px;
-		right:-100px;
-		max-width: 300px;
+		bottom:0;
+		right:0;
+		transform: translate(25%, 25%);
 	}
 }
 
@@ -272,9 +287,9 @@ body {border: 5px solid gold;}
 
 .main-list {border: 5px solid slateblue;}
 
-.main-list-item {border: 2px solid hotpink;}
+.main-list-item {border: 2px solid hotpink;}*/
 
-*/
+
 
 
 

@@ -21,7 +21,7 @@ table {
 
 /* Explainer: https://codepen.io/perpetual-education/pen/dyNemyW?editors=1100 */
 
-picture {
+picture, svg {
 	display: block;
 }
 
@@ -30,6 +30,11 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+/*svg {
+	width: 100%;
+	height: 100%;
+}*/
 
 /* GLOBAL LINKS RESET/SETUP*/
 
