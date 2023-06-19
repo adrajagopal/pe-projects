@@ -118,7 +118,7 @@ body {
 }
 
 .splash-img {
-	width: 75vw;
+	width: 75%;
 }
 
 @media (min-width: 610px) {
