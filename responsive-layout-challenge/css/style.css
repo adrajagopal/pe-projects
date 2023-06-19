@@ -175,6 +175,8 @@ body {
 
 .main-list-img {
 	width: 25vw;
+	border-radius: 50%;
+	overflow: hidden;
 }
 
 .main-list-img {
