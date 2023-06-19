@@ -129,6 +129,11 @@ body {
 
 }
 
+@media (min-width: 990px) {
+	.hero-items {
+		align-items: flex-start;
+	}
+}
 
 /* Main section -------------- */
 
