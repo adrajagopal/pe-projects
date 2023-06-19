@@ -70,7 +70,6 @@ body {
 
 .cog-main, .cloud-main {
 	display: none;
-	overflow: hidden;
 }
 
 .cloud-vector {
@@ -81,7 +80,7 @@ body {
 	.cog-main, .cloud-main {
 		display: flex;
 		position: absolute;
-/*		overflow: hidden;*/
+		overflow: hidden;
 		fill: rgba(0,0,0,0.5);
 		max-width: 400px;
 	}
@@ -132,6 +131,27 @@ body {
 
 /* Main section -------------- */
 
+
+.main {
+	position: relative;
+	border: 10px solid gold;
+}
+
+.cog-main2 {
+	display: none;
+}
+
+@media (min-width: 990px) {
+	.cog-main2 {
+		display: flex;
+		position: absolute;
+		bottom:-175px;
+		right:-100px;
+		overflow: hidden;
+		fill: rgba(0,0,0,0.5);
+		max-width: 300px;
+	}
+}
 
 /*	Borders -------*/
 
