@@ -3,8 +3,8 @@
 
 
 body {
-	margin: 20px;
 	border: 2px solid aquamarine;
+	background-color: #D6E1FA;
 }
 
 /* Inner column & padding */
@@ -66,6 +66,7 @@ body {
 .hero {
 	border: 10px solid salmon;
 	position: relative;
+	background-color: rgba(118, 156, 242, 0.5);
 }
 
 .cog-main, .cloud-main {
@@ -245,6 +246,10 @@ body {
 
 
 /* Site footer -------------- */
+
+.site-footer {
+	background-color: rgba(0, 0, 150, 0.5);
+}
 
 .footer-list {
 	border: 2px solid firebrick;
