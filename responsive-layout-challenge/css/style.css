@@ -141,14 +141,23 @@ body {
 	display: none;
 }
 
-@media (min-width: 990px) {
+@media (min-width: 610px) {
 	.cog-main2 {
 		display: flex;
 		position: absolute;
-		bottom:-175px;
+		bottom:-100px;
 		right:-100px;
 		overflow: hidden;
 		fill: rgba(0,0,0,0.5);
+		max-width: 200px;
+/*	can't get this to sit in the right spot!!	*/
+	}
+}
+
+@media (min-width: 990px) {
+	.cog-main2 {
+		bottom:-175px;
+		right:-100px;
 		max-width: 300px;
 	}
 }
