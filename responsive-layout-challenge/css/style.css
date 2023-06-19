@@ -70,6 +70,7 @@ body {
 
 .cog-main, .cloud-main {
 	display: none;
+	overflow: hidden;
 }
 
 .cloud-vector {
@@ -80,7 +81,7 @@ body {
 	.cog-main, .cloud-main {
 		display: flex;
 		position: absolute;
-		overflow: scroll;
+/*		overflow: hidden;*/
 		fill: rgba(0,0,0,0.5);
 		max-width: 400px;
 	}
@@ -99,21 +100,6 @@ body {
 .cog-background {
 	fill: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .splash-img, .hero-items, .splash-text {
