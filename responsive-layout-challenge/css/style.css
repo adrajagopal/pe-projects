@@ -32,6 +32,10 @@ body {
 	background-color: #D6E1FA;
 }
 
+.header-title {
+	font-family: sans-serif;
+}
+
 h1 {
 	font-family: sans-serif;
 	font-size: 40px;
@@ -45,6 +49,9 @@ h2 {
 p, a {
 	font-family: serif;
 	font-size: 18px;
+}
+
+.page-wrapper p, .page-wrapper a {
 	margin-top: 10px;
 }
 
@@ -64,14 +71,11 @@ nav a {
 }
 
 nav a:hover {
-	font-family: sans-serif;
-	color: white;
-	background-color: darkslateblue;
+	font-size: 20px;
 }
 
 .site-footer p {
 	color: white;
-	margin-top: 0px;
 }
 
 
@@ -97,7 +101,7 @@ nav a:hover {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	gap: 15px;
+	gap: 20px;
 }
 
 .nav-items {
@@ -105,7 +109,7 @@ nav a:hover {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	gap: 15px;
+	gap: 20px;
 }
 
 
