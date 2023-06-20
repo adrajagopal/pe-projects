@@ -224,6 +224,17 @@ body {
 	.main-list-content {
 		text-align: center;
 	}
+
+	.main-list-link {
+		display: inline-block;
+		color: white;
+		padding: 5px;
+		background-color: #7580C9;
+		border: 1px solid #7580C9;
+		border-radius: 10px;
+		box-shadow: drop;
+		width: 33%;
+	}
 }
 
 
