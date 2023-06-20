@@ -26,10 +26,44 @@ body {
 	padding: 20px;
 }
 
-/*????*/
+/*base styling*/
 
 body {
 	background-color: #D6E1FA;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 32px;
+}
+
+p {
+	font-family: serif;
+	font-size: 18px;
+}
+
+h1, h2, p {
+	color: #2F3878;
+}
+
+nav a {
+	font-family: sans-serif;
+	color: #414FA7;
+}
+
+nav a:hover {
+	font-family: sans-serif;
+	color: #414FA7;
+	background-color: salmon;
+}
+
+.site-footer p {
+	color: white;
 }
 
 /* Site header -------------- */
