@@ -42,29 +42,39 @@ h2 {
 	font-size: 32px;
 }
 
-p {
+p, a {
 	font-family: serif;
 	font-size: 18px;
+	margin-top: 10px;
 }
 
 h1, h2, p {
 	color: #2F3878;
 }
 
+a {
+	color: #414FA7;
+	text-decoration: underline;
+}
+
 nav a {
 	font-family: sans-serif;
 	color: #414FA7;
+	text-decoration: underline;
 }
 
 nav a:hover {
 	font-family: sans-serif;
-	color: #414FA7;
-	background-color: salmon;
+	color: white;
+	background-color: darkslateblue;
 }
 
 .site-footer p {
 	color: white;
+	margin-top: 0px;
 }
+
+
 
 /* Site header -------------- */
 
@@ -236,9 +246,14 @@ nav a:hover {
 	gap: 20px;
 }
 
+.main-list-item {
+	display:flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
 @media (min-width: 610px) {
 	.main-list-item {
-		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: center;
