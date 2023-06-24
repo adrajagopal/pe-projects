@@ -3,7 +3,8 @@
 	include('header.php');
 ?>
 
-<h1>fuck you</h1>
+<h1 class="hero-text">Hi there!</h1>
+
 
 
 <?php
