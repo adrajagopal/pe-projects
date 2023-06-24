@@ -12,11 +12,13 @@
 			<span class="header-title">Srilatha Rajagopal</span>
 		</div>
 
-		<div class="site-nav">
+		<div class="site-header">
 			<nav>
-				<ul class="nav-items">
-					<li><a href="#">Bio</a></li>
-					<li><a href="#">Published Works</a></li>
+				<ul class="site-header-items">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="#">My work</a></li>
+					<li><a href="#">Get in touch</a></li>
+					<li><a href="https://adrajagopal.substack.com/">Substack ✈️</a></li>
 				</ul>
 			</nav>
 		</div>
