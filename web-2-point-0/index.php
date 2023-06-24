@@ -3,9 +3,7 @@
 	include('header.php');
 ?>
 
-<h1>hi there</h1>
-
-
+<h1>fuck you</h1>
 
 
 <?php
