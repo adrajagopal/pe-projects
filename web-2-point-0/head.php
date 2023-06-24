@@ -7,18 +7,18 @@
 	
 
 <!-- delete this comment once you've replaced the template content -->
-	<title>[[INSERT CONTENT]]</title>
+	<title>Ad Rajagopal</title>
 
 <!-- delete this comment once you've replaced the template content -->
-	<meta name="description" content="[[INSERT CONTENT]]">
+	<meta name="description" content="This is some page. You hit it.">
 	
 <!-- delete this comment once you've replaced the template content -->
-	<meta property="og:title" content="[[INSERT CONTENT]]">
+	<meta property="og:title" content="Ad's Portfolio'">
 
 <!-- delete this comment once you've replaced the template content -->
-	<meta
+	<!-- <meta
 	  property="og:description"
-	  content="[[INSERT CONTENT]]">
+	  content="[[INSERT CONTENT]]"> -->
 
 <!-- delete this comment once you've replaced the template content -->
 	<meta
