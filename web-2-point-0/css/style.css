@@ -1,39 +1,9 @@
 @import "meyer-reset.css";
 @import "setup.css";
-@import "custom-properties.css"
+@import "custom-properties.css";
 
-
-/*Custom properties*/
-
-body {
-	--background-light: #F5F5F5;
-	--background-dark: #2F243A;
-
-	--block-background: #FAC9B8;
-
-	--primary-header-light: #444054;
-	--primary-header-dark: #FAC9B8;
-
-	--secondary-header-light: #DB8A74;
-	--secondary-header-dark: #BEBBBB;
-
-	--text-light: #2F243A;
-	--text-dark: #F5F5F5;
-	
-	--link-text-light: #09807C;
-	--link-text-dark: #FAC9B8;
-	--link-block: #09807C;
-
-	--button-light: #DB8A74;
-	--button-dark: #DB8A74;
-
-	--default-space: 10px;
-
-	--serif-family: "Libre Baskerville";
-	--sans-family: "Nunito";
-	--hero-size: 50px;
-	--header-size: 42px;
-	--subheader-size: 32px;
-	--body-size:16px;
-
+.page-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
 }

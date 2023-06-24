@@ -32,3 +32,44 @@ body {
 	--body-size:16px;
 
 }
+
+
+.website-title {
+	font-family: var(--sans-family);
+	font-size: var(--body-size);
+	font-weight: 700;
+}
+
+.nav-link {
+	font-family: var(--sans-family);
+	font-size: var(--body-size);
+	font-weight: 700;
+}
+
+.hero-text {
+	font-family: var(--serif-family);
+	font-size: var(--hero-size);
+}
+
+.content-header {
+	font-family: var(--serif-family);
+	font-size: var(--header-size);
+	font-weight: 700;
+}
+
+.content-subheader {
+	font-family: var(--serif-family);
+	font-size: var(--subheader-size);
+	font-weight: 600;
+	font-style: italic;
+}
+
+.content-body {
+	font-family: var(--sans-family);
+	font-size: var(--body-size);
+	font-weight: 400;
+}
+
+.content-link {
+	font-family: var(--sans-family);
+}
