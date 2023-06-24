@@ -38,6 +38,7 @@ body {
 	font-family: var(--sans-family);
 	font-size: var(--body-size);
 	font-weight: 700;
+	color: var(--primary-header-light);
 }
 
 .nav-link {
