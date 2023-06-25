@@ -3,15 +3,15 @@
 @import "custom-properties.css";
 
 
+body {
+	background-color: #F5F5F5;
+}
+
 /*header styling*/
 
 .site-header {
-	margin: 20px;
-	background-color: rgba(255,255,255,0.5);
-}
-
-.site-header > *, .site-header span {
-	border: 2px solid red;
+	padding: 10px;
+	box-shadow: 0 0 5px var(--site-salmon);
 }
 
 .header-items {
@@ -24,7 +24,6 @@
 }
 
 .site-header-items {
-	border: 2px solid black;
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
@@ -42,3 +41,14 @@
 	margin-right: auto;
 	max-width: 700px;
 }
+
+
+/*borders for testing*/
+/*
+.site-header > *, .site-header span {
+	border: 2px solid red;
+}
+
+.site-header-items {
+	border: 2px solid black;
+}*/
