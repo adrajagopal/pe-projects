@@ -14,7 +14,7 @@
 				<li><a href="<?=BASE_URL?>">Home</a></li>
 				<li><a href="<?=BASE_URL?>/goals">My goals</a></li>
 				<li><a href="<?=BASE_URL?>/get-in-touch">Get in touch</a></li>
-				<li><a href="https://adrajagopal.substack.com/">Substack ✈️</a></li>
+				<li><a href="https://adrajagopal.substack.com/" target="_blank">Substack ✈️</a></li>
 			</ul>
 		</nav>
 
