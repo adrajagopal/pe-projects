@@ -7,6 +7,13 @@ body {
 	background-color: #F5F5F5;
 }
 
+
+.inner-column {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+}
+
 /*header styling*/
 
 .site-header {
@@ -34,14 +41,6 @@ body {
 		flex-direction: column;
 	}
 }
-
-
-.page-wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 700px;
-}
-
 
 /*borders for testing*/
 /*

@@ -3,7 +3,7 @@
 <!-- Site header-------------------------------------- -->
 	<header class="site-header">
 
-	<div class="header-items">
+	<div class="header-items inner-column">
 
 		<div class="brand-slot">
 			<span class="website-title">Ad Rajagopal</span>	
@@ -22,4 +22,4 @@
 
 	</header>
 
-	<main class="page-wrapper">
+	<main class="page-wrapper inner-column">
