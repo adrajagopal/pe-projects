@@ -24,8 +24,8 @@ body {
 
 	--default-space: 10px;
 
-	--serif-family: "Libre Baskerville";
-	--sans-family: "Nunito";
+	--serif-family: "Playfair Display";
+	--sans-family: "Roboto";
 	--hero-size: 50px;
 	--header-size: 42px;
 	--subheader-size: 32px;
@@ -35,14 +35,14 @@ body {
 
 
 .website-title {
-	font-family: var(--sans-family);
+	font-family: var(--serif-family);
 	font-size: var(--body-size);
 	font-weight: 700;
 	color: var(--primary-header-light);
 }
 
 .nav-link {
-	font-family: var(--sans-family);
+	font-family: var(--serif-family);
 	font-size: var(--body-size);
 	font-weight: 700;
 }
@@ -50,6 +50,7 @@ body {
 .hero-title {
 	font-family: var(--serif-family);
 	font-size: var(--hero-size);
+	font-weight: 700;
 }
 
 .content-header, .hero-content {
@@ -59,7 +60,7 @@ body {
 }
 
 .content-subheader {
-	font-family: var(--serif-family);
+	font-family: var(--sans-family);
 	font-size: var(--subheader-size);
 	font-weight: 600;
 	font-style: italic;
@@ -72,5 +73,5 @@ body {
 }
 
 .content-link {
-	font-family: var(--sans-family);
+	font-family: var(--serif-family);
 }
