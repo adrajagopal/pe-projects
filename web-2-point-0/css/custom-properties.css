@@ -31,6 +31,13 @@ body {
 	--subheader-size: 32px;
 	--body-size:16px;
 
+	--site-off-white: #F5F5F5;
+	--site-silver: #BEBBBB;
+	--site-light-salmon: #FAC9B8;
+	--site-salmon: #DB8A74;
+	--site-dark-purple: #2F243A;
+	--site-violet: #444054;
+
 }
 
 
@@ -44,7 +51,7 @@ body {
 .nav-link {
 	font-family: var(--serif-family);
 	font-size: var(--body-size);
-	font-weight: 700;
+	color: var(--site-dark-purple);
 }
 
 .hero-title {
