@@ -47,12 +47,12 @@ body {
 	font-weight: 700;
 }
 
-.hero-text {
+.hero-title {
 	font-family: var(--serif-family);
 	font-size: var(--hero-size);
 }
 
-.content-header {
+.content-header, .hero-content {
 	font-family: var(--serif-family);
 	font-size: var(--header-size);
 	font-weight: 700;
