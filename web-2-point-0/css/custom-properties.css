@@ -26,9 +26,9 @@ body {
 
 	--serif-family: "Playfair Display";
 	--sans-family: "Roboto";
-	--hero-size: 50px;
-	--header-size: 42px;
-	--subheader-size: 32px;
+	--hero-size: 40px;
+	--header-size: 32px;
+	--subheader-size: 24px;
 	--body-size:16px;
 
 	--site-off-white: #F5F5F5;
@@ -77,6 +77,10 @@ body {
 	font-family: var(--sans-family);
 	font-size: var(--body-size);
 	font-weight: 400;
+}
+
+.list-item-title {
+	font-weight: 700;
 }
 
 .content-link {
