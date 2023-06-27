@@ -41,6 +41,13 @@ body {
 }
 
 
+/*Updates:
+	recontextualize the class names in a "marketingy" way, and update them in the HTML
+	remove the font-size variable - it's redundant
+
+
+*/
+
 .website-title {
 	font-family: var(--serif-family);
 	font-size: var(--body-size);
@@ -73,9 +80,9 @@ body {
 	font-style: italic;
 }
 
-.content-body {
+p, ul, ol, .calm-voice {
 	font-family: var(--sans-family);
-	font-size: var(--body-size);
+	font-size: 1rem;
 	font-weight: 400;
 }
 
