@@ -11,17 +11,23 @@
 
 <div class="work-samples">
 	<div class="projects">
-		<picture><img src="<?=BASE_URL?>/images/square.jpg"></picture>
+		<picture>
+			<img src="<?=BASE_URL?>/images/square.jpg">
+		</picture>
 		<p class="medium-voice">Projects</p>
 	</div>
 
 	<div class="layouts">
-		<picture><img src="<?=BASE_URL?>/images/square.jpg"></picture>
+		<picture>
+			<img src="<?=BASE_URL?>/images/square.jpg">
+		</picture>
 		<p class="medium-voice">Layouts</p>
 	</div>
 
 	<div class="graphics">
-		<picture><img src="<?=BASE_URL?>/images/square.jpg"></picture>
+		<picture>
+			<img src="<?=BASE_URL?>/images/square.jpg">
+		</picture>
 		<p class="medium-voice">Graphics</p>
 	</div>
 </div>

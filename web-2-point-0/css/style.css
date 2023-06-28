@@ -2,6 +2,8 @@
 @import "setup.css";
 @import "custom-properties.css";
 
+/*page structure*/
+
 body {
 	background-color: var(--light-neutral);
 	display: flex;
@@ -113,6 +115,22 @@ a, p a {
 	padding-left: 1.1em;
 }
 
+.work-samples picture {
+	max-width: 350px;
+}
+
+.work-samples {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+@media (min-width: 600px) {
+	.work-samples {
+		flex-direction: row;
+	}
+}
 
 /*footer styling*/
 
