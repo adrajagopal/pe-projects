@@ -1,5 +1,9 @@
 <body>
 	
+<?php
+	include('icons.php');
+?>
+
 <!-- Site header-------------------------------------- -->
 	<header class="site-header">
 
