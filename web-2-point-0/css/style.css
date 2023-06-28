@@ -3,8 +3,16 @@
 @import "custom-properties.css";
 
 body {
-	background-color: #F5F5F5;
+	background-color: var(--light-neutral);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
+
+.page-wrapper {
+	flex-grow:1;
+}
+
 
 .inner-column {
 	margin-left: auto;
