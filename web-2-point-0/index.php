@@ -9,9 +9,22 @@
 
 <h3 class="content-header large-voice">My work</h3>
 
-<p>
-	Put a main box here for responsive layouts, as well as 3 smaller boxes for individual projects.
-</p>
+<div class="work-samples">
+	<div class="projects">
+		<picture><img src="<?=BASE_URL?>/images/square.jpg"></picture>
+		<p class="medium-voice">Projects</p>
+	</div>
+
+	<div class="layouts">
+		<picture><img src="<?=BASE_URL?>/images/square.jpg"></picture>
+		<p class="medium-voice">Layouts</p>
+	</div>
+
+	<div class="graphics">
+		<picture><img src="<?=BASE_URL?>/images/square.jpg"></picture>
+		<p class="medium-voice">Graphics</p>
+	</div>
+</div>
 
 <h3 class="content-header large-voice">About me</h3>
 
