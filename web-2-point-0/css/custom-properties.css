@@ -14,18 +14,33 @@ body {
 }
 
 
-.shout-voice {
+/*Type patterns*/
+
+.xxl-voice {
 	font-family: var(--primary-font);
+	font-size: 48px;
+	font-weight: 700;
 }
 
-.raised-voice {
+.xl-voice {
 	font-family: var(--primary-font);
+	font-size: 40px;
 }
 
-.normal-voice {
-	font-family: var(--secondary-font);
+.large-voice {
+	font-family: var(--primary-font);
+	font-size: 32px;
+	font-weight: 600;
 }
 
-.whisper-voice {
+.medium-voice {
 	font-family: var(--secondary-font);
+	font-size: 16px;
+	font-weight: ;
+}
+
+.small-voice {
+	font-family: var(--secondary-font);
+	font-size: 12px;
+	font-weight: ;
 }

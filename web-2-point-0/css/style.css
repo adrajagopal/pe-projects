@@ -72,8 +72,8 @@ p + p {
 
 /*text styling*/
 
-p, ul, ol, .normal-voice {
-	font-family: var(--sans-family);
+p, ul, ol, .small-voice {
+	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
 }
