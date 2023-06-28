@@ -65,6 +65,18 @@ p + p {
 }
 
 
+/*text styling*/
+
+p, ul, ol, .normal-voice{
+	font-family: var(--sans-family);
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.list-item-title {
+	font-weight: 700;
+}
+
 /*body styling*/
 
 [role="list"].numbered-list {

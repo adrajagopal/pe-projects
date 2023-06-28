@@ -18,8 +18,6 @@ body {
 
 .shout-voice {
 	font-family: var(--primary-font);
-	color: ;
-
 }
 
 .raised-voice {
@@ -32,50 +30,4 @@ body {
 
 .whisper-voice {
 	font-family: var(--secondary-font);
-}
-
-.website-title {
-	font-family: var(--serif-family);
-	font-size: var(--body-size);
-	font-weight: 700;
-	color: var(--primary-header-light);
-}
-
-.nav-link {
-	font-family: var(--serif-family);
-	font-size: var(--body-size);
-	color: var(--site-dark-purple);
-}
-
-.hero-title {
-	font-family: var(--serif-family);
-	font-size: var(--hero-size);
-	font-weight: 700;
-}
-
-.content-header, .hero-content {
-	font-family: var(--serif-family);
-	font-size: var(--header-size);
-	font-weight: 700;
-}
-
-.content-subheader {
-	font-family: var(--sans-family);
-	font-size: var(--subheader-size);
-	font-weight: 600;
-	font-style: italic;
-}
-
-p, ul, ol, .calm-voice {
-	font-family: var(--sans-family);
-	font-size: 1rem;
-	font-weight: 400;
-}
-
-.list-item-title {
-	font-weight: 700;
-}
-
-.content-link {
-	font-family: var(--serif-family);
 }
