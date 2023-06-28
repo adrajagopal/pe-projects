@@ -10,22 +10,29 @@ body {
 
 	--default-space: 10px;
 
-	--serif-family: "Playfair Display";
-	--sans-family: "Roboto";
-	--hero-size: 40px;
-	--header-size: 32px;
-	--subheader-size: 24px;
-	--body-size:16px;
+	--primary-font: "Playfair Display";
+	--secondary-font: "Roboto";
 
 }
 
 
-/*Updates:
-	recontextualize the class names in a "marketingy" way, and update them in the HTML
-	remove the font-size variable - it's redundant
+.shout-voice {
+	font-family: var(--primary-font);
+	color: ;
 
+}
 
-*/
+.raised-voice {
+	font-family: var(--primary-font);
+}
+
+.normal-voice {
+	font-family: var(--secondary-font);
+}
+
+.whisper-voice {
+	font-family: var(--secondary-font);
+}
 
 .website-title {
 	font-family: var(--serif-family);
