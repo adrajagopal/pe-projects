@@ -149,6 +149,20 @@ a, p a {
 	box-shadow: 0 0 5px var(--bold-splash);
 }
 
+.footer-list {
+	display: flex;
+	align-items: center;
+	transform: translateX(-20px);
+}
+
+.socials {
+	display: flex;
+	flex-direction: row;
+}
+
+.socials a {
+	padding: 20px;
+}
 
 /*dark mode*/
 
