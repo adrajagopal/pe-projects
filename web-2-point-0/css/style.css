@@ -6,8 +6,6 @@ body {
 	background-color: #F5F5F5;
 }
 
-
-
 .inner-column {
 	margin-left: auto;
 	margin-right: auto;
@@ -64,10 +62,9 @@ p + p {
 	}
 }
 
-
 /*text styling*/
 
-p, ul, ol, .normal-voice{
+p, ul, ol, .normal-voice {
 	font-family: var(--sans-family);
 	font-size: 1rem;
 	font-weight: 400;

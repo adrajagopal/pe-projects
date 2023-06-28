@@ -9,21 +9,21 @@
 
 <h3 class="content-header">My work</h3>
 
-<p class="content-body">
+<p>
 	Put a main box here for responsive layouts, as well as 3 smaller boxes for individual projects.
 </p>
 
 <h3 class="content-header">About me</h3>
 
-<p class="content-body">
+<p>
 	I love making things - websites, spreadsheets, woodworks, dumb photoshop art, food stuffed inside other food. I loved being a product manager, but at the end of the day my hands weren't dirty enough. I crave the weeds. My greatest strengths are my attention to detail, organization, and proactivity. I'm also great at the development part. I've been really enjoying CSS, in particular.
 </p>
 
-<p class="content-body">
+<p>
 	I'm a generalist extraordinaire, but most recently spent about 2.5 years as a product manager. I've always thought about going deep and specializing in something - something technical - and it took a full 5 years to learn about frontend and web development. It took another 2 years after that to burn out and work up the courage to give it a shot. You can read more about my journey <a href="https://adrajagopal.substack.com/p/the-peril-of-shiny-things" target="_blank">here</a>.
 </p>
 
-<p class="content-body">So this is me giving it a shot.</p>
+<p>So this is me giving it a shot.</p>
 
 <?php
 	include('footer.php');
