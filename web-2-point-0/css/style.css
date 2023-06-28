@@ -15,30 +15,30 @@ body {
 /*spacing*/
 
 .hero-title {
-	margin-top: calc(var(--default-space)*2.5);
+	margin-top: 25px;
 }
 
 .content-header {
-	margin-top: calc(var(--default-space)*2);
+	margin-top: 20px;
 }
 
 .content-subheader {
-	margin-top: calc(var(--default-space)*1.5);
+	margin-top: 15px;
 }
 
 .content-body {
-	margin-top: var(--default-space);
+	margin-top: 10px;
 }
 
 p + p {
-	margin-top: var(--default-space);
+	margin-top: 10px;
 }
 
 /*header styling*/
 
 .site-header {
 	padding: 10px;
-	box-shadow: 0 0 10px var(--site-salmon);
+	box-shadow: 0 0 10px var(--bold-splash);
 }
 
 .header-items {
@@ -90,7 +90,7 @@ p, ul, ol, .normal-voice {
 /*footer styling*/
 
 .site-footer {
-	box-shadow: 0 0 5px var(--site-salmon);
+	box-shadow: 0 0 5px var(--bold-splash);
 }
 
 
