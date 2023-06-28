@@ -76,10 +76,29 @@ p, ul, ol, .small-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
+	color: var(--dark-neutral);
 }
+
+.hero-title {
+	color: var(--dark-splash);
+}
+
+.content-header {
+	color: var(--dark-moderate);
+}
+
+.content-subheader {
+	color: var(--dark-splash);
+}
+
 
 .list-item-title {
 	font-weight: 700;
+}
+
+a, p a {
+	color: var(--bold-splash);
+	text-decoration: underline;
 }
 
 /*body styling*/
