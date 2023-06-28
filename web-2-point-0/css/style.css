@@ -121,6 +121,44 @@ a, p a {
 }
 
 
+/*dark mode*/
+
+/*swap this out for the @prefers-dark-mode query once you get back online*/
+
+@media (min-width:700px) {
+
+	body {
+		background-color: var(--dark-neutral);
+	}
+
+	p, ul, ol, .small-voice, .website-title {
+		color: var(--light-neutral);
+	}
+
+	.hero-title {
+		color: var(--light-splash);
+	}
+
+	.content-header {
+		color: var(--light-moderate);
+	}
+
+	.content-subheader {
+		color: var(--light-splash);
+	}
+
+
+	.list-item-title {
+		font-weight: 700;
+	}
+
+	a, p a {
+		color: var(--bold-splash);
+		text-decoration: underline;
+	}	
+
+}
+
 /*borders for testing*/
 /*
 .site-header > *, .site-header span {
