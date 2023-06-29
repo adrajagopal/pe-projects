@@ -39,7 +39,11 @@ body {
 	margin-top: 25px;
 }
 
-.content-header {
+h2 {
+	margin-top: 20px;
+}
+
+h2 + p {
 	margin-top: 20px;
 }
 
@@ -51,11 +55,15 @@ body {
 	margin-top: 10px;
 }
 
-p + p {
+p + p, h2 + h3, h3 + p {
 	margin-top: 10px;
 }
 
-h3 + div, h3 + p {
+p + p:last-of-type {
+	margin-bottom: 20px;
+}
+
+h3 + div {
 	margin-top: 20px;
 }
 
