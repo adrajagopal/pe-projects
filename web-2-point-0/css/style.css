@@ -177,7 +177,7 @@ a, p a {
 
 /*swap this out for the @prefers-dark-mode query once you get back online*/
 
-@media (min-width:700px) {
+@media (prefers-color-scheme: dark) {
 
 	body {
 		background-color: var(--dark-neutral);
