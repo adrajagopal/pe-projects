@@ -85,10 +85,17 @@ p + p {
 
 /*text styling*/
 
-p, ul, ol, .small-voice, .website-title {
+p, ul, ol, .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
+	color: var(--dark-neutral);
+}
+
+.website-title {
+	font-family: var(--primary-font);
+	font-size: 1.5rem;
+	font-weight: 700;
 	color: var(--dark-neutral);
 }
 

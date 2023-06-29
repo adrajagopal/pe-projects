@@ -10,7 +10,7 @@
 	<div class="header-items inner-column">
 
 		<div class="brand-slot">
-			<span class="website-title normal-voice">Ad Rajagopal</span>	
+			<span class="website-title medium-voice">Ad Rajagopal</span>	
 		</div>
 
 		<nav class="site-nav">
