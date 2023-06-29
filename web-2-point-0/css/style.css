@@ -133,13 +133,22 @@ a, p a {
 .work-samples {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	gap: 20px;
+}
+
+.projects, .layouts, .graphics {
+	display: flex;
+	flex-direction: column;
 }
 
 @media (min-width: 600px) {
 	.work-samples {
 		flex-direction: row;
+	}
+
+	.projects, .layouts, .graphics {
+		align-items: center;
 	}
 }
 
