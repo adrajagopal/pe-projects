@@ -44,6 +44,8 @@
 
 <p>So this is me giving it a shot.</p>
 
+<iframe src="https://adrajagopal.substack.com/embed" width="320" height="180" style="border:1px solid var(--ink-dark); background:var(--splash-primary);" frameborder="0" scrolling="no"></iframe>
+
 <?php
 	include('footer.php');
 ?>
