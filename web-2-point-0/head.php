@@ -30,5 +30,5 @@
 	
 	<link rel="stylesheet" href="<?=BASE_URL?>/css/style.css">
 
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Work+Sans:ital,wght@0,100;0,400;0,600;0,700;1,100;1,400&display=swap" rel="stylesheet">
 </head>
