@@ -67,12 +67,15 @@ h3 + div {
 	margin-top: 20px;
 }
 
-/*header styling*/
+/*header & footer styling*/
+
+.site-header, .site-footer {
+	background-color: var(--paper);
+}
 
 .site-header {
 	padding: 10px;
-	box-shadow: 0 0 10px var(--splash-primary);
-	background-color: var(--paper);
+	border-bottom: 1px solid var(--splash-primary);
 }
 
 .header-items {
@@ -94,6 +97,25 @@ h3 + div {
 	.header-items, .site-header-items {
 		flex-direction: column;
 	}
+}
+
+.site-footer {
+	border-top: 1px solid var(--splash-primary);
+}
+
+.footer-list {
+	display: flex;
+	align-items: center;
+	transform: translateX(-20px);
+}
+
+.socials {
+	display: flex;
+	flex-direction: row;
+}
+
+.socials a {
+	padding: 20px;
 }
 
 /*text styling*/
@@ -172,52 +194,34 @@ a, p a {
 	}
 }
 
-/*footer styling*/
-
-.site-footer {
-	box-shadow: 0 0 5px var(--splash-primary);
-	background-color: var(--paper);
-}
-
-.footer-list {
-	display: flex;
-	align-items: center;
-	transform: translateX(-20px);
-}
-
-.socials {
-	display: flex;
-	flex-direction: row;
-}
-
-.socials a {
-	padding: 20px;
-}
-
 /*dark mode*/
 
 /*swap this out for the @prefers-dark-mode query once you get back online*/
 
 @media (prefers-color-scheme: dark) {
 
-	body {
-		background-color: var(--dark-neutral);
+	.site-header, .site-footer {
+		background-color: var(--splash-secondary);
 	}
 
-	p, ul, ol, .small-voice, .website-title {
-		color: var(--light-neutral);
+	body {
+		background-color: var(--ink-dark);
+	}
+
+	p, ul, ol, .medium-voice, .small-voice, .website-title {
+		color: var(--paper-light);
 	}
 
 	.hero-title {
-		color: var(--light-splash);
+		color: var(--paper);
 	}
 
 	.content-header {
-		color: var(--light-moderate);
+		color: var(--paper);
 	}
 
 	.content-subheader {
-		color: var(--light-splash);
+		color: var(--paper);
 	}
 
 
@@ -226,7 +230,7 @@ a, p a {
 	}
 
 	a, p a {
-		color: var(--bold-splash);
+		color: var(--splash-primary);
 		text-decoration: underline;
 	}	
 
