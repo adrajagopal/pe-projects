@@ -30,5 +30,9 @@
 	
 	<link rel="stylesheet" href="<?=BASE_URL?>/css/style.css">
 
+
+<!-- 	fonts used:
+	Baskerville 400, 400 + ital
+	Work Sans 100, 100 + ital, 400, 400 + ital, 600, 700 -->
 	<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Work+Sans:ital,wght@0,100;0,400;0,600;0,700;1,100;1,400&display=swap" rel="stylesheet">
 </head>
