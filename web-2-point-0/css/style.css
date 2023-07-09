@@ -148,7 +148,8 @@ p, ul, ol, .medium-voice {
 
 
 .list-item-title {
-	font-weight: 700;
+	font-family: var(--primary-font);
+	font-weight: 600;
 }
 
 a, p a {
