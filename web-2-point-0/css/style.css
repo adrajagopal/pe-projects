@@ -87,14 +87,22 @@ h3 + div {
 	padding: 10px;
 }
 
-.site-header-items {
+.site-nav-items {
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
 }
 
 @media (max-width: 550px) {
-	.header-items, .site-header-items {
+
+	.header-items {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 380px) {
+
+	.site-nav-items {
 		flex-direction: column;
 	}
 }
@@ -132,6 +140,14 @@ p, ul, ol, .medium-voice {
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: var(--ink);
+}
+
+@media (max-width: 550px) {
+
+
+	.website-title {
+		font-size: 12vw;
+	}
 }
 
 .hero-title {
@@ -238,11 +254,11 @@ a, p a {
 }
 
 /*borders for testing*/
-/*
-.site-header > *, .site-header span {
+
+/*.site-header > *, .site-header span {
 	border: 2px solid red;
 }
 
-.site-header-items {
+.site-nav-items {
 	border: 2px solid black;
 }*/
