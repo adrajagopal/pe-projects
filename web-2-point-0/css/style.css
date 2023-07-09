@@ -5,7 +5,7 @@
 /*page structure*/
 
 body {
-	background-color: var(--light-neutral);
+	background-color: var(--paper-light);
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -71,7 +71,8 @@ h3 + div {
 
 .site-header {
 	padding: 10px;
-	box-shadow: 0 0 10px var(--bold-splash);
+	box-shadow: 0 0 10px var(--splash-primary);
+	background-color: var(--paper);
 }
 
 .header-items {
@@ -101,26 +102,26 @@ p, ul, ol, .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
-	color: var(--dark-neutral);
+	color: var(--ink);
 }
 
 .website-title {
 	font-family: var(--primary-font);
 	font-size: 1.5rem;
-	font-weight: 700;
-	color: var(--dark-neutral);
+	font-weight: 400;
+	color: var(--ink);
 }
 
 .hero-title {
-	color: var(--dark-splash);
+	color: var(--ink);
 }
 
 .content-header {
-	color: var(--dark-moderate);
+	color: var(--ink);
 }
 
 .content-subheader {
-	color: var(--dark-splash);
+	color: var(--ink-dark);
 }
 
 
@@ -129,7 +130,7 @@ p, ul, ol, .medium-voice {
 }
 
 a, p a {
-	color: var(--bold-splash);
+	color: var(--splash-secondary);
 	text-decoration: underline;
 }
 
@@ -174,7 +175,8 @@ a, p a {
 /*footer styling*/
 
 .site-footer {
-	box-shadow: 0 0 5px var(--bold-splash);
+	box-shadow: 0 0 5px var(--splash-primary);
+	background-color: var(--paper);
 }
 
 .footer-list {
