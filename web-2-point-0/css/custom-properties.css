@@ -9,6 +9,14 @@ body {
 	--bold-splash: #DB8A74;
 	--dark-splash: #A46757;
 
+	--paper-light: #F8F6F4;
+	--paper: #EBE4DE;
+	--splash-primary: #E3BDA6;
+	--splash-secondary: #344F68;
+	--ink: #616B56;
+	--ink-dark: #3C4434;
+
+
 	--primary-font: "Work Sans";
 	--secondary-font: "Baskerville";
 }
