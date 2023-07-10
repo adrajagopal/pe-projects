@@ -16,7 +16,7 @@
 
 ?>
 
-<p>I’m a <?=$role?> who helps <? echo $customers;?> with <?=$services?>. Unlike my competitors, <?=$diffStatement?>.</p>
+<p>I’m a <?=$role?> who helps <?php echo $customers;?> with <?=$services?>. Unlike my competitors, <?=$diffStatement?>.</p>
 
 <h1>Exercise 2: Build up echoes</h1>
 
@@ -63,26 +63,6 @@
 <p>Computers can add, multiply, divide, and <?=$verb?>. They can also <?=$verb?> better than a human.</p>
 
 <p>Some computers have their own <?=$bodyParts?>. Others have a <?=$adjective?> screen that shows all kinds of <?=$pluralNoun?> and <?=$adjective?> figures.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
