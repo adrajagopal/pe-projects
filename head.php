@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<base href="<?=BASE_URL?>">
+	<base href=“<?=BASE_URL?>“>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 
@@ -28,7 +28,7 @@
 	  property="og:image"
 	  content="[[INSERT CONTENT]].png">
 	
-	<link rel="stylesheet" href="<?=BASE_URL?>/css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 
 
 <!-- 	fonts used:
