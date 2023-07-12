@@ -28,16 +28,55 @@
 
 		<main class="work-experience">
 			<h2>Work Experience</h2>
+
+
+			<?php
+
+				$jobObject = [
+					"jobTitle" => "Product Manager",
+					"company" => "Oshi Health",
+					"duration" => "🗓️ May 2021 - Dec 2022",
+					"bullet1" => "Joined as the second member of the product team, directly responsible for mobile app, web app, and web platform products. Led product operations from seed stage through Series A and in preparation for Series B fundraising",
+					"bullet2" => "Played many roles, working on everything from typical product tasks to user research, data analysis, project management, QA/feature testing, copy & design reviews",
+					"bullet3" => "Improved product quality - in other words, my features shipped more predictably and with fewer bugs - through clear product documentation, increased transparency with stakeholders, better collaboration with design and engineering, and more getting in the weeds to test",
+					"bullet4" => "Drove key metrics with major releases: reduced appointment no-shows/late cancelations, reduced overhead on routine tasks for clinical support staff, and simplified time to complete intake paperwork",
+				];
+
+			?>
+
+
+
+			<!-- i should make these highlightable tooltips where i can give info on the company -->
+
 			<ul class="resume-list">I was a
-				<!-- i should make these highlightable tooltips where i can give info on the company -->
-				<span class="resume-job-title">Product Manager</span> at 
-				<span class="resume-company-title">Oshi Health</span> from
-					<!-- should this just be a link instead of a higlight? -->
-				<span class="resume-job-duration">🗓️ May 2021 - Dec 2022</span>
-				<li class="bulleted-list">Joined as the second member of the product team, directly responsible for mobile app, web app, and web platform products. Led product operations from seed stage through Series A and in preparation for Series B fundraising</li>
-				<li class="bulleted-list">Played many roles, working on everything from typical product tasks to user research, data analysis, project management, QA/feature testing, copy & design reviews</li>
-				<li class="bulleted-list">Improved product quality - in other words, my features shipped more predictably and with fewer bugs - through clear product documentation, increased transparency with stakeholders, better collaboration with design and engineering, and more getting in the weeds to test</li>
-				<li class="bulleted-list">Drove key metrics with major releases: reduced appointment no-shows/late cancelations, reduced overhead on routine tasks for clinical support staff, and simplified time to complete intake paperwork</li>
+				<span class="resume-job-title">
+					<?=$jobObject["jobTitle"]?>
+				</span> at
+
+				<span class="resume-company-title">
+						<?=$jobObject["company"]?>
+				</span> from
+
+				<span class="resume-job-duration">
+						<?=$jobObject["duration"]?>
+				</span>
+
+				<li class="bulleted-list">
+						<?=$jobObject["bullet1"]?>
+				</li>
+
+				<li class="bulleted-list">
+						<?=$jobObject["bullet2"]?>
+				</li>
+
+				<li class="bulleted-list">
+						<?=$jobObject["bullet3"]?>
+				</li>
+				
+				<li class="bulleted-list">
+						<?=$jobObject["bullet4"]?>
+				</li>
+
 			</ul>
 
 			<ul class="resume-list">I was a
