@@ -253,6 +253,30 @@ a, p a {
 
 }
 
+.dog-box {
+	padding: 20px;
+	border: 2px solid var(--paper);
+	border-radius: 1rem;
+} 
+
+.dog-portrait {
+	max-width: 400px;
+	height: auto;
+	border: 2px solid var(--splash-primary);
+}
+
+.dog-about-section {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+@media (min-width: 600px) {
+	.dog-about-section {
+		flex-direction: row;
+	}
+}
+
 /*borders for testing*/
 
 /*.site-header > *, .site-header span {
