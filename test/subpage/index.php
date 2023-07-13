@@ -1,6 +1,6 @@
 <?php include("../header.php"); ?>
 
-		<h1>Subpage</h1>
+		<h1>Subpageee</h1>
 
 	</body>
 
