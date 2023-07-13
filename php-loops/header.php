@@ -1,6 +1,9 @@
 <html>
 	
-<head></head>
+<head>
+	
+	<link rel="stylesheet" href="/css/style.css">
+</head>
 
 
 <header>
