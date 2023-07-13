@@ -11,6 +11,6 @@
 
 	<body>
 
-		<a href="../">Home</a>
-		<a href="../subpage">Subpage</a>
+		<a href="">Home</a>
+		<a href="subpage">Subpage</a>
 
