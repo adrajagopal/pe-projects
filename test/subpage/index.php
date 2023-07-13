@@ -1,4 +1,4 @@
-<?php DEFINE("BASE_URL", "https://peprojects.dev/alpha-7/ad/");?>
+<?php DEFINE("BASE_URL", "https://peprojects.dev/alpha-7/ad/test");?>
 
 <html>
 	
