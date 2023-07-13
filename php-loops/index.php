@@ -3,49 +3,6 @@
 	include('../header.php');
 ?>
 
-<head>
-	<style>
-		.dog-portrait {
-		max-width: 400px;
-		height: auto;
-		border: 2px solid var(--splash-primary);
-		}	
-
-		.dog-about-section {
-			display: flex;
-			flex-direction: column;
-			gap: 10px;
-		}
-
-		.dog-box {
-			padding: 20px;
-			border: 2px solid var(--paper);
-			border-radius: 1rem;
-		} 
-
-		@media (min-width: 550px) {
-			.dog-about-section {
-				flex-direction: row;
-				flex-wrap: wrap;
-			}
-
-			.dog-box {
-				max-width: 40%;
-			}
-		}
-
-		@media (min-width: 800px) {
-			.dog-about-section {
-				flex-wrap: none;
-			}
-
-			.dog-box {
-				max-width: 30%;
-			}
-		}
-	</style>
-</head>
-
 <?php
 	$buddha = [
 		"id" => "1",
