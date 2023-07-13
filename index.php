@@ -5,6 +5,8 @@
 
 <h1 class="hero-title xxl-voice">Hi there!</h1>
 
+<h1 class="hero-title xxl-voice">Hi there!</h1>
+
 <h2 class="hero-title xl-voice">I'm Ad. A product manager turned web developer.</h2>
 
 <h3 class="content-header large-voice">My work</h3>
