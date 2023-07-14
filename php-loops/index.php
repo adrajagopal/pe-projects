@@ -11,23 +11,38 @@
 <div class="dog-about-section">
 	<?php
 
-		foreach ($myDogs as$dog) {
-			echo
-				"<div class='dog-box'>" .
-				"<h3 class='xl-voice content-header'>" . $dog["name"] . "</h3>"
-				. "<picture class='dog-portrait'><img src=" . $dog["portrait"] . "></picture>"
-				. "<ul class='medium-voice content-body'>"
-				. "<li>" . "Age: " . $dog["age"] . "</li>"
-				. "<li>" . "Sex: " . $dog["sex"] . "</li>"
-				. "<li>" . "Breed: " . $dog["breed"] . "</li>"
-				. "</ul>"
-				. "<p class='medium-voice content-body'>" . $dog["bio"] . "</p>"
-				. "</div>"
-				;
-		}
+		foreach ($myDogs as $dog) { ?>
+			<?php
+
+				$id = $dog["id"];
+				$name = $dog["name"];
+				$birthday = $dog["birthday"];
+				$sex = $dog["sex"];
+				$breed = $dog["breed"];
+				$favFood = $dog["favFood"];
+				$age = $dog["age"];
+				$coatType = $dog["coatType"];
+				$isAsshole = $dog["isAsshole"];
+				$portrait = $dog["portrait"];
+				$bio = $dog["bio"];
+
+			?>
 
 
-	?>
+			<div class="dog-box">
+				<h3 class="xl-voice content-header"><?=$name?></h3>
+				<picture class="dog-portrait"><img src="<?=$portrait?>"></picture>
+				<ul class="medium-voice content-body">
+					<li>Age: <?=$age?></li>
+					<li>Sex: <?=$sex?></li>
+					<li>Breed: <?=$breed?></li>
+				<p class="medium-voice content-body"><?=$bio?></p>
+				</ul>
+			</div>
+
+	<?php } ?>
+
+	
 </div>
 
 
