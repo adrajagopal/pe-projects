@@ -17,8 +17,8 @@
 
 	$principal = 1250;
 
-	function amount($bal, $value) {
-			echo $bal * $value;
+	function amount($principal, $value) {
+			echo $principal * $value;
 		} ?>
 
 <h2 class="large-voice content-header">Looks like your principal is $<?=$principal?>.</h2>
