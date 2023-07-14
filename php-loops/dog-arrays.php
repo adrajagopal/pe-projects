@@ -2,7 +2,7 @@
 	$buddha = [
 		"id" => "1",
 		"name" => "Buddha",
-		"birthday" => "2011/10/04",
+		"birthday" => date(4/10/2011),
 		"sex" => "male",
 		"breed" => "chiweenie mix",
 		"favFood" => "chicken",
@@ -16,7 +16,7 @@
 	$minnie = [
 		"id" => "2",
 		"name" => "Minnie",
-		"birthday" => "2021/01/03",
+		"birthday" => date(1/3/2021),
 		"sex" => "female",
 		"breed" => "hound mix",
 		"favFood" => "peanut butter",
@@ -30,7 +30,7 @@
 	$chubs = [
 		"id" => "3",
 		"name" => "Chubs",
-		"birthday" => "2012/09/01",
+		"birthday" => date(9/1/2012),
 		"sex" => "male",
 		"breed" => "Boglen Terrier",
 		"favFood" => "rabbit",
