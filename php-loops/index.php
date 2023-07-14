@@ -29,21 +29,18 @@
 			?>
 
 
-			<div class="dog-box">
+			<div class="dog-card">
 				<h3 class="xl-voice content-header"><?=$name?></h3>
 				<picture class="dog-portrait"><img src="<?=$portrait?>"></picture>
 				<ul class="medium-voice content-body">
 					<li>Age: <?=$age?></li>
 					<li>Sex: <?=$sex?></li>
 					<li>Breed: <?=$breed?></li>
-				<p class="medium-voice content-body"><?=$bio?></p>
 				</ul>
+				<p class="medium-voice content-body"><?=$bio?></p>
 			</div>
 
 	<?php } ?>
-
-	
-</div>
 
 
 
