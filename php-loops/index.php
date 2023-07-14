@@ -41,6 +41,8 @@
 
 <?php	} ?>
 
+</ul>
+
 
 <?php
 	include('../footer.php');
