@@ -8,11 +8,11 @@
 
 <h2 class="xl-voice content-header">It's nice to meet them:</h2>
 
-<div class="dog-about-section">
+<ul class="dog-about-section">
 	<?php
 
-		foreach ($myDogs as $dog) { ?>
-			<?php
+		foreach ($myDogs as $dog) {
+			
 
 				$id = $dog["id"];
 				$name = $dog["name"];
@@ -28,8 +28,7 @@
 
 			?>
 
-
-			<div class="dog-card">
+			<li class="dog-card">
 				<h3 class="xl-voice content-header"><?=$name?></h3>
 				<picture class="dog-portrait"><img src="<?=$portrait?>"></picture>
 				<ul class="medium-voice content-body">
@@ -38,17 +37,11 @@
 					<li>Breed: <?=$breed?></li>
 				</ul>
 				<p class="medium-voice content-body"><?=$bio?></p>
-			</div>
+			</li>
 
-	<?php } ?>
+<?php	} ?>
 
-
-
-
-
-
-
-
+</ul>
 
 
 
