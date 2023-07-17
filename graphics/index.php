@@ -6,11 +6,49 @@
 
 <h2 class="content-header xl-voice">Working with graphics</h2>
 
-<p class="content-body medium-voice">Working on graphics is a great way to learn about preparing images for display on websites and applications. Among the things I can do with graphics software & code: make files smaller without losing quality, pick the right image type for the job (PNG, JPG, SVG), make GIFs, export SVGs and clean up the code, and create quick graphics mockups.</p>
+<p class="content-body medium-voice">Working on graphics is a great way to learn about preparing images for display on websites and applications. I've been working with Affinity Designer. Among the things I can do with graphics software: make files smaller without losing quality, pick the right image type for the job (PNG, JPG, SVG), make GIFs, create SVGs and clean up the code, and create quick graphics mockups.</p>
 
 <p class="content-body medium-voice">Don't call me a graphics expert, but I can scrap some nice-looking things together.</p>
 
-<h3 class="content-header xl-voice">My creations</h3>
+<h2 class="content-header xl-voice">My creations</h2>
+
+<h3 class="content-subheader large-voice">Boomerang Fu Characters</h3>
+
+<p class="content-body medium-voice"><a href="http://www.boomerangfu.com/" target="_blank">Boomerang Fu</a> is a multiplayer game where all players run around slashing each other with boomerangs, each one hoping to be the last food avatar standing. Here's my work</p>
+
+
+<?php
+	$avocado = ["name" => "Avocado", "portrait" => "graphics/images/bf-avocado.jpg"];
+	$banana = ["name" => "Banana", "portrait" => "graphics/images/bf-banana.jpg"];
+	$eggplant = ["name" => "Eggplant", "portrait" => "graphics/images/bf-eggplant.jpg"];
+	$milk = ["name" => "Milk", "portrait" => "graphics/images/bf-milk.jpg"];
+	$watermelon = ["name" => "Watermelon", "portrait" => "graphics/images/bf-watermelon.jpg"];
+	$me = ["name" => "This one is just me", "portrait" => "graphics/images/bf-me.jpg"];
+
+	$boomerangFuCharacters = [$avocado, $banana, $eggplant, $milk, $watermelon, $me];
+
+	foreach ($boomerangFuCharacters as $bfCharacter) {
+		$name = $bfCharacter["name"];
+		$portrait = $bfCharacter["portrait"];
+	}
+
+	?>
+
+<ul class="content-body medium-voice">
+	<?php
+		foreach ($boomerangFuCharacters as $bfCharacter) { 
+			$name = $bfCharacter["name"];
+			$portrait = $bfCharacter["portrait"];	
+	?>
+		<li><picture><img src="<?=$portrait?>" alt=""></picture></li>
+		<li><?=$name?></li>
+
+	<?php } ?>
+
+
+
+
+</ul>
 
 
 
