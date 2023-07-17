@@ -287,7 +287,7 @@ a, p a {
 
 @media (min-width: 800px) {
 	.dog-about-section {
-		flex-wrap: none;
+		flex-wrap: nowrap;
 	}
 
 	.dog-card {
