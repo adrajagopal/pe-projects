@@ -267,6 +267,7 @@ a, p a {
 .fu-gallery {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	gap:10px;
@@ -280,14 +281,14 @@ a, p a {
 	text-align: center;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
 	.fu-gallery {
 		flex-direction: row;
 		align-items: flex-start;
 	}
 
 	.fu-gallery li {
-		width: 40%;
+		width: 45%;
 	}
 }
 
