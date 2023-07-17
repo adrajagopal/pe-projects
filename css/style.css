@@ -80,6 +80,10 @@ h3 + div {
 	border-bottom: 1px solid var(--splash-primary);
 }
 
+.site-footer {
+	margin-top: 20px;
+}
+
 .header-items {
 	display: flex;
 	flex-direction: row;
