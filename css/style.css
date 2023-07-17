@@ -267,9 +267,16 @@ a, p a {
 .fu-gallery {
 	display: flex;
 	flex-direction: row;
-	justify-content:;
-	align-items:;
+	flex-wrap: wrap;
 	gap:10px;
+}
+
+.fu-gallery li {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: auto;
+	text-align: center;
 }
 
 .dog-portrait {
