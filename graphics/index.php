@@ -42,11 +42,35 @@
 		<p class="content-body medium-voice"><?=$description?></p>
 	</li>			
 	<?php } ?>
-
-
-
-
 </ul>
+
+<h3 class="content-subheader large-voice">Blend modes</h3>
+
+<p class="content-body medium-voice">A little exploration with blend modes.</p>
+
+<?php
+	$buddhaBlend = ["name" => "buddhaBlend", "description" => "My dog, Buddha", "portrait" => "graphics/images/buddha-blend-mode.jpg"];
+	$chubsBlend = ["name" => "chubsBlend", "description" => "My dog, Chubs", "portrait" => "graphics/images/chubs-blend-mode.jpg"];
+
+	$blendedDogs = [$buddhaBlend, $chubsBlend];
+
+	?>
+
+<ul class="blend-gallery">
+	<?php
+		foreach ($blendedDogs as $blendedDog) { 
+			$name = $blendedDog["name"];
+			$description = $blendedDog["description"];
+			$portrait = $blendedDog["portrait"];	
+	?>
+		
+	<li class="blend-gallery-item">
+		<picture><img src="<?=$portrait?>" alt=""></picture>
+		<p class="content-body medium-voice"><?=$description?></p>
+	</li>			
+	<?php } ?>
+</ul>
+
 
 
 
