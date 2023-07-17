@@ -28,7 +28,7 @@
 	  property="og:image"
 	  content="[[INSERT CONTENT]].png">
 	
-	<link rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
 
 <!-- 	fonts used:
 	Baskerville 400, 400 + ital
