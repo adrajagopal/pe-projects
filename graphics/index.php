@@ -18,26 +18,21 @@
 
 
 <?php
-	$avocado = ["name" => "Avocado", "portrait" => "graphics/images/bf-avocado.jpg"];
-	$banana = ["name" => "Banana", "portrait" => "graphics/images/bf-banana.jpg"];
-	$eggplant = ["name" => "Eggplant", "portrait" => "graphics/images/bf-eggplant.jpg"];
-	$milk = ["name" => "Milk", "portrait" => "graphics/images/bf-milk.jpg"];
-	$watermelon = ["name" => "Watermelon", "portrait" => "graphics/images/bf-watermelon.jpg"];
-	$me = ["name" => "This one is just me", "portrait" => "graphics/images/bf-me.jpg"];
+	$avocado = ["name" => "Avocado", "description" => "The happiest avocado.", "portrait" => "graphics/images/bf-avocado.jpg"];
+	$banana = ["name" => "Banana", "description" => "Watch out for the indifferent banana.", "portrait" => "graphics/images/bf-banana.jpg"];
+	$eggplant = ["name" => "Eggplant", "description" => "Eggplants just seem sad naturally, don't they?.", "portrait" => "graphics/images/bf-eggplant.jpg"];
+	$milk = ["name" => "Milk", "description" => "Sure, milk.", "portrait" => "graphics/images/bf-milk.jpg"];
+	$watermelon = ["name" => "Watermelon", "description" => "Ominous - for sure..", "portrait" => "graphics/images/bf-watermelon.jpg"];
+	$me = ["name" => "This one is just me", "description" => "Some description.", "portrait" => "graphics/images/bf-me.jpg"];
 
 	$boomerangFuCharacters = [$avocado, $banana, $eggplant, $milk, $watermelon, $me];
-
-	foreach ($boomerangFuCharacters as $bfCharacter) {
-		$name = $bfCharacter["name"];
-		$portrait = $bfCharacter["portrait"];
-	}
 
 	?>
 
 <ul class="content-body medium-voice">
 	<?php
 		foreach ($boomerangFuCharacters as $bfCharacter) { 
-			$name = $bfCharacter["name"];
+			$name = $bfCharacter["description"];
 			$portrait = $bfCharacter["portrait"];	
 	?>
 		<li><picture><img src="<?=$portrait?>" alt=""></picture></li>
