@@ -30,7 +30,6 @@
 	
 	<link rel="stylesheet" href="css/style.css">
 
-
 <!-- 	fonts used:
 	Baskerville 400, 400 + ital
 	Work Sans 100, 100 + ital, 400, 400 + ital, 600, 700 -->
