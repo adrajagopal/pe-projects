@@ -266,7 +266,8 @@ a, p a {
 
 .fu-gallery {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: center;
 	flex-wrap: wrap;
 	gap:10px;
 }
@@ -274,9 +275,31 @@ a, p a {
 .fu-gallery li {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 60%;
 	height: auto;
 	text-align: center;
+}
+
+@media (min-width: 400px) {
+	.fu-gallery {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.fu-gallery li {
+		width: 40%;
+	}
+}
+
+@media (min-width: 600px) {
+	.fu-gallery {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.fu-gallery li {
+		width: 30%;
+	}
 }
 
 .dog-portrait {
