@@ -265,6 +265,8 @@ a, p a {
 
 
 .fu-gallery {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
