@@ -41,7 +41,7 @@ body {
 	margin-top: 25px;
 }
 
-h2 {
+h2, h3 {
 	margin-top: 20px;
 }
 
@@ -264,6 +264,30 @@ a, p a {
 }
 
 /* modules */
+
+/* work-list on homepage */
+
+.work-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+}
+
+.work-list img {
+	border-radius: 10px;
+}
+
+.work-list .xl-voice {
+	font-size: 1.25rem;
+}
+
+@media (min-width: 500px) {
+	.work-list {
+		flex-direction: row;
+	}
+}
+
 
 /* Affinity graphics */
 
