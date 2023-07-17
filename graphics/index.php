@@ -19,7 +19,7 @@
 
 <?php
 	$avocado = ["name" => "Avocado", "description" => "Pure joy", "portrait" => "graphics/images/bf-avocado.jpg"];
-	$banana = ["name" => "Banana", "description" => "Aggressive indifference", "portrait" => "graphics/images/bf-banana.jpg"];
+	$banana = ["name" => "Banana", "description" => "Ambivalence", "portrait" => "graphics/images/bf-banana.jpg"];
 	$eggplant = ["name" => "Eggplant", "description" => "Innate sadness", "portrait" => "graphics/images/bf-eggplant.jpg"];
 	$milk = ["name" => "Milk", "description" => "Sure, milk", "portrait" => "graphics/images/bf-milk.jpg"];
 	$watermelon = ["name" => "Watermelon", "description" => "Devious melon", "portrait" => "graphics/images/bf-watermelon.jpg"];
