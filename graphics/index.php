@@ -29,6 +29,8 @@
 
 	?>
 
+
+<!-- BoomerangFu gallery -->
 <ul class="fu-gallery">
 	<?php
 		foreach ($boomerangFuCharacters as $bfCharacter) { 
@@ -44,27 +46,30 @@
 	<?php } ?>
 </ul>
 
-<h3 class="content-subheader large-voice">Blend modes</h3>
+<!-- Miscellaneous gallery -->
+<h3 class="content-subheader large-voice">Random stuff</h3>
 
-<p class="content-body medium-voice">A little exploration with blend modes.</p>
+<p class="content-body medium-voice">A little bit of everything, from class assignments to personal projects.</p>
 
 <?php
-	$buddhaBlend = ["name" => "buddhaBlend", "description" => "My dog, Buddha", "portrait" => "graphics/images/buddha-blend-mode.jpg"];
-	$chubsBlend = ["name" => "chubsBlend", "description" => "My dog, Chubs", "portrait" => "graphics/images/chubs-blend-mode.jpg"];
+	$chubsBlend = ["name" => "Chubs Blend", "description" => "My dog, Chubs", "portrait" => "graphics/images/chubs-blend-mode.jpg"];
+	$miloDBZ = ["name" => "Milo DBZ", "description" => "A Dragon Ball Z-inspired graphic I made for a friend's newborn", "portrait" => "graphics/images/milo-dbz.jpg"];
+	$dazzle = ["name" => "Dazzle", "description" => "An exercise in symbolism. The word is dazzle, and no one in my class was able to figure it out. Blame the designer...", "portrait" => "graphics/images/dazzle.jpg"];
+	$hundred = ["name" => "100 days", "description" => "A graphic I made on my cohort's 100th day of 'bootcamp'.", "portrait" => "graphics/images/pe-day-100.jpg"];
 
-	$blendedDogs = [$buddhaBlend, $chubsBlend];
+	$randomGraphics = [$chubsBlend, $miloDBZ, $dazzle, $hundred];
 
 	?>
 
-<ul class="blend-gallery">
+<ul class="random-gallery">
 	<?php
-		foreach ($blendedDogs as $blendedDog) { 
-			$name = $blendedDog["name"];
-			$description = $blendedDog["description"];
-			$portrait = $blendedDog["portrait"];	
+		foreach ($randomGraphics as $randomGraphic) { 
+			$name = $randomGraphic["name"];
+			$description = $randomGraphic["description"];
+			$portrait = $randomGraphic["portrait"];	
 	?>
 		
-	<li class="blend-gallery-item">
+	<li class="random-gallery-item">
 		<picture><img src="<?=$portrait?>" alt=""></picture>
 		<p class="content-body medium-voice"><?=$description?></p>
 	</li>			
