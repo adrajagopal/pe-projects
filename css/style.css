@@ -1,6 +1,6 @@
-@import "meyer-reset.css";
-@import "setup.css";
-@import "custom-properties.css";
+@import "css/meyer-reset.css";
+@import "css/setup.css";
+@import "css/custom-properties.css";
 
 /*page structure*/
 
