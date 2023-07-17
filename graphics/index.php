@@ -29,7 +29,7 @@
 
 	?>
 
-<ul class="content-body medium-voice">
+<ul class="content-body medium-voice fu-gallery">
 	<?php
 		foreach ($boomerangFuCharacters as $bfCharacter) { 
 			$name = $bfCharacter["description"];
