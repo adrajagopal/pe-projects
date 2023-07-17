@@ -259,6 +259,19 @@ a, p a {
 
 }
 
+/* modules */
+
+/* Affinity graphics */
+
+
+.fu-gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content:;
+	align-items:;
+	gap:10px;
+}
+
 .dog-portrait {
 	max-width: 400px;
 	height: auto;
