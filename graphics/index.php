@@ -29,15 +29,18 @@
 
 	?>
 
-<ul class="content-body medium-voice fu-gallery">
+<ul class="fu-gallery">
 	<?php
 		foreach ($boomerangFuCharacters as $bfCharacter) { 
 			$name = $bfCharacter["description"];
 			$portrait = $bfCharacter["portrait"];	
 	?>
-		<li><picture><img src="<?=$portrait?>" alt=""></picture></li>
-		<li><?=$name?></li>
-
+		
+	<li class="fu-gallery-item">
+		<picture><img src="<?=$portrait?>" alt=""></picture>
+		<p class="content-body medium-voice"><?=$name?></p>
+	</li>
+			
 	<?php } ?>
 
 
