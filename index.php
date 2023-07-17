@@ -5,6 +5,33 @@
 
 <h3 class="content-header large-voice">My work</h3>
 
+<ul class="work-list">
+	<li>
+		<a href="graphics">
+			<picture>
+				<img src="graphics/images/bf-milk.jpg" alt="">
+				<p class="xl-voice">Graphics made in Affinity Designer</p>
+			</picture>
+		</a>
+	</li>
+	<li>
+		<a href="graphics">
+			<picture>
+				<img src="graphics/images/bf-milk.jpg" alt="">
+				<p class="xl-voice">Graphics made in Affinity Designer</p>
+			</picture>
+		</a>
+	</li>
+	<li>
+		<a href="graphics">
+			<picture>
+				<img src="graphics/images/bf-milk.jpg" alt="">
+				<p class="xl-voice">Graphics made in Affinity Designer</p>
+			</picture>
+		</a>
+	</li>
+</ul>
+
 <h3 class="content-header large-voice">About me</h3>
 
 
