@@ -23,7 +23,7 @@
 	$eggplant = ["name" => "Eggplant", "description" => "Eggplants just seem sad naturally, don't they?.", "portrait" => "graphics/images/bf-eggplant.jpg"];
 	$milk = ["name" => "Milk", "description" => "Sure, milk.", "portrait" => "graphics/images/bf-milk.jpg"];
 	$watermelon = ["name" => "Watermelon", "description" => "Ominous - for sure..", "portrait" => "graphics/images/bf-watermelon.jpg"];
-	$me = ["name" => "This one is just me", "description" => "Some description.", "portrait" => "graphics/images/bf-me.jpg"];
+	$me = ["name" => "Me", "description" => "This one is just me.", "portrait" => "graphics/images/bf-me.jpg"];
 
 	$boomerangFuCharacters = [$avocado, $banana, $eggplant, $milk, $watermelon, $me];
 
