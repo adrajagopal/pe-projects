@@ -14,7 +14,7 @@
 
 <h3 class="content-subheader large-voice">Boomerang Fu Characters</h3>
 
-<p class="content-body medium-voice"><a href="http://www.boomerangfu.com/" target="_blank">Boomerang Fu</a> is a multiplayer game where all players run around slashing each other with boomerangs, each one hoping to be the last food avatar standing. Here's my work</p>
+<p class="content-body medium-voice"><a href="http://www.boomerangfu.com/" target="_blank">Boomerang Fu</a> is a multiplayer game where all players run around slashing each other with boomerangs, each one hoping to be the last food avatar standing. Here are some of my favorites: </p>
 
 
 <?php
