@@ -265,8 +265,7 @@ a, p a {
 
 
 .fu-gallery {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -302,6 +301,24 @@ a, p a {
 
 	.fu-gallery li {
 		width: 30%;
+	}
+}
+
+.random-gallery {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+	.random-gallery {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.random-gallery li {
+		width: 45%;
 	}
 }
 

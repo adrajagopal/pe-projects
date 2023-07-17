@@ -53,8 +53,8 @@
 
 <?php
 	$chubsBlend = ["name" => "Chubs Blend", "description" => "My dog, Chubs", "portrait" => "graphics/images/chubs-blend-mode.jpg"];
-	$miloDBZ = ["name" => "Milo DBZ", "description" => "A Dragon Ball Z-inspired graphic I made for a friend's newborn", "portrait" => "graphics/images/milo-dbz.jpg"];
 	$dazzle = ["name" => "Dazzle", "description" => "An exercise in symbolism. The word is dazzle, and no one in my class was able to figure it out. Blame the designer...", "portrait" => "graphics/images/dazzle.jpg"];
+	$miloDBZ = ["name" => "Milo DBZ", "description" => "A Dragon Ball Z-inspired graphic I made for a friend's newborn", "portrait" => "graphics/images/milo-dbz.jpg"];
 	$hundred = ["name" => "100 days", "description" => "A graphic I made on my cohort's 100th day of 'bootcamp'.", "portrait" => "graphics/images/pe-day-100.jpg"];
 
 	$randomGraphics = [$chubsBlend, $miloDBZ, $dazzle, $hundred];
