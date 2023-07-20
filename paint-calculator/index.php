@@ -13,7 +13,7 @@
 
 <h2 class="page-title">Enter your room dimensions:</h2>
 
-<form>
+<form method="POST">
 	<div class="field">
 		<p class="field-title">Length</p>
 		<div class="measurements">
@@ -51,7 +51,7 @@
 			>
 		</div>
 	</div>
-	<button>Calculate</button>
+	<button type="submit" name="submitted">Calculate</button>
 </form>
 
 <!-- 
