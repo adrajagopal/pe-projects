@@ -86,6 +86,15 @@
 			}
 		}
 
+		if (isset($widthSum) AND isset($lengthSum) AND ($widthSum * $lengthSum > 0)) {
+			$roomArea = $widthSum * $lengthSum;
+			$gallons = ceil($roomArea/350);
+		}
+
+	}
+?>
+
+
 	<button type="submit" name="submitted">Calculate</button>
 </form>
 
