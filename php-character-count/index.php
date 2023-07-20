@@ -42,6 +42,7 @@ $formResult = $_POST;
 		font-family: var(--secondary-font);
 		font-size: 1rem;
 	}
+
 	button {
 		background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
 		color: var(--ink-dark);
@@ -51,6 +52,7 @@ $formResult = $_POST;
 		font-family: var(--primary-font);
 		font-size: 1.25rem;
 		font-weight: 600;
+		margin-top: 20px;
 	}
 
 	button:hover {
@@ -62,6 +64,17 @@ $formResult = $_POST;
 		background-image: none;
 		background-color: var(--splash-primary);
 		}
+
+	.feedback {
+		margin-top: 20px;
+		border-top: 2px solid var(--paper);
+	}
+
+	.warning {
+		margin-top: 20px;
+		border-top: 2px solid #FF9D8A;
+		color: #FF9D8A;
+	}
 </style>
 
 
