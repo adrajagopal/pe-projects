@@ -24,3 +24,14 @@
 	display: flex;
 	flex-direction: column;
 }
+
+p.field-title {
+	font-family: var(--primary-font);
+	font-weight: 600;
+	color: black;
+	font-size: 1.25rem;
+}
+
+.measurements {
+	font-family: var(--primary-font);
+}
