@@ -13,10 +13,13 @@
 
 <form>
 	<div class="field">
-		<p>Length</p>
+		<p class="field-title">Length</p>
 		<div class="measurements">
 			<label for="">Feet</label>
-			<input type="number" name="Feet" min="0">
+			<input type="number"
+				name="Feet"
+				min="0"
+			>
 			<label>Inches</label>
 			<input type="number"
 				name="Inches"
@@ -26,11 +29,14 @@
 		</div>
 	</div>
 
-		<div class="field">
-		<p>Width</p>
+	<div class="field">
+		<p class="field-title">Width</p>
 		<div class="measurements">
 			<label for="">Feet</label>
-			<input type="number" name="Feet" min="0">
+			<input type="number"
+				name="Feet"
+				min="0"
+			>
 			<label>Inches</label>
 			<input type="number"
 				name="Inches"
