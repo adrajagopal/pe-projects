@@ -22,22 +22,26 @@ $formResult = $_POST;
 		justify-content: space-between;
 	}
 
-	form > * {
-		margin-top: 10px;
+	label {
+		font-family: var(--primary-font);
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: var(--paper);
+		margin-top: 20px;
 	}
 
 	label, textarea {
 		display: block;
 	}
 
-	textarea {		margin-top: 10px;
+	textarea {
+		margin-top: 10px;
 		width: 100%;
 		max-width: 500px;
 		height: 5rem;
 		font-family: var(--secondary-font);
 		font-size: 1rem;
 	}
-
 	button {
 		background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
 		color: var(--ink-dark);
