@@ -1,1 +1,12 @@
-paint-calculator.css
+.page-title {
+	font-family: var(--primary-font);
+	font-size: 2rem;
+	color: black;
+	font-weight: 600;
+}
+
+.form-context {
+	font-family: var(--primary-font);
+	font-size: 1rem;
+	color: black;
+}
