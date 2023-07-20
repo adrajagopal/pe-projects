@@ -82,16 +82,8 @@ $formResult = $_POST;
 
 <form method="POST">
 
-	<h2 class="content-header large-voice">Count your characters.</h2>	
+	<div class="field-section">
 
-	<div class="field">
-		<label class="medium-voice">Your string</label>
-		<input type="text" name="string" value="<?=$string?>" placeholder="Type or paste in here...">
-	</div>
-	
-	<button type="submit" name="submitted">
-		Count
-	</button>
 
 		<div class="field">
 			<label>Your string</label>
@@ -99,25 +91,31 @@ $formResult = $_POST;
 		</div>
 	</div>
 
-<?php 
-	if (isset($_POST["submitted"])) {
-
-		$string = $_POST["string"];
-
-		$characters = strlen($string);
-
-		if (isset($string) and $characters > 0) { ?>
-
-			<p class="medium-voice content-body">Your input, "<?=$string?>" is <?=$characters?> characters long.</p>
-		<?php }
-
-		else { ?>
-			<p class="medium-voice content-body">Please enter a string of at least 1 character.</p>
-		<?php }
-	}
-?>
+	<div class="response-section">
+	
+		<button type="submit" name="submitted">
+			Count
+		</button>
 
 
+		<?php 
+			if (isset($_POST["submitted"])) {
+
+				$string = $_POST["string"];
+
+				$characters = strlen($string);
+
+				if (isset($string) and $characters > 0) { ?>
+
+					<p class="medium-voice content-body feedback">Your input, "<?=$string?>" is <?=$characters?> characters long.</p>
+				<?php }
+
+				else { ?>
+					<p class="medium-voice content-body warning">Please enter a string of at least 1 character.</p>
+				<?php }
+			}
+		?>
+	</div>
 
 </form>
 
