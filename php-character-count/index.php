@@ -50,7 +50,7 @@ $characters = 0;
 
 <h1 class="hero-title xl-voice">Character counts.</h1>
 
-<form action="">
+<form method="POST">
 
 	<h2 class="content-header large-voice">Count your characters.</h2>	
 
@@ -59,7 +59,9 @@ $characters = 0;
 		<input type="text" name="string" placeholder="Type or paste in..." value="<?=$characters?>">
 	</div>
 	
-	<button type="submit">Count</button>
+	<button type="submit" name="submitted">
+		Count
+	</button>
 
 
 </form>
