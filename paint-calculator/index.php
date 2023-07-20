@@ -23,16 +23,16 @@
 		<div class="measurements">
 			<label for="">Feet</label>
 			<input type="number"
-				name="feet"
+				name="lengthFeet"
 				min="0"
-				value=<?=$XXXX?>
+				value=<?=$lengthFeet?>
 			>
 			<label>Inches</label>
 			<input type="number"
-				name="inches"
+				name="lengthInches"
 				min="0"
 				max="12"
-				value=<?=$XXXX?>
+				value=<?=$lengthInches?>
 			>
 		</div>
 	</div>
@@ -42,16 +42,16 @@
 		<div class="measurements">
 			<label for="">Feet</label>
 			<input type="number"
-				name="feet"
+				name="widthFeet"
 				min="0"
-				value=<?=$XXXX?>
+				value=<?=$widthFeet?>
 			>
 			<label>Inches</label>
 			<input type="number"
-				name="inches"
+				name="widthInches"
 				min="0"
 				max="12"
-				value=<?=$XXXX?>
+				value=<?=$widthInches?>
 			>
 		</div>
 	</div>
