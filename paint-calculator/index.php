@@ -2,7 +2,7 @@
 	include("../header.php");
 ?>
 
-<?php $skills = ["Properly nested HTML", "CSS", "SQL"]; ?>
+<?php $XXXX = 0 ?>
 
 
 <h1 class="page-title">How much paint do you need?</h1>
@@ -17,14 +17,16 @@
 		<div class="measurements">
 			<label for="">Feet</label>
 			<input type="number"
-				name="Feet"
+				name="feet"
 				min="0"
+				value=<?=$XXXX?>
 			>
 			<label>Inches</label>
 			<input type="number"
-				name="Inches"
+				name="inches"
 				min="0"
 				max="12"
+				value=<?=$XXXX?>
 			>
 		</div>
 	</div>
@@ -34,14 +36,16 @@
 		<div class="measurements">
 			<label for="">Feet</label>
 			<input type="number"
-				name="Feet"
+				name="feet"
 				min="0"
+				value=<?=$XXXX?>
 			>
 			<label>Inches</label>
 			<input type="number"
-				name="Inches"
+				name="inches"
 				min="0"
 				max="12"
+				value=<?=$XXXX?>
 			>
 		</div>
 	</div>
