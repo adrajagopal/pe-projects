@@ -24,6 +24,7 @@ $characters = 0;
 
 	button {
 		background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
+		color: var(--ink-dark);
 		border: none;
 		border-radius: 0.5rem;
 		padding: 0.5rem 1rem;
@@ -31,6 +32,16 @@ $characters = 0;
 		font-size: 1.25rem;
 		font-weight: 600;
 	}
+
+	button:hover {
+		background-image: none;
+		background-color: var(--paper);
+	}
+
+	button:active {
+		background-image: none;
+		background-color: var(--splash-primary);
+		}
 
 
 
