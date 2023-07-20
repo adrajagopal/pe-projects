@@ -7,21 +7,6 @@ $characters = 0;
 
 $formResult = $_POST;
 
-if (isset($_POST["submitted"])) {
-
-	$string = $_POST["string"];
-
-	$characters = strlen($string);
-
-	if (isset($string) and $characters > 0) {
-		echo "Your input, \"" . $string . "\" is " . $characters . " characters long.";
-	}
-
-	else {
-		echo "Please enter a string of at least 1 character.";
-	}
-}
-
 ?>
 
 <style>
@@ -58,9 +43,6 @@ if (isset($_POST["submitted"])) {
 		background-image: none;
 		background-color: var(--splash-primary);
 		}
-
-
-
 </style>
 
 
@@ -78,6 +60,26 @@ if (isset($_POST["submitted"])) {
 	<button type="submit" name="submitted">
 		Count
 	</button>
+
+
+<?php 
+	if (isset($_POST["submitted"])) {
+
+		$string = $_POST["string"];
+
+		$characters = strlen($string);
+
+		if (isset($string) and $characters > 0) { ?>
+
+			<p class="medium-voice content-body">Your input, "<?=$string?>" is <?=$characters?> characters long.</p>
+		<?php }
+
+		else { ?>
+			<p class="medium-voice content-body">Please enter a string of at least 1 character.</p>
+		<?php }
+	}
+?>
+
 
 
 </form>
