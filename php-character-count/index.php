@@ -84,6 +84,7 @@ $formResult = $_POST;
 
 	<div class="field-section">
 
+		<p class="content-header large-voice">Count your characters.</p>	
 
 		<div class="field">
 			<label>Your string</label>
