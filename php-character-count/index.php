@@ -2,9 +2,21 @@
 
 <?php
 
+$string = 0;
 $characters = 0;
 
+$formResult = $_POST;
 
+if (isset($_POST["submitted"])) {
+
+	echo "Submitted";
+
+	$string = $_POST["string"];
+
+	$characters = strlen($string);
+
+	echo "Your input, \"" . $string . "\" is " . $characters . " characters long.";
+}
 
 ?>
 
@@ -55,8 +67,8 @@ $characters = 0;
 	<h2 class="content-header large-voice">Count your characters.</h2>	
 
 	<div class="field">
-		<label class="medium-voice" for="">Your string</label>
-		<input type="text" name="string" placeholder="Type or paste in..." value="<?=$characters?>">
+		<label class="medium-voice">Your string</label>
+		<input type="text" name="string">
 	</div>
 	
 	<button type="submit" name="submitted">
