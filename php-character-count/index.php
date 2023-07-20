@@ -7,6 +7,21 @@ $characters = 0;
 
 
 ?>
+
+<style>
+	form {
+		margin-top: 10px;
+		border: 2px solid var(--splash-primary);
+	}
+
+	form > * {
+		margin-top: 10px;
+	}
+
+	label, input {
+		display: block;
+	}
+
 	button {
 		background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
 		border: none;
@@ -18,6 +33,8 @@ $characters = 0;
 	}
 
 
+
+</style>
 
 
 <h1 class="hero-title xl-voice">Character counts.</h1>
