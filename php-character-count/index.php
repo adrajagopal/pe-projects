@@ -68,7 +68,7 @@ if (isset($_POST["submitted"])) {
 
 	<div class="field">
 		<label class="medium-voice">Your string</label>
-		<input type="text" name="string">
+		<input type="text" name="string" value="<?=$string?>" placeholder="Type or paste in here...">
 	</div>
 	
 	<button type="submit" name="submitted">
