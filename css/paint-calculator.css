@@ -20,9 +20,16 @@
 	margin-top: 10px;
 }
 
+.field + .field {
+	margin-top: 20px;
+
+}
+
 .field {
 	display: flex;
 	flex-direction: column;
+	margin-top: 10px;
+	border-top: 2px solid var(--paper);
 }
 
 p.field-title {
@@ -34,4 +41,9 @@ p.field-title {
 
 .measurements {
 	font-family: var(--primary-font);
+	margin-top: 5px;
+}
+
+button {
+	margin-top: 20px;
 }
