@@ -22,6 +22,10 @@ $formResult = $_POST;
 		justify-content: space-between;
 	}
 
+	h2.form-title {
+		margin-top: 5px;
+		font-weight: 600;
+	}
 	label {
 		font-family: var(--primary-font);
 		font-size: 1.25rem;
@@ -84,9 +88,9 @@ $formResult = $_POST;
 
 	<div class="field-section">
 
-		<p class="content-header large-voice">Count your characters.</p>	
+		<h2 class="content-header large-voice form-title">Count your characters.</h2>	
 
-		<div class="field">
+		<div class form-title="field">
 			<label>Your string</label>
 			<textarea type="text" name="string" value="<?=$string?>" placeholder="Type or paste in here..."></textarea>
 		</div>
