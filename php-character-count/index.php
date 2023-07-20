@@ -2,7 +2,7 @@
 
 <?php
 
-$string = 0;
+$string = '';
 $characters = 0;
 
 $formResult = $_POST;
