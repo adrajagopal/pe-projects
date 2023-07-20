@@ -19,8 +19,17 @@ $formResult = $_POST;
 		margin-top: 10px;
 	}
 
-	label, input {
+	label, textarea {
 		display: block;
+	}
+
+	textarea {
+		margin-top: 10px;
+		width: 100%;
+		max-width: 500px;
+		height: 5rem;
+		font-family: var(--secondary-font);
+		font-size: 1rem;
 	}
 
 	button {
@@ -61,6 +70,11 @@ $formResult = $_POST;
 		Count
 	</button>
 
+		<div class="field">
+			<label>Your string</label>
+			<textarea type="text" name="string" value="<?=$string?>" placeholder="Type or paste in here..."></textarea>
+		</div>
+	</div>
 
 <?php 
 	if (isset($_POST["submitted"])) {
