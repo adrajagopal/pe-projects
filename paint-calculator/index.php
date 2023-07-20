@@ -2,8 +2,12 @@
 	include("../header.php");
 ?>
 
-<?php $XXXX = 0 ?>
-
+<?php
+	$widthFeet = 0;
+	$widthInches = 0;
+	$lengthFeet = 0;
+	$lengthInches = 0;
+?>
 
 <h1 class="page-title">How much paint do you need?</h1>
 
