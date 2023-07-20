@@ -1,5 +1,17 @@
 <?php include("../header.php");?>
 
+	button {
+		background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
+		border: none;
+		border-radius: 0.5rem;
+		padding: 0.5rem 1rem;
+		font-family: var(--primary-font);
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+
+
+
 
 <h1 class="hero-title xl-voice">Character counts.</h1>
 
