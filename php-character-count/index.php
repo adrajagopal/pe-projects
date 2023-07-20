@@ -1,5 +1,12 @@
 <?php include("../header.php");?>
 
+<?php
+
+$characters = 0;
+
+
+
+?>
 	button {
 		background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
 		border: none;
