@@ -19,3 +19,8 @@
 .form-context + .form-context {
 	margin-top: 10px;
 }
+
+.field {
+	display: flex;
+	flex-direction: column;
+}

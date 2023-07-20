@@ -11,16 +11,33 @@
 
 <p class="form-context">We built this calculator to help you paint rooms that are perfectly rectangular with no nooks, no crannies, and no protuberant closets.</p>
 
-<form action="">
+<form>
 	<div class="field">
-		<label for="">Room length</label>
-		<input type="text">
-		<input type="text">
+		<p>Length</p>
+		<div class="measurements">
+			<label for="">Feet</label>
+			<input type="number" name="Feet" min="0">
+			<label>Inches</label>
+			<input type="number"
+				name="Inches"
+				min="0"
+				max="12"
+			>
+		</div>
 	</div>
-	<div class="field">
-		<label for="">Room width</label>
-		<input type="text">
-		<input type="text">
+
+		<div class="field">
+		<p>Width</p>
+		<div class="measurements">
+			<label for="">Feet</label>
+			<input type="number" name="Feet" min="0">
+			<label>Inches</label>
+			<input type="number"
+				name="Inches"
+				min="0"
+				max="12"
+			>
+		</div>
 	</div>
 	<button>Calculate</button>
 </form>
