@@ -9,13 +9,17 @@ $formResult = $_POST;
 
 if (isset($_POST["submitted"])) {
 
-	echo "Submitted";
-
 	$string = $_POST["string"];
 
 	$characters = strlen($string);
 
-	echo "Your input, \"" . $string . "\" is " . $characters . " characters long.";
+	if (isset($string) and $characters > 0) {
+		echo "Your input, \"" . $string . "\" is " . $characters . " characters long.";
+	}
+
+	else {
+		echo "Please enter a string of at least 1 character.";
+	}
 }
 
 ?>
