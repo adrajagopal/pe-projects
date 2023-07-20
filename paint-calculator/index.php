@@ -55,6 +55,37 @@
 			>
 		</div>
 	</div>
+
+<?php
+	if (isset($_POST["submitted"])) {
+
+		$widthFeet = $_POST["widthFeet"];
+		$widthInches = $_POST["widthInches"];
+		$lengthFeet = $_POST["lengthFeet"];
+		$lengthInches = $_POST["lengthInches"];
+
+		if (isset($widthFeet) OR isset($widthInches)) {
+			if ($widthFeet + $widthInches > 0) { // "are one of ft or inches > 0?"
+				$widthSum = $widthFeet + ($widthInches / 12);
+				// echo $widthSum;
+			}
+
+			elseif ($widthFeet + $widthInches === 0) { //just being overly explicit here
+				// echo "Please enter at least one positive value for width.";
+			}
+		}
+
+		if (isset($lengthFeet) OR isset($lengthInches)) {
+			if ($lengthFeet + $lengthInches > 0) { // "are one of ft or inches > 0?"
+				$lengthSum = $lengthFeet + ($lengthInches / 12);
+				// echo $lengthSum;
+			}
+
+			elseif ($lengthFeet + $lengthInches === 0) { //just being overly explicit here
+				// echo "Please enter at least one positive value for length.";
+			}
+		}
+
 	<button type="submit" name="submitted">Calculate</button>
 </form>
 
