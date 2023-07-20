@@ -12,7 +12,14 @@ $formResult = $_POST;
 <style>
 	form {
 		margin-top: 10px;
-		border: 2px solid var(--splash-primary);
+		padding: 10px;
+		border: 1px solid var(--paper);
+		border-radius: 0.5em;
+		width: 100%;
+		min-height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
 	form > * {
@@ -23,8 +30,7 @@ $formResult = $_POST;
 		display: block;
 	}
 
-	textarea {
-		margin-top: 10px;
+	textarea {		margin-top: 10px;
 		width: 100%;
 		max-width: 500px;
 		height: 5rem;
