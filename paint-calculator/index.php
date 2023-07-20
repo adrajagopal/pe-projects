@@ -11,6 +11,8 @@
 
 <p class="form-context">We built this calculator to help you paint rooms that are perfectly rectangular with no nooks, no crannies, and no protuberant closets.</p>
 
+<h2 class="page-title">Enter your room dimensions:</h2>
+
 <form>
 	<div class="field">
 		<p class="field-title">Length</p>
