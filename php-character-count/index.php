@@ -30,7 +30,7 @@ $formResult = $_POST;
 		font-family: var(--primary-font);
 		font-size: 1.25rem;
 		font-weight: 600;
-		color: var(--paper);
+		color: var(--ink);
 		margin-top: 20px;
 	}
 
@@ -50,13 +50,14 @@ $formResult = $_POST;
 	button {
 		background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
 		color: var(--ink-dark);
-		border: none;
+		border: 1px solid var(--splash-primary);
 		border-radius: 0.5rem;
 		padding: 0.5rem 1rem;
 		font-family: var(--primary-font);
 		font-size: 1.25rem;
 		font-weight: 600;
 		margin-top: 20px;
+		margin-bottom: 5px;
 	}
 
 	button:hover {
@@ -77,8 +78,29 @@ $formResult = $_POST;
 	.warning {
 		margin-top: 20px;
 		border-top: 2px solid #FF9D8A;
-		color: #FF9D8A;
+		color: #FF6D50;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		textarea {
+			background-color: var(--ink-dark);
+			color: var(--paper-light);
+			border: 1px solid var(--paper);
+		}
+		
+		textarea::placeholder {
+ 			color: #A1AA97;
+		}
+
+		label {
+			color: var(--paper);
+		}
+
+		.warning {
+			color: #FF9D8A;
+		}
+	}
+
 </style>
 
 
