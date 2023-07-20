@@ -1,0 +1,23 @@
+	.resume-title {
+		margin-top: 1rem;
+	}
+
+	.job-bullet {
+		list-style-type: disc;
+		margin-left: 20px;
+		margin-top: 0.5rem;
+	}
+
+		.skill-list {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+
+	.skill-list .skill {
+		padding: 0.25em 0.5em;
+		border-radius: 0.5em;
+		background-color: var(--splash-primary);
+		color: var(--ink-dark);
+	}
