@@ -18,43 +18,43 @@
 <h2 class="page-title">Enter your room dimensions:</h2>
 
 <form method="POST">
-	<div class="field">
-		<p class="field-title">Length</p>
+	<fieldset class="field">
+		<legend class="field-title">Length</legend>
 		<div class="measurements">
 			<label for="">Feet</label>
 			<input type="number"
 				name="lengthFeet"
 				min="0"
-				value=<?=$lengthFeet?>
+				value="<?=$lengthFeet?>"
 			>
 			<label>Inches</label>
 			<input type="number"
 				name="lengthInches"
 				min="0"
 				max="12"
-				value=<?=$lengthInches?>
+				value="<?=$lengthInches?>"
 			>
 		</div>
-	</div>
+	</fieldset>
 
-	<div class="field">
-		<p class="field-title">Width</p>
+	<fieldset class="field">
+		<legend class="field-title">Width</legend>
 		<div class="measurements">
 			<label for="">Feet</label>
 			<input type="number"
 				name="widthFeet"
 				min="0"
-				value=<?=$widthFeet?>
+				value="<?=$widthFeet?>"
 			>
 			<label>Inches</label>
 			<input type="number"
 				name="widthInches"
 				min="0"
 				max="12"
-				value=<?=$widthInches?>
+				value="<?=$widthInches?>"
 			>
 		</div>
-	</div>
+	</fieldset>
 
 <?php
 	if (isset($_POST["submitted"])) {
@@ -110,6 +110,10 @@
 	<?php }
 
 		} ?>
+
+	<div class="hsl-slider" style="height=200px; width=200px; color:white;">
+		Change color here
+	</div>
 
 <!-- 
 	* Ask user for length in feet and inches
