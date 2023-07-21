@@ -17,7 +17,7 @@
 	<li>
 		<a href="graphics">
 			<picture>
-				<img src="graphics/images/bf-milk.jpg" alt="">
+				<img src="graphics/images/graphics.jpg" alt="">
 				<p class="xl-voice">Graphics</p>
 			</picture>
 		</a>
