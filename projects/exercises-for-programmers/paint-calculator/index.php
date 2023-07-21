@@ -111,7 +111,7 @@
 
 		} ?>
 
-	<div class="hsl-slider" style="height=200px; width=200px; color:white;">
+	<div class="hsl-slider" style="height:200px; width:200px; color:white;">
 		Change color here
 	</div>
 
