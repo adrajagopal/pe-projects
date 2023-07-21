@@ -11,8 +11,19 @@
 	<a href="https://pragprog.com/titles/bhwb/exercises-for-programmers/" target="_blank">Exercises for Programmers</a> is a book of more than 50 practice exercises with real applications. Here are a few I've done.
 </p>
 
-<ul class="content-body medium-voice">
-	
+<ul role="list" class="content-body medium-voice bulleted-list">
+	<?php 
+		include("exercises-for-programmers/e4p-list.php");
+
+		foreach ($e4pExercises as $project) {
+			$name = $project["name"];
+			$description = $project["description"];
+			$link = $project["link"];
+		?>
+			<li>
+				<p><a href="<?=$link?>"><?=$name?></a>: <?=$description?></p>
+			</li>
+	<?php	} ?>
 </ul>
 
 
