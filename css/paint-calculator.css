@@ -1,7 +1,7 @@
 .page-title {
 	font-family: var(--primary-font);
 	font-size: 2rem;
-	color: var(--paper);
+	color: var(--ink-dark);
 	font-weight: 600;
 	margin-top: 20px;
 }
@@ -9,7 +9,7 @@
 .form-context {
 	font-family: var(--primary-font);
 	font-size: 1rem;
-	color: var(--paper);
+	color: var(--ink-dark);
 }
 
 .form-context:nth-of-type(1) {
@@ -33,13 +33,13 @@ fieldset {
 }
 
 label {
-	color: var(--paper);
+	color: var(--ink-dark);
 }
 
 legend.field-title {
 	font-family: var(--primary-font);
 	font-weight: 600;
-	color: var(--paper);
+	color: var(--ink-dark);
 	font-size: 1.25rem;
 }
 
