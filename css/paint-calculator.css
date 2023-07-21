@@ -44,6 +44,32 @@ p.field-title {
 	margin-top: 5px;
 }
 
+.measurements input {
+	border: 1px solid var(--splash-primary);
+	border-radius: 0.5rem;
+	background-color: snow;
+	padding: 0.5rem;
+	width: 5rem;
+}
+
 button {
+	display: block;
+	padding: 0.5rem 1.5rem;
+	font-size: 1.25rem;
 	margin-top: 20px;
+	border: none;
+	border-radius: 1rem;
+	background-color: var(--splash-secondary);
+	color: var(--paper-light);
+	font-family: var(--primary-font);
+}
+
+p.form-results {
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 0.5rem;
+	background-color: var(--splash-primary);
+	color: var(--ink-dark);
+	font-family: var(--primary-font);
+	font-weight: 700;
 }
