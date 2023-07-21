@@ -16,14 +16,8 @@
 		include("exercises-for-programmers/e4p-list.php");
 
 		foreach ($e4pExercises as $project) {
-			$name = $project["name"];
-			$description = $project["description"];
-			$link = $project["link"];
-		?>
-			<li>
-				<p><a href="projects/exercises-for-programmers/<?=$link?>"><?=$name?></a>: <?=$description?></p>
-			</li>
-	<?php	} ?>
+			include("exercises-for-programmers/e4p-card.php");
+	} ?>
 </ul>
 
 

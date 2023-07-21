@@ -13,12 +13,4 @@ $e4pExercises = [
 	]
 ];
 
-
-//Why doesn't this work right if i do the loop in here?
-// foreach ($e4pExercises as $project) {
-// 	$name = $project["name"];
-// 	$description = $project["description"];
-// 	$link = $project["link"];
-// }
-
 ?>
