@@ -18,6 +18,7 @@
 	.page-title, .form-context, label, legend.field-title, p.form-results {
 		color: var(--paper-light);
 	}
+}
 
 .form-context:nth-of-type(1) {
 	margin-top: 20px;
