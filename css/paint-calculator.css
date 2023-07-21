@@ -26,8 +26,8 @@ fieldset + fieldset {
 
 
 fieldset {
-/*	display: flex;
-	flex-direction: column;*/
+	display: flex;
+	flex-direction: column;
 	margin-top: 10px;
 	border-top: 2px solid var(--paper);
 }
