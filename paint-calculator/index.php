@@ -92,7 +92,7 @@
 		// Step 3 - Get multiplied room area & rounded gallon number
 		if (isset($widthSum) AND isset($lengthSum) AND ($widthSum * $lengthSum > 0)) {
 			$roomArea = $widthSum * $lengthSum;
-			$gallons = ceil($roomArea/350);
+			$gallons = intval(ceil($roomArea/350));
 		}
 
 	}
