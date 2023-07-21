@@ -1,4 +1,4 @@
-<?php include("../header.php");?>
+<?php include("../../../header.php");?>
 
 <?php
 
@@ -147,4 +147,4 @@ $formResult = $_POST;
 </form>
 
 
-<?php include("../footer.php")?>
+<?php include("../../../footer.php")?>
