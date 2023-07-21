@@ -73,7 +73,7 @@
 			}
 
 			elseif ($widthFeet + $widthInches === 0) { //just being overly explicit here
-				// echo "Please enter at least one positive value for width.";
+				echo "<p 'class=content-body medium-voice'> Please enter at least one positive value for width. </p>";
 			}
 		}
 
@@ -85,7 +85,7 @@
 			}
 
 			elseif ($lengthFeet + $lengthInches === 0) { //just being overly explicit here
-				// echo "Please enter at least one positive value for length.";
+				echo "<p 'class=content-body medium-voice'> Please enter at least one positive value for length. </p>";
 			}
 		}
 
