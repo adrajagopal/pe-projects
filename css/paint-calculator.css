@@ -1,7 +1,6 @@
 .page-title {
 	font-family: var(--primary-font);
 	font-size: 2rem;
-	color: var(--ink-dark);
 	font-weight: 600;
 	margin-top: 20px;
 }
@@ -9,8 +8,16 @@
 .form-context {
 	font-family: var(--primary-font);
 	font-size: 1rem;
+}
+
+.page-title, .form-context, label, legend.field-title, p.form-results {
 	color: var(--ink-dark);
 }
+
+@media (prefers-color-scheme: dark) {
+	.page-title, .form-context, label, legend.field-title, p.form-results {
+		color: var(--paper-light);
+	}
 
 .form-context:nth-of-type(1) {
 	margin-top: 20px;
@@ -32,14 +39,9 @@ fieldset {
 	border-top: 2px solid var(--paper);
 }
 
-label {
-	color: var(--ink-dark);
-}
-
 legend.field-title {
 	font-family: var(--primary-font);
 	font-weight: 600;
-	color: var(--ink-dark);
 	font-size: 1.25rem;
 }
 
@@ -74,7 +76,6 @@ p.form-results {
 	padding: 10px;
 	border-radius: 0.5rem;
 	background-color: var(--splash-primary);
-	color: var(--ink-dark);
 	font-family: var(--primary-font);
 	font-weight: 700;
 }
