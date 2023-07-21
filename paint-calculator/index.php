@@ -94,13 +94,22 @@
 			$roomArea = $widthSum * $lengthSum;
 			$gallons = intval(ceil($roomArea/350));
 		}
-
 	}
 ?>
 
-
 	<button type="submit" name="submitted">Calculate</button>
 </form>
+
+
+<?php if (isset($gallons)) { 
+			if ($gallons === 1) { ?>
+				<p class="form-results">Your room is <?=$roomArea?> square feet, so you'll only need <?=$gallons?> gallon to paint it.</p>
+	<?php }
+			elseif ($gallons > 1) { ?>
+				<p class="form-results">Your room is <?=$roomArea?> square feet, and you'll need <?=$gallons?> gallons to paint it.</p>
+	<?php }
+
+		} ?>
 
 <!-- 
 	* Ask user for length in feet and inches
