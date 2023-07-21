@@ -7,10 +7,10 @@
 
 <ul class="work-list">
 	<li>
-		<a href="graphics">
+		<a href="projects">
 			<picture>
-				<img src="graphics/images/bf-milk.jpg" alt="">
-				<p class="xl-voice">Graphics made in Affinity Designer</p>
+				<img src="graphics/images/code.jpg" alt="">
+				<p class="xl-voice">Code</p>
 			</picture>
 		</a>
 	</li>
@@ -18,7 +18,7 @@
 		<a href="graphics">
 			<picture>
 				<img src="graphics/images/bf-milk.jpg" alt="">
-				<p class="xl-voice">Graphics made in Affinity Designer</p>
+				<p class="xl-voice">Graphics</p>
 			</picture>
 		</a>
 	</li>
