@@ -45,6 +45,7 @@
 	
 	<fieldset class="field radio">
 		<legend>Multiple choice</legend>
+		<p class="warning">warning</p>
 		<div class="label-input-group">
 			<input type="radio">
 			<label for="">Attr1</label>
