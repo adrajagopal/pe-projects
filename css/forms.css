@@ -56,6 +56,13 @@ input, textarea {
 .label-input-group + .label-input-group {
 	margin-top: 1.25rem;
 }
+
+.radio .label-input-group {
+	border: 2px solid white;
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 textarea {
