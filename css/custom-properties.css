@@ -1,12 +1,15 @@
 /*Custom properties comment*/
 
 body {
-	--paper-light: #F8F6F4; /* bright white */
-	--paper: #EBE4DE; /*darker white */
-	--splash-primary: #E3BDA6;  /* pinkish */
-	--splash-secondary: #344F68; /* dark blue*/
-	--ink: #852F2C; /* #616B56; olive */
-	--ink-dark: #361312; /* #3C4434; dark olive */
+	--paper-light: HSL(30,22%,96%); /* bright white */
+	--paper: HSL(28,25%,90%); /* darker white */
+	--splash-primary: HSL(23,52%,77%); /* pinkish */
+	--splash-secondary: HSL(37,80%,53%); /* marigold-ish?*/
+	--ink: HSL(2,50%,35%); /* maroon */
+	--ink-dark: HSL(2,50%,14%); /* dark maroon */
+	--warning-light: HSL(10,100%,50%); /* salmon-ish */
+	--warning-dark: HSL(10,100%,75%); /* bold red salmon-ish */
+
 
 
 	--primary-font: "Work Sans";
