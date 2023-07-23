@@ -20,7 +20,9 @@ legend {
 
 
 .warning {
-
+	margin-top: 20px;
+	border-top: 2px solid var(--warning-dark);
+	color: var(--warning-dark);
 }
 
 
@@ -99,12 +101,6 @@ button:active {
 	border-top: 2px solid var(--paper);
 }
 
-.warning {
-	margin-top: 20px;
-	border-top: 2px solid #FF9D8A;
-	color: #FF6D50;
-}
-
 @media (prefers-color-scheme: dark) {
 	textarea {
 		background-color: var(--ink-dark);
@@ -121,6 +117,7 @@ button:active {
 	}
 
 	.warning {
-		color: #FF9D8A;
+		color: var(--warning-light);
+		border-top: 2px solid var(--warning-light);
 	}
 }

@@ -1,16 +1,14 @@
 /*Custom properties comment*/
 
 body {
-	--paper-light: HSL(30,22%,96%); /* bright white */
-	--paper: HSL(28,25%,90%); /* darker white */
-	--splash-primary: HSL(23,52%,77%); /* pinkish */
-	--splash-secondary: HSL(37,80%,53%); /* marigold-ish?*/
-	--ink: HSL(2,50%,35%); /* maroon */
-	--ink-dark: HSL(2,50%,14%); /* dark maroon */
-	--warning-light: HSL(10,100%,50%); /* salmon-ish */
-	--warning-dark: HSL(10,100%,75%); /* bold red salmon-ish */
-
-
+	--paper-light: HSL(30,25%,95%); /* bright white */
+	--paper: HSL(30,25%,90%); /* darker white */
+	--splash-primary: HSL(23,50%,75%); /* pinkish */
+	--splash-secondary: HSL(37,80%,50%); /* marigold-ish?*/
+	--ink: HSL(2,50%,40%); /* maroon */
+	--ink-dark: HSL(2,50%,15%); /* dark maroon */
+	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
+	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
 
 	--primary-font: "Work Sans";
 	--secondary-font: "Baskerville";
