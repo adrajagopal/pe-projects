@@ -91,7 +91,7 @@
 	
 </form>
 
-<p class="form-output">Here's your output.</p>
+<p class="form-result">Here's your output.</p>
 
 
 <?php include("footer.php")?>

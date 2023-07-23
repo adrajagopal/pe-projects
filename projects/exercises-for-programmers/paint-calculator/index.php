@@ -9,18 +9,18 @@
 	$lengthInches = 0;
 ?>
 
-<h1 class="page-title">How much paint do you need?</h1>
+<h1 class="content-header xxl-voice">How much paint do you need?</h1>
 
-<p class="form-context">When you're buying paint, you never want to run out too soon. Every gallon of paint covers 350-ish square feet, but then you spill some, need to repaint some sections, and you might want to have an extra gallon lying around to cover up scuffs and patch holes.</p>
+<p class="medium-voice">When you're buying paint, you never want to run out too soon. Every gallon of paint covers 350-ish square feet, but then you spill some, need to repaint some sections, and you might want to have an extra gallon lying around to cover up scuffs and patch holes.</p>
 
-<p class="form-context">We built this calculator to help you paint rooms that are perfectly rectangular with no nooks, no crannies, and no protuberant closets.</p>
+<p class="medium-voice">We built this calculator to help you paint rooms that are perfectly rectangular with no nooks, no crannies, and no protuberant closets.</p>
 
-<h2 class="page-title">Enter your room dimensions:</h2>
+<h2 class="content-subheader xl-voice">Enter your room dimensions:</h2>
 
 <form method="POST">
-	<fieldset class="field">
-		<legend class="field-title">Length</legend>
-		<div class="measurements">
+	<fieldset class="field short-text">
+		<legend>Length</legend>
+		<div class="label-input-group">
 			<label for="">Feet</label>
 			<input type="number"
 				name="lengthFeet"
@@ -37,9 +37,9 @@
 		</div>
 	</fieldset>
 
-	<fieldset class="field">
-		<legend class="field-title">Width</legend>
-		<div class="measurements">
+	<fieldset class="field short-text">
+		<legend>Width</legend>
+		<div class="label-input-group">
 			<label for="">Feet</label>
 			<input type="number"
 				name="widthFeet"
@@ -103,10 +103,10 @@
 
 <?php if (isset($gallons)) { 
 			if ($gallons === 1) { ?>
-				<p class="form-results">Your room is <?=$roomArea?> square feet, so you'll only need <?=$gallons?> gallon to paint it.</p>
+				<p class="form-result">Your room is <?=$roomArea?> square feet, so you'll only need <?=$gallons?> gallon to paint it.</p>
 	<?php }
 			elseif ($gallons > 1) { ?>
-				<p class="form-results">Your room is <?=$roomArea?> square feet, and you'll need <?=$gallons?> gallons to paint it.</p>
+				<p class="form-result">Your room is <?=$roomArea?> square feet, and you'll need <?=$gallons?> gallons to paint it.</p>
 	<?php }
 
 		} ?>
