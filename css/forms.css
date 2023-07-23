@@ -32,18 +32,30 @@ legend {
 
 label {
 	font-family: var(--primary-font);
-	font-size: 1.25rem;
-	font-weight: 600;
+	font-size: 1rem;
 	color: var(--ink);
-	margin-top: 20px;
 }
 
-input {
 
+/*Input styling*/
+
+
+input, textarea {
+	padding: 0.5rem 1rem;
+	margin-top: 0.5rem;
+}
+
+.short-text input, .long-text textarea {
+	border-radius: 0.5rem;
 }
 
 .label-input-group {
+	margin-top: 0.5rem;
+}
 
+.label-input-group + .label-input-group {
+	margin-top: 1.25rem;
+}
 }
 
 textarea {
@@ -55,8 +67,22 @@ textarea {
 	font-size: 1rem;
 }
 
-.submit-container {
+.slider .label-input-group {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.slider .label-input-group input {
+	width: 100%;
+	fill: salmon;
+}
+
+
+.submit-container {
+	margin-top: 2rem;
+	border-top: 2px solid var(--paper);
 }
 
 .form-output {
@@ -99,7 +125,7 @@ button {
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
 	font-family: var(--primary-font);
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: 600;
 	margin-top: 20px;
 	margin-bottom: 5px;
