@@ -5,6 +5,8 @@ body {
 	--paper: HSL(30,25%,90%); /* darker white */
 	--splash-primary: HSL(23,50%,75%); /* pinkish */
 	--splash-secondary: HSL(37,80%,50%); /* marigold-ish?*/
+	--splash-secondary-pale: HSL(37,80%,75%); /* marigold-ish?*/
+	--splash-secondary-dark: HSL(37,80%,25%); /* marigold-ish?*/
 	--ink: HSL(2,50%,40%); /* maroon */
 	--ink-dark: HSL(2,50%,15%); /* dark maroon */
 	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
