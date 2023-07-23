@@ -25,8 +25,9 @@ legend {
 }
 
 .warning {
-	margin-top: 20px;
-	border-top: 2px solid var(--warning-dark);
+	margin-top: 0.25rem;
+	padding-left: 0.5rem;
+	border-left: 2px solid var(--warning-dark);
 	color: var(--warning-dark);
 }
 
@@ -172,6 +173,6 @@ button:active {
 
 	.warning {
 		color: var(--warning-light);
-		border-top: 2px solid var(--warning-light);
+		border-left: 2px solid var(--warning-light);
 	}
 }
