@@ -1,32 +1,28 @@
-.page-title {
-	font-family: var(--primary-font);
-	font-size: 2rem;
-	font-weight: 600;
-	margin-top: 20px;
-}
-
-.form-context {
-	font-family: var(--primary-font);
-	font-size: 1rem;
-}
-
-.page-title, .form-context, label, legend.field-title, p.form-results {
-	color: var(--ink-dark);
-}
-
-@media (prefers-color-scheme: dark) {
-	.page-title, .form-context, label, legend.field-title, p.form-results {
-		color: var(--paper-light);
-	}
-}
-
-.form-context:nth-of-type(1) {
-	margin-top: 20px;
-}
-
-.form-context + .form-context {
+form {
 	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid var(--paper);
+	border-radius: 0.5em;
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+
+.field {
+
+}
+
+legend {
+
+}
+
+
+.warning {
+
+}
+
 
 fieldset + fieldset {
 	margin-top: 2rem;
@@ -38,12 +34,6 @@ fieldset {
 	flex-direction: column;
 	margin-top: 10px;
 	border-top: 2px solid var(--paper);
-}
-
-legend.field-title {
-	font-family: var(--primary-font);
-	font-weight: 600;
-	font-size: 1.25rem;
 }
 
 .measurements {
@@ -60,45 +50,6 @@ legend.field-title {
 	margin-top: 0.5rem;
 }
 
-button {
-	display: block;
-	padding: 0.5rem 1.5rem;
-	font-size: 1.25rem;
-	margin-top: 20px;
-	border: none;
-	border-radius: 1rem;
-	background-color: var(--splash-secondary);
-	color: var(--paper-light);
-	font-family: var(--primary-font);
-}
-
-p.form-results {
-	margin-top: 20px;
-	padding: 10px;
-	border-radius: 0.5rem;
-	background-color: var(--splash-primary);
-	font-family: var(--primary-font);
-	font-weight: 700;
-}
-
-/* from paint calculator */
-
-form {
-		margin-top: 10px;
-		padding: 10px;
-		border: 1px solid var(--paper);
-		border-radius: 0.5em;
-		width: 100%;
-		min-height: 300px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-}
-
-h2.form-title {
-	margin-top: 5px;
-	font-weight: 600;
-}
 label {
 	font-family: var(--primary-font);
 	font-size: 1.25rem;
@@ -121,7 +72,7 @@ textarea {
 }
 
 button {
-	background-image: linear-gradient(45deg, var(--splash-primary) 30%, var(--paper), var(--paper-light));
+	background-image: var(--splash-secondary);
 	color: var(--ink-dark);
 	border: 1px solid var(--splash-primary);
 	border-radius: 0.5rem;
