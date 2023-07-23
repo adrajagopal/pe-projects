@@ -61,7 +61,6 @@
 			<input type="radio">
 			<label for="">Attr4</label>
 		</div>
-		<p class="warning">warning</p>
 	</fieldset>
 	
 	<fieldset class="field buttons">
@@ -83,11 +82,11 @@
 	
 	<fieldset class="field slider">
 		<legend>Range slider</legend>
+		<p class="warning">warning</p>
 		<div class="label-input-group">
 			<input type="range" min="0" max="40" step="5">
 			<label for="">0-40, incr = 5</label>
 		</div>
-		<p class="warning">warning</p>
 	</fieldset>
 	
 	<div class="submit-container">
