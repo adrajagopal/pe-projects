@@ -141,7 +141,7 @@ em {
 	font-style: italic;
 }
 
-p, ul, ol, .medium-voice {
+p, ul, ol, legend, .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
