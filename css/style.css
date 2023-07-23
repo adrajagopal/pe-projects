@@ -230,15 +230,11 @@ a, p a {
 
 @media (prefers-color-scheme: dark) {
 
-	.site-header, .site-footer {
-		background-color: var(--splash-secondary);
-	}
-
 	body {
 		background-color: var(--ink-dark);
 	}
 
-	p, ul, ol, .medium-voice, .small-voice, .website-title {
+	p, ul, ol, .medium-voice, .small-voice {
 		color: var(--paper-light);
 	}
 
@@ -259,7 +255,7 @@ a, p a {
 		font-weight: 700;
 	}
 
-	a, p a {
+	a:not(.site-nav a, .site-footer a), p a {
 		color: var(--splash-primary);
 		text-decoration: underline;
 	}	
