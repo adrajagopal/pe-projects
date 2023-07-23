@@ -21,7 +21,7 @@ form {
 }
 
 legend {
-
+	padding-right: 0.5rem;
 }
 
 .warning {
@@ -29,6 +29,7 @@ legend {
 	padding-left: 0.5rem;
 	border-left: 2px solid var(--warning-dark);
 	color: var(--warning-dark);
+	font-size: 0.9rem;
 }
 
 label {
@@ -37,17 +38,15 @@ label {
 	color: var(--ink);
 }
 
-
 /*Input styling*/
-
-
-input, textarea {
-	padding: 0.5rem 1rem;
-	margin-top: 0.5rem;
-}
 
 .short-text input, .long-text textarea {
 	border-radius: 0.5rem;
+	border: 1px solid var(--splash-primary);
+	background-color: var(--paper-light);
+	padding: 0.5rem 1rem;
+	margin-top: 0.5rem;
+	font-family: var(--primary-font);
 }
 
 .label-input-group {
@@ -59,20 +58,11 @@ input, textarea {
 }
 
 .radio .label-input-group {
-	border: 2px solid white;
+	border: 2px solid red;
 	padding: 0.5rem;
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
-}
-
-textarea {
-	margin-top: 10px;
-	width: 100%;
-	max-width: 500px;
-	height: 5rem;
-	font-family: var(--secondary-font);
-	font-size: 1rem;
 }
 
 .slider .label-input-group {
@@ -87,14 +77,9 @@ textarea {
 	fill: salmon;
 }
 
-
 .submit-container {
 	margin-top: 2rem;
 	border-top: 2px solid var(--paper);
-}
-
-.form-output {
-
 }
 
 fieldset + fieldset {
@@ -108,23 +93,6 @@ fieldset {
 	margin-top: 10px;
 	border-top: 2px solid var(--paper);
 }
-
-/* Specific form module styling */
-
-.measurements {
-	font-family: var(--primary-font);
-	margin-top: 5px;
-}
-
-.measurements input {
-	border: 1px solid var(--splash-primary);
-	border-radius: 0.5rem;
-	background-color: snow;
-	padding: 0.5rem;
-	width: 10rem;
-	margin-top: 0.5rem;
-}
-
 
 button {
 	background-color: var(--splash-secondary);
@@ -152,6 +120,18 @@ button:active {
 .feedback {
 	margin-top: 20px;
 	border-top: 2px solid var(--paper);
+}
+
+p.form-result {
+	font-family: var(--primary-font);
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-top: 2rem;
+	padding: 1rem;
+	border: 2px solid var(--splash-secondary);
+	border-radius: 0.5rem;
+	background-color: var(--paper);
+	color: var(--ink);
 }
 
 /*Dark mode*/
