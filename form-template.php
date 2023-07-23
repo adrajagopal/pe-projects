@@ -66,18 +66,10 @@
 	
 	<fieldset class="field buttons">
 		<legend>Button options</legend>
-		<div class="label-input-group">
 			<input type="button" value="Attr1">
-		</div>
-		<div class="label-input-group">
-			<input type="button" value="Attr1">
-		</div>
-		<div class="label-input-group">
-			<input type="button" value="Attr1">
-		</div>
-		<div class="label-input-group">
-			<input type="button" value="Attr1">
-		</div>
+			<input type="button" value="Attr2">
+			<input type="button" value="Attr3">
+			<input type="button" value="Attr4">
 		<p class="warning">warning</p>
 	</fieldset>
 	
