@@ -234,7 +234,7 @@ a, p a {
 		background-color: var(--ink-dark);
 	}
 
-	p, ul, ol, .medium-voice, .small-voice {
+	p, ul, ol, legend, .medium-voice, .small-voice {
 		color: var(--paper-light);
 	}
 
