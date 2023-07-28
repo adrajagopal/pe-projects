@@ -1,10 +1,10 @@
 @import "meyer-reset.css";
 @import "setup.css";
-@import "custom-properties";
+@import "custom-properties.css";
 @import "forms.css";
 
 
 h1, h2, h3, p, nav {
-	font-family: "Space Grotesk";
-	color: blue;
+	font-family: var(--primary-font);
+	color: var(--ink);
 }
