@@ -1,0 +1,31 @@
+.gallery-card {
+	border: 2px solid var(--splash);
+	background-color: var(--splash);
+	border-radius: 1em;
+	padding: 0.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 275px;
+}
+
+.gallery-card picture {
+	width: 250px;
+	height: auto;
+}
+
+.gallery-card img {
+	border-radius: 0.5rem;
+}
+
+.gallery-card .large-voice, .gallery-card a.medium-voice {
+	margin-top: 0.5rem;
+}
+
+.gallery-card p {
+	color: white;
+}
+
+.gallery-card a {
+	color: var(--paper-light);
+}
