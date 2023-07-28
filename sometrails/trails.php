@@ -16,7 +16,7 @@
 
 		<div class="gallery-card">
 			<a href="" class="clickable-pic">
-				<picture><img src="images/sometrails-icon.jpg" alt=""></picture>
+				<picture><img src="https://d138k1rt4vd1y.cloudfront.net/wp-content/uploads/sites/27/2017/01/3_raymerscove_lg.jpg" alt=""></picture>
 			</a>
 			<div class="gallery-card-text">
 				<p class="large-voice">Trail Name</p>
