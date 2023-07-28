@@ -6,6 +6,7 @@ body {
 	--splash: HSL(25,75%,50%); /* brown-orange*/
 	--splash-pale: HSL(25,75%,90%); /* paler*/
 	--splash-dark: HSL(25,75%,25%); /* darker*/
+	--splash-blur: HSLA(25,75%,25%,90%);
 	--ink: HSL(130,50%,30%); /* rich green */
 	--ink-dark: HSL(130,50%,10%); /* dark green */
 	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
