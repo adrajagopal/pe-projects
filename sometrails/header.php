@@ -11,9 +11,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<title>Document</title>
+	<title>SomeTrails</title>
 
-	<meta name="description" content="Page Description">
+	<meta name="description" content="Explore Wisconsin's best trails.">
 
 	<link rel="stylesheet" href="sometrails/css/style.css">
 
