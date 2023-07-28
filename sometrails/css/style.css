@@ -31,7 +31,18 @@ a {
 	text-decoration: underline;
 }
 
+/*Header styling*/
 
+header a picture {
+	width: 250px;
+	height: auto;
+}
+
+header .inner-column {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
 
 /*Footer styling*/
 
@@ -39,11 +50,11 @@ a {
 footer .inner-column {
 	display: flex;
 	align-items: center;	
+	gap: 5px;
 }
 
-
 .app-icon {
-	width: 100px;
+	width: 50px;
 	height: auto;
 }
 
