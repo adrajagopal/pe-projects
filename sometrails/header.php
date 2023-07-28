@@ -15,6 +15,11 @@
 
 	<meta name="description" content="Page Description">
 
+	<link rel="stylesheet" href="sometrails/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>

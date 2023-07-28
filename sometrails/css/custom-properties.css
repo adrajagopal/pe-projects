@@ -12,8 +12,8 @@ body {
 	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
 	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
 
-	--primary-font: "Work Sans";
-	--secondary-font: "Baskerville";
+	--primary-font: "Space Grotesk";
+	--secondary-font: "Space Grotesk";
 }
 
 /*Type patterns*/
