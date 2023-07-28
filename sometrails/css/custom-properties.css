@@ -1,0 +1,49 @@
+/*Custom properties comment*/
+
+body {
+	--paper-light: HSL(30,25%,95%); /* bright white */
+	--paper: HSL(30,25%,90%); /* darker white */
+	--splash-primary: HSL(23,50%,75%); /* pinkish */
+	--splash-secondary: HSL(37,80%,50%); /* marigold-ish?*/
+	--splash-secondary-pale: HSL(37,80%,75%); /* marigold-ish?*/
+	--splash-secondary-dark: HSL(37,80%,25%); /* marigold-ish?*/
+	--ink: HSL(2,50%,40%); /* maroon */
+	--ink-dark: HSL(2,50%,15%); /* dark maroon */
+	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
+	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
+
+	--primary-font: "Work Sans";
+	--secondary-font: "Baskerville";
+}
+
+/*Type patterns*/
+
+.xxl-voice {
+	font-family: var(--primary-font);
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.xl-voice {
+	font-family: var(--primary-font);
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.large-voice {
+	font-family: var(--primary-font);
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+.medium-voice {
+	font-family: var(--secondary-font);
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.small-voice {
+	font-family: var(--secondary-font);
+	font-size: 0.75rem;
+	font-weight: 400;
+}
