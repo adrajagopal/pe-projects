@@ -3,23 +3,19 @@
 @import "custom-properties.css";
 @import "forms.css";
 
-body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
 
 main {
-	flex-grow: 1;
+	background-color: var(--paper-light);
 }
 
-header {
-	border-bottom: 2px solid var(--splash);
+.inner-column {
+	padding: 0.5em 1em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
 }
 
-footer {
-	border-top: 2px solid var(--splash);
-}
+/* Typography */
 
 h1, h2, h3, p, nav {
 	font-family: var(--primary-font);
@@ -31,7 +27,12 @@ a {
 	text-decoration: underline;
 }
 
-/*Header styling*/
+/* Header styling*/
+
+header {
+	border-bottom: 2px solid var(--splash);
+	background-color: var(--splash-pale);
+}
 
 header a picture {
 	width: 250px;
@@ -44,8 +45,12 @@ header .inner-column {
 	gap: 15px;
 }
 
-/*Footer styling*/
+/* Footer styling*/
 
+footer {
+	border-top: 2px solid var(--splash);
+	background-color: var(--splash-pale);
+}
 
 footer .inner-column {
 	display: flex;

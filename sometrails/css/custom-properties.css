@@ -3,11 +3,11 @@
 body {
 	--paper-light: HSL(130,50%,90%); /* pale green */
 	--paper: HSL(130,50%,80%); /* minty */
-	--splash: HSL(25,75%,50%); /* marigold-ish?*/
-	--splash-pale: HSL(25,75%,75%); /* marigold-ish?*/
-	--splash-dark: HSL(25,75%,25%); /* marigold-ish?*/
+	--splash: HSL(25,75%,50%); /* brown-orange*/
+	--splash-pale: HSL(25,75%,90%); /* paler*/
+	--splash-dark: HSL(25,75%,25%); /* darker*/
 	--ink: HSL(130,50%,30%); /* rich green */
-	--ink-dark: HSL(130,50%,10%); /* dark maroon */
+	--ink-dark: HSL(130,50%,10%); /* dark green */
 	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
 	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
 

@@ -19,6 +19,16 @@ table {
 	border-collapse:collapse;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex-grow: 1;
+}
+
 /* Resizing images */
 
 /* Explainer: https://codepen.io/perpetual-education/pen/dyNemyW?editors=1100 */
