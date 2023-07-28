@@ -3,8 +3,48 @@
 @import "custom-properties.css";
 @import "forms.css";
 
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex-grow: 1;
+}
+
+header {
+	border-bottom: 2px solid var(--splash);
+}
+
+footer {
+	border-top: 2px solid var(--splash);
+}
 
 h1, h2, h3, p, nav {
 	font-family: var(--primary-font);
 	color: var(--ink);
 }
+
+a {
+	color: var(--splash);
+	text-decoration: underline;
+}
+
+
+
+/*Footer styling*/
+
+
+footer .inner-column {
+	display: flex;
+	align-items: center;	
+}
+
+
+.app-icon {
+	width: 100px;
+	height: auto;
+}
+
+
