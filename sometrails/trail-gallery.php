@@ -20,13 +20,13 @@
 		<?php foreach ($trails as $trail) { ?>
 
 			<div class="gallery-card">
-				<a href="trail?id=<?=$trail["id"]?>" class="clickable-pic">
+				<a href="trail.php?id=<?=$trail["id"]?>" class="clickable-pic">
 					<picture><img src="<?=$trail["portrait"]?>" alt=""></picture>
 				</a>
 				<div class="gallery-card-text">
 					<p class="large-voice"><?=$trail["name"]?></p>
 					<p class="medium-voice"><?=$trail["description"]?></p>
-					<a href="trail?id=<?=$trail["id"]?>" class="medium-voice">Get more info</a>
+					<a href="trail.php?id=<?=$trail["id"]?>" class="medium-voice">Get more info</a>
 				</div>
 			</div>
 
