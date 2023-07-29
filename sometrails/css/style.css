@@ -3,6 +3,7 @@
 @import "custom-properties.css";
 @import "forms.css";
 @import "gallery-card.css";
+@import "trail-details.css";
 
 
 
@@ -27,6 +28,10 @@ h1, h2, h3, p, nav, ul, ol, li {
 a {
 	color: var(--splash);
 	text-decoration: underline;
+}
+
+strong {
+	font-weight: 700;
 }
 
 /* Header styling*/
