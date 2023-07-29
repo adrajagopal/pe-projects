@@ -28,7 +28,7 @@
 		<section class="inner-column">
 			<a href=""><picture><img src="images/sometrails-logo.png" alt="SomeTrails logo"></picture></a>
 			<nav>
-				<a href="trails.php">Trails A-Z</a>
+				<a href="trail-gallery.php">Trails A-Z</a>
 			</nav>		
 	</header>
 
