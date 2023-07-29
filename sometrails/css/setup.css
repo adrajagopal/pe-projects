@@ -55,7 +55,7 @@ a {
 	/* inline elements can't have block elements inside! */
 }
 
-p a { /* "all links in paragraphs..." */
+p a, h2 a { /* "all links in paragraphs..." */
 	display: inline-block;
 }
 /* yes! you might also want to do this for other headings and list items etc --- this is just a basic use-case */
