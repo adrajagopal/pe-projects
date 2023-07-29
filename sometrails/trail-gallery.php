@@ -1,4 +1,7 @@
-<?php include("header.php");?>
+<?php
+	include("header.php");
+	include("trail-database.php");
+?>
 
 <div class="inner-column">
 	<h1 class="xxl-voice">Trails</h1>
@@ -14,41 +17,20 @@
 
 	<div class="gallery inner-column">
 
-		<div class="gallery-card">
-			<a href="" class="clickable-pic">
-				<picture><img src="https://d138k1rt4vd1y.cloudfront.net/wp-content/uploads/sites/27/2017/01/3_raymerscove_lg.jpg" alt=""></picture>
-			</a>
-			<div class="gallery-card-text">
-				<p class="large-voice">Trail Name</p>
-				<p class="medium-voice">Here's a short description of the trail. Here's a short description of the trail. Here's a short description of the trail. Here's a short description of the trail.</p>
-				<a href="" class="medium-voice">Get more info</a>
+		<?php foreach ($trails as $trail) { ?>
+
+			<div class="gallery-card">
+				<a href="trail?id=<?=$trail["id"]?>" class="clickable-pic">
+					<picture><img src="<?=$trail["portrait"]?>" alt=""></picture>
+				</a>
+				<div class="gallery-card-text">
+					<p class="large-voice"><?=$trail["name"]?></p>
+					<p class="medium-voice"><?=$trail["description"]?></p>
+					<a href="trail?id=<?=$trail["id"]?>" class="medium-voice">Get more info</a>
+				</div>
 			</div>
-		</div>
 
-				<div class="gallery-card">
-			<a href="" class="clickable-pic">
-				<picture><img src="images/sometrails-icon.jpg" alt=""></picture>
-			</a>
-			<div class="gallery-card-text">
-				<p class="large-voice">Trail Name</p>
-				<p class="medium-voice">Here's a short description of the trail. Here's a short description of the trail.</p>
-				<a href="" class="medium-voice">Get more info</a>
-			</div>
-		</div>
-
-
-		<div class="gallery-card">
-			<a href="" class="clickable-pic">
-				<picture><img src="images/sometrails-icon.jpg" alt=""></picture>
-			</a>
-			<div class="gallery-card-text">
-				<p class="large-voice">Trail Name</p>
-				<p class="medium-voice">Here's a short description of the trail.</p>
-				<a href="" class="medium-voice">Get more info</a>
-			</div>
-		</div>
-
-
+		<?php } ?>
 
 	</div>
 
