@@ -4,7 +4,7 @@
 ?>
 
 <section class="inner-column">
-	<nav><a href="trail-gallery.php"><-- Back to trail gallery</a></nav>
+	<nav class="go-back"><a href="trail-gallery.php"><-- Back to trail gallery</a></nav>
 
 	<?php
 		if (isset($_GET['id'])) { //first, check if querystring has id
