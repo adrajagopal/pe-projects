@@ -19,7 +19,7 @@ main {
 
 /* Typography */
 
-h1, h2, h3, p, nav {
+h1, h2, h3, p, nav, ul, ol, li {
 	font-family: var(--primary-font);
 	color: var(--ink);
 }
