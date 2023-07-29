@@ -7,7 +7,7 @@
 <head>
 	<meta charset="UTF-8">
 
-	<base href="<?=BASE_URL?>/sometrails/">
+	<base href="<?=BASE_URL?>sometrails/">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
