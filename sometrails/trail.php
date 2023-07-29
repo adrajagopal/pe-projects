@@ -1,62 +1,25 @@
 <?php
 	include("header.php");
 	include("trail-database.php");
-
-	$id = $_GET['id'];
 ?>
 
-<!-- Add logic that hides the card and shows some copy if there's no trail id in the url -->
-
-<nav><a href="trail-gallery.php"><-- Back to trail gallery</a></nav>
-
-<!--
-	1. Get the trail id from the url
-	2. Use that to look up the array
-	3. Display trail details per array
-		-portrait
-		-name
-		-city
-		-details:
-			-type
-			-length
-			-dog-friendly
-		-description
-		-activities
--->
-
 <section class="inner-column">
+	<nav><a href="trail-gallery.php"><-- Back to trail gallery</a></nav>
 
-	<picture><img src="images/sometrails-icon.jpg" alt=""></picture>
+	<?php
+		if (isset($_GET['id'])) { //first, check if querystring has id
+			$trail_id = $_GET['id']; //if yes, set it
 
-	<h1 class="xl-voice">trail name <?=$id?></h1>
+			foreach ($trails as $trail) { //then loop through and find a match in the database
+				if ($trail_id === $trail['id']) {
+					include("trail-details-card.php"); //if match found, display details
+				}
+			}
 
-	<h2 class="large-voice">city name</h2>
-
-	<ul class="medium-voice">
-		<li>Type: XX</li>
-		<li>Length: XX</li>
-		<li>Dog-friendly: XX</li>
-	</ul>
-
-	<p class="medium-voice">Trail description alsdkfa fasdlka asdf;alsd. asldfkas asd.fasd asdfasld.as dfasd.fa sdas.kjalfj woeijowe  iewqpqpqf!</p>
-
-	<div class="activity-box">
-		<ul class="activities medium-voice">
-			<?php /* foreach (condition)*/ { ?>
-				<li></li>
-			<?php } ?>
-
-		</ul>
-	</div>
-
-
-
-
+		} else { //if no match found, or if no param in querystring, then show dead-end page
+			include("dead-end.php");
+		} ?>
+				
 </section>
-
-
-
-
-
 
 <?php include("footer.php");?>
