@@ -24,9 +24,7 @@ $trails = [
 		"type" => "out and back, loop",
 		"length" => "varies",
 		"dog-friendly" => "yes",
-		"description" => "At 791 acres, Indian Lake County Park is one of Dane County's largest parks. The main entrance is located on STH 19 about two miles west of US 12. Halfway Prairie Wildlife Area, a county public hunting area located immediately north of the property, offers additional recreational opportunities.
-
-			Trails provide access around the entire lake and offer hiking, cross-country skiing, snowshoeing, and foraging. One winding trail leads to a historic chapel built in 1857, located on a hilltop with a breathtaking view of the lake and surrounding valley. A section of the Ice Age National Scenic Trail also winds through the park. The park includes a sledding hill with access to a log cabin warming house.",
+		"description" => "At 791 acres, Indian Lake County Park is one of Dane County's largest parks. Trails provide access around the entire lake and offer hiking, cross-country skiing, snowshoeing, and foraging. One winding trail leads to a historic chapel built in 1857, located on a hilltop with a breathtaking view of the lake and surrounding valley. A section of the Ice Age National Scenic Trail also winds through the park. The park includes a sledding hill with access to a log cabin warming house.",
 		"activities" => ["hiking", "biking", "dog park", "XC skiing", "sledding", "snowshoeing", "hunting/fishing", "paddling"],
 		"portrait" => "images/indian-lake.jpg"
 		],
@@ -43,11 +41,7 @@ $trails = [
 			streets in the Village of Cross Plains, the Ice Age Trail Alliance
 			headquarters, and the surprisingly remote-feeling bluffs and
 			woodlands north of town. At the edge of Cross Plains, the
-			segment continues along a connecting route toward Madison.
-			At Old Sauk Pass Road, you'll encounter the National Park
-			Service Cross Plains Interpretive site, which highlights a
-			world-renowned example of the interface of glaciated and
-			unglaciated terrain.",
+			segment continues along a connecting route toward Madison.",
 		"activities" => ["hiking", "camping"],
 		"portrait" => "images/cross-plains.jpg"
 		],  
