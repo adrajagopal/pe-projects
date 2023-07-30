@@ -92,8 +92,6 @@ fieldset {
 }
 
 button {
-	background-color: var(--ink-dark);
-	color: var(--paper-light);
 	border: 1px solid var(--splash);
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
@@ -102,17 +100,19 @@ button {
 	font-weight: 600;
 	margin-top: 20px;
 	margin-bottom: 5px;
-}
-
-button:hover {
 	background-color: var(--splash-pale);
 	color: var(--splash-secondary);
 }
 
-button:active {
+button:hover {
 	color: var(--paper-light);
 	background-color: var(--splash);
-	}
+}
+
+button:active {
+	background-color: var(--ink-dark);
+	color: var(--paper-light);
+}
 
 .feedback {
 	margin-top: 20px;
