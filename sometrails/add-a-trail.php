@@ -53,7 +53,7 @@
 				];
 
 				if (strlen($submissionName) * strlen($submissionCity) * strlen($submissionReason) * strlen($submissionReference) == 0) {
-					echo "<ul class='warning'>Please fix the following issues:</ul>";
+					echo "<p class='warning'>Please fill out all fields before submitting.</p>";
 				}
 			}
 
