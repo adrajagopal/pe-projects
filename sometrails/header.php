@@ -29,6 +29,7 @@
 			<a href=""><picture><img src="images/sometrails-logo.png" alt="SomeTrails logo"></picture></a>
 			<nav>
 				<a href="trail-gallery.php">Trails A-Z</a>
+				<a href="suggest-a-trail.php">Suggest a Trail</a>
 			</nav>		
 	</header>
 
