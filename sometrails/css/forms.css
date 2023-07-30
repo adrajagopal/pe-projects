@@ -16,10 +16,6 @@ form {
 	justify-content: space-between;
 }
 
-.field {
-
-}
-
 legend {
 	padding-right: 0.5rem;
 }
@@ -42,8 +38,8 @@ label {
 
 .short-text input, .long-text textarea {
 	border-radius: 0.5rem;
-	border: 1px solid var(--splash-primary);
-	background-color: var(--paper-light);
+	border: 1px solid var(--splash);
+	background-color: snow;
 	padding: 0.5rem 1rem;
 	margin-top: 0.5rem;
 	font-family: var(--primary-font);
@@ -96,9 +92,9 @@ fieldset {
 }
 
 button {
-	background-color: var(--splash-secondary);
-	color: var(--ink-dark);
-	border: 1px solid var(--splash-primary);
+	background-color: var(--ink-dark);
+	color: var(--paper-light);
+	border: 1px solid var(--splash);
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
 	font-family: var(--primary-font);
@@ -109,13 +105,13 @@ button {
 }
 
 button:hover {
-	background-color: var(--splash-secondary-pale);
+	background-color: var(--splash-pale);
 	color: var(--splash-secondary);
 }
 
 button:active {
-	color: var(--splash-secondary-dark);
-	background-color: var(--splash-secondary);
+	color: var(--paper-light);
+	background-color: var(--splash);
 	}
 
 .feedback {
@@ -144,6 +140,11 @@ p.form-result {
 		border: 1px solid var(--paper);
 	}
 	
+	.short-text input, .long-text textarea {
+		background-color: var(--paper-light);
+		color: var(--ink-dark);
+	}
+
 	textarea::placeholder {
 			color: #A1AA97;
 	}
@@ -155,5 +156,21 @@ p.form-result {
 	.warning {
 		color: var(--warning-light);
 		border-left: 2px solid var(--warning-light);
+	}
+
+	button {
+	background-color: var(--paper);
+	color: var(--ink-dark);
+	border-color: var(--ink);
+	}
+
+	button:hover {
+		background-color: var(--splash-pale);
+		color: var(--splash-secondary);
+	}
+
+	button:active {
+		color: var(--paper-light);
+		background-color: var(--splash);
 	}
 }
