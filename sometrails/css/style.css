@@ -20,7 +20,7 @@ main {
 
 /* Typography */
 
-h1, h2, h3, p, nav, ul, ol, li {
+h1, h2, h3, p, nav, ul, ol, li, legend {
 	font-family: var(--primary-font);
 	color: var(--ink);
 }
@@ -68,6 +68,24 @@ footer .inner-column {
 .app-icon {
 	width: 50px;
 	height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+	header, footer {
+		background-color: var(--splash-dark);
+	}
+
+	main {
+		background-color: var(--ink-dark);
+	}
+	
+	h1, h2, h3, p, nav, ul, ol, li, legend {
+	color: var(--paper);
+	}
+
+	a {
+		color: var(--splash-pale);
+	}
 }
 
 
