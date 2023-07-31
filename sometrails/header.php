@@ -1,4 +1,8 @@
-<?php include("../config.php"); ?>
+<?php
+	include("../config.php");
+	include("get-current-path.php");
+?>
+
 
 <!doctype html>
 
@@ -22,12 +26,6 @@
 </head>
 
 <body>
-	
-<?php
-	$currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-
-	$trimmedPath = str_replace('/alpha-7/ad/sometrails/', '', $currentPath);
-?>
 
 	<header>
 		<section class="inner-column">
