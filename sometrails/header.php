@@ -26,7 +26,7 @@
 <?php
 	$currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-	$trimmedPath = str_replace('/sometrails/', '', $currentPath);
+	$trimmedPath = str_replace('/alpha-7/ad/sometrails/', '', $currentPath);
 ?>
 
 	<header>
