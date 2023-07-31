@@ -3,31 +3,37 @@
 	include("trail-database.php");
 ?>
 
-<div class="inner-column">
-	<h1 class="xxl-voice">Trails</h1>
-</div>
+<section class="page-header">
+	<div class="inner-column">
+		<h1 class="xxl-voice">Trails</h1>
+	</div>
+</section>
 
 
-<section class="inner-column">
-	<h2 class="xl-voice">Find your next hike.</h2>
+<section class="page-content">
+	<div class="inner-column">
+		<h2 class="xl-voice">Find your next hike.</h2>
 
-	<div class="gallery inner-column">
+		<ul class="gallery">
 
-		<?php foreach ($trails as $trail) { ?>
+			<?php foreach ($trails as $trail) { ?>
 
-			<div class="gallery-card">
-				<a href="trail.php?id=<?=$trail["id"]?>" class="clickable-pic">
-					<picture><img src="<?=$trail["portrait"]?>" alt=""></picture>
-				</a>
-				<div class="gallery-card-text">
-					<p class="large-voice"><?=$trail["name"]?></p>
-					<p class="medium-voice"><?=$trail["description"]?></p>
-					<a href="trail.php?id=<?=$trail["id"]?>" class="medium-voice">Get more info</a>
-				</div>
-			</div>
+				<li class="gallery-card">
+					<a class="clickable-pic" href="trail.php?id=<?=$trail["id"]?>">
+						<picture>
+							<img src="<?=$trail["portrait"]?>" alt="">
+						</picture>
+					</a>
+					<div class="gallery-card-text">
+						<h3 class="large-voice"><?=$trail["name"]?></h3>
+						<p class="medium-voice"><?=$trail["description"]?></p>
+						<a class="medium-voice" href="trail.php?id=<?=$trail["id"]?>">Get more info</a>
+					</div>
+				</li>
 
-		<?php } ?>
+			<?php } ?>
 
+		</ul>
 	</div>
 
 </section>
