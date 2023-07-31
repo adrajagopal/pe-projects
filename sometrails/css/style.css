@@ -62,7 +62,7 @@ header .inner-column nav {
 	flex-direction: column;
 }
 
-.active-page {
+a.active-page {
 	border-bottom: 5px solid var(--splash);
 }
 
