@@ -36,7 +36,7 @@ label {
 
 /*Input styling*/
 
-.short-text input, .long-text textarea {
+.short-text input, .long-text textarea, .number input {
 	border-radius: 0.5rem;
 	border: 1px solid var(--splash);
 	background-color: snow;
@@ -72,6 +72,12 @@ label {
 .slider .label-input-group input {
 	width: 100%;
 	fill: salmon;
+}
+
+.checkbox-option, .radio-option {
+	display: flex;
+	gap: 0.5rem;
+	margin-top: 0.5rem;
 }
 
 .submit-container {
