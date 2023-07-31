@@ -1,6 +1,6 @@
 <?php
 	include("../config.php");
-	include("get-current-path.php");
+	include("get-path.php");
 ?>
 
 
