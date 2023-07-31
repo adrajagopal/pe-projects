@@ -23,13 +23,18 @@
 
 <body>
 	
+<?php
+	$currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+	$trimmedPath = str_replace('/sometrails/', '', $currentPath);
+?>
 
 	<header>
 		<section class="inner-column">
 			<a href=""><picture><img src="images/sometrails-logo.png" alt="SomeTrails logo"></picture></a>
 			<nav>
-				<a href="trail-gallery.php">Trails A-Z</a>
-				<a href="suggest-a-trail.php">Suggest a Trail</a>
+				<a href="trail-gallery.php" class="<?php if ($trimmedPath == "trail-gallery.php") { echo "active-page";}?>">Trails A-Z</a>
+				<a href="suggest-a-trail.php" class="<?php if ($trimmedPath == "suggest-a-trail.php") { echo "active-page";}?>">Suggest a Trail</a>
 			</nav>		
 	</header>
 
