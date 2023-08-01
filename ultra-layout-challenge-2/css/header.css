@@ -1,0 +1,23 @@
+header {
+	background-image: linear-gradient(90deg, lightblue, royalblue);
+}
+
+.site-header, nav, header a, .sign-in {
+	padding: 0.5rem;
+}
+
+.site-header a {
+	display: inline-block;
+}
+
+.site-header {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width:600px) {
+	.site-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
