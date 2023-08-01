@@ -1,0 +1,27 @@
+//already done
+
+user hits enter
+
+existing logic is going to check the input values to see if they're valid
+
+if they are valid, then assign them to the variables named up top
+
+create an array from them and assign an id
+
+//not done yet
+
+create array of arrays (push_array()) so that it doesn't overwrite existing data when you add a new trail
+
+take JSON that has all the existing trails and convert to PHP
+
+add the new trail array to the newly converted PHP dataset in memory
+
+convert back to JSON format
+
+overwrite existing JSON file
+
+//other objectives
+
+create trail gallery from JSON
+
+create trail details from JSON

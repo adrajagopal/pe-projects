@@ -1,5 +1,37 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
+"name" => $trailName,
+"city" => $trailCity,
+"type" => $trailType,
+"length" => $trailLength,
+"dog-friendly" => $trailAllowsDogs,
+"description" => $trailDescription,
+"activities" => $trailActivities,
+"portrait" => $trailPortrait
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $trails = [
 
 	[
