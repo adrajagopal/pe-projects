@@ -1,0 +1,9 @@
+@import "header.css";
+@import "footer.css";
+@import "structure.css";
+@import "diptych.css";
+
+
+body * {
+	border: 2px solid black;
+}
