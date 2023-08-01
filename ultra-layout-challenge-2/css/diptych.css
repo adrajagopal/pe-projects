@@ -1,0 +1,24 @@
+.diptych {
+	background-color: mintcream;
+}
+
+.diptych picture, .diptych-text {
+	padding: 0.5rem;
+}
+
+.diptych .inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (min-width: 660px) {
+	.diptych .inner-column {
+		flex-direction: row-reverse;
+		gap: 0px;
+	}
+	
+	.diptych .inner-column > * {
+		width: 50%;
+	}
+}
