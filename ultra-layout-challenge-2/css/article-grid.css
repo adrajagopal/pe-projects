@@ -1,0 +1,26 @@
+.article-parent {
+	background-color: peachpuff;
+}
+
+.section-intro {
+	padding: 0.5rem 1rem;
+}
+
+.article-grid {
+	padding: 0.5rem 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+@media (min-width: 600px) {
+	.article-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 900px) {
+	.article-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
