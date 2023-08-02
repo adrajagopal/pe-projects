@@ -1,6 +1,9 @@
 
-<?php	include("header.php");?>
-
+<?php
+	include("header.php");
+	include("article-database.php");
+	include("cta-database.php");
+?>
 
 <section class="diptych">
 	<div class="inner-column">
@@ -10,11 +13,14 @@
 
 <section class="purple-cta">
 	<div class="inner-column">
-		<?php	include("purple-cta.php");?>
+		<?php
+			$type = "purple";
+			include("call-to-action.php");
+		?>
 	</div>
 </section>
 
-<?php	include("article-database.php");?>
+
 
 <section class="article-parent">
 	<div class="inner-column">
@@ -24,7 +30,10 @@
 
 <section class="red-cta">
 	<div class="inner-column">
-		<?php	include("red-cta.php");?>
+		<?php
+			$type = "red";
+			include("call-to-action.php");
+		?>
 	</div>
 </section>
 

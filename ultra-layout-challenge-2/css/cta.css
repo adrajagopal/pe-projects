@@ -6,19 +6,19 @@
 	background-color: salmon;
 }
 
-.cta-content > * {
+.call-to-action > * {
 	margin-top: 1rem;
 	padding: 1rem 0.5rem;
 }
 
 @media (min-width: 660px) {
-	.cta-content {
+	.call-to-action {
 	max-width: 600px;
 	}
 }
 
 @media (min-width: 900px) {
-	.cta-content {
+	.call-to-action {
 	max-width: 800px;
 	}
 }
