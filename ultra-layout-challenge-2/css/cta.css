@@ -6,19 +6,19 @@
 	background-color: salmon;
 }
 
-.purple-cta .inner-column > *, .red-cta .inner-column > * {
+.cta-content > * {
 	margin-top: 1rem;
 	padding: 1rem 0.5rem;
 }
 
 @media (min-width: 660px) {
-	.purple-cta .inner-column, .red-cta .inner-column {
+	.cta-content {
 	max-width: 600px;
 	}
 }
 
 @media (min-width: 900px) {
-	.purple-cta .inner-column, .red-cta .inner-column {
+	.cta-content {
 	max-width: 800px;
 	}
 }

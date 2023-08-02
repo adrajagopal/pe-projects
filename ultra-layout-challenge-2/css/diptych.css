@@ -1,12 +1,12 @@
 .diptych {
-	background-color: mintcream;
+	background-color: aqua;
 }
 
-.diptych picture, .diptych-text {
+.diptych-content picture, .diptych-text {
 	padding: 0.5rem;
 }
 
-.diptych .inner-column {
+.diptych-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -24,11 +24,11 @@
 
 
 @media (min-width: 660px) {
-	.diptych .inner-column {
+	.diptych-content {
 		flex-direction: row-reverse;
 	}
 	
-	.diptych .inner-column > * {
+	.diptych-content > * {
 		width: 50%;
 	}
 }
