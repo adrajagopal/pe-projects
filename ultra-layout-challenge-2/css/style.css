@@ -2,8 +2,17 @@
 @import "footer.css";
 @import "structure.css";
 @import "diptych.css";
+@import "cta.css";
+@import "article-grid.css";
 
 
 body * {
 	border: 2px solid black;
+}
+
+.cta-button {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+	padding: 1rem;
 }
