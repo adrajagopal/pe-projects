@@ -1,5 +1,13 @@
-<?php include("header.php");?> 
+<?php
+	include("header.php"); 
 
-<?php include("diptych.php");?>
+	include("diptych.php");
 
-<?php include("footer.php");?>
+	include("purple-cta.php");
+
+	include("article-grid.php");
+
+	include("red-cta.php");
+
+	include("footer.php");
+?>
