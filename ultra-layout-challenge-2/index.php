@@ -20,8 +20,6 @@
 	</div>
 </section>
 
-
-
 <section class="article-parent">
 	<div class="inner-column">
 		<?php	include("article-grid.php");?>

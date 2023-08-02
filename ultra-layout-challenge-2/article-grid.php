@@ -4,16 +4,9 @@
 		<p class="medium-voice">Again, we totally just made that up. It's a box with boxes in it.</p>
 	</div>
 	<ul class="article-list">
-		<?php foreach ($articles as $article) {
-			$articleTitle = $article["title"];
-			$articleDesc = $article["description"];
-			$articleCtaCopy = $article["cta-copy"];
-			$articleLink = $article["episode-link"];
-			?>
+		<?php foreach ($articles as $article) { ?>
 		<li class="article">
-			<h3 class="large-voice"><?=$articleTitle?></h3>
-			<p class="medium-voice"><?=$articleDesc?></p>
-			<a href="<?=$articleLink?>" class="cta-button"><?=$articleCtaCopy?></a>
+			<?php include("article-card.php");?>
 		</li>
 	<?php } ?>
 	</ul>

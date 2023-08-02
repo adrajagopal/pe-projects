@@ -18,11 +18,11 @@
 	gap: 1rem;
 }
 
-.article {
+.article-card {
 	padding: 0.5rem;
 }
 
-.article > * {
+.article-card > * {
 	margin-top: 1rem;
 	padding: 0.5rem;
 }

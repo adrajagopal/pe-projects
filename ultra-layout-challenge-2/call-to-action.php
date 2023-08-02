@@ -13,11 +13,3 @@
 	<p class="medium-voice"><?=$info["description"]?></p>
 	<a href="<?=$info["link"]?>" class="cta-button"><?=$info["cta-copy"];?></a>
 </div>
-
-
-
-
-
-
-
-
