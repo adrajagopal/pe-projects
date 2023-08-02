@@ -5,6 +5,8 @@
 
 	include("purple-cta.php");
 
+	include("article-database.php");
+
 	include("article-grid.php");
 
 	include("red-cta.php");
