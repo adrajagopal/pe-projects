@@ -3,7 +3,12 @@
 }
 
 .section-intro {
-	padding: 0.5rem 1rem;
+	padding: 1rem 0rem;
+}
+
+.section-intro > * {
+	margin-top: 0.5rem;
+	padding: 0.5rem;
 }
 
 .article-grid {
@@ -11,6 +16,15 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 1rem;
+}
+
+.article {
+	padding: 0.5rem;
+}
+
+.article > * {
+	margin-top: 1rem;
+	padding: 0.5rem;
 }
 
 @media (min-width: 600px) {

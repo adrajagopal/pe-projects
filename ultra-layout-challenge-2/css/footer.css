@@ -6,12 +6,17 @@ footer {
 	padding: 0.5rem 1rem;
 }
 
+.footer-description > * {
+	margin-top: 1rem;
+}
+
 .footer-description > *, .site-map > * {
 	padding: 0.5rem;
 }
 
 .site-footer a {
 	display: block;
+	padding: 0.5rem;
 }
 
 .site-map {

@@ -15,7 +15,7 @@ body {
 .inner-column {
 	margin-inline: auto;
 	max-width: 900px;
-	padding: 0.5rem;
+	padding: 2rem 0.5rem;
 }
 
 picture {
@@ -26,6 +26,7 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
+	padding: 0.5rem;
 }
 
 a {

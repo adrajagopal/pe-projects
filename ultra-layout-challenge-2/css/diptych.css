@@ -9,13 +9,23 @@
 .diptych .inner-column {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
 }
+
+.diptych-text {
+	padding: 1.5rem 0.5rem;
+}
+
+.diptych-text > * {
+	margin-top: 0.5rem;
+	padding: 1rem 0.5rem;
+}
+
 
 @media (min-width: 660px) {
 	.diptych .inner-column {
 		flex-direction: row-reverse;
-		gap: 0px;
 	}
 	
 	.diptych .inner-column > * {
