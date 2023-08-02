@@ -27,3 +27,11 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+a {
+	display: inline-block;
+}
+
+p a {
+	display: inline;
+}
