@@ -9,11 +9,7 @@ mast-head {
 }
 
 mast-head .logo {
-	max-width: 180px;
-}
-
-mast-head .logo * {
-	fill: var(--ink);
+	max-width: 100px;
 }
 
 mast-head nav ul {

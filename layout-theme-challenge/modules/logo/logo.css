@@ -1,0 +1,12 @@
+.logo-background-blob {
+	fill: var(--primary-brand);
+}
+
+.logo-foreground-blob {
+	fill: var(--paper);
+}
+
+.logo-text {
+	fill: var(--ink);
+	fill-rule:nonzero;
+}

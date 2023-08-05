@@ -6,7 +6,7 @@
 		<ul>
 			<li>
 				<a href='#'>
-					<?php include('modules/logo.php'); ?>
+					<?php include('modules/logo/logo.php'); ?>
 				</a>
 			</li>
 
