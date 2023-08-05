@@ -26,6 +26,12 @@ mast-head nav a:not(.home) {
 	padding: .5em 1em;
 }
 
+mast-head nav.user-menu a.sign-in {
+	background-color: transparent;
+	color:var(--ink);
+	text-decoration: underline;
+}
+
 @media (min-width:  600px) {
 	mast-head {
 		display: flex;
