@@ -25,6 +25,9 @@ html {
 
 	--standard: 1140px;
 	--tight: 800px;
+
+	--primary-font: "Vidaloka";
+	--secondary-font: "Ubuntu";
 }
 
 html {

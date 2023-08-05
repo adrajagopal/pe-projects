@@ -11,6 +11,9 @@
 		<meta property='og:image' content='Can you research emulate a website for a specific niche industry?'>
 
 		<link rel='stylesheet' href='styles/site.css'>
+
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Vidaloka&display=swap" rel="stylesheet">
+
 	</head>
 
 

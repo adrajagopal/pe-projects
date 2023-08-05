@@ -1,7 +1,7 @@
 /* could we pull in @fonts here? */
 
 .loud-voice	{
-	font-family: sans-serif;
+	font-family: var(--primary-font), serif;
 	font-size: clamp(36px, 5vw, 60px);
 }
 @media (min-width: 600px) {
@@ -11,18 +11,18 @@
 }
 
 .attention-voice	{
-	font-family: sans-serif;
+	font-family: var(--primary-font), serif;
 	font-size: 30px;
 }
 
 .strong-voice	{
-	font-family: sans-serif;
+	font-family: var(--primary-font), serif;;
 	font-weight: 700;
 	font-size:  1rem;
 }
 
 .calm-voice, p, li {
-	font-family: sans-serif;
+	font-family: var(--secondary-font), serif;
 	font-size: 1rem;
 	line-height: 1.4;
 }
