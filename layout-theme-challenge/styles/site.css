@@ -45,20 +45,3 @@ section.get-involved .button {
 	background-color: var(--ink);
 	color: var(--paper);
 }
-
-@media (prefers-color-scheme: dark) {
-	section.sign-up {
-		background-color: var(--color);
-		color: var(--black);
-	}
-
-	section.sign-up .button {
-		background-color: var(--black);
-		color: var(--white);
-	}
-
-	section.get-involved {
-		background-color: var(--highlight);
-		color: var(--black);
-	}
-}

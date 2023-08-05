@@ -29,15 +29,3 @@ html {
 	--primary-font: "Vidaloka";
 	--secondary-font: "Ubuntu";
 }
-
-html {
-	--paper: #F5FEFB;
-	--ink: #082B1F;
-}
-
-@media (prefers-color-scheme: dark) {
-	html {
-		--paper: #082B1F;
-		--ink: #F5FEFB;
-	}
-}
