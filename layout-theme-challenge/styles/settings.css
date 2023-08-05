@@ -1,0 +1,40 @@
+html {
+	--paper: #F5FEFB;
+	--ink: #082B1F;
+
+	--primary-brand: #17825E;
+	--primary-accent: #D9F2EA;
+
+	--secondary-brand: #4055BF;
+	--secondary-accent: #CCD5FF;
+
+	--tertiary-brand: #FFBB33;
+	--tertiary-accent: #FFEECC;
+
+	--black: #111111;
+	--white: #efefef;
+
+	--neutral-stuffs: gray;
+
+	--color: #9ec9eb;
+	--highlight: #aadee9;
+
+	--shadow: rgba(0, 0, 0, 0.8);
+
+	--corners: 10px; /* or whatevers */
+
+	--standard: 1140px;
+	--tight: 800px;
+}
+
+html {
+	--paper: #F5FEFB;
+	--ink: #082B1F;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--paper: #082B1F;
+		--ink: #F5FEFB;
+	}
+}
