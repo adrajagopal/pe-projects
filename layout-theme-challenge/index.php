@@ -19,7 +19,7 @@
 
 	<body>
 
-		<header id="top">
+		<header class="site-header" id="top">
 		<inner-column>
 			
 			<?php include('modules/mast-head/template.php'); ?>

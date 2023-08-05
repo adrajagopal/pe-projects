@@ -1,3 +1,7 @@
+.site-header {
+	background-color: var(--primary-accent);
+}
+
 
 mast-head {
 	display: block;
