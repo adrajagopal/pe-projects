@@ -7,10 +7,13 @@
 
 	font-family: var(--secondary-font), sans-serif;
 	font-size: 1rem;
+	font-weight: 700;
 	line-height: 1.4;
 
 	padding: 0.5em 1em;
-	background-color: var(--color);
+	background-color: var(--tertiary-brand);
 	min-width: 120px;
 	text-align: center;
+
+	border-radius: var(--corners);
 }
