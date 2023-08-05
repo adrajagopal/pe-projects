@@ -42,12 +42,22 @@ section:is(.sign-up, .get-involved) inner-column {
 	max-width: var(--tight);
 }
 
-section.get-involved {
+section.sign-up {
 	background-color: var(--primary-brand);
 	color: var(--paper);
 }
 
-section.get-involved .button {
+section.sign-up .button {
 	background-color: var(--secondary-brand);
 	color: var(--paper);
+}
+
+section.get-involved {
+	background-color: var(--secondary-brand);
+	color: var(--paper);
+}
+
+section.get-involved .button {
+	background-color: var(--tertiary-brand);
+	color: var(--ink);
 }

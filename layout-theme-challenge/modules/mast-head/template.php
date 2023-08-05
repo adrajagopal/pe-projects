@@ -22,10 +22,10 @@
 	<nav class='user-menu'>
 		<ul>
 			<li>
-				<a class='button' href='#'>Join Now</a>
+				<a class='button sign-in' href='#'>Sign In</a>
 			</li>
 			<li>
-				<a class='button sign-in' href='#'>Sign In</a>
+				<a class='button' href='#'>Join Now</a>
 			</li>
 		</ul>
 	</nav>
