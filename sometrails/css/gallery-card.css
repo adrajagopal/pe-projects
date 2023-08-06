@@ -25,6 +25,10 @@
 	gap: 1rem;
 }
 
+.gallery-card h3 {
+	color: var(--paper);
+}
+
 .gallery-card .clickable-pic {
 	height: auto;
 }
