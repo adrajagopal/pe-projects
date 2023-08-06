@@ -10,11 +10,11 @@
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a href='#'>For individuals</a>
 			</li>
 
 			<li>
-				<a href='#'>Some other page</a>
+				<a href='#'>For organizations</a>
 			</li>
 		</ul>
 	</nav>
