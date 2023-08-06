@@ -5,8 +5,8 @@ articles-intro {
 	padding: 10vh 0;
 }
 
-articles-intro header {
-
+articles-intro header p {
+	margin-top: 0.5rem;
 }
 
 article-grid {

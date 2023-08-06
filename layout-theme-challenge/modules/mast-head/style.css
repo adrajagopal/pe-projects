@@ -2,14 +2,18 @@
 	background-color: var(--primary-accent);
 }
 
-
 mast-head {
 	display: block;
+	padding-bottom: 0.5rem;
 	/*border: 4px solid blue;*/
 }
 
 mast-head .logo {
 	max-width: 100px;
+}
+
+mast-head .site-menu a {
+	line-height: 0.9;
 }
 
 mast-head nav ul {

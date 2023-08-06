@@ -2,7 +2,7 @@
 
 .loud-voice	{
 	font-family: var(--primary-font), serif;
-	font-size: clamp(36px, 5vw, 60px);
+	font-size: clamp(2.5rem, 5vw, 60px);
 }
 @media (min-width: 600px) {
 	.loud-voice {
@@ -12,13 +12,14 @@
 
 .attention-voice	{
 	font-family: var(--primary-font), serif;
-	font-size: 30px;
+	font-size: 2rem;
+	line-height: 1.2;
 }
 
 .strong-voice	{
 	font-family: var(--primary-font), serif;;
 	font-weight: 700;
-	font-size:  1rem;
+	font-size:  1.25rem;
 }
 
 .calm-voice, p, li {
@@ -33,20 +34,4 @@
 
 :is(.calm-voice, p, li) strong {
 	font-weight: 700;
-}
-
-/* these would be scoped to section or to an article element */
-/* this is just a loose setting for now */
-p + p {
-	margin-top: 1em;
-}
-
-h2 + p {
-	margin-top: 20px;
-}
-
-code {
-	font-family: monospace;
-	font-size: 1.1em;
-	color: green;
 }

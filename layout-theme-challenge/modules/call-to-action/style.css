@@ -8,6 +8,12 @@ call-to-action {
 	padding: 10vh 0;
 }
 
+
+call-to-action p {
+	margin-top: 0.5rem;
+}
+
+
 call-to-action .button {
-	margin-top: 20px;
+	margin-top: 2rem;
 }
