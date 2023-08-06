@@ -42,7 +42,7 @@ section:is(.sign-up, .get-involved) inner-column {
 	max-width: var(--tight);
 }
 
-section.sign-up {
+section.welcome {
 	background-color: var(--primary-brand);
 	color: var(--paper);
 }
