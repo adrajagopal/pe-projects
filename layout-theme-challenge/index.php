@@ -46,6 +46,14 @@
 			</inner-column>
 			</section>
 
+			<section class='selling-points' id='selling-points'>
+			<inner-column>
+
+				<?php include('modules/selling-points-intro/template.php'); ?>
+
+			</inner-column>
+			</section>
+
 
 			<section class='latest' id='latest'>
 			<inner-column>
