@@ -33,6 +33,13 @@ body {
 	color: var(--ink);
 }
 
+.site-header {
+	background-color: var(--paper-blur);
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,0.1);
+	position: sticky;
+	top: 0;
+}
+
 footer {
 	background-color: var(--ink);
 	color: var(--primary-accent);
