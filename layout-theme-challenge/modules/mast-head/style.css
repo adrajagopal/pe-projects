@@ -1,15 +1,15 @@
-.site-header {
-	background-color: var(--primary-accent);
-}
-
 mast-head {
 	display: block;
 	padding-bottom: 0.5rem;
-	/*border: 4px solid blue;*/
+}
+
+.site-footer {
+	position: fixed;
+	top: 0px;
 }
 
 mast-head .logo {
-	max-width: 100px;
+	max-width: 50px;
 }
 
 mast-head .site-menu a {
