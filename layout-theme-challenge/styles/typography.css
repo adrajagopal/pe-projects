@@ -28,10 +28,10 @@
 	line-height: 1.4;
 }
 
-:is(.calm-voice, p, li) em {
+em {
 	font-style: italic;
 }
 
-:is(.calm-voice, p, li) strong {
+strong {
 	font-weight: 700;
 }
