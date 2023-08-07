@@ -1,6 +1,7 @@
 @import "meyer-reset.css";
 @import "setup.css";
 @import "custom-properties.css";
+@import "welcome.css";
 @import "resume.css";
 @import "forms.css";
 
@@ -16,7 +17,6 @@ body {
 .page-wrapper {
 	flex-grow:1;
 }
-
 
 /*Here's a comment*/
 

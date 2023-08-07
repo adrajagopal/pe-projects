@@ -1,7 +1,12 @@
 <?php include("header.php");?>
 
 
-<h1 class="hero-title xl-voice">I'm Ad. A product manager turned web developer.</h1>
+<section class="welcome">
+	<h1 class="hero-title xl-voice">I'm Ad. A product manager turned web developer.</h1>
+	<picture>
+		<img src="images/ad-portrait.png" alt="a picture of me frowning at the camera">
+	</picture>
+</section>
 
 <h3 class="content-header large-voice">My work</h3>
 
