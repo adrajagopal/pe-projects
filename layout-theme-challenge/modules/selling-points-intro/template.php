@@ -1,14 +1,14 @@
 
 <?php include ('data/selling-points.php'); ?>
 
-<articles-intro>
+<selling-points-intro>
 	<header>
 		<h2 class='attention-voice'>Helfy brings you the best of both in healthcare</h2>
 
 		<p>Our members enjoy the access of virtual care and a high-touch in-person experience.</p>
 	</header>
 
-	<article-grid>
+	<selling-point-grid>
 		<ul class='article-list'>
 
 			<?php foreach ($points as $point) { ?>
@@ -18,5 +18,5 @@
 			<?php } ?>
 
 		</ul>
-	</article-grid>
-</articles-intro>
+	</selling-point-grid>
+</selling-points-intro>

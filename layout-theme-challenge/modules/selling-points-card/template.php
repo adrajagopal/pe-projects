@@ -5,7 +5,7 @@
 	$thumbnail = $point['thumbnail'];
 ?>
 
-<article class='article-card'>
+<article class='selling-point-card'>
 	<picture>
 		<img src='images/<?=$thumbnail?>' alt='$todo'>
 	</picture>

@@ -2,18 +2,18 @@
 
 $points = [
 	[
-		"heading" => "Selling point 1",
+		"heading" => "24/7 Access",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "24-7-access.svg",
 	],
 	[
-		"heading" => "Selling point 2",
+		"heading" => "Message your providers",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "messaging.svg",
 	],
 	[
-		"heading" => "Selling point 3",
+		"heading" => "On time, every time",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.jpg",
+		"thumbnail" => "appointment.svg",
 	],
 ];
