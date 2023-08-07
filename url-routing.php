@@ -12,7 +12,7 @@
 		$versionNumber = "none";
 	}
 
-	echo "<p class='content-body medium-voice'>$versionNumber</p>";
+	echo "<p class='medium-voice'>$versionNumber</p>";
 
 	?>
 

@@ -2,17 +2,17 @@
 	include("../header.php");
 ?>
 
-<h1 class="hero-title xxl-voice">Goals, dreams, and needs</h1>
+<h1 class="xxl-voice">Goals, dreams, and needs</h1>
 
-<h2 class="content-header xl-voice">What this page is about</h2>
+<h2 class="xl-voice">What this page is about</h2>
 
 <p>Plans change, but I need a starting point. I would take this page seriously in spirit, but the specifics are flexible. Some things on this page are not going to age well, and that's OK.</p>
 
 <p>I wrote a long post about why I'm doing Perpetual Education and transitioning from product to dev. You can read it <a href="https://adrajagopal.substack.com/p/the-peril-of-shiny-things">here</a>. But I'll rehash a little of it here, and flesh out some other ideas.</p>
 
-<h2 class="content-header xl-voice">The deets</h2>
+<h2 class="xl-voice">The deets</h2>
 
-<h3 class="content-subheader large-voice">General milestones</h3>
+<h3 class="large-voice">General milestones</h3>
 <ul role="list">
 	<li>
 		<p><span class="list-item-title">By the middle of the course...</span></p>
@@ -41,7 +41,7 @@
 </ul>
 
 
-<h3 class="content-subheader large-voice">My needs for finding happiness at work</h3>
+<h3 class="large-voice">My needs for finding happiness at work</h3>
 
 <ol role="list" class="numbered-list">
 	<li><span class="list-item-title">Intellectual stimulation - </span>I can’t do repetitive work, and I can’t do highly transactional work. I need to be stimulated</li>

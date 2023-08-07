@@ -1,8 +1,8 @@
 <?php include("header.php");?>
 
-<h1 class="content-header xl-voice">Form Title</h1>
+<h1 class="xl-voice">Form Title</h1>
 
-<h2 class="content-header large-voice">Form description</h2>
+<h2 class="large-voice">Form description</h2>
 
 <p class="medium-voice">Form instructions</p>
 

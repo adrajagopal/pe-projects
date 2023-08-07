@@ -9,13 +9,13 @@
 	$lengthInches = 0;
 ?>
 
-<h1 class="content-header xxl-voice">How much paint do you need?</h1>
+<h1 class="xxl-voice">How much paint do you need?</h1>
 
 <p class="medium-voice">When you're buying paint, you never want to run out too soon. Every gallon of paint covers 350-ish square feet, but then you spill some, need to repaint some sections, and you might want to have an extra gallon lying around to cover up scuffs and patch holes.</p>
 
 <p class="medium-voice">We built this calculator to help you paint rooms that are perfectly rectangular with no nooks, no crannies, and no protuberant closets.</p>
 
-<h2 class="content-subheader xl-voice">Enter your room dimensions:</h2>
+<h2 class="xl-voice">Enter your room dimensions:</h2>
 
 <form method="POST">
 	<fieldset class="field short-text">
@@ -73,7 +73,7 @@
 			}
 
 			elseif ($widthFeet + $widthInches === 0) { //just being overly explicit here
-				echo "<p 'class=content-body medium-voice'> Please enter at least one positive value for width. </p>";
+				echo "<p 'class=medium-voice'> Please enter at least one positive value for width. </p>";
 			}
 		}
 
@@ -85,7 +85,7 @@
 			}
 
 			elseif ($lengthFeet + $lengthInches === 0) { //just being overly explicit here
-				echo "<p 'class=content-body medium-voice'> Please enter at least one positive value for length. </p>";
+				echo "<p 'class=medium-voice'> Please enter at least one positive value for length. </p>";
 			}
 		}
 

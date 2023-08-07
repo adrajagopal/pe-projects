@@ -16,6 +16,16 @@ body {
 	--secondary-font: "Ubuntu";
 }
 
+@media (prefers-color-scheme:dark) {
+	body {
+		--paper: HSL(2,50%,40%); /* maroon */;
+		--paper-light: HSL(2,50%,15%); /* dark maroon */;
+		--ink: HSL(30,25%,90%); /* darker white */;
+		--ink-dark: HSL(30,25%,95%); /* bright white */;
+	}
+}
+
+
 /*Type patterns*/
 
 .xxl-voice {

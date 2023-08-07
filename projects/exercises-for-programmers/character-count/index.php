@@ -9,13 +9,13 @@ $formResult = $_POST;
 
 ?>
 
-<h1 class="hero-title xl-voice">Character counts.</h1>
+<h1 class="xl-voice">Character counts.</h1>
 
 <form method="POST">
 
 	<div class="field-section">
 
-		<h2 class="content-header large-voice form-title">Count your characters.</h2>	
+		<h2 class="large-voice form-title">Count your characters.</h2>	
 
 		<div class form-title="field">
 			<label>Your string</label>
@@ -39,11 +39,11 @@ $formResult = $_POST;
 
 				if (isset($string) and $characters > 0) { ?>
 
-					<p class="medium-voice content-body feedback">Your input, "<?=$string?>" is <?=$characters?> characters long.</p>
+					<p class="medium-voice feedback">Your input, "<?=$string?>" is <?=$characters?> characters long.</p>
 				<?php }
 
 				else { ?>
-					<p class="medium-voice content-body warning">Please enter a string of at least 1 character.</p>
+					<p class="medium-voice warning">Please enter a string of at least 1 character.</p>
 				<?php }
 			}
 		?>

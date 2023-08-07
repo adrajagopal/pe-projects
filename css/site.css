@@ -27,12 +27,6 @@ body {
 	min-height: 100vh;
 }
 
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: var(--ink-dark);
-	}
-}
-
 .page-wrapper {
 	flex-grow:1;
 }

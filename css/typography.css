@@ -9,14 +9,13 @@ p, ul, ol, legend, .medium-voice {
 	color: var(--ink);
 }
 
-.content-header {
+h1, h2, h3, h4 {
 	color: var(--ink);
 }
 
-.content-subheader {
+p, ul, ol, li, .medium-voice {
 	color: var(--ink-dark);
 }
-
 
 .list-item-title {
 	font-family: var(--primary-font);
@@ -30,23 +29,6 @@ a, p a {
 
 
 @media (prefers-color-scheme: dark) {
-
-	p, ul, ol, legend, .medium-voice, .small-voice {
-		color: var(--paper-light);
-	}
-
-	.hero-title {
-		color: var(--paper);
-	}
-
-	.content-header {
-		color: var(--paper);
-	}
-
-	.content-subheader {
-		color: var(--paper);
-	}
-
 	.list-item-title {
 		font-weight: 700;
 	}

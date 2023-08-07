@@ -1,6 +1,6 @@
 <content-section style="display:block;">
 
-	<h3 class="content-header large-voice">My work</h3>
+	<h3 class="large-voice">My work</h3>
 
 	<ul class="work-list">
 		<li>
