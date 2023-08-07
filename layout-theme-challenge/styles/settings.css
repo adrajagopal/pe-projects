@@ -1,5 +1,6 @@
 html {
 	--paper: #F5FEFB;
+	--paper-blur: HSLA(160,82%,98%,95%);
 	--ink: #082B1F;
 
 	--primary-brand: #17825E;
