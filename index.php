@@ -28,12 +28,12 @@
 	  property="og:image"
 	  content="[[INSERT CONTENT]].png">
 	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/site.css">
 
 <!-- 	fonts used:
-	Baskerville 400, 400 + ital
-	Work Sans 100, 100 + ital, 400, 400 + ital, 600, 700 -->
-	<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Work+Sans:ital,wght@0,100;0,400;0,600;0,700;1,100;1,400&display=swap" rel="stylesheet">
+	Vidaloka 400, 700
+	Ubuntu 300, 400, 700 -->
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Vidaloka&display=swap" rel="stylesheet">
 </head>
 
 <body>
