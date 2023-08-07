@@ -1,11 +1,24 @@
+/*Preset*/
 @import "meyer-reset.css";
+
+/*Setup*/
 @import "setup.css";
+
+/*Settings*/
 @import "custom-properties.css";
-@import "welcome.css";
-@import "resume.css";
+
+/*Structure*/
+
+/*Typography*/
+@import "typography.css";
+
+/*Components*/
 @import "forms.css";
 
-/*page structure*/
+/*Modules*/
+@import "modules.css";
+
+/*Sections (in this file)*/
 
 body {
 	background-color: var(--paper-light);
@@ -14,11 +27,15 @@ body {
 	min-height: 100vh;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--ink-dark);
+	}
+}
+
 .page-wrapper {
 	flex-grow:1;
 }
-
-/*Here's a comment*/
 
 .inner-column {
 	margin-left: auto;
@@ -37,156 +54,6 @@ body {
     fill: currentColor; 
 }
 
-/*spacing*/
-
-.hero-title {
-	margin-top: 25px;
-}
-
-h2, h3 {
-	margin-top: 20px;
-}
-
-h2 + p {
-	margin-top: 20px;
-}
-
-.content-subheader {
-	margin-top: 15px;
-}
-
-.content-body {
-	margin-top: 10px;
-}
-
-p + p, h2 + h3, h3 + p {
-	margin-top: 10px;
-}
-
-p + p:last-of-type {
-	margin-bottom: 20px;
-}
-
-h3 + div {
-	margin-top: 20px;
-}
-
-/*header & footer styling*/
-
-.site-header, .site-footer {
-	background-color: var(--paper);
-}
-
-.site-header {
-	padding: 10px;
-	border-bottom: 1px solid var(--splash-primary);
-}
-
-.site-footer {
-	margin-top: 20px;
-}
-
-.header-items {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
-	gap: 10px;
-	padding: 10px;
-}
-
-.site-nav-items {
-	display: flex;
-	flex-direction: row;
-	gap: 10px;
-}
-
-@media (max-width: 550px) {
-
-	.header-items {
-		flex-direction: column;
-	}
-}
-
-@media (max-width: 380px) {
-
-	.site-nav-items {
-		flex-direction: column;
-	}
-}
-
-.site-footer {
-	border-top: 1px solid var(--splash-primary);
-}
-
-.footer-list {
-	display: flex;
-	align-items: center;
-	transform: translateX(-20px);
-}
-
-.socials {
-	display: flex;
-	flex-direction: row;
-}
-
-.socials a {
-	padding: 20px;
-}
-
-/*text styling*/
-
-em {
-	font-style: italic;
-}
-
-p, ul, ol, legend, .medium-voice {
-	font-family: var(--secondary-font);
-	font-size: 1rem;
-	font-weight: 400;
-	color: var(--ink);
-}
-
-.website-title {
-	font-family: var(--primary-font);
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: var(--ink);
-}
-
-@media (max-width: 550px) {
-
-
-	.website-title {
-		font-size: 12vw;
-	}
-}
-
-.hero-title {
-	color: var(--ink);
-}
-
-.content-header {
-	color: var(--ink);
-}
-
-.content-subheader {
-	color: var(--ink-dark);
-}
-
-
-.list-item-title {
-	font-family: var(--primary-font);
-	font-weight: 600;
-}
-
-a, p a {
-	color: var(--splash-secondary);
-	text-decoration: underline;
-}
-
-/*body styling*/
-
 [role="list"].numbered-list {
 	list-style: decimal;
 	padding-left: 1.1em;
@@ -197,96 +64,7 @@ a, p a {
 	padding-left: 1.1em;
 }
 
-.work-samples picture {
-	max-width: 350px;
-}
-
-.work-samples {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 20px;
-}
-
-.projects, .layouts, .graphics {
-	display: flex;
-	flex-direction: column;
-}
-
-@media (min-width: 600px) {
-	.work-samples {
-		flex-direction: row;
-	}
-
-	.projects, .layouts, .graphics {
-		align-items: center;
-	}
-}
-
-/*dark mode*/
-
-/*swap this out for the @prefers-dark-mode query once you get back online*/
-
-@media (prefers-color-scheme: dark) {
-
-	body {
-		background-color: var(--ink-dark);
-	}
-
-	p, ul, ol, legend, .medium-voice, .small-voice {
-		color: var(--paper-light);
-	}
-
-	.hero-title {
-		color: var(--paper);
-	}
-
-	.content-header {
-		color: var(--paper);
-	}
-
-	.content-subheader {
-		color: var(--paper);
-	}
-
-
-	.list-item-title {
-		font-weight: 700;
-	}
-
-	a:not(.site-nav a, .site-footer a), p a {
-		color: var(--splash-primary);
-		text-decoration: underline;
-	}	
-
-}
-
-/* modules */
-
 /* work-list on homepage */
-
-.work-list {
-	margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	text-align: center;
-}
-
-.work-list img {
-	border-radius: 10px;
-}
-
-.work-list .xl-voice {
-	font-size: 1.25rem;
-}
-
-@media (min-width: 500px) {
-	.work-list {
-		flex-direction: row;
-	}
-}
-
 
 /* Affinity graphics */
 
@@ -388,13 +166,3 @@ a, p a {
 		max-width: 30%;
 	}
 }
-
-/*borders for testing*/
-
-/*.site-header > *, .site-header span {
-	border: 2px solid red;
-}
-
-.site-nav-items {
-	border: 2px solid black;
-}*/

@@ -1,1 +1,15 @@
-style.css
+section.welcome diptych {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 1rem;
+	align-items: center;
+}
+
+section.welcome diptych picture {
+	background-image: linear-gradient(180deg, var(--ink-dark) 20%, var(--paper));
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+section.welcome diptych img {
+}
