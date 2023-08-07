@@ -45,11 +45,24 @@ footer {
 	color: var(--primary-accent);
 }
 
-section:is(.sign-up, .get-involved) inner-column {
+section:is(.sign-up, .get-involved /*, .selling-points*/ ) inner-column {
 	max-width: var(--tight);
 }
 
 section.welcome {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+@media (min-width:  700px) {
+	section.welcome {
+		background-image: url("../images/squares.svg");
+		background-size: cover;
+		background-color: transparent;
+	}
+}
+
+section.sign-up {
 	background-color: var(--primary-brand);
 	color: var(--paper);
 }
