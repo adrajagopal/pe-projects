@@ -1,22 +1,27 @@
-.article-card {
+.selling-point-card {
 	display: block;
-	/*border: 4px solid red;*/
-
+	max-width: 250px;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+	gap: 0.25rem;
 }
 
-.article-card text-content {
+.selling-point-card picture {
+	max-width: 150px;
+}
+
+.selling-point-card text-content {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+	text-align: center;
 }
 
-.article-card :is(h1, p) {
+.selling-point-card :is(h1, p) {
 	margin-top: 0.25rem;
 }
 
-.article-card a {
+.selling-point-card a {
 	margin-top: 1rem;
 }
