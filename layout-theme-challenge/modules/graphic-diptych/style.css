@@ -8,7 +8,18 @@ graphic-diptych {
 }
 
 graphic-diptych p {
-	margin-top: 20px;
+	margin-top: 1rem;
+}
+
+graphic-diptych picture {
+	border-radius: 5px;
+	background-image: url("../../images/squares.svg");
+	background-size: cover;
+}
+
+graphic-diptych .button {
+	margin-top: 2rem;
+	width: 20%;
 }
 
 @media (min-width:  700px) {
@@ -17,7 +28,18 @@ graphic-diptych p {
 		align-items: center;
 	}
 
+	graphic-diptych picture {
+		background-image: none;
+		background-color: var(--primary-brand);
+		object-fit: cover;
+	}
+
 	graphic-diptych :is(picture, text-content) {
 		flex-basis: 50%;
+	}
+
+	graphic-diptych .button {
+		margin-top: 3rem;
+		width: 33%;
 	}
 }
