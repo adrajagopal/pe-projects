@@ -62,6 +62,10 @@ section.welcome {
 	}
 }
 
+.left-square {
+		fill: red;
+	}
+
 section.sign-up {
 	background-color: var(--primary-brand);
 	color: var(--paper);
