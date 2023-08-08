@@ -1,10 +1,9 @@
-mast-head * {
+mast-head li {
 /*	border: 2px solid red;*/
 }
 
 mast-head {
 	display: block;
-	padding-bottom: 0.5rem;
 }
 
 .site-footer {
@@ -17,8 +16,9 @@ mast-head .header-logo {
 }
 
 mast-head nav .home {
-	padding: 10px 0;
-	max-width: 50px;
+	padding: 10px 0px;
+	padding-right: 1em;
+	max-width: 75px;
 }
 
 mast-head .site-menu a {
@@ -28,6 +28,7 @@ mast-head .site-menu a {
 mast-head nav ul {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 }
 
