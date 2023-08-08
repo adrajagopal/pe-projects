@@ -1,21 +1,35 @@
 .selling-point-card {
 	display: block;
-	max-width: 250px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	gap: 0.25rem;
 }
 
+/*.selling-point-card * {
+	border: 2px solid red;
+}*/
+
+@media (min-width: 600px) {
+	.selling-point-card {
+		flex-direction: column;
+		max-width: 250px;
+	}
+
+	.selling-point-card text-content {
+		align-items: center;	
+		text-align: center;
+	}
+}
+
 .selling-point-card picture {
 	max-width: 150px;
+	flex-shrink: 0;
 }
 
 .selling-point-card text-content {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	text-align: center;
 }
 
 .selling-point-card :is(h1, p) {

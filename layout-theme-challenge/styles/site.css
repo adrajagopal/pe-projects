@@ -62,9 +62,14 @@ section.welcome {
 	}
 }
 
-.left-square {
-		fill: red;
-	}
+
+section.selling-points {
+	padding: 10vh 0;
+}
+
+section.latest {
+	border-top: 2px solid var(--primary-accent);
+}
 
 section.sign-up {
 	background-color: var(--primary-brand);

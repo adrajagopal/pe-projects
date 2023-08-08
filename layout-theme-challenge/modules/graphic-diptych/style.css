@@ -4,7 +4,7 @@ graphic-diptych {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
-	padding: 10vh 0;
+	padding: clamp(10px, 5vw, 200px) 0;
 }
 
 graphic-diptych p {

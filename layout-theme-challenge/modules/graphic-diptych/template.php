@@ -1,6 +1,10 @@
 
 <graphic-diptych>
 
+	<!-- <div class="colored-box-1"></div>
+	<div class="colored-box-2"></div>
+	<div class="colored-box-3"></div> -->
+
 	<picture>
 		<img src='images/patient-green-background.jpg' alt='female patient smiling'>
 	</picture>
@@ -13,7 +17,5 @@
 		<a href="" class="button">Join now</a>
 
 	</text-content>
-
-
 
 </graphic-diptych>

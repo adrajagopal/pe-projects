@@ -11,8 +11,8 @@
 	line-height: 1.4;
 
 	padding: 0.5em 1em;
-	background-color: var(--tertiary-brand);
-	min-width: 120px;
+	background-color: var(--tertiary-brand, yellow);
+	min-width: 150px;
 	text-align: center;
 
 	border-radius: var(--corners);

@@ -21,14 +21,18 @@ site-map .footer-logo {
 
 site-map ul {
 	margin-top: 0.5rem;
+	list-style-type: circle;
+	padding-left: 1.1em;
 }
 
 site-map nav {
-/*	border: 2px solid salmon;*/
 	margin-top: 1rem;
 }
 
-site-map a {
+site-map li {
+	margin-top: 0.5rem;
+}
+
+site-map a:hover {
 	text-decoration: underline;
-	line-height: 1.5;
 }
