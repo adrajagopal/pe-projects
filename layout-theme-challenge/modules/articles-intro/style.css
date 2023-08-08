@@ -17,5 +17,5 @@ article-grid {
 article-grid ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-	grid-gap: 60px 20px;
+	grid-gap: 3.5rem 3rem;
 }

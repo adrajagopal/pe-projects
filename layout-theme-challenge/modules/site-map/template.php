@@ -3,7 +3,7 @@
 
 	<div class="nav-container">
 	<nav class='site-menu'>
-		<h3 class='strong-voice'>Current Helfy members</h3>
+		<h3 class='strong-voice'>Current members</h3>
 
 		<ul>
 			<li>
@@ -17,7 +17,7 @@
 	</nav>
 
 	<nav class='x-menu'>
-		<h3 class='strong-voice'>For Individuals</h3>
+		<h3 class='strong-voice'>For individuals</h3>
 		
 		<ul>
 			<li>
