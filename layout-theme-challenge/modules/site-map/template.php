@@ -83,7 +83,7 @@
 	</nav>
 	</div>
 
-	<a href='#'>
+	<a class="footer-logo" href='#'>
 		<?php include('modules/logo/logo.php'); ?>
 	</a>
 

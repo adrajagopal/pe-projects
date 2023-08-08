@@ -3,18 +3,18 @@
 
 	<nav class='site-menu'>
 		<ul>
-			<li>
+			<li class="header-logo">
 				<a class='home' href='#'>
 					<?php include('modules/logo/logo.php'); ?>
 				</a>
 			</li>
 
 			<li>
-				<a href='#'>For individuals</a>
+				<a class="text-link" href='#'>For individuals</a>
 			</li>
 
 			<li>
-				<a href='#'>For organizations</a>
+				<a class="text-link" href='#'>For organizations</a>
 			</li>
 		</ul>
 	</nav>

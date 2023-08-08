@@ -1,3 +1,7 @@
+mast-head * {
+/*	border: 2px solid red;*/
+}
+
 mast-head {
 	display: block;
 	padding-bottom: 0.5rem;
@@ -8,7 +12,12 @@ mast-head {
 	top: 0px;
 }
 
-mast-head .logo {
+mast-head .header-logo {
+	flex-shrink: 0;
+}
+
+mast-head nav .home {
+	padding: 10px 0;
 	max-width: 50px;
 }
 
@@ -22,10 +31,6 @@ mast-head nav ul {
 	align-items: center;
 }
 
-mast-head nav .home {
-	padding: 10px 0;
-}
-
 mast-head nav a:not(.home) {
 	padding: .5em 1em;
 }
@@ -36,11 +41,15 @@ mast-head nav.user-menu a.sign-in {
 	text-decoration: underline;
 }
 
-@media (min-width:  600px) {
-	mast-head {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
+mast-head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 700px) {
+	.text-link {
+	display: none;
+}
 }

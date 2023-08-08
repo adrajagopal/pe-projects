@@ -13,7 +13,7 @@ site-map .nav-container {
 	grid-gap: 20px;
 }
 
-site-map .logo {
+site-map .footer-logo {
 	max-width: 100px;
 	margin-top: 2rem;
 	display: block;
