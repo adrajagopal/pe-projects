@@ -3,6 +3,7 @@
 .loud-voice	{
 	font-family: var(--primary-font), serif;
 	font-size: clamp(2.5rem, 5vw, 60px);
+	line-height: 1.1;
 }
 @media (min-width: 600px) {
 	.loud-voice {
@@ -13,13 +14,14 @@
 .attention-voice	{
 	font-family: var(--primary-font), serif;
 	font-size: 2rem;
-	line-height: 1.2;
+	line-height: 1.1;
 }
 
 .strong-voice	{
 	font-family: var(--primary-font), serif;;
 	font-weight: 700;
 	font-size:  1.25rem;
+	line-height: 1.4;
 }
 
 .calm-voice, p, li {

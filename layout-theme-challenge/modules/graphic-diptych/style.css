@@ -3,7 +3,7 @@ graphic-diptych {
 	display: block;
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 1rem;
 	padding: 10vh 0;
 }
 
@@ -26,6 +26,7 @@ graphic-diptych .button {
 	graphic-diptych {
 		flex-direction: row;
 		align-items: center;
+		gap: 2rem;
 	}
 
 	graphic-diptych picture {

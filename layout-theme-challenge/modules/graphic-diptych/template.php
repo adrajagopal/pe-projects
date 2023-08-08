@@ -2,7 +2,7 @@
 <graphic-diptych>
 
 	<picture>
-		<img src='images/patient.png' alt='Male sitting on a transparent background in front of a green wall'>
+		<img src='images/patient-green-background.jpg' alt='female patient smiling'>
 	</picture>
 	
 	<text-content>
