@@ -1,0 +1,93 @@
+
+
+.phone-container {
+	max-width: 390px;
+	max-height: 844px;
+	overflow: scroll;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid mistyrose;
+	border-radius: 30px;
+	background-color: var(--paper-light);
+	filter: drop-shadow(5px 5px 20px black);
+}
+
+.phone-header {
+	padding: 10px;
+	background-color: HSLA(2, 50%, 15%, 0.8); /* var(--ink-dark) */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(5px);
+ 	-webkit-backdrop-filter: blur(5px);  /* auto-prefixer takes care of this */
+}
+
+.contact-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.channel-content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	gap: 10px;
+}
+
+.day-marker {
+	color: #BEBBBB;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+p {
+	padding: 10px 10px;
+	border-radius: 20px;
+	font-family: sans-serif;
+	letter-spacing: 0.02rem;
+}
+
+.contact-block p {
+	padding: 5px;
+}
+
+.outgoing-block > *:not(.emoji) {
+	border: 2px solid var(--splash-secondary); /*#2C91FF;*/
+	background-color: var(--splash-secondary); /*#2C91FF;*/
+}
+
+.incoming-block > *:not(.emoji) {
+	border: 2px solid var(--splash-secondary-dark);/* #3B3B3D;*/
+	background-color: var(--splash-secondary-dark);/* #3B3B3D;*/
+}
+
+.incoming-block, .outgoing-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 5px;
+	color: white;
+}
+
+.incoming-block {
+
+	align-items: flex-start;
+	margin-right: 30%;
+}
+
+.outgoing-block {
+	align-items: flex-end;
+	margin-left: 30%;
+}
+
+.emoji {
+	font-size: 36px;
+}

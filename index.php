@@ -48,7 +48,7 @@
 
 <section class="welcome">
 	<div class="inner-column">
-		<?php include("modules/welcome/template.php");?>
+		<?php include("modules/imessage-about-me/template.php");?>
 	</div>
 </section>
 
