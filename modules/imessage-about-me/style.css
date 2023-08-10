@@ -6,7 +6,7 @@
 	overflow: scroll;
 	margin-left: auto;
 	margin-right: auto;
-	border: 4px solid mistyrose;
+	border: 4px solid var(--ink-dark);
 	border-radius: 30px;
 	background-color: var(--paper-light);
 	filter: drop-shadow(5px 5px 20px black);
