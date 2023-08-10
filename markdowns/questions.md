@@ -13,3 +13,7 @@ Where are we going wrong with this? we were able to decode and var_dump() a JSON
 Confused about how to set $variable = $array["object"] preceding a loop
 
 ## Saving and storing data w/ JSON
+
+## Functions
+
+Did i put my functions.php file in the right spot?
