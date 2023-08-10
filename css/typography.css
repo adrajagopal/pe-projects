@@ -2,7 +2,7 @@ em {
 	font-style: italic;
 }
 
-p, ul, ol, legend, .medium-voice {
+p, ul, ol, li, legend, .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
@@ -18,7 +18,7 @@ p, ul, ol, li, .medium-voice {
 }
 
 .list-item-title {
-	font-family: var(--primary-font);
+	font-family: var(--secondary-item);
 	font-weight: 600;
 }
 
