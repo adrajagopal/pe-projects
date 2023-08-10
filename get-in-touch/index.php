@@ -1,5 +1,5 @@
 <?php
-	include('../header.php');
+	include('../modules/masthead/template.php');
 ?>
 
 <h1 class="xxl-voice">Want to connect?</h1>
@@ -10,5 +10,5 @@
 
 
 <?php
-	include('../footer.php');
+	include('../modules/site-map/template.php');
 ?>
