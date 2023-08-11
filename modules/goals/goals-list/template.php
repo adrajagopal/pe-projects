@@ -4,8 +4,11 @@
 
 <ul role="list">
 	<?php
+
+		include(getFile('data/course-goals-database.php'));
+
 		foreach ($courseGoals as $goal) {
-			include("../modules/goals/course-goals-card/template.php");
+			include(getFile('modules/goals/course-goals-card/template.php'));
 		}
 	?>
 </ul>

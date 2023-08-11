@@ -2,6 +2,9 @@
 
 <ol role="list" class="numbered-list">
 	<?php
+
+		include('../data/ideal-job-database.php');
+		
 		foreach ($idealJobTraits as $trait) { 
 			include("../modules/goals/ideal-job-traits-card/template.php");	
 		}
