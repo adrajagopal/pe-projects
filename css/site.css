@@ -18,6 +18,8 @@
 /*Modules*/
 @import "modules.css";
 @import "resume.css";
+@import "site-header.css";
+@import "site-footer.css";
 
 /*Sections (in this file)*/
 
@@ -41,12 +43,12 @@ body {
 }
 
 
-section.masthead {
+header.site-header {
 	background-color: var(--paper);
 	border-bottom: 1px solid var(--splash-primary);
 }
 
-section.site-map {
+footer.site-footer {
 	background-color: var(--paper);
 	border-top: 1px solid var(--splash-primary);
 }
