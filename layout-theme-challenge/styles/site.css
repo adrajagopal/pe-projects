@@ -69,6 +69,7 @@ section.selling-points {
 
 section.latest {
 	border-top: 2px solid var(--primary-accent);
+	padding: 5vh 0;
 }
 
 section.sign-up {
