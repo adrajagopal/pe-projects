@@ -7,6 +7,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+
+	background-image: url("../../images/background-blob.svg");
+	background-size: cover;
 }
 
 .article-card picture {
@@ -26,4 +29,8 @@
 
 .article-card a {
 	margin-top: 1rem;
+}
+
+.article-card .button {
+	background-color: transparent;
 }

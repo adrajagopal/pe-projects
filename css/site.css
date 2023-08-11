@@ -40,6 +40,17 @@ body {
 	padding-right: 20px;
 }
 
+
+section.masthead {
+	background-color: var(--paper);
+	border-bottom: 1px solid var(--splash-primary);
+}
+
+section.site-map {
+	background-color: var(--paper);
+	border-top: 1px solid var(--splash-primary);
+}
+
 /*icon styling*/
 
 [class^="icon-"], [class*=" icon-"] {

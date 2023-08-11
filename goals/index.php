@@ -1,10 +1,5 @@
-<head>
-	<link rel="stylesheet" href="../css/site.css"> 
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Vidaloka&display=swap" rel="stylesheet">
-</head>
-
 <?php
-	// include("../header.php");
+	include('../modules/masthead/template.php');
 ?>
 
 <section class="welcome">
@@ -29,5 +24,5 @@
 </section>
 
 <?php
-	// include('../footer.php');
+	include('../modules/site-map/template.php');
 ?>

@@ -1,7 +1,5 @@
 .site-footer {
-	background-color: var(--paper);
 	margin-top: 20px;
-	border-top: 1px solid var(--splash-primary);
 }
 
 .footer-list {

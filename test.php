@@ -23,3 +23,5 @@ file_put_contents('data/test.json', $updatedJson);
 display($decodedJson);
 
 ?>
+
+<!-- The only thing that felt like a little friction was in line 18, the name for the $decodedJson / because after that first decode - it kind takes on a new life as “the data” or “the books” etc. -->

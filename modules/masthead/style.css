@@ -1,10 +1,5 @@
 .site-header {
-	background-color: var(--paper);
-}
-
-.site-header {
 	padding: 10px;
-	border-bottom: 1px solid var(--splash-primary);
 }
 
 .header-items {
