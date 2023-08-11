@@ -16,4 +16,5 @@ call-to-action p {
 
 call-to-action .button {
 	margin-top: 2rem;
+	filter: drop-shadow(0.2rem 2px hsla(0, 98%,98%, 0.3));
 }
