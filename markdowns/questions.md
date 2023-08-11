@@ -4,6 +4,8 @@
 
 I'm confused about all the links that are within my header & footer. How do I make those work on subpages?
 
+SOLVED!
+
 ## JSON
 
 Where are we going wrong with this? we were able to decode and var_dump() a JSON object up until we got to an associative array nested within an array

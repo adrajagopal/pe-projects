@@ -17,6 +17,10 @@ function showErrors() {
 showErrors();
 
 
+//Note - this function calculates the dirname based on where this function lives in the directory - probably??
+function getFile($path) {
+	return dirname(__FILE__) . '/' . $path;
+}
 
 
 
@@ -26,10 +30,3 @@ showErrors();
 
 
 
-
-
-
-
-
-
-?>
