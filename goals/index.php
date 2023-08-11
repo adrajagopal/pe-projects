@@ -1,10 +1,4 @@
-<?php include('../head.php');?>
-
-<section class="masthead">
-	<div class="inner-column">
-		<?php include("../modules/masthead/template.php"); ?>
-	</div>
-</section>
+<?php include('../header.php');?>
 
 <section class="welcome">
 	<div class="inner-column">
@@ -28,5 +22,5 @@
 </section>
 
 <?php
-	include('../modules/site-map/template.php');
+	include('../site-footer.php');
 ?>
