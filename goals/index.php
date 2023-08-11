@@ -1,6 +1,10 @@
-<?php
-	include('../modules/masthead/template.php');
-?>
+<?php include('../head.php');?>
+
+<section class="masthead">
+	<div class="inner-column">
+		<?php include("../modules/masthead/template.php"); ?>
+	</div>
+</section>
 
 <section class="welcome">
 	<div class="inner-column">
