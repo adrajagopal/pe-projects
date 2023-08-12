@@ -80,5 +80,5 @@
 
 
 <?php
-	include('../footer.php');
+	include(getFile('site-footer.php'));
 ?>

@@ -36,6 +36,7 @@
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: var(--ink);
+	text-decoration: none;
 }
 
 @media (max-width: 550px) {
