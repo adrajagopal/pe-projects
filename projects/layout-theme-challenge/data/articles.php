@@ -9,7 +9,7 @@ $articles = [
 	[
 		"heading" => "Destination or option",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.svg",
+		"thumbnail" => "squares.svg",
 	],
 	[
 		"heading" => "Story or something",
@@ -19,7 +19,7 @@ $articles = [
 	[
 		"heading" => "Banana tandori",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.svg",
+		"thumbnail" => "squares.svg",
 	],
 	[
 		"heading" => "Bar B Q",
@@ -29,6 +29,6 @@ $articles = [
 	[
 		"heading" => "Marsala",
 		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-		"thumbnail" => "landscape.svg",
+		"thumbnail" => "squares.svg",
 	],
 ];
