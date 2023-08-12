@@ -2,9 +2,9 @@
 
 ## Header & footer partials
 
-I'm confused about all the links that are within my header & footer. How do I make those work on subpages?
+### SOLVED!
 
-SOLVED!
+I'm confused about all the links that are within my header & footer. How do I make those work on subpages?
 
 ## JSON
 
