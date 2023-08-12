@@ -10,4 +10,4 @@
 
 
 <?php
-	include('../site-footer.php');?>
+	include(getFile('site-footer.php'));?>
