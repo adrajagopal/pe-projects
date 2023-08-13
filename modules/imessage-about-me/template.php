@@ -1,11 +1,11 @@
 <div class="phone-container">
 	<div class="phone-header">
-		<p style="color: #2C91FF;font-weight: 700;">&lt;</p> <!-- placeholder -->
+		<svg class="icon-"><use xlink:href="#icon-chevron-left"></use></svg>
 		<div class="contact-block">
 			<p class="emoji">🧠</p>
 			<p class="name">My Brain</p>
 		</div>
-		<p style="color: #2C91FF;font-weight: 700;">FT</p> <!-- placeholder -->
+		<svg class="icon-"><use xlink:href="#icon-facetime-camera"></use></svg>
 	</div>
 
 	<section class="channel-content">
