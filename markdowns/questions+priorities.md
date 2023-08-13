@@ -19,3 +19,24 @@ Confused about how to set $variable = $array["object"] preceding a loop
 ## Functions
 
 Did i put my functions.php file in the right spot?
+
+# Priorities
+
+## Personal site
+    * get the margin/padding in place for every page
+    ** home
+    ** projects
+    ** get in touch
+    ** resume
+    ** goals
+    * switch php data to json objects
+
+## Case studies
+    * theme challenge
+
+
+## Material
+    * storing data
+    * writing new values to a dataset
+    * JSON and forms
+
