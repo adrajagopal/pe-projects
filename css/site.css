@@ -8,6 +8,7 @@
 @import "custom-properties.css";
 
 /*Structure*/
+@import "structure.css";
 
 /*Typography*/
 @import "typography.css";
@@ -30,19 +31,6 @@ body {
 	min-height: 100vh;
 }
 
-.page-wrapper {
-	flex-grow:1;
-}
-
-.inner-column {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 700px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-
 header.site-header {
 	background-color: var(--paper);
 	border-bottom: 1px solid var(--splash-primary);
@@ -51,6 +39,19 @@ header.site-header {
 footer.site-footer {
 	background-color: var(--paper);
 	border-top: 1px solid var(--splash-primary);
+}
+
+section.welcome, section.latest-projects, section.about-me, section.contact-me {
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+}
+
+section.welcome {
+	background-image: linear-gradient(black, indigo);
+}
+
+section:nth-of-type(even) {
+	background-color: var(--paper);
 }
 
 /*icon styling*/

@@ -1,13 +1,13 @@
 <content-section style="display:block;">
 
-	<h3 class="large-voice">My work</h3>
+	<h2 class="xl-voice">My work</h2>
 
 	<ul class="work-list">
 		<li>
 			<a href="projects">
 				<picture>
 					<img src="graphics/images/code.jpg" alt="">
-					<p class="xl-voice">Code</p>
+					<p class="large-voice">Code</p>
 				</picture>
 			</a>
 		</li>
@@ -15,7 +15,7 @@
 			<a href="graphics">
 				<picture>
 					<img src="graphics/images/graphics.jpg" alt="">
-					<p class="xl-voice">Graphics</p>
+					<p class="large-voice">Graphics</p>
 				</picture>
 			</a>
 		</li>
@@ -23,7 +23,7 @@
 			<a href="graphics">
 				<picture>
 					<img src="graphics/images/bf-milk.jpg" alt="">
-					<p class="xl-voice">Graphics made in Affinity Designer</p>
+					<p class="large-voice">Graphics made in Affinity Designer</p>
 				</picture>
 			</a>
 		</li>

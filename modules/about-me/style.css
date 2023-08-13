@@ -1,1 +1,7 @@
-style.css
+.about-me-intro h2 + p {
+	margin-top: 20px;
+}
+
+.about-me-intro p + p {
+	margin-top: 10px;
+}

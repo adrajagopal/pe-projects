@@ -1,7 +1,10 @@
-
+section.welcome h2 {
+	text-align: center;
+	color: HSL(30,25%,90%);
+}
 
 .phone-container {
-	margin: 10vh 0vh;
+	margin-top: 20px;
 	max-width: 390px;
 	max-height: 500px;
 	overflow: scroll;
@@ -26,6 +29,7 @@
 }
 
 .phone-header p {
+	font-family: sans-serif;
 	color: var(--ink);
 }
 
@@ -84,7 +88,7 @@
 	font-size: 12px;
 }
 
-p {
+:is(.incoming-block, .outgoing-block) p {
 	padding: 10px 10px;
 	border-radius: 20px;
 	font-family: sans-serif;
@@ -106,6 +110,9 @@ p {
 	flex-direction: column;
 	justify-content: flex-start;
 	gap: 5px;
+}
+
+:is(.incoming-block, .outgoing-block) p {
 	color: white;
 }
 
