@@ -1,3 +1,5 @@
+<h2 class="xl-voice">Welcome to my brain</h2>
+
 <div class="phone-container">
 	<div class="phone-header">
 		<svg class="icon-"><use xlink:href="#icon-chevron-left"></use></svg>
