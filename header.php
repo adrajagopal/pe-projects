@@ -63,4 +63,4 @@
 
 	</header>
 
-	<main class="page-wrapper inner-column">
+	<main class="page-wrapper">
