@@ -39,4 +39,3 @@ Did i put my functions.php file in the right spot?
     * storing data
     * writing new values to a dataset
     * JSON and forms
-

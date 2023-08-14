@@ -46,14 +46,6 @@ section.welcome, section.latest-projects, section.about-me, section.contact-me {
 	padding-bottom: 5vh;
 }
 
-section.welcome {
-	background-image: linear-gradient(black, indigo);
-}
-
-section:nth-of-type(even) {
-	background-color: var(--paper);
-}
-
 /*icon styling*/
 
 [class^="icon-"], [class*=" icon-"] {

@@ -1,20 +1,14 @@
 <?php include('header.php');?>
 
-<section class="welcome">
+<section class="about-me">
 	<div class="inner-column">
-		<?php include("modules/imessage-about-me/template.php");?>
+		<?php include("modules/about-me/template.php");?>
 	</div>
 </section>
 
 <section class="latest-projects">
 	<div class="inner-column">
 		<?php include("modules/latest-projects/template.php");?>
-	</div>
-</section>
-
-<section class="about-me">
-	<div class="inner-column">
-		<?php include("modules/about-me/template.php");?>
 	</div>
 </section>
 
