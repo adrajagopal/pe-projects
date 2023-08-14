@@ -101,7 +101,7 @@ button {
 	border: 1px solid var(--splash-primary);
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
-	font-family: var(--primary-font);
+	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 600;
 	margin-top: 20px;
@@ -139,17 +139,11 @@ p.form-result {
 
 @media (prefers-color-scheme: dark) {
 	textarea {
-		background-color: var(--ink-dark);
-		color: var(--paper-light);
 		border: 1px solid var(--paper);
 	}
 	
 	textarea::placeholder {
 			color: #A1AA97;
-	}
-
-	label {
-		color: var(--paper);
 	}
 
 	.warning {

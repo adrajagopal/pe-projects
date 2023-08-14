@@ -7,8 +7,8 @@ body {
 	--splash-secondary: HSL(37,80%,50%); /* marigold-ish?*/
 	--splash-secondary-pale: HSL(37,80%,75%); /* marigold-ish?*/
 	--splash-secondary-dark: HSL(37,80%,25%); /* marigold-ish?*/
-	--ink: HSL(2,50%,40%); /* maroon */
-	--ink-dark: HSL(2,50%,10%); /* dark maroon */
+	--ink: HSL(250,20%,20%); /* maroon */
+	--ink-dark: HSL(250,20%,10%); /* dark maroon */
 	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
 	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
 
@@ -18,10 +18,10 @@ body {
 
 @media (prefers-color-scheme:dark) {
 	body {
-		--paper: HSL(2,50%,40%); /* maroon */;
-		--paper-light: HSL(2,50%,10%); /* dark maroon */;
-		--ink: HSL(30,25%,90%); /* darker white */;
-		--ink-dark: HSL(30,25%,95%); /* bright white */;
+		--paper: HSL(250,20%,20%); /* pull from ink*/
+		--paper-light: HSL(250,20%,10%); /* pull from ink-dark */;
+		--ink: HSL(30,25%,90%); /* pull from paper */;
+		--ink-dark: HSL(30,25%,95%); /* pull from paper-light */;
 	}
 }
 
