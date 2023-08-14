@@ -4,9 +4,22 @@
 
 $string = '';
 $characters = 0;
+$message = "Please enter a string of at least 1 character.";
+$class= "warning";
 
 $formResult = $_POST;
 
+if (isset($_POST["submitted"])) {
+
+	$string = $_POST["string"];
+
+	$characters = strlen($string);
+
+	if (isset($string) and $characters > 0) { 
+		$message = "Your input, '$string' is $characters characters long.";
+		$class = "medium-voice";
+	}
+}
 ?>
 
 <h1 class="xl-voice">Character counts.</h1>
@@ -19,7 +32,7 @@ $formResult = $_POST;
 
 		<div class form-title="field">
 			<label>Your string</label>
-			<textarea type="text" name="string" value="<?=$string?>" placeholder="Type or paste in here..."></textarea>
+			<textarea type="text" name="string" placeholder="Type or paste in here..."><?=$string?></textarea>
 		</div>
 	</div>
 
@@ -29,27 +42,11 @@ $formResult = $_POST;
 			Count
 		</button>
 
+		<p class="<?=$class?>"><?=$message?></p>
 
-		<?php 
-			if (isset($_POST["submitted"])) {
-
-				$string = $_POST["string"];
-
-				$characters = strlen($string);
-
-				if (isset($string) and $characters > 0) { ?>
-
-					<p class="medium-voice feedback">Your input, "<?=$string?>" is <?=$characters?> characters long.</p>
-				<?php }
-
-				else { ?>
-					<p class="medium-voice warning">Please enter a string of at least 1 character.</p>
-				<?php }
-			}
-		?>
 	</div>
 
 </form>
 
 
-<?php include("../../../footer.php")?>
+<?php include("../../../site-footer.php")?>

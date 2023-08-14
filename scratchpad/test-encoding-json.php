@@ -6,21 +6,21 @@ include("functions.php");
 $json = file_get_contents('data/test.json');
 
 //convert to PHP array
-$decodedJson = json_decode($json, true);
+$dogData = json_decode($json, true);
 
 //define new record
 $newDog = ["name" => "chubs", "breed" => "boglen-terrier"];
 
 //add record to PHP array
-array_push($decodedJson, $newDog);
+array_push($dogData, $newDog);
 
 //encode array as JSON
-$updatedJson = json_encode($decodedJson, true);
+$json = json_encode($dogData, true);
 
 //put the array into the original JSON file
-file_put_contents('data/test.json', $updatedJson);
+$tryIt = file_put_contents('data/test.json', $json);
 
-display($decodedJson);
+var_dump($tryIt);
 
 ?>
 
