@@ -18,7 +18,7 @@
 	<meta name="description" content="Ready for what's inside?">
 	
 <!-- delete this comment once you've replaced the template content -->
-	<meta property="og:title" content="Welcome to my brain.'">
+	<meta property="og:title" content="Welcome to my brain.">
 
 <!-- delete this comment once you've replaced the template content -->
 	<!-- <meta
@@ -28,9 +28,9 @@
 <!-- delete this comment once you've replaced the template content -->
 	<meta
 	  property="og:image"
-	  content="black-indigo-gradient">
+	  content="peprojects.dev/alpha-7/ad/images/black-indigo-gradient.jpg">
 	
-	<link rel="stylesheet" href="../css/site.css">
+	<link rel="stylesheet" href="css/site.css">
 
 <!-- 	fonts used:
 	Vidaloka 400, 700
