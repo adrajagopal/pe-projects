@@ -12,10 +12,4 @@
 	</div>
 </section>
 
-<section class="contact-me">
-	<div class="inner-column">
-		<?php include("modules/contact-me/template.php");?>
-	</div>
-</section>
-
 <?php include("site-footer.php");?>
