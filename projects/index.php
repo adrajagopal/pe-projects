@@ -4,7 +4,7 @@
 	<div class="inner-column">
 		<h1 class="xxl-voice">Projects</h1>
 
-		<h2 class="xl-voice">Here's a selection of projects.</h2>
+		<h2 class="xl-voice">Design + development</h2>
 	</div>
 </section>
 

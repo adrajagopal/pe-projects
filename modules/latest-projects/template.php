@@ -7,10 +7,18 @@
 			<a href="projects">
 				<picture>
 					<img src="graphics/images/code.jpg" alt="">
-					<p class="large-voice">Code</p>
+					<p class="large-voice">Projects</p>
 				</picture>
 			</a>
 		</li>
+<!-- 		<li>
+			<a href="graphics">
+				<picture>
+					<img src="graphics/images/bf-milk.jpg" alt="">
+					<p class="large-voice">Programming Exercises</p>
+				</picture>
+			</a>
+		</li> -->
 		<li>
 			<a href="graphics">
 				<picture>
@@ -19,14 +27,7 @@
 				</picture>
 			</a>
 		</li>
-		<li>
-			<a href="graphics">
-				<picture>
-					<img src="graphics/images/bf-milk.jpg" alt="">
-					<p class="large-voice">Graphics made in Affinity Designer</p>
-				</picture>
-			</a>
-		</li>
+
 	</ul>
 
 </content-section>
