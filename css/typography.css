@@ -7,15 +7,21 @@ p, ul, ol, li, legend, .medium-voice {
 	font-size: 1rem;
 	font-weight: 400;
 	color: var(--ink-dark);
+	line-height: 1.4;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
 	color: var(--ink);
+}
+
+h3 {
+	color: var(--splash-secondary);
 }
 
 .list-item-title {
 	font-family: var(--secondary-item);
 	font-weight: 600;
+	color: var(--splash-secondary);
 }
 
 a, p a {

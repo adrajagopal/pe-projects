@@ -5,7 +5,15 @@
 @import "../modules/site-map/style.css";
 @import "../modules/welcome/style.css";
 @import "../modules/imessage-about-me/style.css";
-/*@import "..modules/file-path/style.css";
-@import "..modules/file-path/style.css";
+
+
+@import "..modules/goals/course-goals-card/style.css";
+/*this fucking thing isn't pulling in*/
+
+
+
+/*@import "..modules/file-path/style.css";*/
+
+/*
 @import "..modules/file-path/style.css";
 */

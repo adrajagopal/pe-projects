@@ -41,9 +41,43 @@ footer.site-footer {
 	border-top: 1px solid var(--splash-primary);
 }
 
-section.welcome, section.latest-projects, section.about-me, section.contact-me {
+section.welcome, 
+section.latest-projects, 
+section.about-me, 
+section.contact-me, 
+section.e4p-intro,
+section.course-goals
+ {
 	padding-top: 5vh;
 	padding-bottom: 5vh;
+}
+
+h1 + h2, h1 + p {
+	margin-top: 30px;
+}
+
+h2 + p, h3 + p {
+	margin-top: 20px;
+}
+
+p + p, ul:not(.site-nav-items) {
+	margin-top: 15px;
+}
+
+ul:not(.site-nav-items) {
+	margin-bottom: 20px;
+}
+
+img + p, ul:not(.site-nav-items) li + li {
+	margin-top: 10px;
+}
+
+h3 {
+	margin-top: 20px;
+}
+
+p + h3 {
+	margin-top: 30px;
 }
 
 /*icon styling*/
