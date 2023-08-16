@@ -1,1 +1,7 @@
-style.css
+section.job-traits h3 + ol {
+	margin-top: 20px;
+}
+
+section.job-traits ol li + li {
+	margin-top: 10px;
+}

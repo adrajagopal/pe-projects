@@ -1,4 +1,4 @@
-<li>
+<li class="course-goals-card">
 	<p class="medium-voice">
 		<span class="list-item-title"><?=$goal["title"]?></span>
 	</p>

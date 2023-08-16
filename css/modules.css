@@ -1,19 +1,19 @@
+/*Sitewide*/
+@import "../modules/masthead/style.css";
+@import "../modules/site-map/style.css";
+
+/*Homepage*/
 @import "../modules/about-me/style.css";
 @import "../modules/contact-me/style.css";
 @import "../modules/latest-projects/style.css";
-@import "../modules/masthead/style.css";
-@import "../modules/site-map/style.css";
 @import "../modules/welcome/style.css";
+
+/*iMessage page*/
 @import "../modules/imessage-about-me/style.css";
 
-
-@import "..modules/goals/course-goals-card/style.css";
-/*this fucking thing isn't pulling in*/
-
-
-
-/*@import "..modules/file-path/style.css";*/
-
-/*
-@import "..modules/file-path/style.css";
-*/
+/* Goals page */
+@import "../modules/goals/goals-intro/style.css";
+@import "../modules/goals/goals-list/style.css";
+@import "../modules/goals/course-goals-card/style.css";
+@import "../modules/goals/ideal-job-traits/style.css";
+@import "../modules/goals/ideal-job-traits-card/style.css";
