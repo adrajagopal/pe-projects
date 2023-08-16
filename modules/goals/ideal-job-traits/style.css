@@ -1,7 +1,9 @@
-section.job-traits h3 + ol {
-	margin-top: 20px;
-}
-
 section.job-traits ol li + li {
 	margin-top: 10px;
+}
+
+section.job-traits ol {
+	margin-top: 0.5rem;
+	padding-top: 0.5rem;
+	border-top: 2px solid var(--splash-secondary);
 }
