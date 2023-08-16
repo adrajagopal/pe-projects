@@ -1,4 +1,4 @@
-<h2 class="xl-voice">The deets</h2>
+<h2 class="xl-voice">What I'm shooting for</h2>
 
 <h3 class="large-voice">General milestones</h3>
 
