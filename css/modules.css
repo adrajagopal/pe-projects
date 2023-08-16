@@ -1,7 +1,3 @@
-/*Sitewide*/
-@import "../modules/masthead/style.css";
-@import "../modules/site-map/style.css";
-
 /*Homepage*/
 @import "../modules/about-me/style.css";
 @import "../modules/contact-me/style.css";
