@@ -1,0 +1,9 @@
+/*Page heading*/
+@import "../layout-garden-modules/page-heading/style.css";
+
+
+/*Diptychs*/
+
+@import "../layout-garden-modules/helfy-diptych/style.css";
+
+@import "../layout-garden-modules/imessage-diptych/style.css";
