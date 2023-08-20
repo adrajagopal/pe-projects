@@ -33,6 +33,11 @@ img {
 	height: auto;
 }
 
+svg {
+	display: block;
+	width: 100%;
+}
+
 /* GLOBAL LINKS RESET/SETUP*/
 
 /*Explainer: https://codepen.io/perpetual-education/pen/VwPxxKg?editors=1100 */
@@ -47,5 +52,6 @@ a {
 
 p a { /* "all links in paragraphs..." */
 	display: inline-block;
+	text-decoration: underline;
 }
 /* yes! you might also want to do this for other headings and list items etc --- this is just a basic use-case */

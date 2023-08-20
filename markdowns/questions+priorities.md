@@ -25,10 +25,7 @@
     * update SomeTrails admin form to be able to add and delete trails to/from a dataset
     * JSON and forms
     * build a PHP repeater
+    * initializing Git for WP and pushing work
 
 
 # Topics to discuss
-
-## templating the margins/paddings rules on my site
-
-## general site walkthrough
