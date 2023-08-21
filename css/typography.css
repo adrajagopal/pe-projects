@@ -39,30 +39,27 @@ a, p a {
 
 /*margin & padding*/
 
-h1 + h2, h1 + p {
-	margin-top: 2rem;
-}
-
-h2 + p, h3 + p {
+h1, h2, h3 {
 	margin-top: 1.25rem;
 }
 
-p + p, ul:not(.site-nav-items) {
+h1 + h2, h1 + p, h2 + h3 {
+	margin-top: 2rem;
+}
+
+h2 + p {
+	margin-top: 1.5rem;
+}
+
+h3 + p {
 	margin-top: 1rem;
 }
 
-ul:not(.site-nav-items) {
-	margin-bottom: 1.25rem;
+p + p {
+	margin-top: 1rem;
 }
 
-img + p, ul:not(.site-nav-items) li + li {
+img + p {
 	margin-top: 0.75rem;
 }
 
-h3 {
-	margin-top: 1.25rem;
-}
-
-p + h3 {
-	margin-top: 2rem;
-}

@@ -22,31 +22,35 @@ if (isset($_POST["submitted"])) {
 }
 ?>
 
-<h1 class="xl-voice">Character counts.</h1>
-
-<form method="POST">
-
-	<div class="field-section">
-
-		<h2 class="large-voice form-title">Count your characters.</h2>	
-
-		<div class form-title="field">
-			<label>Your string</label>
-			<textarea type="text" name="string" placeholder="Type or paste in here..."><?=$string?></textarea>
-		</div>
+<section class="form-body">
+	<div class="inner-column">
+		<h1 class="xl-voice">Character counts.</h1>
+		
+		<form method="POST">
+		
+			<div class="field-section">
+		
+				<h2 class="large-voice form-title">Count your characters.</h2>	
+		
+				<div class form-title="field">
+					<label>Your string</label>
+					<textarea type="text" name="string" placeholder="Type or paste in here..."><?=$string?></textarea>
+				</div>
+			</div>
+		
+			<div class="response-section">
+			
+				<button type="submit" name="submitted">
+					Count
+				</button>
+		
+				<p class="<?=$class?>"><?=$message?></p>
+		
+			</div>
+		
+		</form>
 	</div>
-
-	<div class="response-section">
-	
-		<button type="submit" name="submitted">
-			Count
-		</button>
-
-		<p class="<?=$class?>"><?=$message?></p>
-
-	</div>
-
-</form>
+</section>
 
 
 <?php include("../../../site-footer.php")?>
