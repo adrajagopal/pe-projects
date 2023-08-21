@@ -1,4 +1,4 @@
-<?php include('../header.php');?>
+<?php include('../../header.php');?>
 
 <section class="layout-garden-heading" style="margin-top: 5vh;">
 	<div class="inner-column">
@@ -18,11 +18,12 @@
 	</div>
 </section>
 
+<!-- fuck me....include this when i can nail this down better
 <section class="helfy-diptych secondary" style="margin-top: 5vh;">
 	<div class="inner-column">
-		<?php include(getFile('layout-garden-modules/helfy-diptych/template.php')); ?>
+		<?php //include(getFile('layout-garden-modules/helfy-diptych/template.php')); ?>
 	</div>
-</section>
+</section> -->
 
 <section class="imessage-diptych" style="margin-top: 5vh;">
 	<div class="inner-column">
@@ -36,4 +37,4 @@
 
 
 
-<?php include('../site-footer.php');?>
+<?php include(getFile('site-footer.php'));?>
