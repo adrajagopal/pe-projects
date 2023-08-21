@@ -1,0 +1,43 @@
+.boomerang-fu.gallery {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:10px;
+}
+
+.boomerang-fu.gallery-item {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: auto;
+	text-align: center;
+}
+
+.boomerang-fu.gallery-item img {
+	border-radius: 10px;
+}
+
+@media (min-width: 450px) {
+	.boomerang-fu.gallery {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.boomerang-fu.gallery-item {
+		width: 45%;
+	}
+}
+
+@media (min-width: 600px) {
+	.boomerang-fu.gallery {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.boomerang-fu.gallery-item {
+		width: 30%;
+	}
+}

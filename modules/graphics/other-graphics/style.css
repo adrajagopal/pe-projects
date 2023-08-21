@@ -1,0 +1,16 @@
+.other-graphics.gallery {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	margin-top: 20px;
+}
+
+.other-graphics.gallery-item {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.other-graphics.gallery-item img {
+	border-radius: 10px;
+}

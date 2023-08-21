@@ -13,3 +13,10 @@
 @import "../modules/goals/course-goals-card/style.css";
 @import "../modules/goals/ideal-job-traits/style.css";
 @import "../modules/goals/ideal-job-traits-card/style.css";
+
+/*Graphics page*/
+
+@import "../modules/graphics/graphics-intro/style.css";
+@import "../modules/graphics/graphics-body/style.css";
+@import "../modules/graphics/boomerang-fu/style.css";
+@import "../modules/graphics/other-graphics/style.css";
