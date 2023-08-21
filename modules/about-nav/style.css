@@ -1,0 +1,31 @@
+section.about-header {
+	border-bottom: 2px solid var(--splash-secondary);
+	padding-bottom: 0px;
+	padding-top: 20px;
+}
+
+.about-nav {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	
+}
+
+section.about-header .about-nav a {
+	display: inline-block;
+	padding: 10px 30px;
+	border: 2px solid var(--splash-secondary);
+	border-bottom: none;
+	background-color: #999795;
+	color: var(--ink-dark);
+	font-family: var(--secondary-font);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+section.about-header .about-nav a.active-page {
+	border: 2px solid var(--splash-secondary);
+	background-color: var(--splash-secondary);
+}
+
+/*test*/
