@@ -42,11 +42,11 @@ footer.site-footer {
 	border-top: 1px solid var(--splash-primary);
 }
 
-section {
+section:not(.about-header) {
 	padding-top: 5vh;
 }
 
-section:last-of-type {
+section:last-of-type:not(.about-header) {
 	padding-bottom: 10vh;
 }
 

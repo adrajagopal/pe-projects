@@ -1,6 +1,3 @@
-test
-<?php include('../header.php');?>
-
 <section class="welcome">
 	<div class="inner-column">
 		<?php include(getFile('modules/goals/goals-intro/template.php'));?>
@@ -19,8 +16,3 @@ test
 		<?php include(getFile('modules/goals/ideal-job-traits/template.php'));?>
 	 </div>
 </section>
-
-<?php
-	include(getFile('site-footer.php'));
-?>
-

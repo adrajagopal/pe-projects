@@ -52,7 +52,7 @@
 
 		<nav class="site-nav">
 			<ul class="site-nav-items">
-				<li><a href="goals">My goals</a></li>
+				<li><a href="about">About</a></li>
 				<li><a href="projects">Projects</a></li>
 				<li><a href="get-in-touch">Get in touch</a></li>
 				<li><a href="https://adrajagopal.substack.com/" target="_blank">Substack ✈️</a></li>

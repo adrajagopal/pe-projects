@@ -1,9 +1,7 @@
-<?php
-	include("../header.php");
+<?php 
 	include(getFile('data/resume-job-list.php'));
+	$skills = ["HTML", "CSS", "SQL", "PHP"];
 ?>
-
-<?php $skills = ["HTML", "CSS", "SQL", "PHP"]; ?>
 
 <section class="resume-intro">
 	<div class="inner-column">
@@ -28,5 +26,3 @@
 		<?php include(getFile('modules/resume/skills-section/template.php'));?>
 	</div>
 </section>
-
-<?php include(getFile('site-footer.php'));?>

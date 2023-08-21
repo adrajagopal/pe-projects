@@ -7,13 +7,6 @@
 /*iMessage page*/
 @import "../modules/imessage-about-me/style.css";
 
-/* Goals page */
-@import "../modules/goals/goals-intro/style.css";
-@import "../modules/goals/goals-list/style.css";
-@import "../modules/goals/course-goals-card/style.css";
-@import "../modules/goals/ideal-job-traits/style.css";
-@import "../modules/goals/ideal-job-traits-card/style.css";
-
 /*Graphics page*/
 
 @import "../modules/graphics/graphics-intro/style.css";
@@ -21,8 +14,20 @@
 @import "../modules/graphics/boomerang-fu/style.css";
 @import "../modules/graphics/other-graphics/style.css";
 
-/*Resume page */
-@import "../modules/resume/resume-intro/style.css";
-@import "../modules/resume/work-experience/style.css";
-@import "../modules/resume/education-experience/style.css";
-@import "../modules/resume/skills-section/style.css";
+/*About page*/
+
+	/*About nav*/
+	@import "../modules/about-nav/style.css";
+
+	/*Resume page */
+	@import "../modules/resume/resume-intro/style.css";
+	@import "../modules/resume/work-experience/style.css";
+	@import "../modules/resume/education-experience/style.css";
+	@import "../modules/resume/skills-section/style.css";
+
+	/* Goals page */
+	@import "../modules/goals/goals-intro/style.css";
+	@import "../modules/goals/goals-list/style.css";
+	@import "../modules/goals/course-goals-card/style.css";
+	@import "../modules/goals/ideal-job-traits/style.css";
+	@import "../modules/goals/ideal-job-traits-card/style.css";
