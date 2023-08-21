@@ -1,4 +1,4 @@
-<h1 class="xxl-voice">Goals, dreams, and needs</h1>
+<h1 class="xxl-voice">Goals & dreams</h1>
 
 <h2 class="xl-voice">What this page is about</h2>
 

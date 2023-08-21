@@ -6,7 +6,7 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>Theme challenge master file</title>
+		<title>Layout Theme challenge</title>
 		<meta name='description' content='Theme challenge master file'>
 		<meta property='og:image' content='Can you research emulate a website for a specific niche industry?'>
 

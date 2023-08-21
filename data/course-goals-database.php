@@ -6,7 +6,7 @@
 		],
 		[
 			"title" => "By the end of the course...",
-			"description" => "I will be be proficient in HTML, CSS, JavaScript to a level where I could secure a full-time job as a frontend developer/frontend engineer/web developer."
+			"description" => "I will be be proficient in HTML, CSS, JavaScript and will be on my way to securing a job as a full time frontend developer."
 		],
 		[
 			"title" => "Two years from now...",
@@ -14,7 +14,7 @@
 		],
 		[
 			"title" => "When I retire...",
-			"description" => "I will have had a career with no big regrets. My career will have been stimulating and satisfying, without keeping me away from my family. I will have raised a child with my wife, loved my dogs, and spent ample time with family and friends. I will have kept my passions alive, stayed in shape (physically and mentally), and eaten and rested well."
+			"description" => "I will have had a career with no big regrets. My career will have been stimulating and satisfying, without keeping me away from my family. I will have raised a happy child with my wife, loved our dogs, and spent ample time with family and friends. I will have kept my passions alive, stayed in shape (physically and mentally), eaten healthily, and rested well."
 		],
 	]
 ?>
