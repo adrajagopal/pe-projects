@@ -18,17 +18,10 @@ h3 {
 	color: var(--splash-secondary);
 }
 
-.list-item-title {
-	font-family: var(--secondary-item);
-	font-weight: 400;
-	color: var(--splash-secondary);
-}
-
 a, p a {
 	color: var(--splash-secondary);
 	text-decoration: underline;
 }
-
 
 @media (prefers-color-scheme: dark) {
 	a:not(.site-nav a, .site-footer a), p a {
@@ -62,4 +55,3 @@ p + p {
 img + p {
 	margin-top: 0.75rem;
 }
-

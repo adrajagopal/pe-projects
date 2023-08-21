@@ -9,6 +9,7 @@
 
 /*Structure*/
 @import "structure.css";
+@import "list-styles.css";
 
 /*Typography*/
 @import "typography.css";
@@ -57,14 +58,4 @@ section:last-of-type:not(.about-header) {
     width: 32px;
     display: inline-block; 
     fill: currentColor; 
-}
-
-[role="list"].numbered-list {
-	list-style: decimal;
-	padding-left: 1.1em;
-}
-
-[role="list"].bulleted-list {
-	list-style: disc;
-	padding-left: 1.1em;
 }
