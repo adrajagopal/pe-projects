@@ -43,24 +43,23 @@
 <?php include('icons.php');?>
 
 <header class="site-header">
+	<div class="inner-column">
+		<div class="header-items">
 
-	<div class="header-items inner-column">
+			<div class="brand-slot">
+				<a href="" class="website-title">Ad Rajagopal</a>	
+			</div>
 
-		<div class="brand-slot">
-			<a href="" class="website-title">Ad Rajagopal</a>	
+			<nav class="site-nav">
+				<ul class="site-nav-items">
+					<li><a href="about">About</a></li>
+					<li><a href="projects">Projects</a></li>
+					<li><a href="get-in-touch">Get in touch</a></li>
+					<li><a href="https://adrajagopal.substack.com/" target="_blank">Substack ✈️</a></li>
+				</ul>
+			</nav>
 		</div>
-
-		<nav class="site-nav">
-			<ul class="site-nav-items">
-				<li><a href="about">About</a></li>
-				<li><a href="projects">Projects</a></li>
-				<li><a href="get-in-touch">Get in touch</a></li>
-				<li><a href="https://adrajagopal.substack.com/" target="_blank">Substack ✈️</a></li>
-			</ul>
-		</nav>
-
 	</div>
-
-	</header>
+</header>
 
 	<main class="page-wrapper">
