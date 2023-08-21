@@ -14,6 +14,12 @@
 @import "../modules/graphics/boomerang-fu/style.css";
 @import "../modules/graphics/other-graphics/style.css";
 
+/*Projects page*/
+
+@import "../modules/theme-challenges-intro/style.css";
+@import "../modules/e4p/e4p-intro/style.css";
+@import "../modules/e4p/e4p-card/style.css";
+
 /*About page*/
 
 	/*About nav*/
