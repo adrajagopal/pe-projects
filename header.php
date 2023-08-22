@@ -43,7 +43,7 @@
 <?php include('icons.php');?>
 
 <header class="site-header">
-	<div class="inner-column">
+	<inner-column>
 		<div class="header-items">
 
 			<div class="brand-slot">
@@ -59,7 +59,7 @@
 				</ul>
 			</nav>
 		</div>
-	</div>
+	</inner-column>
 </header>
 
 	<main class="page-wrapper">

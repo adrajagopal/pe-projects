@@ -9,10 +9,11 @@
 	}
 ?>
 
+<inner-column>
+	<?php include(getFile('modules/about-nav/template.php'));?>
+</inner-column>
+
 <?php
-	include(getFile('modules/about-nav/template.php'));
-
-
 	if ($page === "goals") {
 		include(getFile('modules/goals/index.php'));
 	} elseif ($page === "resume") {

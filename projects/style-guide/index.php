@@ -9,22 +9,22 @@
 ?>
 
 <section class="welcome">
-<div class="inner-column">
+<inner-column>
 	<h1 class="xxl-voice">Style Guide</h1>
 
 	<p>Style guides are used to show how a design system would look for a given set of content. This includes typography (font sizes, weights, styles; letter spacing and line height; "voicings"), colors & contrast, component styling, and content spacing. The more content, the more comprehensive the guide.</p>
-</div>
+</inner-column>
 </section>
 
 <?php foreach($modules as $module) { ?>
 <section>
-<div class="inner-column">
+<inner-column>
 	
 	<?php
 	include(getFile('modules/' . $module["module"] . '/template.php'));
 	?>
 
-</div>
+</inner-column>
 </section>
 
 <?php } ?>

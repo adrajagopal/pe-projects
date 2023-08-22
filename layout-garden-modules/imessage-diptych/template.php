@@ -1,4 +1,5 @@
-<main class="iphone inner-column">
+<main class="iphone">
+<inner-column>
 	<div class="text-content">
 		<h2 class="xxl-voice">
 			<span class="full-chunk">Welcome to my&nbsp;brain</span>
@@ -99,5 +100,6 @@
 			</div>
 		</section>
 	</div>
+</inner-column>
 </main>
 

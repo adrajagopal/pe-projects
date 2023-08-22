@@ -9,7 +9,7 @@
 	$lengthInches = 0;
 ?>
 <section class="form-body">
-	<div class="inner-column">
+	<inner-column>
 		<h1 class="xxl-voice">How much paint do you need?</h1>
 
 		<p class="medium-voice">When you're buying paint, you never want to run out too soon. Every gallon of paint covers 350-ish square feet, but then you spill some, need to repaint some sections, and you might want to have an extra gallon lying around to cover up scuffs and patch holes.</p>
@@ -111,7 +111,7 @@
 			<?php }
 
 				} ?>
-	</div>
+	</inner-column>
 </section>
 
 

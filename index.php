@@ -1,15 +1,15 @@
 <?php include('header.php');?>
 
 <section class="about-me">
-	<div class="inner-column">
+	<inner-column>
 		<?php include("modules/about-me/template.php");?>
-	</div>
+	</inner-column>
 </section>
 
 <section class="latest-projects">
-	<div class="inner-column">
+	<inner-column>
 		<?php include("modules/latest-projects/template.php");?>
-	</div>
+	</inner-column>
 </section>
 
 <?php include("site-footer.php");?>

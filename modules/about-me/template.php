@@ -1,6 +1,6 @@
 <content-section class="about-me-intro" style="display:block;">
 
-	<h1 class="xxl-voice">I'm Ad. I'm a frontend developer.</h1>
+	<h1 class="xxl-voice">I'm Ad, a frontend developer.</h1>
 
 	<h2 class="xl-voice">About me</h2>
 

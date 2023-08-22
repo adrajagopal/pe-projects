@@ -3,15 +3,15 @@
 ?>
 
 <section class="graphics-intro">
-	<div class="inner-column">
+	<inner-column>
 		<?php include(getFile('modules/graphics/graphics-intro/template.php'));?>
-	</div>
+	</inner-column>
 </section>
 
 <section class="graphics-body">
-	<div class="inner-column">
+	<inner-column>
 		<?php include(getFile('modules/graphics/graphics-body/template.php'));?>
-	</div>
+	</inner-column>
 </section>
 
 <?php

@@ -1,23 +1,23 @@
 <?php include("../header.php");?>
 
 <section class="welcome">
-	<div class="inner-column">
+	<inner-column>
 		<h1 class="xxl-voice">Projects</h1>
 
 		<h2 class="xl-voice">Design + development</h2>
-	</div>
+	</inner-column>
 </section>
 
 <section class="theme-challenges-intro">
-	<div class="inner-column">
+	<inner-column>
 		<?php include(getFile('modules/theme-challenges-intro/template.php'));?>
-	</div>
+	</inner-column>
 </section>
 
 <section class="e4p-intro">
-	<div class="inner-column">
+	<inner-column>
 		<?php include(getFile('modules/e4p/e4p-intro/template.php'));?>
-	</div>
+	</inner-column>
 </section>
 
 <?php include(getFile('site-footer.php'))?>

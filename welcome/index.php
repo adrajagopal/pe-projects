@@ -40,7 +40,9 @@
 
 	<body style="background-image: linear-gradient(black 25%, indigo);">
 
-		<?php include(getFile('modules/imessage-about-me/template.php'));?>
+		<inner-column>
+			<?php include(getFile('modules/imessage-about-me/template.php'));?>
+		</inner-column>
 
 	</body>
 	

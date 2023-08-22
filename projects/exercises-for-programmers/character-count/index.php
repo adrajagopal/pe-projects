@@ -23,7 +23,7 @@ if (isset($_POST["submitted"])) {
 ?>
 
 <section class="form-body">
-	<div class="inner-column">
+	<inner-column>
 		<h1 class="xl-voice">Character counts.</h1>
 		
 		<form method="POST">
@@ -49,7 +49,7 @@ if (isset($_POST["submitted"])) {
 			</div>
 		
 		</form>
-	</div>
+	</inner-column>
 </section>
 
 

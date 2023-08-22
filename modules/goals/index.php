@@ -1,18 +1,18 @@
 <section class="welcome">
-	<div class="inner-column">
+	<inner-column>
 		<?php include(getFile('modules/goals/goals-intro/template.php'));?>
-	</div>
+	</inner-column>
 </section>
 
 <section class="course-goals">
-	<div class="inner-column">
+	<inner-column>
 		<?php include(getFile('modules/goals/goals-list/template.php'));?>
 
-	</div>
+	</inner-column>
 </section>
 
 <section class="job-traits">
-	 <div class="inner-column">
+	 <inner-column>
 		<?php include(getFile('modules/goals/ideal-job-traits/template.php'));?>
-	 </div>
+	 </inner-column>
 </section>
