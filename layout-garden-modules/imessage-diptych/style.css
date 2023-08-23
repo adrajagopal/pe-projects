@@ -1,5 +1,4 @@
 section.imessage-diptych {
-/*	background-color: white;*/
 	background-image: radial-gradient(#FFA579 20%, #FF9CE0);
 }
 
@@ -17,7 +16,6 @@ section.imessage-diptych {
 .layout-garden .text-content {
 	grid-column: 1/6;
 	z-index: 10;
-/*	transform: translateY(-50px);*/
 }
 
 .layout-garden picture {
@@ -28,12 +26,14 @@ section.imessage-diptych {
 .phone h2 {
 	font-size: clamp(40px, 9vw, 60px);
 	margin-top: 0;
+	color: black;
 }
 
 .phone p {
 	font-family: var(--secondary-font);
 	font-weight: 700;
 	font-size: clamp(24px, 2vw, 30px);
+	color: black;
 }
 
 .phone {
@@ -68,6 +68,10 @@ section.imessage-diptych {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 35px;
+}
+
+.phone .phone-container img {
 	border-radius: 35px;
 }
 

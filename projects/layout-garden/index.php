@@ -6,7 +6,7 @@
 	</inner-column>
 </section>
 
-<section class="diptych-intro" style="margin-top: 5vh;">
+<section class="diptych-intro" id="welcomes" style="margin-top: 5vh;">
 	<inner-column>
 		<h2 class="xl-voice">Graphic Diptych/Hero/Welcome Sections</h2>
 	</inner-column>
