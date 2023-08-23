@@ -89,7 +89,7 @@
 
 /*Phone structure */
 
-.phone-container {
+.iphone .phone-container {
 	margin-top: 20px;
 	max-width: 390px;
 	height: 75vh;
@@ -176,6 +176,7 @@
 	border-radius: 20px;
 	font-family: sans-serif;
 	letter-spacing: 0.02rem;
+	margin-top: 0px;
 }
 
 .outgoing-block > *:not(.emoji) {

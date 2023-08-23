@@ -62,7 +62,7 @@ section.imessage-diptych {
 	font-weight: 700;
 }
 
-.phone-container {
+.phone .phone-container {
 	margin-top: 20px;
 	width: 320px;
 	height: auto;
@@ -76,7 +76,7 @@ section.imessage-diptych {
 }
 
 @media (max-width: 360px) {
-	.phone-container {
+	.phone .phone-container {
 		width: 80vw;
 	}
 }
