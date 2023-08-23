@@ -1,10 +1,12 @@
 
 <garden-heading style="display:block;">
-	<h1 class="xxl-voice">
-		<span class="chunk-responsive">Responsive</span>
-		<span class="chunk-layout">Layout </span>
-		<span class="chunk-garden">Garden </span>
-	</h1>
+	<h1 class="xxl-voice">Responsive Layout Garden</h1>
 	
-	<p>This is an explanation of what the layout garden is.</p>
+	<p>Welcome to my garden. Here, you'll find a collection of plug-and-play responsive layouts for a variety of modules common in the modern web.</p>
+
+	<h2 class="xl-voice">Contents</h2>
+	<ul role="list">
+		<li><a href="projects/layout-garden/#welcomes">Welcomes</a></li>
+		<li><a href="projects/layout-garden/#welcomes">Welcomes</a></li>
+	</ul>
 </garden-heading>
