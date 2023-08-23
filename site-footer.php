@@ -1,15 +1,17 @@
 	</main>
 
 <!-- Site footer-------------------------------------- -->
-	<inner-column>
-		<footer class="site-footer">
+	
+	<footer class="site-footer">
+		<inner-column>
+	
+		<div class="footer-list">
+			<?php include('socials.php');?>
+		</div>
 		
-			<div class="footer-list">
-				<?php include('socials.php');?>
-			</div>
-		
-		</footer>
-	</inner-column>
+		</inner-column>		
+	</footer>
+
 
 </body>
 </html>
