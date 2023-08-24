@@ -20,6 +20,11 @@
 	border-radius: 0.25rem;
 }
 
+.article-card img {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
 .article-card text-content {
 	display: flex;
 	flex-direction: column;
