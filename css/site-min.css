@@ -45,7 +45,8 @@ footer.site-footer {
 }
 
 section:not(.about-header) {
-	padding-top: 5vh;
+	padding-top: 8vh;
+	padding-bottom: 8vh;
 }
 
 section:last-of-type:not(.about-header) {

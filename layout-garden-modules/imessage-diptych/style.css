@@ -18,9 +18,10 @@ section.imessage-diptych {
 	z-index: 10;
 }
 
-.layout-garden picture {
+.layout-garden.phone picture {
 	grid-column: 2/5;
 	z-index: 5;
+	margin-top: 0px;
 }
 
 .phone h2 {
@@ -34,11 +35,6 @@ section.imessage-diptych {
 	font-weight: 700;
 	font-size: clamp(24px, 2vw, 30px);
 	color: black;
-}
-
-.phone {
-	margin-top: 10vh;
-	margin-bottom: 10vh;
 }
 
 .phone .text-content {
