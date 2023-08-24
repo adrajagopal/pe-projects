@@ -16,10 +16,6 @@ form {
 	justify-content: space-between;
 }
 
-.field {
-
-}
-
 legend {
 	padding-right: 0.5rem;
 }
@@ -99,6 +95,7 @@ button {
 	background-color: var(--splash-secondary);
 	color: var(--ink-dark);
 	border: 1px solid var(--splash-primary);
+	min-width: 150px;
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
 	font-family: var(--secondary-font);

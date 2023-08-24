@@ -98,7 +98,7 @@
 			}
 		?>
 
-			<button type="submit" name="submitted">Calculate</button>
+			<div class="button-container"><button type="submit" name="submitted">Calculate</button></div>
 		</form>
 
 

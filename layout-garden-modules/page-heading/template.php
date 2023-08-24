@@ -7,6 +7,6 @@
 	<h2 class="xl-voice">Contents</h2>
 	<ul role="list">
 		<li><a href="projects/layout-garden/#welcomes">Welcomes</a></li>
-		<li><a href="projects/layout-garden/#welcomes">Welcomes</a></li>
+		<li><a href="projects/layout-garden/#grids">Grids, articles and lists</a></li>
 	</ul>
 </garden-heading>

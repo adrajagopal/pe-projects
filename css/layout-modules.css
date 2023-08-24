@@ -1,9 +1,14 @@
 /*Page heading*/
 @import "../layout-garden-modules/page-heading/style.css";
 
+/*Article card*/
+@import "../layout-garden-modules/article-card/style.css";
 
 /*Diptychs*/
 
 @import "../layout-garden-modules/helfy-diptych/style.css";
 
 @import "../layout-garden-modules/imessage-diptych/style.css";
+
+/*News page*/
+@import "../layout-garden-modules/news-page/style.css";

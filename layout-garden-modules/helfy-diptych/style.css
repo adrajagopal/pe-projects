@@ -6,16 +6,15 @@ graphic-diptych {
 	padding: clamp(10px, 5vw, 200px) 0;
 }
 
+.box1, .box2, .box3 {
+	display: none;
+}
+
 graphic-diptych p {
 	margin-top: 1rem;
 }
 
-graphic-diptych picture {
-	border-radius: 10px;
-	background-size: cover;
-}
-
-graphic-diptych img {
+graphic-diptych :is(picture, img) {
 	border-radius: 10px;
 }
 
@@ -42,17 +41,16 @@ graphic-diptych.layout-garden .button {
 	color: white;
 }
 
-@media (min-width:  800px) {
+@media (min-width:  700px) {
 	graphic-diptych {
 		flex-direction: row;
 		align-items: center;
-		gap: 1rem;
+		gap: 2rem;
 	}
 
 	graphic-diptych picture {
 		background-image: none;
 		background-color: var(--primary-brand);
-		object-fit: cover;
 	}
 
 	graphic-diptych :is(picture, text-content) {
@@ -69,6 +67,10 @@ graphic-diptych.layout-garden .button {
 .secondary {
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.secondary :is(.box1, .box2, .box3) {
+	display: block;
 }
 
 .secondary graphic-diptych {
