@@ -5,7 +5,7 @@
 	<div class="box3"></div>
 
 	<picture>
-		<img src="layout-garden-modules/helfy-diptych/images/patient-green-background.jpg" alt='imaginary customer smiling and looking off into the distance, immensely happy that their identity is tied so closely to the brand identity'>
+		<img src="layout-garden-modules/images/patient-green-background.jpg" alt='imaginary customer smiling and looking off into the distance, immensely happy that their identity is tied so closely to the brand identity'>
 	</picture>
 	
 	<text-content>

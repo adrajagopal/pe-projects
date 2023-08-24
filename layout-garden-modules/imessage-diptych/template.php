@@ -10,7 +10,7 @@
 	</div>
 
 	<picture class="phone-container">
-		<img src="layout-garden-modules/imessage-diptych/images/phone-silhouette.jpg" alt="">
+		<img src="layout-garden-modules/images/phone-silhouette.jpg" alt="">
 	</picture>
 </main>
 
