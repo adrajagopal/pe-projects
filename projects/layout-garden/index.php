@@ -43,6 +43,12 @@
 	</inner-column>
 </section>
 
+<section class="gallery-1">
+	<inner-column>
+		<?php include(getFile('layout-garden-modules/gallery-1/template.php')); ?>
+	</inner-column>
+</section>
+
 
 
 
