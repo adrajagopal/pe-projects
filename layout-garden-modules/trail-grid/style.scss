@@ -26,14 +26,12 @@
 			gap: 5px 20px;
 			align-items: start;
 			justify-items: start;
+			grid-template-columns: 75px 1fr;
 			grid-template-areas:
-				"thumbnail title title title"
-				"thumbnail length time ."
-				"thumbnail . . ."
+				"thumbnail title"
+				"thumbnail text"
+				"thumbnail . "
 				;
-
-			border: 1px solid red;
-			& > * {border: 1px solid red;}
 		}
 
 		& picture {
@@ -41,6 +39,7 @@
 			height: 75px;
 			padding: 0px;
 			border-radius: 5px;
+
 			grid-area: thumbnail;
 		}
 
@@ -53,22 +52,17 @@
 		}
 
 		& h3 {
-			grid-area: title;
 			margin: 0px;
+
+			grid-area: title;
 		}
 
 		& p {
 			margin: 0px;
 			font-size: 0.8rem;
 			color: grey;
-		}
 
-		& .length {
-			grid-area: length;
-		}
-
-		& .time {
-			grid-area: time;
+			grid-area: text;
 		}
 	}
 } //close .trail-grid-container

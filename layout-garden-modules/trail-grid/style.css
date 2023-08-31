@@ -24,11 +24,8 @@
   gap: 5px 20px;
   align-items: start;
   justify-items: start;
-  grid-template-areas: "thumbnail title title title" "thumbnail length time ." "thumbnail . . .";
-  border: 1px solid red;
-}
-.trail-grid-container .trail-list li > * {
-  border: 1px solid red;
+  grid-template-columns: 75px 1fr;
+  grid-template-areas: "thumbnail title" "thumbnail text" "thumbnail . ";
 }
 .trail-grid-container .trail-list picture {
   width: 75px;
@@ -45,17 +42,12 @@
   border-radius: 5px;
 }
 .trail-grid-container .trail-list h3 {
-  grid-area: title;
   margin: 0px;
+  grid-area: title;
 }
 .trail-grid-container .trail-list p {
   margin: 0px;
   font-size: 0.8rem;
   color: grey;
-}
-.trail-grid-container .trail-list .length {
-  grid-area: length;
-}
-.trail-grid-container .trail-list .time {
-  grid-area: time;
+  grid-area: text;
 }

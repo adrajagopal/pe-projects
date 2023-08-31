@@ -867,6 +867,18 @@
       "oAP" : "\/layout-garden-modules\/page-heading\/template.php",
       "oF" : 0
     },
+    "\/layout-garden-modules\/trail-grid\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/layout-garden-modules\/trail-grid\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/layout-garden-modules\/trail-grid\/style.scss" : {
       "aP" : 0,
       "bl" : 0,

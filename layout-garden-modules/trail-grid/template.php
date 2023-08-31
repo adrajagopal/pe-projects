@@ -26,8 +26,7 @@
 			<li>
 				<picture><img src="<?=$portrait?>"></picture>
 				<h3 class="medium-voice"><?=$title?></h3>
-				<p class="length">Length: <?=$length?></p>
-				<p class="time">Est. <?=$time?></p>
+				<p>Length: <?=$length?> • Est. <?=$time?></p>
 			</li>
 		<?php } ?>
 	</ul>
