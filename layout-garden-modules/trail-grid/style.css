@@ -7,6 +7,11 @@
   align-items: center;
   justify-content: flex-end;
 }
+.trail-grid-container .see-more a {
+  text-decoration: none;
+  color: var(--ink);
+  display: flex;
+}
 .trail-grid-container .see-more h3 {
   margin: 0px;
   color: var(--ink);
@@ -50,4 +55,24 @@
   font-size: 0.8rem;
   color: grey;
   grid-area: text;
+}
+
+@media (min-width: 1000px) {
+  .trail-grid-container {
+    grid-template-areas: "title" "body";
+  }
+  .trail-grid-container h2 {
+    grid-area: title;
+  }
+  .trail-grid-container ul {
+    grid-area: body;
+  }
+  .trail-grid-container .see-more {
+    z-index: 5;
+    background-image: linear-gradient(90deg, transparent 33%, var(--paper-light) 66%);
+    grid-area: body;
+  }
+  .trail-grid-container .trail-list {
+    overflow-x: hidden;
+  }
 }

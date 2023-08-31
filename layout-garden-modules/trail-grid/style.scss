@@ -7,6 +7,12 @@
 		align-items: center;
 		justify-content: flex-end;
 
+		& a {
+				text-decoration: none;
+				color: var(--ink);
+				display: flex;
+		}
+
 		& h3 {
 		margin: 0px;
 		color: var(--ink);
@@ -69,14 +75,30 @@
 
 
 @media (min-width: 1000px) {
-	
+	.trail-grid-container {
+		grid-template-areas:
+			"title"
+			"body"
+			;
 
+		& h2 {
+			grid-area: title;
+		}
 
+		& ul {
+			grid-area: body;
+		}
 
+		& .see-more {
+			z-index: 5;
+			background-image: linear-gradient(90deg, transparent 33%, var(--paper-light) 66%);
 
+			grid-area: body;
+		}
 
-
-
-
+		& .trail-list {
+			overflow-x: hidden;
+		}
+	}	
 	
 } //close media query
