@@ -15,3 +15,6 @@
 
 /*gallery-1 */
 @import "../layout-garden-modules/gallery-1/style.css";
+
+/*AllTrails thumbnail grid*/
+@import "../layout-garden-modules/trail-grid/style.css";
