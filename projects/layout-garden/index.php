@@ -1,12 +1,5 @@
 <?php include('../../header.php');?>
 
-<section class="trail-grid">
-	<inner-column>
-		<?php include(getFile('layout-garden-modules/trail-grid/template.php')); ?>
-	</inner-column>
-</section>
-
-
 <section class="layout-garden-heading">
 	<inner-column>
 		<?php include(getFile('layout-garden-modules/page-heading/template.php')); ?>
@@ -41,6 +34,12 @@
 <section class="grids-intro" id="grids">
 	<inner-column>
 		<h2 class="xl-voice">Grids, articles and lists</h2>
+	</inner-column>
+</section>
+
+<section class="trail-grid">
+	<inner-column>
+		<?php include(getFile('layout-garden-modules/trail-grid/template.php')); ?>
 	</inner-column>
 </section>
 
