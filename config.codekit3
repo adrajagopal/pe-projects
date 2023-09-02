@@ -996,6 +996,41 @@
       "oAP" : "\/modules\/about-nav\/template.php",
       "oF" : 0
     },
+    "\/modules\/compound-interest-form\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/compound-interest-form\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/modules\/compound-interest-form\/style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/compound-interest-form\/style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/modules\/compound-interest-form\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/compound-interest-form\/template.php",
+      "oF" : 0
+    },
     "\/modules\/contact-me\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1420,12 +1455,28 @@
       "oAP" : "\/projects\/exercises-for-programmers\/character-count\/index.php",
       "oF" : 0
     },
+    "\/projects\/exercises-for-programmers\/compound-interest\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/compound-interest\/index.php",
+      "oF" : 0
+    },
     "\/projects\/exercises-for-programmers\/paint-calculator\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/projects\/exercises-for-programmers\/paint-calculator\/index.php",
+      "oF" : 0
+    },
+    "\/projects\/exercises-for-programmers\/tax-calculator\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/tax-calculator\/index.php",
       "oF" : 0
     },
     "\/projects\/index.php" : {
