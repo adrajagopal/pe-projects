@@ -1,0 +1,6 @@
+section.form-compound-interest form {
+  max-width: 600px;
+}
+section.form-compound-interest .display-none {
+  display: none;
+}

@@ -22,35 +22,19 @@ if (isset($_POST["submitted"])) {
 }
 ?>
 
-<section class="form-body">
+<section class="form-intro">
 	<inner-column>
-		<h1 class="xl-voice">Character counts.</h1>
-		
-		<form method="POST">
-		
-			<div class="field-section">
-		
-				<h2 class="large-voice form-title">Count your characters.</h2>	
-		
-				<div class form-title="field">
-					<label>Your string</label>
-					<textarea type="text" name="string" placeholder="Type or paste in here..."><?=$string?></textarea>
-				</div>
-			</div>
-		
-			<div class="response-section">
-			
-				<button type="submit" name="submitted">
-					Count
-				</button>
-		
-				<p class="<?=$class?>"><?=$message?></p>
-		
-			</div>
-		
-		</form>
+		<h1 class="xl-voice">Character counter</h1>
 	</inner-column>
 </section>
+
+<section class="form-character-count">
+	<inner-column>
+		<?php include(getFile('modules/form-character-count/template.php')); ?>
+	</inner-column>
+</section>
+
+
 
 
 <?php include("../../../site-footer.php")?>

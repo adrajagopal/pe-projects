@@ -37,9 +37,9 @@
 </inner-column>
 </section>
 	
-<section class="compound-interest-form">
+<section class="form-compound-interest">
 <inner-column>
-	<?php include(getFile('modules/compound-interest-form/template.php'));?>
+	<?php include(getFile('modules/form-compound-interest/template.php'));?>
 </inner-column>
 </section>
 

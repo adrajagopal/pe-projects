@@ -996,41 +996,6 @@
       "oAP" : "\/modules\/about-nav\/template.php",
       "oF" : 0
     },
-    "\/modules\/compound-interest-form\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/compound-interest-form\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/modules\/compound-interest-form\/style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/compound-interest-form\/style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/modules\/compound-interest-form\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/compound-interest-form\/template.php",
-      "oF" : 0
-    },
     "\/modules\/contact-me\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1089,6 +1054,72 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/modules\/e4p\/e4p-intro\/template.php",
+      "oF" : 0
+    },
+    "\/modules\/form-character-count\/style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-character-count\/style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/modules\/form-character-count\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-character-count\/template.php",
+      "oF" : 0
+    },
+    "\/modules\/form-compound-interest\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/modules\/form-compound-interest\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/modules\/form-compound-interest\/style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-compound-interest\/style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/modules\/form-compound-interest\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-compound-interest\/template.php",
+      "oF" : 0
+    },
+    "\/modules\/form-paint-calculator\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-paint-calculator\/template.php",
       "oF" : 0
     },
     "\/modules\/goals\/course-goals-card\/style.css" : {

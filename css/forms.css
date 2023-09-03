@@ -168,11 +168,6 @@ button {
 	justify-self: start;
 }
 
-button:hover {
-	background-color: var(--splash-secondary-pale);
-	color: var(--splash-secondary);
-}
-
 button:active {
 	color: var(--splash-secondary-dark);
 	background-color: var(--splash-secondary);
@@ -199,7 +194,7 @@ p.form-result {
 
 @media (prefers-color-scheme: dark) {
 	textarea {
-		border: 1px solid var(--paper);
+/*		border: 1px solid var(--paper);*/
 	}
 	
 	textarea::placeholder {

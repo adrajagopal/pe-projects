@@ -8,7 +8,7 @@
 	$lengthFeet = 0;
 	$lengthInches = 0;
 ?>
-<section class="form-body">
+<section class="form-intro">
 	<inner-column>
 		<h1 class="xl-voice">How much paint do you need?</h1>
 
@@ -18,90 +18,15 @@
 
 		<h2 class="large-voice">Enter your room dimensions:</h2>
 
-		<form method="POST">
-			<fieldset class="field short-text">
-				<legend>Length</legend>
-				<div class="label-input-group">
-					<label for="">Feet</label>
-					<input type="number"
-						name="lengthFeet"
-						min="0"
-						value="<?=$lengthFeet?>"
-					>
-					<label>Inches</label>
-					<input type="number"
-						name="lengthInches"
-						min="0"
-						max="12"
-						value="<?=$lengthInches?>"
-					>
-				</div>
-			</fieldset>
 
-			<fieldset class="field short-text">
-				<legend>Width</legend>
-				<div class="label-input-group">
-					<label for="">Feet</label>
-					<input type="number"
-						name="widthFeet"
-						min="0"
-						value="<?=$widthFeet?>"
-					>
-					<label>Inches</label>
-					<input type="number"
-						name="widthInches"
-						min="0"
-						max="12"
-						value="<?=$widthInches?>"
-					>
-				</div>
-			</fieldset>
+<section class="form-body">
+	<inner-column>
+		<?php include(getFile('modules/form-paint-calculator/template.php')) ; ?>
+	</inner-column>
+</section>
 
-		<?php
-			if (isset($_POST["submitted"])) {
-
-				$widthFeet = $_POST["widthFeet"];
-				$widthInches = $_POST["widthInches"];
-				$lengthFeet = $_POST["lengthFeet"];
-				$lengthInches = $_POST["lengthInches"];
-
-
-				// Step 1 - Get total width + provide validation
-				if (isset($widthFeet) OR isset($widthInches)) {
-					if ($widthFeet + $widthInches > 0) { // "are one of ft or inches > 0?"
-						$widthSum = $widthFeet + ($widthInches / 12); 
-						// echo $widthSum;
-					}
-
-					elseif ($widthFeet + $widthInches === 0) { //just being overly explicit here
-						echo "<p 'class=medium-voice'> Please enter at least one positive value for width. </p>";
-					}
-				}
-
-				// Step 2 - Get total length + provide validation
-				if (isset($lengthFeet) OR isset($lengthInches)) {
-					if ($lengthFeet + $lengthInches > 0) { // "are one of ft or inches > 0?"
-						$lengthSum = $lengthFeet + ($lengthInches / 12);
-						// echo $lengthSum;
-					}
-
-					elseif ($lengthFeet + $lengthInches === 0) { //just being overly explicit here
-						echo "<p 'class=medium-voice'> Please enter at least one positive value for length. </p>";
-					}
-				}
-
-				// Step 3 - Get multiplied room area & rounded gallon number
-				if (isset($widthSum) AND isset($lengthSum) AND ($widthSum * $lengthSum > 0)) {
-					$roomArea = $widthSum * $lengthSum;
-					$gallons = intval(ceil($roomArea/350));
-				}
-			}
-		?>
-
-			<div class="button-container"><button type="submit" name="submitted">Calculate</button></div>
-		</form>
-
-
+<section>
+	<inner-column>
 		<?php if (isset($gallons)) { 
 					if ($gallons === 1) { ?>
 						<p class="form-result">Your room is <?=$roomArea?> square feet, so you'll only need <?=$gallons?> gallon to paint it.</p>
@@ -116,4 +41,4 @@
 
 
 
-<?php include("../../../site-footer.php");?>
+<?php include(getFile('site-footer.php'));?>
