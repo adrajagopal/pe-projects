@@ -20,11 +20,14 @@ if (isset($_POST["submitted"])) {
 		$class = "form-result";
 	}
 }
+
 ?>
 
 <section class="form-intro">
 	<inner-column>
+		
 		<h1 class="xl-voice">Character counter</h1>
+		<a href="projects/exercises-for-programmers/character-count?">Clear form</a>
 	</inner-column>
 </section>
 
@@ -33,8 +36,5 @@ if (isset($_POST["submitted"])) {
 		<?php include(getFile('modules/form-character-count/template.php')); ?>
 	</inner-column>
 </section>
-
-
-
 
 <?php include("../../../site-footer.php")?>

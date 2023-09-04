@@ -9,6 +9,7 @@
 				min="0"
 				step="1"
 				value="<?=$lengthFeet?>"
+				required
 			>
 			<span class="append">feet</span>
 		</input-container>
@@ -22,6 +23,7 @@
 				max="12"
 				step="1"
 				value="<?=$lengthInches?>"
+				required
 			>
 			<span class="append">inches</span>
 		</input-container>
@@ -34,6 +36,7 @@
 				name="widthFeet"
 				min="0"
 				value="<?=$widthFeet?>"
+				required
 			>
 			<span class="append">feet</span>
 		</input-container>
@@ -46,6 +49,7 @@
 				min="0"
 				max="12"
 				value="<?=$widthInches?>"
+				required
 			>
 			<span class="append">inches</span>
 		</input-container>

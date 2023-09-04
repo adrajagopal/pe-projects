@@ -1,6 +1,12 @@
 <?php include("header.php");?>
 
-
+<!-- 
+Every choice has to have a label in a radio/checkbox field
+Put a fieldset+legend around the group
+Probably get rid of radio-container and checkbox-container
+Fix styling the checkbox-pill:focus and ::selection
+build out logic to retain form results on refresh
+ -->
 
 <inner-column>
 	<h1 class="xl-voice">Form Title</h1>
@@ -59,22 +65,22 @@
 			<span class="label">Checkbox multiselect</span>
 			<span class="warning">warning</span>
 			<input-container>
-				<radio-container>
+				<checkbox-container>
 					<input type="checkbox" name="Attr1">
 					<span class="label">Attr1</span>
-				</radio-container>
-				<radio-container>
+				</checkbox-container>
+				<checkbox-container>
 					<input type="checkbox" name="Attr2">
 					<span class="label">Attr2</span>
-				</radio-container>
-				<radio-container>
+				</checkbox-container>
+				<checkbox-container>
 					<input type="checkbox" name="Attr3">
 					<span class="label">Attr3</span>
-				</radio-container>
-				<radio-container>
+				</checkbox-container>
+				<checkbox-container>
 					<input type="checkbox" name="Attr4">
 					<span class="label">Attr4</span>
-				</radio-container>
+				</checkbox-container>
 			</input-container>
 		</label>
 
@@ -102,14 +108,40 @@
 			</input-container>
 		</label>
 
-		<label class="field form-button span-two">
-			<span class="label">Button select (select one only)</span>
+		<label class="field checkbox-pills span-two">
+			<span class="label">Checkbox multiselect</span>
 			<span class="warning">warning</span>
 			<input-container>
-				<input type="button" value="Attr1" name="replace">
-				<input type="button" value="Attr2" name="replace">
-				<input type="button" value="Attr3" name="replace">
-				<input type="button" value="Attr4" name="replace">
+				<label>
+					<checkbox-container>
+						<input type="checkbox" name="Attr1" class="visually-hidden">
+						<span class="label">Attr1</span>
+					</checkbox-container>
+				</label>
+			</input-container>
+			<input-container>
+				<label>
+					<checkbox-container>
+						<input type="checkbox" name="Attr2" class="visually-hidden">
+						<span class="label">Attr2</span>
+					</checkbox-container>
+				</label>
+			</input-container>
+			<input-container>
+				<label>
+					<checkbox-container>
+						<input type="checkbox" name="Attr3" class="visually-hidden">
+						<span class="label">Attr3</span>
+					</checkbox-container>
+				</label>
+			</input-container>
+			<input-container>
+				<label>
+					<checkbox-container>
+						<input type="checkbox" name="Attr4" class="visually-hidden">
+						<span class="label">Attr4</span>
+					</checkbox-container>
+				</label>
 			</input-container>
 		</label>
 

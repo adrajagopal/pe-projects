@@ -33,6 +33,18 @@
       "oAP" : "\/config.php",
       "oF" : 0
     },
+    "\/css\/accessibility.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/accessibility-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/custom-properties.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -928,6 +940,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/markdowns\/questions+priorities.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/markdowns\/questions+priorities.html",
+      "oF" : 0
     },
     "\/markdowns\/questions+priorities.md" : {
       "cB" : 0,
