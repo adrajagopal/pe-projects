@@ -7,7 +7,7 @@
 form {
 	padding: 10px;
 	border: 2px solid var(--splash-secondary);
-	border-radius: 0.25rem;
+	border-radius: 0.5rem;
 	width: 100%;
 	min-height: 300px;
 	display: grid;
@@ -169,7 +169,7 @@ p.form-result {
 	font-size: 1.25rem;
 	margin-top: 2rem;
 	border: 2px solid var(--splash-secondary);
-	border-radius: 0.25rem;
+	border-radius: 0.5rem;
 	padding: 1rem;
 	background-color: var(--paper);
 }
