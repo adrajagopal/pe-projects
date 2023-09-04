@@ -1,55 +1,19 @@
-/* Structure */
+/* Test rules */
 
-label, textarea {
-	display: block;
-}
+	/*label, label > * {border: 1px solid red}*/
 
-/*label, label > * {border: 1px solid red}*/
-
-label.field {
-	display: flex;
-	flex-direction: column;
-	font-family: var(--primary-font);
-	font-size: 1rem;
-	gap: 0.5rem;
-	color: var(--ink);
-	width: 100%;
-}
-
-p, span {
-	font-family: var(--secondary-font);
-	font-size: 1rem;
-	color: var(--ink);
-}
-
-input-container {
-	overflow: hidden;
-}
-
-input-container > * {
-	padding: 0.5rem 1rem;
-}
-
-form :is(.prepend, .append) {
-	background-color: lightgrey;
-	color: black;
-}
-
-
-textarea {
-	width: 100%;
-}
+/*Form structure */
 
 form {
-	margin-top: 10px;
 	padding: 10px;
-	border: 1px solid var(--splash-secondary-pale);
-	border-radius: 0.5rem;
+	border: 2px solid var(--splash-secondary);
+	border-radius: 0.25rem;
 	width: 100%;
 	min-height: 300px;
 	display: grid;
 	gap: 1.5rem;
 	justify-items: start;
+	font-family: var(--secondary-font);
 
 	grid-template-columns: 1fr 1fr;
 }
@@ -58,40 +22,61 @@ form :is(h1, h2, h3, p, span) {
 	margin-top: 0px;
 }
 
-legend {
-	padding-right: 0.5rem;
+/* Input fields */
+
+label {
+	display: block;
 }
 
-.warning {
-	margin-top: 0.25rem;
-	padding-left: 0.5rem;
-	border-left: 2px solid var(--warning-dark);
-	color: var(--warning-dark);
-	font-size: 0.9rem;
+textarea {
+	display: block;
+	width: 100%;
+	border: none;
 }
 
-/*form column spans*/
+label.field {
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+	gap: 0.5rem;
+	color: var(--ink);
+	width: 100%;
+}
 
-.span-two {
-	grid-column: span 2;
+form :is(p, span) {
+	font-family: var(--secondary-font);
+	font-size: 1rem;
+	color: var(--ink);
+}
+
+form :is(.prepend, .append) {
+	background-color: lightgrey;
+	color: black;
 }
 
 /*Input styling*/
 
-input.short-text, select, .long-text textarea {
+input-container {
+	overflow: hidden;
+}
+
+input-container > * {
+	padding: 0.5rem 1rem;
 	background-color: var(--paper-light);
+
+}
+
+	/*Text inputs */
+
+.text input, select, .text textarea {
 	font-family: var(--secondary-font);
 	color: var(--ink);
 	font-size: 1rem;
+	width: 100%;
 }
 
 select {
 	padding: 0.5rem 1rem;
-}
-
-input.short-text {
-	width: 100%;
-	border-radius: 0.5rem;
 }
 
 input-container, select {
@@ -104,47 +89,53 @@ input-container, select {
 	gap: 0.25rem;
 }
 
-.label-input-group {
-	margin-top: 0.5rem;
+:is(.radio, .checkbox, .form-button, .slider) input-container {
+	border: none;
 }
 
-.label-input-group + .label-input-group {
-	margin-top: 1.25rem;
+:is(.checkbox, .radio) input-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
-.radio .label-input-group {
-	border: 2px solid red;
-	padding: 0.5rem;
+radio-container {
+	display: block;
 	display: flex;
 	align-items: center;
-	gap: 0.5rem;
+	gap: 1rem;
 }
 
-.slider .label-input-group {
-	width: 60%;
+.form-button input-container {
+	display: flex;
+	gap: clamp(1rem, 1rem, 50px);
+}
+
+.form-button input { /* aka the actual button */
+	border: 2px solid var(--ink);
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	font-family: var(--secondary-font);
+}
+
+.form-button input:focus {
+	background-color: var(--ink);
+	color: var(--paper-light);
+}
+
+.slider input-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 75%;
 }
 
-.slider .label-input-group input {
+.slider input {
 	width: 100%;
-	fill: salmon;
 }
 
 .submit-container {
 	margin-top: 2rem;
-	border-top: 2px solid var(--paper);
-}
-
-fieldset + fieldset {
-	margin-top: 2rem;
-}
-
-fieldset {
-	display: flex;
-	flex-direction: column;
-	margin-top: 10px;
 	border-top: 2px solid var(--paper);
 }
 
@@ -169,38 +160,41 @@ button {
 }
 
 button:active {
-	color: var(--splash-secondary-dark);
-	background-color: var(--splash-secondary);
-	}
-
-.feedback {
-	margin-top: 20px;
-	border-top: 2px solid var(--paper);
+	background-color: var(--splash-secondary-pale);
 }
+
+/*Form results box*/
 
 p.form-result {
-	font-family: var(--primary-font);
 	font-size: 1.25rem;
-	font-weight: 600;
 	margin-top: 2rem;
-	padding: 1rem;
 	border: 2px solid var(--splash-secondary);
-	border-radius: 0.5rem;
+	border-radius: 0.25rem;
+	padding: 1rem;
 	background-color: var(--paper);
-	color: var(--ink);
 }
 
-/*Dark mode*/
+/*utility classes*/
+
+.span-one {
+	grid-column: span 1;
+}
+
+.span-two {
+	grid-column: span 2;
+}
+
+.warning {
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+	padding-left: 0.5rem;
+	border-left: 2px solid var(--warning-dark);
+	color: var(--warning-dark);
+	font-size: 0.9rem;
+}
 
 @media (prefers-color-scheme: dark) {
-	textarea {
-/*		border: 1px solid var(--paper);*/
-	}
-	
-	textarea::placeholder {
-			color: #A1AA97;
-	}
-
 	.warning {
 		color: var(--warning-light);
 		border-left: 2px solid var(--warning-light);
