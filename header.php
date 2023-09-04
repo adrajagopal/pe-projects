@@ -42,7 +42,7 @@
 	
 <?php include('icons.php');?>
 
-<header class="site-header">
+<header class="site-header" aria-label="Site navigation menu">
 	<inner-column>
 		<div class="header-items">
 
