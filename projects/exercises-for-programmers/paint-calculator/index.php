@@ -7,6 +7,32 @@
 	$widthInches = 0;
 	$lengthFeet = 0;
 	$lengthInches = 0;
+	$validInputs = false;
+	$class="";
+	$message="";
+
+	if (isset($_POST["submitted"])) {
+
+		$widthFeet = $_POST["widthFeet"];
+		$widthInches = $_POST["widthInches"];
+		$lengthFeet = $_POST["lengthFeet"];
+		$lengthInches = $_POST["lengthInches"];
+
+		if (($widthFeet + $widthInches) * ($lengthFeet + $lengthInches) === 0) {
+			$validInputs = false;
+			$class = "warning";
+			$message = "Length and width must each be greater than 0' 0\".";
+		} elseif (($widthFeet + $widthInches) * ($lengthFeet + $lengthInches) > 0) {
+			$validInputs = true;
+
+			$widthSum = $widthFeet + ($widthInches / 12);
+			$lengthSum = $lengthFeet + ($lengthInches / 12);
+
+			$roomArea = $widthSum * $lengthSum;
+			$gallons = intval(ceil($roomArea/350));
+		}
+	}
+
 ?>
 <section class="form-intro">
 	<inner-column>
