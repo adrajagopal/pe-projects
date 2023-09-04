@@ -3,6 +3,7 @@
 @import "../modules/contact-me/style.css";
 @import "../modules/latest-projects/style.css";
 @import "../modules/welcome/style.css";
+@import "accessibility.css";
 
 /*iMessage page*/
 @import "../modules/imessage-about-me/style.css";
