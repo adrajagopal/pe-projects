@@ -17,6 +17,8 @@
 		$compoundFreq = $_POST['compoundFreq'];
 		$years = $_POST['years'];
 		$display = "display-show";
+
+		$class="form-result";
 	}
 
 	$rateDecimal = $rate/100;

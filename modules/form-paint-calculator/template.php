@@ -1,5 +1,7 @@
 <form method="POST" class="paint-calculator">
 
+
+	<span class="label span-two">Length</span>
 	<label class="field text">
 		<input-container>
 			<input type="number"
@@ -25,6 +27,7 @@
 		</input-container>
 	</label>
 
+	<span class="label span-two">Width</span>
 	<label class="field text">
 		<input-container>
 			<input type="number"

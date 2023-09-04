@@ -17,7 +17,7 @@ if (isset($_POST["submitted"])) {
 
 	if (isset($string) and $characters > 0) { 
 		$message = "Your input, '$string' is $characters characters long.";
-		$class = "medium-voice";
+		$class = "form-result";
 	}
 }
 ?>
