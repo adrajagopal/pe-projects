@@ -42,12 +42,7 @@
 
 			<div class="email-subscribe">
 				<h3>Subscribe</h3>
-				<form>
-					<label for="">
-						<input type="text" placeholder="Email address">
-					</label>
-					<button>></button>
-				</form>
+				<?php include('components/email-subscribe/template.php');?>
 				<p class="small-voice">Some paragraph describing what the email subscription means for you. What content it will include, exclude, how you can unsubscribe, and how we limit the use of your information.</p>
 			</div>
 
