@@ -1,0 +1,18 @@
+section.hero {
+	& .hero-container {
+		display: grid;
+		justify-items: center;
+		gap: 3rem;
+	}
+
+	& text-content {
+		display: grid;
+		justify-items: center;
+		gap: 1rem;
+	}
+
+	& .links-container {
+		display: flex;
+		gap: 1.5rem;
+	}
+}
