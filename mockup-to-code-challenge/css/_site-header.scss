@@ -31,7 +31,7 @@
 @media (max-width: 999px) {
 	.header-items {
 		& .site-nav, .login-items {
-			@include accessibility.visually-hidden;
+			@include visually-hidden;
 		}
 	}
 }
@@ -39,7 +39,7 @@
 @media (min-width: 1000px) {
 	.header-items {
 		& 	.menu-hamburger {
-			@include accessibility.visually-hidden;
+			@include visually-hidden;
 		}
 	}
 }

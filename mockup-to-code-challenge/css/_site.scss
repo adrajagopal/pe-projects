@@ -1,29 +1,26 @@
-/* SASS files*/
-@use "accessibility";
-
 /*Preset*/
-@import "meyer-reset.css";
+@import "_meyer-reset";
 
 /*Setup*/
-@import "setup.css";
+@import "_setup";
 
 /*Settings*/
-@import "custom-properties.css";
+@import "_custom-properties";
 
 /*Structure*/
-@import "structure.css";
-@import "list-styles.css";
+@import "_structure";
+@import "_list-styles";
 
 /*Typography*/
-@import "typography.css";
+@import "_typography";
 
-/*Components*/
+/*Components & Mixins*/
+@import "_accessibility";
 
 /*Modules*/
-@import "modules.css";
-@import "site-header.css";
-@import "site-footer.css";
-@import "hero.css";
+@import "_site-header";
+@import "_site-footer";
+@import "_modules";
 
 /*Sections (in this file)*/
 
@@ -49,3 +46,5 @@ body * {
 text-content {
 	display: block;
 }
+
+// test comment this
