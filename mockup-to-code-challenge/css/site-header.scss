@@ -1,0 +1,50 @@
+.header-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+	padding: 1rem 0px;
+
+	& * {
+		flex-shrink: 0;
+	}
+
+	& .header-logo {
+		width: 134px;
+		height: auto;
+	}
+
+	& .site-nav-items, .login-items {
+	display: flex;
+	flex-direction: row;
+	gap: 1.5rem;
+	align-items: center;
+	}
+
+	& .language-dropdown picture {
+		width: 53px;
+		height: 24px;
+	}
+
+	& .menu-hamburger {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 999px) {
+	.header-items {
+		& .site-nav, .login-items {
+			@include accessibility.visually-hidden;
+		}
+	}
+}
+
+@media (min-width: 1000px) {
+	.header-items {
+		& 	.menu-hamburger {
+			@include accessibility.visually-hidden;
+		}
+	}
+}

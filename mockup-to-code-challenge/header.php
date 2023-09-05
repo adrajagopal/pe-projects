@@ -40,7 +40,7 @@
 
 <header class="site-header" aria-label="Site navigation menu">
 	<inner-column>
-		<div class="header-items">			
+		<div class="header-items"> <!--would it be appropriate to hide this using aria-hidden="true"? -->			
 			<a href="" class="header-logo">
 				<svg viewBox='0 0 10 3'>
 					<rect width='10' height='3' />
@@ -58,14 +58,18 @@
 			</nav>
 
 			<div class="login-items">
-				<a href="" class="language-indicator">
-					<svg viewBox='0 0 10 3'>
-						<rect width='10' height='3' />
-					</svg>
+				<a href="" class="language-dropdown">
+					<picture><img src="assets/language-icon.jpg" alt=""></picture>
 				</a>
 				<a href="" class="login">Log in</a>
 				<a href="" class="signup">Sign up</a>
 			</div>
+
+			<a href="" class="menu-hamburger">
+				<svg viewBox='0 0 3 3'>
+					<rect width='3' height='3' />
+				</svg>
+			</a>
 		</div>
 	</inner-column>
 </header>
