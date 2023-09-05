@@ -23,6 +23,7 @@
 @import "modules.css";
 @import "site-header.css";
 @import "site-footer.css";
+@import "hero.css";
 
 /*Sections (in this file)*/
 
@@ -43,4 +44,8 @@ body {
 
 body * {
 	border: 1px solid black;
+}
+
+text-content {
+	display: block;
 }
