@@ -1,4 +1,8 @@
 # Questions
+## review general structure
+## how to handle icons
+## help with templating and routing themes 
+
 
 # Priorities
 
