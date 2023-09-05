@@ -42,11 +42,7 @@
 <header class="site-header" aria-label="Site navigation menu">
 	<inner-column>
 		<div class="header-items"> <!--would it be appropriate to hide this using aria-hidden="true"? -->			
-			<a href="" class="header-logo">
-				<svg viewBox='0 0 10 3'>
-					<rect width='10' height='3' />
-				</svg>
-			</a>
+			<?php include(getFile('components/company-logo/template.php'));?>
 
 			<nav class="site-nav">
 				<ul class="site-nav-items">

@@ -49,11 +49,7 @@
 		</div>
 
 		<div class="secondary-footer">
-			<a href="" class="footer-logo">
-				<svg viewBox='0 0 10 3'>
-					<rect width='10' height='3' />
-				</svg>
-			</a>
+			<?php include(getFile('components/company-logo/template.php'));?>
 			
 			<nav class="legal-menu" aria-label="Legal menu">
 				<ul>
