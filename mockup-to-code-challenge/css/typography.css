@@ -6,28 +6,20 @@ p, ul, ol, li, legend, .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
-	color: var(--ink-dark);
+	color: black;
 	line-height: 1.4;
 }
 
 h1, h2, h4 {
-	color: var(--ink);
+	color: black;
 }
 
 h3 {
-	color: var(--splash-secondary);
+	color: black;
 }
 
 a, p a {
-	color: var(--splash-secondary);
 	text-decoration: underline;
-}
-
-@media (prefers-color-scheme: dark) {
-	a:not(.site-nav a, .site-footer a), p a {
-		color: var(--splash-primary);
-		text-decoration: underline;
-	}	
 }
 
 /*margin & padding*/

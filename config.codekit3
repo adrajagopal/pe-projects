@@ -988,6 +988,19 @@
       "oAP" : "\/markdowns\/wordpress-notes.html",
       "oF" : 0
     },
+    "\/mockup-to-code-challenge\/assets\/language-icon.jpg" : {
+      "ft" : 16384,
+      "iS" : 43955,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/assets\/language-icon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mockup-to-code-challenge\/config.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -995,6 +1008,33 @@
       "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/config.php",
       "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/css\/accessibility.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/css\/accessibility-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/mockup-to-code-challenge\/css\/accessibility.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/css\/accessibility.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/mockup-to-code-challenge\/css\/custom-properties.css" : {
       "aP" : 1,
@@ -1056,17 +1096,20 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/mockup-to-code-challenge\/css\/site-footer.css" : {
-      "aP" : 1,
+    "\/mockup-to-code-challenge\/css\/site-footer.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/mockup-to-code-challenge\/css\/site-footer-min.css",
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/css\/site-footer.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/mockup-to-code-challenge\/css\/site-header.css" : {
       "aP" : 1,
@@ -1077,6 +1120,45 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/mockup-to-code-challenge\/css\/site-header-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/mockup-to-code-challenge\/css\/site-header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/css\/site-header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/css\/site-min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/css\/site-min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/mockup-to-code-challenge\/css\/site-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/css\/site-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -1091,6 +1173,21 @@
       "oAP" : "\/mockup-to-code-challenge\/css\/site-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/mockup-to-code-challenge\/css\/site.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/css\/site.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/mockup-to-code-challenge\/css\/structure.css" : {
       "aP" : 1,
