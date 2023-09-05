@@ -1,0 +1,9 @@
+.icon-placeholder {
+  width: 32px;
+  height: 32px;
+}
+.icon-placeholder svg {
+  width: 100%;
+  height: auto;
+  fill: yellow;
+}
