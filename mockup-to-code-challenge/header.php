@@ -35,7 +35,7 @@
 
 </head>
 
-<body>
+<body class="<?=$page?>">
 	
 <?php include('../icons.php');?>
 
