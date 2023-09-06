@@ -20,15 +20,13 @@
 	<div class="grid-list">
 		<ul>
 			<?php 
-				$json = file_get_contents(getFile('data/see-it-now.json'));
+				$json = file_get_contents(getFile('data/grid-items.json'));
 		
 				$listItems = json_decode($json, true);
 		
 				foreach ($listItems as $item) { ?>
 					<li>
-						<?php include(getFile('components/icon-placeholder/template.php'));?>
-						<h3 class="large-voice"><?=$item['title']?></h3>
-						<p><?=$item['description']?></p>
+						<?php include(getFile('modules/grid-card/template.php'));?>
 					</li>
 			<?php } ?>
 		</ul>
