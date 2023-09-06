@@ -1,0 +1,26 @@
+section.client-testimony {
+	display: grid;
+	justify-items: center;
+	gap: 20px;
+
+	& .client-testimony-container, text-content {
+		display: grid;
+		justify-items: center;
+		gap: 20px;
+	}
+
+	& carousel {
+		display: grid;
+		grid-template-columns: 50px 1fr 50px;
+		align-items: center;
+		justify-items: center;
+
+		& ul {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+			gap: 1rem;
+		}
+	}
+}
+
+	
