@@ -7,13 +7,13 @@
 
 ?>
 
-<?php include("header.php");?>
-
-<nav>
+<nav style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 50px; font-size:8px;">
 	<a href="?">Home</a>
 	<a href="?page=wavy">Wavy</a>
 	<a href="?page=blue">Blue</a>
 </nav>
+
+<?php include("header.php");?>
 
 <ul class="modules">
 	<?php 
