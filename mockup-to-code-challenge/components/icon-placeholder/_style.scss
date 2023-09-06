@@ -1,10 +1,12 @@
 .icon-placeholder {
 	width: 32px;
 	height: 32px;
+	flex-shrink: 0;
 	
 	& svg {
 		width: 100%;
 		height: auto;
-		fill: yellow;
+		fill: mistyrose;
+		stroke: indianred;
 	}
 }

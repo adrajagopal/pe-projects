@@ -24,26 +24,30 @@ a, p a {
 
 /*margin & padding*/
 
-h1, h2, h3 {
-	margin-top: 1.25rem;
-}
+article {
 
-h1 + h2, h1 + p, h2 + h3 {
-	margin-top: 2rem;
-}
+	& h1, h2, h3 {
+		margin-top: 1.25rem;
+	}
 
-h2 + p {
-	margin-top: 1.5rem;
-}
+	& h1 + h2, h1 + p, h2 + h3 {
+		margin-top: 2rem;
+	}
 
-h3 + p {
-	margin-top: 1rem;
-}
+	& h2 + p {
+		margin-top: 1.5rem;
+	}
 
-p + p {
-	margin-top: 1rem;
-}
+	& h3 + p {
+		margin-top: 1rem;
+	}
 
-img + p {
-	margin-top: 0.75rem;
+	& p + p {
+		margin-top: 1rem;
+	}
+
+	& img + p {
+		margin-top: 0.75rem;
+	}
+
 }

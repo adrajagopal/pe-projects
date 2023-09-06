@@ -1,6 +1,7 @@
 .company-logo {
 	width: 134px;
 	height: auto;
+	flex-shrink: 0;
 
 	& svg {
 		width: 100%;

@@ -241,31 +241,49 @@ a, p a {
 }
 
 /*margin & padding*/
-h1, h2, h3 {
+article h1, article h2, article h3 {
   margin-top: 1.25rem;
 }
-
-h1 + h2, h1 + p, h2 + h3 {
+article h1 + h2, article h1 + p, article h2 + h3 {
   margin-top: 2rem;
 }
-
-h2 + p {
+article h2 + p {
   margin-top: 1.5rem;
 }
-
-h3 + p {
+article h3 + p {
   margin-top: 1rem;
 }
-
-p + p {
+article p + p {
   margin-top: 1rem;
 }
-
-img + p {
+article img + p {
   margin-top: 0.75rem;
 }
 
-/*Components & Mixins*/
+/*Mixins*/
+/*Components*/
+.company-logo {
+  width: 134px;
+  height: auto;
+  flex-shrink: 0;
+}
+.company-logo svg {
+  width: 100%;
+  height: auto;
+}
+
+.icon-placeholder {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.icon-placeholder svg {
+  width: 100%;
+  height: auto;
+  fill: mistyrose;
+  stroke: indianred;
+}
+
 /*Modules*/
 .header-items {
   display: flex;
@@ -359,7 +377,7 @@ img + p {
   display: flex;
   gap: 2rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .footer-items .secondary-footer {
     display: flex;
     flex-direction: column;
@@ -419,9 +437,44 @@ section.grid-content picture {
   height: auto;
 }
 
+section.client-testimony {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+section.client-testimony .client-testimony-container, section.client-testimony text-content {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+section.client-testimony carousel {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  align-items: center;
+  justify-items: center;
+}
+section.client-testimony carousel ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+quote-card {
+  display: block;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
 section.call-to-action .call-to-action-container, section.call-to-action text-content {
   display: grid;
   justify-items: center;
+}
+
+.faq-list-container summary {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 /*Sections (in this file)*/

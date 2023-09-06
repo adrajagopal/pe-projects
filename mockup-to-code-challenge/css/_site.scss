@@ -14,13 +14,18 @@
 /*Typography*/
 @import "_typography";
 
-/*Components & Mixins*/
+/*Mixins*/
 @import "_accessibility";
+
+/*Components*/
+@import "../components/company-logo/_style";
+@import "../components/icon-placeholder/_style";
+@import "../components/email-subscribe/_style";
 
 /*Modules*/
 @import "_site-header";
 @import "_site-footer";
-@import "_modules";
+@import "_modules"; //don't add any more to this list. import in modules.scss
 
 /*Sections (in this file)*/
 

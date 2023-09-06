@@ -996,7 +996,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/mockup-to-code-challenge\/components\/company-logo\/_style.css",
       "oF" : 0,
       "oS" : 0,
@@ -1054,7 +1054,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/mockup-to-code-challenge\/components\/email-subscribe\/_style.css",
       "oF" : 0,
       "oS" : 0,
@@ -1077,7 +1077,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/mockup-to-code-challenge\/components\/icon-placeholder\/_style.css",
       "oF" : 0,
       "oS" : 0,
@@ -1427,7 +1427,7 @@
       "oAP" : "\/mockup-to-code-challenge\/modules\/client-testimony\/template.php",
       "oF" : 0
     },
-    "\/mockup-to-code-challenge\/modules\/faq\/_style.scss" : {
+    "\/mockup-to-code-challenge\/modules\/faq-card\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1436,18 +1436,64 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/mockup-to-code-challenge\/modules\/faq\/_style.css",
+      "oAP" : "\/mockup-to-code-challenge\/modules\/faq-card\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/mockup-to-code-challenge\/modules\/faq\/template.php" : {
+    "\/mockup-to-code-challenge\/modules\/faq-card\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/mockup-to-code-challenge\/modules\/faq\/template.php",
+      "oAP" : "\/mockup-to-code-challenge\/modules\/faq-card\/template.php",
+      "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/faq-list\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/faq-list\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/faq-list\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/faq-list\/template.php",
+      "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/grid-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/grid-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/grid-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/grid-card\/template.php",
       "oF" : 0
     },
     "\/mockup-to-code-challenge\/modules\/grid-content\/_style.css" : {
@@ -1518,6 +1564,29 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/modules\/hero\/template.php",
+      "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/quote-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/quote-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/quote-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/quote-card\/template.php",
       "oF" : 0
     },
     "\/mockup-to-code-challenge\/modules\/see-it-now\/_style.css" : {
