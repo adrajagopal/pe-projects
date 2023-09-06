@@ -1023,6 +1023,18 @@
       "oAP" : "\/mockup-to-code-challenge\/components\/company-logo\/template.php",
       "oF" : 0
     },
+    "\/mockup-to-code-challenge\/components\/component-name\/_style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/components\/component-name\/_style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/mockup-to-code-challenge\/components\/component-name\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1332,6 +1344,30 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/mockup-to-code-challenge\/data\/modules-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/mockup-to-code-challenge\/data\/pages\/blue.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/data\/pages\/blue-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/mockup-to-code-challenge\/data\/pages\/home.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/data\/pages\/home-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/mockup-to-code-challenge\/data\/pages\/wavy.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/data\/pages\/wavy-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1

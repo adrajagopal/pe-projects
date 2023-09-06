@@ -10,8 +10,9 @@ section.client-testimony {
 	}
 
 	& carousel {
+		display: block;
 		display: grid;
-		grid-template-columns: 50px 1fr 50px;
+		grid-template-columns: auto 1fr auto;
 		align-items: center;
 		justify-items: center;
 
