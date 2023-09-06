@@ -56,7 +56,7 @@
 
 			<div class="login-items">
 				<a href="" class="language-dropdown">
-					<picture><img src="assets/language-icon.jpg" alt=""></picture>
+					<picture><img src="images/language-icon.jpg" alt=""></picture>
 				</a>
 				<a href="" class="login">Log in</a>
 				<a href="" class="signup">Sign up</a>
