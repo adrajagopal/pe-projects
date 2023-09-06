@@ -368,7 +368,7 @@ img + p {
   }
 }
 
-/*Hero*/
+/*sections*/
 section.hero .hero-container {
   display: grid;
   justify-items: center;
@@ -382,6 +382,46 @@ section.hero text-content {
 section.hero .links-container {
   display: flex;
   gap: 1.5rem;
+}
+
+section.see-it-now {
+  background-color: salmon;
+}
+section.see-it-now .see-it-now-container, section.see-it-now text-content, section.see-it-now .grid-list {
+  display: grid;
+  justify-items: center;
+}
+section.see-it-now .grid-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
+section.see-it-now :is(.grid-list, text-content) a {
+  display: flex;
+  gap: 1rem;
+}
+
+section.grid-content .grid-content-container, section.grid-content text-content, section.grid-content .grid-list {
+  display: grid;
+  justify-items: center;
+}
+section.grid-content .grid-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
+section.grid-content :is(.grid-list, text-content) a {
+  display: flex;
+  gap: 1rem;
+}
+section.grid-content picture {
+  width: 300px;
+  height: auto;
+}
+
+section.call-to-action .call-to-action-container, section.call-to-action text-content {
+  display: grid;
+  justify-items: center;
 }
 
 /*Sections (in this file)*/

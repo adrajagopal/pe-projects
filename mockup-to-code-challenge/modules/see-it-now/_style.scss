@@ -1,1 +1,25 @@
-index.php
+section.see-it-now {
+	background-color: salmon;
+
+
+	& .see-it-now-container, text-content, .grid-list {
+		display: grid;
+		justify-items: center;
+	}
+
+	& .grid-list ul {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 2rem;
+	}
+
+	& :is(.grid-list, text-content) a {
+		display: flex;
+		gap: 1rem;
+	}
+
+
+
+
+
+} // close section.see-it-now

@@ -1,0 +1,26 @@
+[
+	{
+		"name" : "hero",
+		"class" : "hero" 
+	},
+	{
+		"name" : "see-it-now",
+		"class" : "see-it-now" 
+	},
+	{
+		"name" : "grid-content",
+		"class" : "grid-content" 
+	},
+	{
+		"name" : "client-testimony",
+		"class" : "client-testimony" 
+	},
+	{
+		"name" : "call-to-action",
+		"class" : "call-to-action" 
+	},
+	{
+		"name" : "faq",
+		"class" : "faq" 
+	}
+]

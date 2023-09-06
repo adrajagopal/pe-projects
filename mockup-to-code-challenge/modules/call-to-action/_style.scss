@@ -1,1 +1,8 @@
-index.php
+section.call-to-action {
+
+	& .call-to-action-container, text-content {
+		display: grid;
+		justify-items: center;
+	}
+
+} //close section.call-to-action
