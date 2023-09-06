@@ -1,0 +1,14 @@
+.faq-list-container {
+
+	& summary {
+		display: flex;
+		justify-content: space-between; //why did turning on flex hide the default details marker???
+		cursor: pointer;
+	}
+
+//this didn't seem to do anything
+	// & summary::-webkit-details-marker {
+ 	// 	display: none;
+ 	// }
+
+} //close .faq-list-container

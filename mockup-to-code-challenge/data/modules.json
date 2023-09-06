@@ -20,7 +20,7 @@
 		"class" : "call-to-action" 
 	},
 	{
-		"name" : "faq",
-		"class" : "faq" 
+		"name" : "faq-list",
+		"class" : "faq-list" 
 	}
 ]
