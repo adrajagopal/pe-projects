@@ -9,17 +9,10 @@
 				"description" : "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus Amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor.",
 				"actions" : [
 					{
-						"type" : "button",
-						"copy" : "Get Started",
+						"type" : "email-subscribe",
+						"button" : "text",
 						"link" : "#",
-						"class" : "primary",
-						"target" : ""
-					},
-					{
-						"type" : "button",
-						"copy" : "Start Free Trial",
-						"link" : "#",
-						"class" : "primary",
+						"class" : "secondary",
 						"target" : ""
 					}
 				]

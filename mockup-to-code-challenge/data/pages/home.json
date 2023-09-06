@@ -19,7 +19,7 @@
 						"type" : "button",
 						"copy" : "Start Free Trial",
 						"link" : "#",
-						"class" : "primary",
+						"class" : "secondary",
 						"target" : ""
 					}
 				]
