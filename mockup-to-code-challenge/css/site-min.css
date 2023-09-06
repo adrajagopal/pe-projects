@@ -396,6 +396,7 @@ section.hero text-content {
   display: grid;
   justify-items: center;
   gap: 1rem;
+  text-align: center;
 }
 section.hero .links-container {
   display: flex;

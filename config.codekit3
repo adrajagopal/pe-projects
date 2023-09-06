@@ -988,6 +988,29 @@
       "oAP" : "\/markdowns\/wordpress-notes.html",
       "oF" : 0
     },
+    "\/mockup-to-code-challenge\/components\/button\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/components\/button\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/components\/button\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/components\/button\/template.php",
+      "oF" : 0
+    },
     "\/mockup-to-code-challenge\/components\/company-logo\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1396,6 +1419,56 @@
       "oAP" : "\/mockup-to-code-challenge\/header.php",
       "oF" : 0
     },
+    "\/mockup-to-code-challenge\/images\/arrow-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/arrow-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/chevron-left.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/chevron-left.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/chevron-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/chevron-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/envelope.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/envelope.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/external-link.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/external-link.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/mockup-to-code-challenge\/images\/language-icon.jpg" : {
       "ft" : 16384,
       "iS" : 43955,
@@ -1408,6 +1481,36 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/mockup-to-code-challenge\/images\/play.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/play.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/star.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/star.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/upload-cloud.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/upload-cloud.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/mockup-to-code-challenge\/index.php" : {
       "cB" : 0,
