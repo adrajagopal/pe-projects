@@ -284,6 +284,10 @@ article img + p {
   stroke: indianred;
 }
 
+.links-container a {
+  display: flex;
+}
+
 /*Modules*/
 .header-items {
   display: flex;

@@ -1033,7 +1033,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/components\/company-logo\/style-min.css",
       "oF" : 0,
       "pg" : 0
@@ -1126,7 +1126,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/components\/icon-placeholder\/style-min.css",
       "oF" : 0,
       "pg" : 0
@@ -1137,6 +1137,37 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/components\/icon-placeholder\/template.php",
+      "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/components\/ignore\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/components\/ignore\/template.php",
+      "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/components\/link\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/components\/link\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/components\/link\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/components\/link\/template.php",
       "oF" : 0
     },
     "\/mockup-to-code-challenge\/config.php" : {
@@ -1705,6 +1736,14 @@
       "oAP" : "\/mockup-to-code-challenge\/modules\/hero\/template.php",
       "oF" : 0
     },
+    "\/mockup-to-code-challenge\/modules\/ignore\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/ignore\/template.php",
+      "oF" : 0
+    },
     "\/mockup-to-code-challenge\/modules\/quote-card\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1726,6 +1765,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/modules\/quote-card\/template.php",
+      "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/see-it-now-grid\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/see-it-now-grid\/template.php",
       "oF" : 0
     },
     "\/mockup-to-code-challenge\/modules\/see-it-now\/_style.css" : {
@@ -1761,6 +1808,29 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/modules\/see-it-now\/template.php",
+      "oF" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/video-player\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/video-player\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/modules\/video-player\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/modules\/video-player\/template.php",
       "oF" : 0
     },
     "\/mockup-to-code-challenge\/site-footer.php" : {

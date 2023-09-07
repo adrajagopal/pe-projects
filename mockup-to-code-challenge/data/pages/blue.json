@@ -19,7 +19,28 @@
 			}
 		},
 		{
-			"name" : "see-it-now"
+			"name" : "see-it-now",
+			"content" : {
+				"pre-heading" : "Rhoncus, accumsan dictum",
+				"heading" : "Etiam nulla lectus amet nunc",
+				"description": "DELETE THIS",
+				"modules" : [
+					{
+						"type" : "see-it-now-grid",
+						"class" : ""
+					}
+				],
+				"actions" : [
+					{
+						"type" : "link",
+						"copy" : "See All",
+						"icon" : "external-link",
+						"link" : "#",
+						"class" : "primary",
+						"target" : ""
+					}
+				]
+			}
 		},
 		{
 			"name" : "grid-content"

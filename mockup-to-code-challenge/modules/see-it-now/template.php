@@ -1,41 +1,31 @@
 <div class="see-it-now-container">
-	
+
+	<?php 
+		if ($page === "wavy") { ?>
+			<picture><img src="images/upload-cloud.svg" alt=""></picture>
+		<?php } ?>
 	<text-content>
-		<?php include(getFile('components/icon-placeholder/template.php'));?>
 		
-		<p class="eyebrow">Rhoncus, accumsan dictum</p>
+		<p class="pre-heading"><?=$section['content']['pre-heading']?></p>
 		
-		<h2 class="xl-voice">Etiam nulla lfulputate.</h2>
+		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
 		
-		<p>Neque, pulvinar vestibulum non aliquam.</p>
-	
-		<a href="">
-			<p>Learn More</p>
-			<?php include(getFile('components/icon-placeholder/template.php'));?>
-		</a>
+		<p class="small-voice"><?=$section['content']['description']?></p>
+		
 	</text-content>
 
-	<picture><img src="https://peprojects.dev/images/landscape.jpg" alt=""></picture>
+	<?php
+		if (count( $section['content']['modules'] ) > 0 ) { //if there's at least one module
 
-	<div class="grid-list">
-		<ul>
-			<?php 
-				$json = file_get_contents(getFile('data/grid-items.json'));
-		
-				$listItems = json_decode($json, true);
+			foreach ($section['content']['modules'] as $module) { //loop through the template card
+				include(getFile("modules/$module[type]/template.php"));
+			} 
+		}
 
-				for ($i = 0; $i <= 2; $i++) { ?>
-					<li>
-						<h3 class="large-voice"><?=$listItems[$i]['title']?></h3>
-						<p><?=$listItems[$i]['description']?></p>
-					</li>
-			<?php } ?>
-		</ul>
-		
-		<a href="">
-			<p>See All</p>
-			<?php include(getFile('components/icon-placeholder/template.php'));?>
-		</a>
-	</div>
+	?>
+
+	<?php foreach ($section['content']['actions'] as $action) {
+		include(getFile("components/$action[type]/template.php"));
+	} ?>
 
 </div>

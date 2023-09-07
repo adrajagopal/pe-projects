@@ -18,9 +18,7 @@
 @import "_accessibility";
 
 /*Components*/
-@import "../components/company-logo/_style";
-@import "../components/icon-placeholder/_style";
-@import "../components/email-subscribe/_style";
+@import "_components";
 
 /*Modules*/
 @import "_site-header";

@@ -19,7 +19,28 @@
 			}
 		},
 		{
-			"name" : "see-it-now"
+			"name" : "see-it-now",
+			"content" : {
+				"pre-heading" : "Rhoncus, accumsan dictum",
+				"heading" : "Etiam nulla lectus amet nunc molestie at vulputate.",
+				"description" : "Neque, pulvinar vestibulum non aliquam.",
+				"modules" : [
+					{
+						"type" : "ignore",
+						"class" : "ignore"
+					}
+				],
+				"actions" : [
+					{
+						"type" : "link",
+						"copy" : "Learn More",
+						"icon" : "arrow-right",
+						"link" : "#",
+						"class" : "primary",
+						"target" : ""
+					}
+				]
+			}
 		},
 		{
 			"name" : "grid-content"
