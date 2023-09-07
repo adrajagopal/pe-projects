@@ -4,6 +4,7 @@
 	"sections" : [
 		{
 			"name" : "hero",
+			"nickname" : "homie",
 			"content" : {
 				"heading" : "Arcu Suscipit Massa Aliquam Proin Amet",
 				"description" : "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus Amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor.",
@@ -11,7 +12,6 @@
 					{
 						"type" : "button",
 						"copy" : "Get Started",
-						"icon" : "",
 						"link" : "#",
 						"class" : "primary",
 						"target" : ""
@@ -19,7 +19,6 @@
 					{
 						"type" : "button",
 						"copy" : "Start Free Trial",
-						"icon" : "",
 						"link" : "#",
 						"class" : "secondary",
 						"target" : ""
@@ -33,17 +32,7 @@
 				"pre-heading" : "Rhoncus, accumsan dictum",
 				"heading" : "Etiam nulla lfulputate.",
 				"description" : "Neque, pulvinar vestibulum non aliquam.",
-				"modules" : [ 
-					{
-						"type" : "video-player",
-						"class" : "",
-						"src" : "#"
-					}
-				],
-				"actions" : [
-					{
-					}
-				]
+				"video" : "embed"
 			}
 		},
 		{

@@ -9,23 +9,25 @@
 		<p class="pre-heading"><?=$section['content']['pre-heading']?></p>
 		
 		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
+
+		<?php if (isset($section['content']['description'])) { ?>
 		
-		<p class="small-voice"><?=$section['content']['description']?></p>
+			<p class="small-voice"><?=$section['content']['description']?></p>
+
+		<?php }	?>
 		
 	</text-content>
 
-	<?php
-		if (count( $section['content']['modules'] ) > 0 ) { //if there's at least one module
-
-			foreach ($section['content']['modules'] as $module) { //loop through the template card
-				include(getFile("modules/$module[type]/template.php"));
-			} 
+	<?php 
+		if (isset($section['content']['video'])) {
+			if ($section['content']['video'] === "embed") {
+				include(getFile('components/video-player/template.php'));
+			} elseif ($section['content']['video'] === "external-link") {
+				foreach ($section['content']['actions'] as $action) {
+					include(getFile("components/$action[type]/template.php"));
+				} 
+			}
 		}
-
 	?>
-
-	<?php foreach ($section['content']['actions'] as $action) {
-		include(getFile("components/$action[type]/template.php"));
-	} ?>
 
 </div>

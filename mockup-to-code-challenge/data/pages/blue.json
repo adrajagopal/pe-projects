@@ -11,6 +11,8 @@
 					{
 						"type" : "email-subscribe",
 						"button" : "text",
+						"copy" : "Sign Up",
+						"icon" : "envelope",
 						"link" : "#",
 						"class" : "secondary",
 						"target" : ""
@@ -23,7 +25,6 @@
 			"content" : {
 				"pre-heading" : "Rhoncus, accumsan dictum",
 				"heading" : "Etiam nulla lectus amet nunc",
-				"description": "DELETE THIS",
 				"modules" : [
 					{
 						"type" : "see-it-now-grid",

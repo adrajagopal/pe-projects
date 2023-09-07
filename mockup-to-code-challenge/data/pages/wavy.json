@@ -4,6 +4,7 @@
 	"sections" : [
 		{
 			"name" : "hero",
+			"nickname" : "wavy",
 			"content" : {
 				"heading" : "Arcu Suscipit Massa Aliquam Proin Amet",
 				"description" : "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus Amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor.",
@@ -24,20 +25,13 @@
 				"pre-heading" : "Rhoncus, accumsan dictum",
 				"heading" : "Etiam nulla lectus amet nunc molestie at vulputate.",
 				"description" : "Neque, pulvinar vestibulum non aliquam.",
-				"modules" : [
-					{
-						"type" : "ignore",
-						"class" : "ignore"
-					}
-				],
+				"video" : "external-link",
 				"actions" : [
 					{
 						"type" : "link",
-						"copy" : "Learn More",
-						"icon" : "arrow-right",
+						"copy" : "Learn more",
 						"link" : "#",
-						"class" : "primary",
-						"target" : ""
+						"icon" : "arrow-right"
 					}
 				]
 			}
