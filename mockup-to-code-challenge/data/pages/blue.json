@@ -23,7 +23,7 @@
 		{
 			"name" : "highlighted-articles",
 			"content" : {
-				"pre-heading" : "Rhoncus, accumsan dictum",
+				"preheading" : "Rhoncus, accumsan dictum",
 				"heading" : "Etiam nulla lectus amet nunc",
 				"modules" : [
 					{
@@ -58,7 +58,22 @@
 			}
 		},
 		{
-			"name" : "call-to-action"
+			"name" : "call-to-action",
+			"content" : {
+				"heading" : "Etiam nulla lectus amet nunc",
+				"description" : "Fringilla non proin nec in in lorem amet eget ac. Mauris.",
+				"actions" : [
+					{
+						"type" : "email-subscribe",
+						"button" : "text",
+						"copy" : "Sign Up",
+						"icon" : "envelope",
+						"link" : "#",
+						"class" : "secondary",
+						"target" : ""
+					}
+				]
+			}
 		},
 		{
 			"name" : "faq-list"

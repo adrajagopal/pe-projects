@@ -21,7 +21,7 @@
 		{
 			"name" : "see-it-now",
 			"content" : {
-				"pre-heading" : "Rhoncus, accumsan dictum",
+				"preheading" : "Rhoncus, accumsan dictum",
 				"heading" : "Etiam nulla lectus amet nunc molestie at vulputate.",
 				"description" : "Neque, pulvinar vestibulum non aliquam.",
 				"video" : "external-link",
@@ -50,7 +50,29 @@
 			}
 		},
 		{
-			"name" : "call-to-action"
+			"name" : "call-to-action",
+			"content" : {
+				"preheading" : "Arcu Suscipit Massa Aliquam Proin Amet",
+				"heading" : "Etiam nulla lectus amet nunc molestie at vulputate.",
+				"actions" : [
+					{
+						"type" : "button",
+						"copy" : "Get free quotes",
+						"link" : "#",
+						"class" : "primary",
+						"icon" : "chevron-right",
+						"target" : ""
+					},
+					{
+						"type" : "button",
+						"copy" : "Free Signup",
+						"link" : "#",
+						"class" : "secondary",
+						"icon" : "chevron-right",
+						"target" : ""
+					}
+				]
+			}
 		},
 		{
 			"name" : "faq-list"

@@ -2,7 +2,7 @@
 
 	<text-content>
 		
-		<p class="pre-heading"><?=$section['content']['pre-heading']?></p>
+		<p class="preheading"><?=$section['content']['preheading']?></p>
 		
 		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
 		
