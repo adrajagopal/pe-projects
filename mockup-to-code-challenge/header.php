@@ -46,9 +46,9 @@
 
 			<nav class="site-nav">
 				<ul class="site-nav-items">
-					<li><a href="">Home</a></li>
-					<li><a href="">Updates</a></li>
-					<li><a href="">Services</a></li>
+					<li><a class="active" href="">Home</a></li>
+					<li><a href="?page=wavy">Updates</a></li>
+					<li><a href="?page=blue">Services</a></li>
 					<li><a href="">Features</a></li>
 					<li><a href="">About Us</a></li>
 				</ul>
@@ -58,8 +58,17 @@
 				<a href="" class="language-dropdown">
 					<picture><img src="images/language-icon.jpg" alt=""></picture>
 				</a>
-				<a href="" class="login">Log in</a>
-				<a href="" class="signup">Sign up</a>
+				<?php
+					$json = file_get_contents("data/pages/$page.json");
+
+					$pageData = json_decode($json, true);
+
+					$links = $pageData['headerLinks'];
+
+					foreach($links as $action) {
+						include(getFile('components/button/template.php'));
+					}
+				?>
 			</div>
 
 			<a href="" class="menu-hamburger">
