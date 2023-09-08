@@ -43,15 +43,11 @@ body {
     fill: currentColor; 
 }
 
-body * {
+section * {
 	border: 1px solid black;
 }
 
 text-content {
 	display: block;
-}
-
-.icon-svg path {
-	fill: var(--origin);
 }
 // test comment this
