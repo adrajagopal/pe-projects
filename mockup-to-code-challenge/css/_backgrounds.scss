@@ -1,3 +1,13 @@
+header.site-header {
+	background-color: var(--white);
+}
+
+body.wavy header.site-header,
+body.blue section.hero,
+body:not(.wavy) footer.site-footer {
+	background-color: var(--origin);
+}
+
 body.home section.hero {
 	background-image: url('../images/diagonal-background.svg');
 	background-size: cover;
@@ -13,8 +23,4 @@ body.wavy section.hero {
 	background-repeat: no-repeat;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
-}
-
-body.blue section.hero {
-	background-color: var(--origin);
 }
