@@ -1,6 +1,15 @@
 {
 	"name" : "Home",
 	"slug" : "home",
+	"headerLinks" : [
+		{
+			"type" : "button",
+			"copy" : "Log In",
+			"link" : "#",
+			"class" : "secondary round tight",
+			"target" : ""
+		}		
+	],
 	"sections" : [
 		{
 			"name" : "hero",
@@ -12,7 +21,7 @@
 						"type" : "button",
 						"copy" : "Get Started",
 						"link" : "#",
-						"class" : "primary",
+						"class" : "primary sharp spacious",
 						"target" : ""
 					}
 				]
@@ -59,7 +68,7 @@
 						"type" : "button",
 						"copy" : "Get free quotes",
 						"link" : "#",
-						"class" : "primary",
+						"class" : "primary sharp normal",
 						"icon" : "chevron-right",
 						"target" : ""
 					},
@@ -67,7 +76,7 @@
 						"type" : "button",
 						"copy" : "Free Signup",
 						"link" : "#",
-						"class" : "secondary",
+						"class" : "secondary sharp normal",
 						"icon" : "chevron-right",
 						"target" : ""
 					}

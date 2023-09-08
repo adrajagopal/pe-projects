@@ -1,6 +1,22 @@
 {
 	"name" : "Home",
 	"slug" : "home",
+	"headerLinks" : [
+		{
+			"type" : "button",
+			"copy" : "Sign Up",
+			"link" : "#",
+			"class" : "secondary round tight",
+			"target" : ""
+		},
+		{
+			"type" : "button",
+			"copy" : "Log In",
+			"link" : "#",
+			"class" : "primary round tight",
+			"target" : ""
+		}		
+	],
 	"sections" : [
 		{
 			"name" : "hero",
