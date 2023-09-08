@@ -1,15 +1,18 @@
 <div class="client-testimony-container">
 	<text-content>
-		<h2 class="xl-voice">What Our Clients Say</h2>
-		<p class="small-voice">Neque, Pulvinar Vestibulum Non Aliquam</p>	
+		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
+		<p class="small-voice"><?=$section['content']['description']?></p>	
 	</text-content>
 	
+	<?php if ($page === "blue") { ?>
+			<picture><img src="https://peprojects.dev/images/landscape.jpg" alt=""></picture>
+	<?php } ?>
 
 	<carousel>
 		<div class="left-arrow"><?php include(getFile('components/icon-placeholder/template.php'));?></div>
 		<ul>
 			<?php
-				$json = file_get_contents(getFile('data/client-feedback.json'));
+				$json = file_get_contents(getFile('data/ratings.json'));
 		
 				$quotes = json_decode($json, true);
 		
@@ -24,5 +27,4 @@
 		<div class="right-arrow"><?php include(getFile('components/icon-placeholder/template.php'));?></div>
 	</carousel>
 	
-	<picture><img src="https://peprojects.dev/images/landscape.jpg" alt=""></picture>
 </div>

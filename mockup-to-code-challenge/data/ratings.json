@@ -1,0 +1,23 @@
+[
+	{
+		"stars" : "5",
+		"quote" : "Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.",
+		"name" : "Kacey Musgraves",
+		"portrait" : "kacey",
+		"role" : "Operations Director"
+	},
+	{
+		"stars" : "5",
+		"quote" : "Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.",
+		"name" : "Camila Cabello",
+		"portrait" : "camila",
+		"role" : "Marketing Coordinator"
+	},
+	{
+		"stars" : "4",
+		"quote" : "Tincidunt Risus, Blandit Proin Semper. Tellus Ac Pellentesque Convallis Vitae.",
+		"name" : "Lizzy McAlpine",
+		"portrait" : "lizzy",
+		"role" : "Creative Consultant"
+	}
+]

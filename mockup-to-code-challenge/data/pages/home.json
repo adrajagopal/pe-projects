@@ -42,7 +42,12 @@
 			}
 		},
 		{
-			"name" : "client-testimony"
+			"name" : "client-testimony",
+			"sourceFile" : "ratings.json",
+			"content" : {
+				"heading" : "What Our Clients Say",
+				"description" : "Neque, pulvinar vestibulum non aliquam."
+			}
 		},
 		{
 			"name" : "call-to-action"

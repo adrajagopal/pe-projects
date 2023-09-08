@@ -1,15 +1,13 @@
 <quote-card>
 	<div class="stars">
 		<?php
-			include(getFile('components/icon-placeholder/template.php'));
-			include(getFile('components/icon-placeholder/template.php'));
-			include(getFile('components/icon-placeholder/template.php'));
-			include(getFile('components/icon-placeholder/template.php'));
-			include(getFile('components/icon-placeholder/template.php'));
-		?>
+			for ($i = 0; $i < $quote['stars']; $i++) { ?>
+				<picture><img src="images/star.svg" alt=""></picture>
+
+		<?php	} ?>
 	</div>
-	<p><?=$quote['quote']?></p>
+	<p>"<?=$quote['quote']?>"</p>
 	<p><?=$quote['name']?></p>
 	<p><?=$quote['role']?></p>
-	<?php include(getFile('components/icon-placeholder/template.php')); ?>
+	<picture class="client-portrait"><img src="images/<?=$quote['portrait']?>.jpg" alt=""></picture>
 </quote-card>

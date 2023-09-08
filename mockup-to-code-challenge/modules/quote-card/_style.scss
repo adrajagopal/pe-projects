@@ -3,4 +3,21 @@ quote-card {
 	display: grid;
 	justify-items: center;
 	text-align: center;
+
+	.stars {
+		display: flex;
+	}
+
+	.client-portrait {
+		max-width: 50px;
+		aspect-ratio: 1/1;
+		border-radius: 50%;
+		border: none;
+		overflow: hidden;
+
+		img {
+			object-fit: cover;
+			border: none;
+		}
+	}
 }
