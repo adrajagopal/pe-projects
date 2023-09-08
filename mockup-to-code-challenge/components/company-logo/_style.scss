@@ -1,10 +1,11 @@
-.company-logo {
+.logo {
 	width: 134px;
 	height: auto;
 	flex-shrink: 0;
 
 	& svg {
-		width: 100%;
-		height: auto;
+		width: 134px;
+		height: 35px;
 	}
 }
+
