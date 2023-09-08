@@ -63,9 +63,7 @@
 			</div>
 
 			<a href="" class="menu-hamburger">
-				<svg viewBox='0 0 3 3'>
-					<rect width='3' height='3' />
-				</svg>
+				<?php include('images/three-lines.svg'); ?>
 			</a>
 		</div>
 	</inner-column>
