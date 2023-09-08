@@ -1216,6 +1216,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/mockup-to-code-challenge\/css\/_backgrounds.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/css\/_backgrounds.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/mockup-to-code-challenge\/css\/_components.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1529,6 +1544,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/mockup-to-code-challenge\/images\/diagonal-background.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/diagonal-background.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/mockup-to-code-challenge\/images\/envelope.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1608,11 +1633,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/mockup-to-code-challenge\/images\/three-lines.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/three-lines.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/mockup-to-code-challenge\/images\/upload-cloud.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/mockup-to-code-challenge\/images\/upload-cloud.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/wavy-background.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/wavy-background.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
