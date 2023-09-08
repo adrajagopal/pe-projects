@@ -1,6 +1,6 @@
 <a 
 	href="<?=$action['link'] ?? "#"?>"
-	class="<?=$action['class'] ?? ""?>"
+	class="button <?=$action['class'] ?? ""?>"
 >
 	<span><?=$action['copy'] ?? "text"?></span>
 
