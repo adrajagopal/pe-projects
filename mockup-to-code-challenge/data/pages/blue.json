@@ -44,7 +44,11 @@
 			}
 		},
 		{
-			"name" : "grid-content"
+			"name" : "grid-content",
+			"content" : {
+				"heading" : "Etiam nulla lfulputate.",
+				"description" : "Neque, pulvinar vestibulum non aliquam."
+			}
 		},
 		{
 			"name" : "client-testimony"

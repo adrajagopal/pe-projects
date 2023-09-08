@@ -1,21 +1,20 @@
 <div class="grid-content-container">
 	
-	<picture><img src="https://peprojects.dev/images/square.jpg" alt=""></picture>
-
 	<text-content>
-		<?php include(getFile('components/icon-placeholder/template.php'));?>
-		
-		<p class="eyebrow">Rhoncus, accumsan dictum</p>
-		
-		<h2 class="xl-voice">Etiam nulla lfulputate.</h2>
-		
-		<p>Neque, pulvinar vestibulum non aliquam.</p>
+		<?php if ($page === "blue") { ?>
+			<p class="small-voice">Rhoncus, accumsan dictum</p>	
+		<?php } ?>
 	
-		<a href="">
-			<p>Learn More</p>
-			<?php include(getFile('components/icon-placeholder/template.php'));?>
-		</a>
+		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
+		
+		<p class="small-voice"><?=$section['content']['heading']?></p>
 	</text-content>
+
+	<?php if ($page === "home") { ?>
+		<picture><img src="https://peprojects.dev/images/square.jpg" alt=""></picture>
+	<?php } ?>
+
+
 		
 	<div class="grid-list">
 		<ul>
