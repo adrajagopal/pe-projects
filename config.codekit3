@@ -1393,14 +1393,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/mockup-to-code-challenge\/data\/client-feedback.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/mockup-to-code-challenge\/data\/client-feedback-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/mockup-to-code-challenge\/data\/faqs.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1449,6 +1441,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/mockup-to-code-challenge\/data\/ratings.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/data\/ratings-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/mockup-to-code-challenge\/data\/see-it-now.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1473,6 +1473,19 @@
       "oAP" : "\/mockup-to-code-challenge\/header.php",
       "oF" : 0
     },
+    "\/mockup-to-code-challenge\/images\/ariana.jpg" : {
+      "ft" : 16384,
+      "iS" : 24946,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/images\/ariana.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mockup-to-code-challenge\/images\/arrow-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1482,6 +1495,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/camila.jpg" : {
+      "ft" : 16384,
+      "iS" : 28561,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/images\/camila.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/mockup-to-code-challenge\/images\/chevron-left.svg" : {
       "ft" : 2097152,
@@ -1523,12 +1549,38 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/mockup-to-code-challenge\/images\/kacey.jpg" : {
+      "ft" : 16384,
+      "iS" : 26587,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/images\/kacey.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mockup-to-code-challenge\/images\/language-icon.jpg" : {
       "ft" : 16384,
       "iS" : 43955,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/mockup-to-code-challenge\/images\/language-icon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mockup-to-code-challenge\/images\/lizzy.jpg" : {
+      "ft" : 16384,
+      "iS" : 27369,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/mockup-to-code-challenge\/images\/lizzy.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

@@ -475,6 +475,20 @@ quote-card {
   justify-items: center;
   text-align: center;
 }
+quote-card .stars {
+  display: flex;
+}
+quote-card .client-portrait {
+  max-width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: none;
+  overflow: hidden;
+}
+quote-card .client-portrait img {
+  object-fit: cover;
+  border: none;
+}
 
 section.call-to-action .call-to-action-container, section.call-to-action text-content {
   display: grid;
