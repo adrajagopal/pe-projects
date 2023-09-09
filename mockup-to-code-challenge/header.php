@@ -55,9 +55,13 @@
 			</nav>
 
 			<div class="login-items">
-				<a href="" class="language-dropdown">
-					<picture><img src="images/language-icon.jpg" alt=""></picture>
-				</a>
+				<?php if ($page === 'home' OR $page === 'wavy') { ?>
+					<a href="" class="language-dropdown">
+						<div><?php include('images/globe.svg'); ?></div>
+						<span>EN</span>
+					</a>
+				<?php } ?>
+
 				<?php
 					$json = file_get_contents("data/pages/$page.json");
 

@@ -442,9 +442,13 @@ body.wavy section.hero {
   gap: 1.5rem;
   align-items: center;
 }
-.header-items .language-dropdown picture {
-  width: 53px;
-  height: 24px;
+.header-items .language-dropdown {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  font-family: var(--secondary-font);
+  text-decoration: none;
 }
 .header-items .menu-hamburger {
   width: 50px;
@@ -452,10 +456,6 @@ body.wavy section.hero {
   display: flex;
   align-items: center;
   stroke: var(--origin);
-}
-
-body.wavy .menu-hamburger {
-  stroke: var(--white);
 }
 
 @media (max-width: 1099px) {
@@ -492,12 +492,25 @@ body.wavy .menu-hamburger {
   font-weight: 700;
 }
 
+body.home .language-dropdown svg {
+  stroke: var(--system-grey--700);
+}
+body.home .language-dropdown span {
+  color: var(--system-grey--700);
+}
+
 body.wavy .site-nav a {
   color: var(--system-grey--300);
 }
 body.wavy .site-nav a.active {
   color: var(--white);
   font-weight: 700;
+}
+body.wavy :is(.menu-hamburger, .language-dropdown svg) {
+  stroke: var(--white);
+}
+body.wavy .language-dropdown span {
+  color: var(--white);
 }
 
 .site-footer {
