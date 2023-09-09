@@ -9,7 +9,7 @@
 	<?php } ?>
 
 	<carousel>
-		<div class="left-arrow"><?php include(getFile('components/icon-placeholder/template.php'));?></div>
+		<div class="carousel-arrow"><?php include(getFile('images/chevron-left.svg'));?></div>
 		<ul>
 			<?php
 				$json = file_get_contents(getFile('data/ratings.json'));
@@ -24,7 +24,7 @@
 		
 			<?php } ?>
 		</ul>
-		<div class="right-arrow"><?php include(getFile('components/icon-placeholder/template.php'));?></div>
+		<div class="carousel-arrow"><?php include(getFile('images/chevron-right.svg'));?></div>
 	</carousel>
 	
 </div>
