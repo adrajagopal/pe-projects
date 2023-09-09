@@ -5,6 +5,6 @@
 	<span><?=$action['copy'] ?? "text"?></span>
 
 	<?php if(isset($action['icon'])) { ?>
-		<picture><img src="images/<?=$action['icon']?>.svg" alt=""></picture>
+		<picture><?php include("images/$action[icon].svg"); ?></picture>
 	<?php } ?>
 </a>
