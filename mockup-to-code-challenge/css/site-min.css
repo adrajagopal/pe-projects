@@ -319,6 +319,42 @@ body.wavy .site-footer .logo {
   fill: var(--origin);
 }
 
+form {
+  font-family: var(--secondary-font);
+}
+form .email-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 300px;
+}
+form label {
+  background-color: white;
+  border: 1px solid var(--system-grey--350);
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  grid-column: span 5;
+}
+form input {
+  background-color: transparent;
+  padding: 1rem 15px;
+}
+form button {
+  grid-column: span 1;
+  padding: 0.75rem;
+  background-color: var(--origin);
+  border: 1px solid var(--origin);
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+form button .svg-icon {
+  stroke: var(--white);
+  width: 24px;
+  margin: 0px;
+}
+
 .icon-placeholder {
   width: 32px;
   height: 32px;
@@ -514,6 +550,14 @@ body.wavy .site-nav a.active {
     gap: 20px;
     align-items: flex-start;
   }
+}
+
+.site-footer .email-subscribe {
+  background-color: var(--darker);
+}
+
+body.wavy .site-footer .email-subscribe {
+  background-color: var(--a8);
 }
 
 /*sections*/
