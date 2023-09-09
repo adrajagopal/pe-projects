@@ -64,7 +64,6 @@ table {
 
 h1, h2, h3, h4, p, ul, ol, li,
 span, a, table, tr, td, blockquote {
-  line-height: 1.25em;
   letter-spacing: normal;
 }
 
@@ -393,6 +392,10 @@ form button .svg-icon {
   border: 1px solid var(--origin);
   color: var(--origin);
 }
+.button span {
+  font-size: 1rem;
+  font-weight: 500;
+}
 
 .links-container a {
   display: flex;
@@ -647,6 +650,9 @@ section.client-testimony carousel ul {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
 }
+section.client-testimony .carousel-arrow {
+  stroke: var(--system-grey--900);
+}
 
 quote-card {
   display: block;
@@ -672,6 +678,9 @@ quote-card .client-portrait img {
 section.call-to-action .call-to-action-container, section.call-to-action text-content {
   display: grid;
   justify-items: center;
+}
+section.call-to-action .button svg {
+  stroke: var(--white);
 }
 
 .faq-list-container summary {
