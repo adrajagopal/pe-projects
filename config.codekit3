@@ -1204,21 +1204,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/mockup-to-code-challenge\/css\/_backgrounds.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/mockup-to-code-challenge\/css\/_backgrounds.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/mockup-to-code-challenge\/css\/_components.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1289,6 +1274,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/mockup-to-code-challenge\/css\/_modules.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/mockup-to-code-challenge\/css\/_sections.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/mockup-to-code-challenge\/css\/_sections.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
