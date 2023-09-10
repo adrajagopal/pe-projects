@@ -377,11 +377,50 @@ form button .svg-icon {
 .button.tight {
   padding: 0.5rem 1.25rem;
 }
+.button.tight.has-icon {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+@media (max-width: 500px) {
+  .button.tight {
+    padding: 0.25rem 0.75rem;
+  }
+  .button.tight.has-icon {
+    padding-left: 0.9rem;
+    padding-right: 0.6rem;
+  }
+}
 .button.spacious {
   padding: 1rem 3rem;
 }
+.button.spacious.has-icon {
+  padding-left: 4rem;
+  padding-right: 2rem;
+}
+@media (max-width: 500px) {
+  .button.spacious {
+    padding: 0.75rem 2rem;
+  }
+  .button.spacious.has-icon {
+    padding-left: 2.4rem;
+    padding-right: 1.6rem;
+  }
+}
 .button.normal {
   padding: 0.75rem 1.5rem;
+}
+.button.normal.has-icon {
+  padding-left: 0.9rem;
+  padding-right: 0.6rem;
+}
+@media (max-width: 500px) {
+  .button.normal {
+    padding: 0.5rem 1rem;
+  }
+  .button.normal.has-icon {
+    padding-left: 1.25rem;
+    padding-right: 0.75rem;
+  }
 }
 .button.round {
   border-radius: 5px;
@@ -730,10 +769,6 @@ body {
   width: 32px;
   display: inline-block;
   fill: currentColor;
-}
-
-section * {
-  border: 1px solid black;
 }
 
 text-content {
