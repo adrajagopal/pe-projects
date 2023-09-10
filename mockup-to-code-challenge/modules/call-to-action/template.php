@@ -5,7 +5,7 @@
 			<p class="preheading small-voice"><?=$section['content']['preheading']?></p>
 		<?php } ?>
 		
-		<h2 class="xl-voice"><?=$section['content']['heading']?></p>
+		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
 		
 		<?php if(isset($section['content']['description'])) { ?>
 			<p class=""><?=$section['content']['description']?></p>
