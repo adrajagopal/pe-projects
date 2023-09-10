@@ -369,6 +369,9 @@ form button .svg-icon {
 .button {
   font-family: var(--secondary-font);
   text-decoration: none;
+  width: fit-content;
+  display: flex;
+  gap: 0.75rem;
 }
 .button.tight {
   padding: 0.5rem 1.25rem;
@@ -387,10 +390,16 @@ form button .svg-icon {
   border: 1px solid var(--origin);
   color: var(--white);
 }
+.button.primary svg {
+  stroke: var(--white);
+}
 .button.secondary {
   background-color: var(--white);
   border: 1px solid var(--origin);
   color: var(--origin);
+}
+.button.secondary svg {
+  stroke: var(--origin);
 }
 .button span {
   font-size: 1rem;
@@ -678,9 +687,6 @@ quote-card .client-portrait img {
 section.call-to-action .call-to-action-container, section.call-to-action text-content {
   display: grid;
   justify-items: center;
-}
-section.call-to-action .button svg {
-  stroke: var(--white);
 }
 
 .faq-list-container summary {
