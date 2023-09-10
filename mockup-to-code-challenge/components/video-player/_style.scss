@@ -1,1 +1,36 @@
-//_style.scss
+video-player {
+	display: block;
+	display: grid;
+	grid-template-areas: "area";
+	place-items: center;
+	min-width: 225px;
+	width: 100%;
+
+	.background {
+		background-color: var(--a8);
+		aspect-ratio: 16/9;
+		width: 100%;
+
+		grid-area: area;
+	}
+
+	picture {
+		padding: 8px;
+		border: 2px solid var(--origin);
+		border-radius: 50%;
+
+		grid-area: area;
+
+		svg {
+			width: 48px;
+			height: auto;
+			transform: translateX(4px);
+			stroke: transparent;
+			fill: var(--origin);
+		}
+	}
+
+
+
+}
+

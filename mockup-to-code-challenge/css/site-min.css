@@ -450,6 +450,34 @@ form button .svg-icon {
   display: flex;
 }
 
+video-player {
+  display: block;
+  display: grid;
+  grid-template-areas: "area";
+  place-items: center;
+  min-width: 225px;
+  width: 100%;
+}
+video-player .background {
+  background-color: var(--a8);
+  aspect-ratio: 16/9;
+  width: 100%;
+  grid-area: area;
+}
+video-player picture {
+  padding: 8px;
+  border: 2px solid var(--origin);
+  border-radius: 50%;
+  grid-area: area;
+}
+video-player picture svg {
+  width: 48px;
+  height: auto;
+  transform: translateX(4px);
+  stroke: transparent;
+  fill: var(--origin);
+}
+
 header.site-header {
   background-color: var(--white);
 }
@@ -660,9 +688,6 @@ body.blue section.hero text-content p {
   color: var(--white);
 }
 
-section.see-it-now {
-  background-color: salmon;
-}
 section.see-it-now .see-it-now-container, section.see-it-now text-content, section.see-it-now .grid-list {
   display: grid;
   justify-items: center;
