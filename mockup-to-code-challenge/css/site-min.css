@@ -271,7 +271,7 @@ h1, h2, h3, h4 {
 }
 
 a, p a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /*margin & padding*/
@@ -451,6 +451,13 @@ form button .svg-icon {
 
 .links-container a {
   display: flex;
+  font-size: 1.25rem;
+  color: var(--origin);
+}
+.links-container picture {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: var(--origin);
 }
 
 video-player {
@@ -493,8 +500,8 @@ body:not(.wavy) footer.site-footer {
 
 body.home section.hero {
   background-image: url("../images/diagonal-background.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100px;
+  background-repeat: repeat;
 }
 
 body.wavy section.hero {

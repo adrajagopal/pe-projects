@@ -10,14 +10,16 @@ body:not(.wavy) footer.site-footer {
 
 body.home section.hero {
 	background-image: url('../images/diagonal-background.svg');
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-size: 100px;
+	background-repeat: repeat;
 }
 
 body.wavy section.hero {
 	background-image: url('../images/wavy-background.svg');
 	background-size: 100%;
 	background-repeat: no-repeat;
+
+	//just use the lines and use a clipping mask
 }
 
 section {

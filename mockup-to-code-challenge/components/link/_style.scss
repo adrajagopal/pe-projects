@@ -1,5 +1,14 @@
 .links-container {
 	a {
 		display: flex;
+		font-size: 1.25rem;
+		color: var(--origin);
+
+	}
+
+	picture {
+		width: 1.5rem;
+		height: 1.5rem;
+		stroke: var(--origin);
 	}
 }
