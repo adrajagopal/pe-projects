@@ -336,6 +336,7 @@ form label {
 form input {
   background-color: transparent;
   padding: 1rem 15px;
+  width: 100%;
 }
 form button {
   grid-column: span 1;
