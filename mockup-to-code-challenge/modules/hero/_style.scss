@@ -16,4 +16,24 @@ section.hero {
 		display: flex;
 		gap: 1.5rem;
 	}
+
+	@media (max-width: 650px) {
+		.links-container {
+			flex-direction: column;
+			align-items: center;
+			gap: 1rem;
+		}
+	}
+}
+
+body.blue section.hero text-content {
+
+	h1 {
+		color: var(--white);
+		text-transform: uppercase;
+	}
+
+	p {
+		color: var(--white);
+	}
 }

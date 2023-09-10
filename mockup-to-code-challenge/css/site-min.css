@@ -602,6 +602,21 @@ section.hero .links-container {
   display: flex;
   gap: 1.5rem;
 }
+@media (max-width: 650px) {
+  section.hero .links-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+body.blue section.hero text-content h1 {
+  color: var(--white);
+  text-transform: uppercase;
+}
+body.blue section.hero text-content p {
+  color: var(--white);
+}
 
 section.see-it-now {
   background-color: salmon;
