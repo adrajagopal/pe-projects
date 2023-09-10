@@ -4,6 +4,10 @@ quote-card {
 	justify-items: center;
 	text-align: center;
 
+	p.quote {
+		color: var(--system-grey--800);
+	}
+
 	.stars {
 		display: flex;
 	}

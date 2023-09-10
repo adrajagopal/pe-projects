@@ -6,16 +6,19 @@ p, ul, ol, li, legend, .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 400;
-	color: black;
 	line-height: 1.4;
 }
 
-h1, h2, h4 {
-	color: black;
+p, .preheading, .description {
+	color: var(--system-grey--600);
 }
 
-h3 {
-	color: black;
+p.preheading {
+	font-size: 0.75rem
+}
+
+h1, h2, h3, h4 {
+	color: var(--system-grey--900);
 }
 
 a, p a {

@@ -1,7 +1,7 @@
 <div class="client-testimony-container">
 	<text-content>
 		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
-		<p class="small-voice"><?=$section['content']['description']?></p>	
+		<p class="medium-voice"><?=$section['content']['description']?></p>	
 	</text-content>
 	
 	<?php if ($page === "blue") { ?>

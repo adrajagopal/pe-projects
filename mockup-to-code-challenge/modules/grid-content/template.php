@@ -2,12 +2,12 @@
 	
 	<text-content>
 		<?php if ($page === "blue") { ?>
-			<p class="small-voice">Rhoncus, accumsan dictum</p>	
+			<p class="preheading small-voice">Rhoncus, accumsan dictum</p>	
 		<?php } ?>
 	
 		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
 		
-		<p class="small-voice"><?=$section['content']['heading']?></p>
+		<p class="medium-voice"><?=$section['content']['heading']?></p>
 	</text-content>
 
 	<?php if ($page === "home") { ?>

@@ -62,15 +62,11 @@ body {
 	}
 }
 
-
-
-
-
 /*Type patterns*/
 
 .xxl-voice {
 	font-family: var(--primary-font);
-	font-size: clamp(1.5rem, 8vw, 3rem);
+	font-size: 3rem;
 	font-weight: 600;
 }
 
@@ -82,8 +78,8 @@ body {
 
 .large-voice {
 	font-family: var(--primary-font);
-	font-size: 1.5rem;
-	font-weight: 100;
+	font-size: 1.25rem;
+	font-weight: 400;
 }
 
 .medium-voice {

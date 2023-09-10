@@ -4,7 +4,7 @@
 	
 	<text-content>
 		<h1 class="xxl-voice"><?=$heading?></h1>
-		<p><?=$section['content']['description']?></p>
+		<p class="large-voice"><?=$section['content']['description']?></p>
 	</text-content>
 	<div class="links-container">
 		<?php foreach ($section['content']['actions'] as $action) {

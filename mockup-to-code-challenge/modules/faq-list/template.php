@@ -1,7 +1,7 @@
 <div class="faq-list-container">
 	<text-content>
 		<h2 class="xl-voice">Frequently Asked Questions</h2>
-		<p class="small-voice">Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.</p>
+		<p class="medium-voice">Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.</p>
 	</text-content>
 
 	<ul>

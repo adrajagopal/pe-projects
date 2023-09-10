@@ -10,7 +10,7 @@
 		<div class="site-map">
 
 			<nav class="product-menu" aria-label="Product menu">
-				<h3>Product</h3>
+				<h3 class="medium-voice">Product</h3>
 				<ul>
 					<li><a href="">Some link</a></li>
 					<li><a href="">Some link here</a></li>
@@ -22,7 +22,7 @@
 			</nav>
 
 			<nav class="information-menu" aria-label="Information menu">
-				<h3>Information</h3>
+				<h3 class="medium-voice">Information</h3>
 				<ul>
 					<li><a href="">Some link</a></li>
 					<li><a href="">Some link here</a></li>
@@ -31,7 +31,7 @@
 			</nav>
 
 			<nav class="company-menu" aria-label="Company menu">
-				<h3>Company</h3>
+				<h3 class="medium-voice">Company</h3>
 				<ul>
 					<li><a href="">Some link</a></li>
 					<li><a href="">Some link here</a></li>
@@ -41,7 +41,7 @@
 			</nav>
 
 			<div class="email-subscribe">
-				<h3>Subscribe</h3>
+				<h3 class="medium-voice">Subscribe</h3>
 				<?php include('components/email-subscribe/template.php');?>
 				<p class="small-voice">Some paragraph describing what the email subscription means for you. What content it will include, exclude, how you can unsubscribe, and how we limit the use of your information.</p>
 			</div>
@@ -51,7 +51,7 @@
 		<div class="secondary-footer">
 			<?php include(getFile('components/company-logo/template.php'));?>
 			
-			<nav class="legal-menu" aria-label="Legal menu">
+			<nav class="legal-menu small-voice" aria-label="Legal menu">
 				<ul>
 					<li><a href="">Terms</a></li>
 					<li><a href="">Privacy</a></li>

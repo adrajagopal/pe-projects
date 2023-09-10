@@ -12,7 +12,7 @@
 
 		<?php if (isset($section['content']['description'])) { ?>
 		
-			<p class="small-voice"><?=$section['content']['description']?></p>
+			<p class="medium-voice"><?=$section['content']['description']?></p>
 
 		<?php }	?>
 		

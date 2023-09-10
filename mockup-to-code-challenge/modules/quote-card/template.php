@@ -6,7 +6,7 @@
 
 		<?php	} ?>
 	</div>
-	<p>"<?=$quote['quote']?>"</p>
+	<p class="quote">"<?=$quote['quote']?>"</p>
 	<p><?=$quote['name']?></p>
 	<p><?=$quote['role']?></p>
 	<picture class="client-portrait"><img src="images/<?=$quote['portrait']?>.jpg" alt=""></picture>

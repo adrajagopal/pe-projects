@@ -10,6 +10,10 @@ section.hero {
 		justify-items: center;
 		gap: 1rem;
 		text-align: center;
+
+		.xxl-voice {
+			font-size: clamp(1.5rem, 8vw, 3rem);
+		}
 	}
 
 	& .links-container {
@@ -23,6 +27,17 @@ section.hero {
 			align-items: center;
 			gap: 1rem;
 		}
+	}
+}
+
+section.hero text-content {
+
+	h1 {
+		color: var(--system-grey--900);
+	}
+
+	p {
+		color: var(--system-grey--800);
 	}
 }
 
