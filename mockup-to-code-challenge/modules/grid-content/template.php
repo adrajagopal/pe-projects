@@ -24,7 +24,7 @@
 				$listItems = json_decode($json, true);
 		
 				foreach ($listItems as $item) { ?>
-					<li>
+					<li class="grid-card">
 						<?php include(getFile('modules/grid-card/template.php'));?>
 					</li>
 			<?php } ?>

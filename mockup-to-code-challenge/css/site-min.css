@@ -454,9 +454,7 @@ form button .svg-icon {
   font-size: 1.25rem;
   color: var(--origin);
 }
-.links-container picture {
-  width: 1.5rem;
-  height: 1.5rem;
+.links-container svg {
   stroke: var(--origin);
 }
 
@@ -752,6 +750,9 @@ section.see-it-now :is(.grid-list, text-content) a {
   display: flex;
   gap: 1rem;
 }
+section.see-it-now svg {
+  stroke: var(--origin);
+}
 
 section.grid-content .grid-content-container, section.grid-content text-content, section.grid-content .grid-list {
   display: grid;
@@ -769,6 +770,10 @@ section.grid-content :is(.grid-list, text-content) a {
 section.grid-content picture {
   width: 300px;
   height: auto;
+}
+
+.grid-card svg {
+  stroke: var(--origin);
 }
 
 section.client-testimony {
@@ -808,6 +813,9 @@ quote-card p.quote {
 }
 quote-card .stars {
   display: flex;
+}
+quote-card .stars svg {
+  fill: var(--origin);
 }
 quote-card .client-portrait {
   max-width: 50px;

@@ -1,9 +1,9 @@
 <div class="see-it-now-container">
 
 	<?php 
-		if ($page === "wavy") { ?>
-			<picture><img src="images/upload-cloud.svg" alt=""></picture>
-		<?php } ?>
+		if ($page === "wavy") {
+			include(getFile('images/upload-cloud.svg'));
+		} ?>
 	<text-content>
 		
 		<p class="preheading"><?=$section['content']['preheading']?></p>

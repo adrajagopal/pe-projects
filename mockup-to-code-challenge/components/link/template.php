@@ -2,8 +2,8 @@
 	<a href="<?=$action['link'] ?? "#"?>">
 		<span><?=$action['copy'] ?? "text"?></span>
 
-		<?php if (isset($action['icon'])) { ?>
-			<picture><img src="images/<?=$action['icon']?>.svg" alt=""></picture>
-		<?php } ?>
+		<?php if (isset($action['icon'])) {
+			include(getFile("images/$action[icon].svg"));
+		} ?>
 	</a>
 </div>

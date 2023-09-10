@@ -1,10 +1,9 @@
 <quote-card>
 	<div class="stars">
 		<?php
-			for ($i = 0; $i < $quote['stars']; $i++) { ?>
-				<picture><img src="images/star.svg" alt=""></picture>
-
-		<?php	} ?>
+			for ($i = 0; $i < $quote['stars']; $i++) {
+				include(getFile('images/star.svg'));
+		} ?>
 	</div>
 	<p class="quote">"<?=$quote['quote']?>"</p>
 	<p><?=$quote['name']?></p>
