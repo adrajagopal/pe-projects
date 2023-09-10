@@ -662,14 +662,14 @@ body.wavy .language-dropdown span {
 body.wavy .site-footer .email-subscribe {
   background-color: var(--a8);
 }
-body.wavy h3 {
+body.wavy .site-footer h3 {
   font-weight: 700;
   color: var(--system-grey--900);
 }
-body.wavy a {
+body.wavy .site-footer a {
   color: var(--system-grey--500);
 }
-body.wavy .legal-menu a, body.wavy .socials a {
+body.wavy .site-footer .legal-menu a, body.wavy .site-footer .socials a {
   color: var(--system-grey--700);
 }
 
@@ -679,14 +679,14 @@ body.home .site-footer .email-subscribe, body.blue .site-footer .email-subscribe
 body.home .site-footer .email-subscribe p, body.blue .site-footer .email-subscribe p {
   color: rgba(255, 255, 255, 0.7);
 }
-body.home h3, body.blue h3 {
+body.home .site-footer h3, body.blue .site-footer h3 {
   font-weight: 700;
   color: var(--white);
 }
-body.home a, body.blue a {
+body.home .site-footer a, body.blue .site-footer a {
   color: rgba(255, 255, 255, 0.7);
 }
-body.home .legal-menu a, body.home .socials a, body.blue .legal-menu a, body.blue .socials a {
+body.home .site-footer .legal-menu a, body.home .site-footer .socials a, body.blue .site-footer .legal-menu a, body.blue .site-footer .socials a {
   color: var(--white);
 }
 

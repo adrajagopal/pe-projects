@@ -68,44 +68,48 @@
 }
 
 body.wavy {
-	.site-footer .email-subscribe {
-		background-color: var(--a8);
-	}
+	.site-footer {
+		.email-subscribe {
+			background-color: var(--a8);
+		}
 
-	h3 {
-		font-weight: 700;
-		color: var(--system-grey--900);
-	}
+		h3 {
+			font-weight: 700;
+			color: var(--system-grey--900);
+		}
 
-	a {
-		color: var(--system-grey--500);
-	}
+		a {
+			color: var(--system-grey--500);
+		}
 
-	.legal-menu a, .socials a {
-		color: var(--system-grey--700);	
+		.legal-menu a, .socials a {
+			color: var(--system-grey--700);	
+		}
 	}
 }
 
 body.home, body.blue {
-	.site-footer .email-subscribe {
-		background-color: var(--darker);
+	.site-footer {
+		.email-subscribe {
+			background-color: var(--darker);
 
-		p {
+			p {
+				color: rgba(white, 0.7);
+			}
+		}
+
+		h3 {
+			font-weight: 700;
+			color: var(--white);
+		}
+
+		a {
 			color: rgba(white, 0.7);
 		}
-	}
 
-	h3 {
-		font-weight: 700;
-		color: var(--white);
-	}
-
-	a {
-		color: rgba(white, 0.7);
-	}
-
-	.legal-menu a, .socials a {
-		color: var(--white);
+		.legal-menu a, .socials a {
+			color: var(--white);
+		}
 	}
 }
 
