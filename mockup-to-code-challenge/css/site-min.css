@@ -425,16 +425,19 @@ body.home section.hero {
   background-image: url("../images/diagonal-background.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
 }
 
 body.wavy section.hero {
   background-image: url("../images/wavy-background.svg");
   background-size: stretch;
   background-repeat: no-repeat;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+}
+
+section {
+  padding: 10vh 5vw;
+}
+section.hero {
+  padding: 20vh 10vw;
 }
 
 /*Modules*/
@@ -464,8 +467,8 @@ body.wavy section.hero {
   text-decoration: none;
 }
 .header-items .menu-hamburger {
-  width: 50px;
-  height: 50px;
+  width: 32px;
+  aspect-ratio: 1/1;
   display: flex;
   align-items: center;
   stroke: var(--origin);

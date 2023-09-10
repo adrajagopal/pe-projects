@@ -27,8 +27,8 @@
 	}
 
 	& .menu-hamburger {
-		width: 50px;
-		height: 50px;
+		width: 32px;
+		aspect-ratio: 1/1;
 		display: flex;
 		align-items: center;
 		stroke: var(--origin);
