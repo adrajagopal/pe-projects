@@ -68,7 +68,7 @@
 						"type" : "button",
 						"copy" : "Get free quotes",
 						"link" : "#",
-						"class" : "primary sharp normal",
+						"class" : "primary sharp normal has-icon",
 						"icon" : "chevron-right",
 						"target" : ""
 					}

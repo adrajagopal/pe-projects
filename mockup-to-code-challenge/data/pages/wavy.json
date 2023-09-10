@@ -68,7 +68,7 @@
 						"type" : "button",
 						"copy" : "Get free quotes",
 						"link" : "#",
-						"class" : "primary sharp normal",
+						"class" : "primary sharp normal has-icon",
 						"icon" : "chevron-right",
 						"target" : ""
 					},
@@ -76,7 +76,7 @@
 						"type" : "button",
 						"copy" : "Free Signup",
 						"link" : "#",
-						"class" : "secondary sharp normal",
+						"class" : "secondary sharp normal has-icon",
 						"icon" : "chevron-right",
 						"target" : ""
 					}
