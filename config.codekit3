@@ -1562,6 +1562,26 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/mockup-to-code-challenge\/images\/facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/git.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/git.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/mockup-to-code-challenge\/images\/globe.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1597,6 +1617,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/mockup-to-code-challenge\/images\/linked-in.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/linked-in.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/mockup-to-code-challenge\/images\/lizzy.jpg" : {
       "ft" : 16384,

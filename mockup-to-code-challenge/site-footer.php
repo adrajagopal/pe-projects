@@ -60,7 +60,15 @@
 			</nav>
 			
 			<nav class="socials-menu" aria-label="Social media links">
-				<?php include('../socials.php');?>
+				<a href="">
+					<span class="icon-container fill-only"><?php include(getFile('images/linked-in.svg'));?></span>
+				</a>
+				<a href="">
+					<span class="icon-container fill-only"><?php include(getFile('images/facebook.svg'));?></span>
+				</a>
+				<a href="">
+					<span class="icon-container stroke-only"><?php include(getFile('images/git.svg'));?></span>
+				</a>
 			</nav>
 		</div>
 
