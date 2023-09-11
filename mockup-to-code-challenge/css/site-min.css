@@ -554,6 +554,7 @@ section text-content h2 {
   gap: 0.5rem;
   align-items: center;
   font-family: var(--secondary-font);
+  font-weight: 700;
   text-decoration: none;
 }
 .header-items .menu-hamburger {
