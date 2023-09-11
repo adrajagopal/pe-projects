@@ -451,11 +451,18 @@ form button .svg-icon {
 
 .links-container a {
   display: flex;
-  font-size: 1.25rem;
+  align-items: center;
+  gap: 0.5rem;
   color: var(--origin);
+}
+.links-container .icon-container {
+  display: grid;
+  align-items: center;
 }
 .links-container svg {
   stroke: var(--origin);
+  width: 1rem;
+  height: 1rem;
 }
 
 video-player {
@@ -741,17 +748,55 @@ section.see-it-now .see-it-now-container, section.see-it-now text-content, secti
   display: grid;
   justify-items: center;
 }
-section.see-it-now .grid-list ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 2rem;
+section.see-it-now text-content h2 {
+  margin-top: 0.5rem;
+  text-align: center;
 }
-section.see-it-now :is(.grid-list, text-content) a {
-  display: flex;
-  gap: 1rem;
+section.see-it-now text-content h2 + p {
+  margin-top: 1rem;
+}
+section.see-it-now video-player, section.see-it-now .links-container {
+  margin-top: 3rem;
+}
+section.see-it-now .see-it-now-container > .icon-container {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--a8);
+  border-radius: 50%;
+  display: grid;
+}
+section.see-it-now .see-it-now-container > .icon-container svg {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 section.see-it-now svg {
   stroke: var(--origin);
+}
+
+.highlighted-articles-container {
+  display: grid;
+  justify-items: center;
+}
+.highlighted-articles-container text-content {
+  display: grid;
+  justify-items: center;
+}
+.highlighted-articles-container text-content h2 {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.highlighted-articles-container ul {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.75rem;
+  text-align: center;
+}
+.highlighted-articles-container ul h3 {
+  font-weight: 700;
+}
+.highlighted-articles-container .links-container {
+  margin-top: 3rem;
 }
 
 section.grid-content .grid-content-container, section.grid-content text-content, section.grid-content .grid-list {
@@ -848,14 +893,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-/*icon styling*/
-[class^=icon-], [class*=" icon-"] {
-  height: 32px;
-  width: 32px;
-  display: inline-block;
-  fill: currentColor;
 }
 
 text-content {

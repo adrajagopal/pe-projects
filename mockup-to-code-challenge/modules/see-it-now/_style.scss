@@ -5,15 +5,44 @@ section.see-it-now {
 		justify-items: center;
 	}
 
-	& .grid-list ul {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 2rem;
+	text-content {
+		h2 {
+			margin-top: 0.5rem;
+			text-align: center;
+		}
+
+		h2 + p {
+			margin-top: 1rem;
+		}
 	}
 
-	& :is(.grid-list, text-content) a {
-		display: flex;
-		gap: 1rem;
+	video-player, .links-container {
+		margin-top: 3rem;
+	}
+
+	//P SURE I CAN DELETE THIS NOW THAT .highlighted-articles IS ITS OWN SECTION
+	// & .grid-list ul {
+	// 	display: grid;
+	// 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	// 	gap: 2rem;
+	// }
+
+	// & :is(.grid-list, text-content) a {
+	// 	display: flex;
+	// 	gap: 1rem;
+	// }
+
+	.see-it-now-container > .icon-container  {
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+		background-color: var(--a8);
+		border-radius: 50%;
+		display: grid;
+
+		svg {
+			width: 2.5rem;
+			height: 2.5rem;
+		}
 	}
 
 	svg {
