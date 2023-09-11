@@ -97,9 +97,20 @@ body.wavy section.grid-content .grid-content-container {
 
 		ul {
 			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 			gap: 1.5rem;
 			text-align: left;
+
+			@media (min-width: 1200px) {
+				grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+			}
+
+			@media (max-width: 400px) {
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+				align-items: center;
+			}
 		}
 
 		li {

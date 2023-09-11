@@ -879,9 +879,22 @@ body.wavy section.grid-content .grid-content-container .grid-list {
 }
 body.wavy section.grid-content .grid-content-container .grid-list ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
   text-align: left;
+}
+@media (min-width: 1200px) {
+  body.wavy section.grid-content .grid-content-container .grid-list ul {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+@media (max-width: 400px) {
+  body.wavy section.grid-content .grid-content-container .grid-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
 }
 body.wavy section.grid-content .grid-content-container .grid-list li {
   border: 1px solid var(--system-grey--300);
