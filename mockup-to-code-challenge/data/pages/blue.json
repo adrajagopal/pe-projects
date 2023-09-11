@@ -74,6 +74,9 @@
 			}
 		},
 		{
+			"name" : "faq-list"
+		},
+		{
 			"name" : "call-to-action",
 			"content" : {
 				"heading" : "Etiam nulla lectus amet nunc",
@@ -90,9 +93,6 @@
 					}
 				]
 			}
-		},
-		{
-			"name" : "faq-list"
 		}
 	]
 }
