@@ -517,7 +517,7 @@ body.wavy section.hero {
 }
 
 section {
-  padding: 10vh 5vw;
+  padding: 10vh 0 10vh 0;
 }
 section.hero {
   padding: 20vh 10vw;
