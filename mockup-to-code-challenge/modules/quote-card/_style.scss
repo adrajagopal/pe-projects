@@ -8,8 +8,16 @@ quote-card {
 	.stars {
 		display: flex;
 
+		.icon-container {
+			width: 2.5rem;
+			height: 2.5rem;
+			padding: 0.5rem;
+		}
+
 		svg {
 			fill: var(--origin);
+			width: 100%;
+			height: auto;
 		}
 	}
 
@@ -28,6 +36,8 @@ quote-card {
 }
 
 body.home quote-card {
+	display: grid;
+	justify-items: center;
 	padding: 0.5rem;
 
 	.quote {
@@ -35,7 +45,13 @@ body.home quote-card {
 		font-size: 1.25rem;
 		font-weight: 500;
 		min-height: 225px;
+		text-align: center;
 
+	}
+
+	.attribute-container {
+		display: grid;
+		justify-items: center;
 	}
 
 	picture {

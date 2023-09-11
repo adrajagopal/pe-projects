@@ -1063,8 +1063,15 @@ quote-card p.quote {
 quote-card .stars {
   display: flex;
 }
+quote-card .stars .icon-container {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+}
 quote-card .stars svg {
   fill: var(--origin);
+  width: 100%;
+  height: auto;
 }
 quote-card .client-portrait {
   max-width: 50px;
@@ -1079,6 +1086,8 @@ quote-card .client-portrait img {
 }
 
 body.home quote-card {
+  display: grid;
+  justify-items: center;
   padding: 0.5rem;
 }
 body.home quote-card .quote {
@@ -1086,6 +1095,11 @@ body.home quote-card .quote {
   font-size: 1.25rem;
   font-weight: 500;
   min-height: 225px;
+  text-align: center;
+}
+body.home quote-card .attribute-container {
+  display: grid;
+  justify-items: center;
 }
 body.home quote-card picture {
   margin-top: 1.5rem;
