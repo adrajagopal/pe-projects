@@ -8,13 +8,12 @@
 		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
 		
 		<p class="medium-voice"><?=$section['content']['heading']?></p>
+
+		<?php if ($page === "home") { ?>
+			<picture class="image"><img src="https://peprojects.dev/images/square.jpg" alt=""></picture>
+		<?php } ?>
+
 	</text-content>
-
-	<?php if ($page === "home") { ?>
-		<picture><img src="https://peprojects.dev/images/square.jpg" alt=""></picture>
-	<?php } ?>
-
-
 		
 	<div class="grid-list">
 		<ul>
@@ -29,4 +28,5 @@
 					</li>
 			<?php } ?>
 		</ul>
+	</div>
 </div>

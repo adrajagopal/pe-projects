@@ -799,26 +799,141 @@ section.see-it-now svg {
   margin-top: 3rem;
 }
 
-section.grid-content .grid-content-container, section.grid-content text-content, section.grid-content .grid-list {
+section.grid-content .grid-content-container, section.grid-content text-content {
   display: grid;
   justify-items: center;
 }
-section.grid-content .grid-list ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 2rem;
+section.grid-content .grid-list ul .icon-container {
+  width: 50px;
+  height: auto;
 }
 section.grid-content :is(.grid-list, text-content) a {
   display: flex;
   gap: 1rem;
 }
-section.grid-content picture {
-  width: 300px;
+section.grid-content picture.image {
+  margin-top: 2rem;
+  width: 100%;
   height: auto;
 }
+section.grid-content text-content p.pre-heading {
+  margin-bottom: 0.5rem;
+}
+section.grid-content text-content h2 {
+  text-align: center;
+}
+section.grid-content text-content h2 + p {
+  margin-top: 1rem;
+}
 
+body.home section.grid-content .grid-content-container {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+  grid-template-columns: 1fr 1fr;
+}
+body.home section.grid-content .grid-content-container text-content {
+  justify-items: start;
+}
+body.home section.grid-content .grid-content-container text-content :is(h2, p) {
+  text-align: left;
+}
+@media (max-width: 800px) {
+  body.home section.grid-content .grid-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+body.home section.grid-content .grid-content-container .grid-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+body.home section.grid-content .grid-content-container .grid-list ul li {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 1.5rem;
+}
+@media (max-width: 400px) {
+  body.home section.grid-content .grid-content-container .grid-list ul {
+    grid-template-columns: 1fr;
+  }
+  body.home section.grid-content .grid-content-container .grid-list ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+body.wavy section.grid-content .grid-content-container {
+  display: grid;
+  gap: 2rem;
+}
+body.wavy section.grid-content .grid-content-container .grid-list {
+  margin-top: 3rem;
+  width: 100%;
+}
+body.wavy section.grid-content .grid-content-container .grid-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  text-align: left;
+}
+body.wavy section.grid-content .grid-content-container .grid-list li {
+  border: 1px solid var(--system-grey--300);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+body.wavy section.grid-content .grid-content-container .grid-list li .text-container {
+  margin-top: 1.5rem;
+}
+body.wavy section.grid-content .grid-content-container .grid-list li h3 {
+  font-weight: 700;
+}
+body.wavy section.grid-content .grid-content-container .grid-list li h3 + p {
+  margin-top: 1rem;
+}
+
+body.blue section.grid-content .grid-content-container {
+  display: grid;
+  gap: 2rem;
+}
+body.blue section.grid-content .grid-content-container .grid-list {
+  margin-top: 3rem;
+  width: 100%;
+}
+body.blue section.grid-content .grid-content-container .grid-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+body.blue section.grid-content .grid-content-container .grid-list li {
+  display: grid;
+  justify-items: center;
+  padding: 1.5rem;
+}
+body.blue section.grid-content .grid-content-container .grid-list li .text-container {
+  margin-top: 0.5rem;
+}
+body.blue section.grid-content .grid-content-container .grid-list li h3 {
+  font-weight: 700;
+}
+body.blue section.grid-content .grid-content-container .grid-list li h3 + p {
+  margin-top: 1rem;
+}
+
+.grid-card .icon-container {
+  aspect-ratio: 1/1;
+  padding: 0.75rem;
+  background-color: var(--a8);
+  border-radius: 50%;
+}
 .grid-card svg {
   stroke: var(--origin);
+  width: 100%;
+  height: auto;
 }
 
 section.client-testimony {

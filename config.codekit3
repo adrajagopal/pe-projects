@@ -1784,18 +1784,6 @@
       "oAP" : "\/mockup-to-code-challenge\/modules\/grid-card\/template.php",
       "oF" : 0
     },
-    "\/mockup-to-code-challenge\/modules\/grid-content\/_style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/mockup-to-code-challenge\/modules\/grid-content\/_style-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/mockup-to-code-challenge\/modules\/grid-content\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
