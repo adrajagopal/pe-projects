@@ -1001,9 +1001,60 @@ quote-card .client-portrait img {
   border: none;
 }
 
-section.call-to-action .call-to-action-container, section.call-to-action text-content {
+section.call-to-action .call-to-action-container, section.call-to-action .content-container, section.call-to-action text-content {
   display: grid;
   justify-items: center;
+}
+
+body:is(.home, .wavy) section.call-to-action .call-to-action-container {
+  background-color: var(--a8);
+  padding: 5vh 5vw;
+}
+body:is(.home, .wavy) section.call-to-action text-content h2 {
+  margin-top: 1.5rem;
+}
+body:is(.home, .wavy) section.call-to-action .links-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 500px) {
+  body:is(.home, .wavy) section.call-to-action .links-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+body.blue section.call-to-action .call-to-action-container {
+  padding: 5vh 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+@media (max-width: 799px) {
+  body.blue section.call-to-action .call-to-action-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+  body.blue section.call-to-action .call-to-action-container .content-container {
+    align-self: start;
+  }
+}
+body.blue section.call-to-action .content-container {
+  align-self: center;
+  justify-items: start;
+}
+body.blue section.call-to-action text-content {
+  text-align: left;
+  justify-items: start;
+}
+body.blue section.call-to-action text-content p {
+  margin-top: 1rem;
+}
+body.blue section.call-to-action .links-container {
+  margin-top: 3rem;
 }
 
 .faq-list-container summary {
