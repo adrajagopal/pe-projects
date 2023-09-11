@@ -5,7 +5,7 @@
 			<p class="preheading small-voice">Rhoncus, accumsan dictum</p>	
 		<?php } ?>
 	
-		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
+		<h2><?=$section['content']['heading']?></h2>
 		
 		<p class="medium-voice"><?=$section['content']['heading']?></p>
 

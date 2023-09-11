@@ -29,4 +29,13 @@ section {
 	&.hero {
 		padding: 20vh 10vw;
 	}
+
+	text-content {
+		text-align: center;
+		
+		h2 {
+			font-size: clamp(1.25rem, 5vw, 2rem);
+			font-weight: 600;
+		}
+	}
 }

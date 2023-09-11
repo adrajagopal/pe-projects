@@ -1,6 +1,6 @@
 <div class="client-testimony-container">
 	<text-content>
-		<h2 class="xl-voice"><?=$section['content']['heading']?></h2>
+		<h2><?=$section['content']['heading']?></h2>
 		<p class="medium-voice"><?=$section['content']['description']?></p>	
 	</text-content>
 	

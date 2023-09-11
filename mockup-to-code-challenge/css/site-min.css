@@ -521,6 +521,13 @@ section {
 section.hero {
   padding: 20vh 10vw;
 }
+section text-content {
+  text-align: center;
+}
+section text-content h2 {
+  font-size: clamp(1.25rem, 5vw, 2rem);
+  font-weight: 600;
+}
 
 /*Modules*/
 .header-items {
@@ -750,7 +757,6 @@ section.see-it-now .see-it-now-container, section.see-it-now text-content, secti
 }
 section.see-it-now text-content h2 {
   margin-top: 0.5rem;
-  text-align: center;
 }
 section.see-it-now text-content h2 + p {
   margin-top: 1rem;
@@ -783,7 +789,6 @@ section.see-it-now svg {
 }
 .highlighted-articles-container text-content h2 {
   margin-top: 0.5rem;
-  text-align: center;
 }
 .highlighted-articles-container ul {
   margin-top: 3rem;
@@ -821,9 +826,6 @@ section.grid-content picture.image {
 }
 section.grid-content text-content p.pre-heading {
   margin-bottom: 0.5rem;
-}
-section.grid-content text-content h2 {
-  text-align: center;
 }
 section.grid-content text-content h2 + p {
   margin-top: 1rem;
