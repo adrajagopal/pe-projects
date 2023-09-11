@@ -39,7 +39,7 @@ body.home section.client-testimony {
 		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); // default
 	}
 
-	@media (max-width: 800px) {
+	@media (max-width: 825px) {
 		carousel li:nth-of-type(3) {
 			display: none;
 		}
@@ -49,6 +49,10 @@ body.home section.client-testimony {
 body.wavy section.client-testimony {
 	carousel {
 		grid-template-columns: auto 60% auto;
+		@media (max-width: 500px) {
+			grid-template-columns: auto 80% auto;
+			gap: 1rem;
+		}
 
 		li:nth-of-type(2n + 1) {
 			display: none;
@@ -62,7 +66,7 @@ body.blue section.client-testimony {
 			"text-content text-content"
 			"picture carousel"
 		;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 60% 40%;
 	
 		text-content {
 			grid-area: text-content;
@@ -73,8 +77,25 @@ body.blue section.client-testimony {
 		}
 
 		carousel {
+			margin-top: 0;
+			gap: 0;
 			grid-area: carousel;
+
+			.carousel-arrow {
+				display: none;
+			}
 		}
+
+		li:nth-of-type(2n + 1) {
+			display: none;
+		}
+
+	@media (max-width: 600px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
 	}
 }
 

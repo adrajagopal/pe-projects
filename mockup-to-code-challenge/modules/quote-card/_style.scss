@@ -1,8 +1,5 @@
 quote-card {
 	display: block;
-	display: grid;
-	justify-items: center;
-	text-align: center;
 
 	p.quote {
 		color: var(--system-grey--800);
@@ -29,3 +26,133 @@ quote-card {
 		}
 	}
 }
+
+body.home quote-card {
+	padding: 0.5rem;
+
+	.quote {
+		margin-top: 1.5rem;
+		font-size: 1.25rem;
+		font-weight: 500;
+		min-height: 225px;
+
+	}
+
+	picture {
+		margin-top: 1.5rem;
+	}
+
+	.name {
+		margin-top: 0.25rem;
+		font-size: 0.8rem;
+		font-weight: 500;
+	}
+
+	.role {
+		display: none;
+	}
+} // close home section
+
+body.wavy quote-card {
+	padding: 0.5rem;
+	display: grid;
+	justify-items: center;
+	text-align: center;
+	gap: 2.5rem;
+
+	grid-template-areas:
+		"quote"
+		"attribute"
+	;
+
+	.quote {
+		margin-top: 1.5rem;
+		font-size: 1.25rem;
+		font-weight: 500;
+
+		@media (max-width: 500px) {
+			font-size: 1rem;
+		}
+
+		grid-area: quote;
+	}
+
+	.attribute-container {
+		grid-area: attribute;
+		transform: translateX(-25px);
+
+		display: flex;
+		gap: 1.25rem;
+		align-items: center;
+	}
+
+	.name-container {
+		.name {
+			font-size: 1.5rem;
+			font-weight: 600;
+
+			@media (max-width: 500px) {
+				font-size: 1rem;
+			}
+		}
+
+		.role {
+			font-size:1rem;
+			font-weight:400;
+			
+			@media (max-width: 500px) {
+				font-size: 0.75rem;
+			}
+		}
+	}
+
+	.stars {
+		display: none;
+	}
+} // close wavy section
+
+body.blue quote-card {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+
+	ul {
+		grid-template-columns: 1fr;
+	}
+
+	.stars, picture {
+		display: none;
+	}
+
+	.quote {
+		font-size: clamp(1rem, 3vw, 2rem);
+		font-weight: 500;
+	}
+
+	.name {
+		font-weight: 600;
+	}
+
+
+
+
+
+} //close blue section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

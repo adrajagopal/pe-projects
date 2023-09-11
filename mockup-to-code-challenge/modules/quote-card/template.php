@@ -6,7 +6,11 @@
 		} ?>
 	</div>
 	<p class="quote">"<?=$quote['quote']?>"</p>
-	<p><?=$quote['name']?></p>
-	<p><?=$quote['role']?></p>
-	<picture class="client-portrait"><img src="images/<?=$quote['portrait']?>.jpg" alt=""></picture>
+	<div class="attribute-container">
+		<picture class="client-portrait"><img src="images/<?=$quote['portrait']?>.jpg" alt=""></picture>
+		<div class="name-container">
+			<p class="name"><?=$quote['name']?></p>
+			<p class="role"><?=$quote['role']?></p>
+		</div>
+	</div>
 </quote-card>

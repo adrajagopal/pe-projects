@@ -1006,7 +1006,7 @@ section.client-testimony .carousel-arrow {
 body.home section.client-testimony carousel ul {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
-@media (max-width: 800px) {
+@media (max-width: 825px) {
   body.home section.client-testimony carousel li:nth-of-type(3) {
     display: none;
   }
@@ -1015,13 +1015,19 @@ body.home section.client-testimony carousel ul {
 body.wavy section.client-testimony carousel {
   grid-template-columns: auto 60% auto;
 }
+@media (max-width: 500px) {
+  body.wavy section.client-testimony carousel {
+    grid-template-columns: auto 80% auto;
+    gap: 1rem;
+  }
+}
 body.wavy section.client-testimony carousel li:nth-of-type(2n + 1) {
   display: none;
 }
 
 body.blue section.client-testimony .client-testimony-container {
   grid-template-areas: "text-content text-content" "picture carousel";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
 }
 body.blue section.client-testimony .client-testimony-container text-content {
   grid-area: text-content;
@@ -1030,14 +1036,26 @@ body.blue section.client-testimony .client-testimony-container picture {
   grid-area: picture;
 }
 body.blue section.client-testimony .client-testimony-container carousel {
+  margin-top: 0;
+  gap: 0;
   grid-area: carousel;
+}
+body.blue section.client-testimony .client-testimony-container carousel .carousel-arrow {
+  display: none;
+}
+body.blue section.client-testimony .client-testimony-container li:nth-of-type(2n + 1) {
+  display: none;
+}
+@media (max-width: 600px) {
+  body.blue section.client-testimony .client-testimony-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 quote-card {
   display: block;
-  display: grid;
-  justify-items: center;
-  text-align: center;
 }
 quote-card p.quote {
   color: var(--system-grey--800);
@@ -1058,6 +1076,95 @@ quote-card .client-portrait {
 quote-card .client-portrait img {
   object-fit: cover;
   border: none;
+}
+
+body.home quote-card {
+  padding: 0.5rem;
+}
+body.home quote-card .quote {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  min-height: 225px;
+}
+body.home quote-card picture {
+  margin-top: 1.5rem;
+}
+body.home quote-card .name {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+body.home quote-card .role {
+  display: none;
+}
+
+body.wavy quote-card {
+  padding: 0.5rem;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 2.5rem;
+  grid-template-areas: "quote" "attribute";
+}
+body.wavy quote-card .quote {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  grid-area: quote;
+}
+@media (max-width: 500px) {
+  body.wavy quote-card .quote {
+    font-size: 1rem;
+  }
+}
+body.wavy quote-card .attribute-container {
+  grid-area: attribute;
+  transform: translateX(-25px);
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+body.wavy quote-card .name-container .name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  body.wavy quote-card .name-container .name {
+    font-size: 1rem;
+  }
+}
+body.wavy quote-card .name-container .role {
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media (max-width: 500px) {
+  body.wavy quote-card .name-container .role {
+    font-size: 0.75rem;
+  }
+}
+body.wavy quote-card .stars {
+  display: none;
+}
+
+body.blue quote-card {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+body.blue quote-card ul {
+  grid-template-columns: 1fr;
+}
+body.blue quote-card .stars, body.blue quote-card picture {
+  display: none;
+}
+body.blue quote-card .quote {
+  font-size: clamp(1rem, 3vw, 2rem);
+  font-weight: 500;
+}
+body.blue quote-card .name {
+  font-weight: 600;
 }
 
 section.call-to-action .call-to-action-container, section.call-to-action .content-container, section.call-to-action text-content {
