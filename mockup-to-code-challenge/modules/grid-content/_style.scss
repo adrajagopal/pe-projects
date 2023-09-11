@@ -10,6 +10,11 @@ section.grid-content {
 		height: auto;
 	}
 
+	.grid-list li h3 {
+		font-weight: 700;
+	}
+
+
 	& :is(.grid-list, text-content) a {
 		display: flex;
 		gap: 1rem;
@@ -106,10 +111,6 @@ body.wavy section.grid-content .grid-content-container {
 				margin-top: 1.5rem;
 			}
 
-			h3 {
-				font-weight: 700;
-			}
-
 			h3 + p {
 				margin-top: 1rem;
 			}
@@ -142,10 +143,6 @@ body.blue section.grid-content .grid-content-container {
 
 			.text-container {
 				margin-top: 0.5rem;
-			}
-
-			h3 {
-				font-weight: 700;
 			}
 
 			h3 + p {

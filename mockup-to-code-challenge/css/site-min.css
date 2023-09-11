@@ -807,6 +807,9 @@ section.grid-content .grid-list ul .icon-container {
   width: 50px;
   height: auto;
 }
+section.grid-content .grid-list li h3 {
+  font-weight: 700;
+}
 section.grid-content :is(.grid-list, text-content) a {
   display: flex;
   gap: 1rem;
@@ -888,9 +891,6 @@ body.wavy section.grid-content .grid-content-container .grid-list li {
 body.wavy section.grid-content .grid-content-container .grid-list li .text-container {
   margin-top: 1.5rem;
 }
-body.wavy section.grid-content .grid-content-container .grid-list li h3 {
-  font-weight: 700;
-}
 body.wavy section.grid-content .grid-content-container .grid-list li h3 + p {
   margin-top: 1rem;
 }
@@ -916,9 +916,6 @@ body.blue section.grid-content .grid-content-container .grid-list li {
 }
 body.blue section.grid-content .grid-content-container .grid-list li .text-container {
   margin-top: 0.5rem;
-}
-body.blue section.grid-content .grid-content-container .grid-list li h3 {
-  font-weight: 700;
 }
 body.blue section.grid-content .grid-content-container .grid-list li h3 + p {
   margin-top: 1rem;
