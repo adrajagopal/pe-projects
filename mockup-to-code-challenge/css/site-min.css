@@ -920,9 +920,14 @@ body.blue section.grid-content .grid-content-container .grid-list {
 }
 body.blue section.grid-content .grid-content-container .grid-list ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
   text-align: center;
+}
+@media (min-width: 1200px) {
+  body.blue section.grid-content .grid-content-container .grid-list ul {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
 body.blue section.grid-content .grid-content-container .grid-list li {
   display: grid;
