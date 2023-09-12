@@ -29,27 +29,31 @@ a, p a {
 
 article {
 
-	& h1, h2, h3 {
+	p, li {
+		max-width: 75ch;
+	}
+
+	h1, h2, h3 {
 		margin-top: 1.25rem;
 	}
 
-	& h1 + h2, h1 + p, h2 + h3 {
+	h1 + h2, h1 + p, h2 + h3 {
 		margin-top: 2rem;
 	}
 
-	& h2 + p {
+	h2 + p {
 		margin-top: 1.5rem;
 	}
 
-	& h3 + p {
+	h3 + p {
 		margin-top: 1rem;
 	}
 
-	& p + p {
+	p + p {
 		margin-top: 1rem;
 	}
 
-	& img + p {
+	img + p {
 		margin-top: 0.75rem;
 	}
 

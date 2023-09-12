@@ -8,9 +8,13 @@ inner-column {
 	margin-right: auto;
 	max-width: 1200px;
 	padding: 0 1.25rem 0;
+
+	&.tight {
+		max-width: 800px;
+	}
 }
 
-p, li {
+p {
 	max-width: 75ch;
 }
 
