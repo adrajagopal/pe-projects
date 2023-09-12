@@ -1532,6 +1532,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/mockup-to-code-challenge\/images\/chevron-up.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/chevron-up.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/mockup-to-code-challenge\/images\/diagonal-background.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1646,6 +1656,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/mockup-to-code-challenge\/images\/play.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/mockup-to-code-challenge\/images\/plus.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/mockup-to-code-challenge\/images\/plus.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
