@@ -37,8 +37,13 @@
 } //close .faq-list-container
 
 body:is(.home,.blue) .faq-list-container {
+
 	.icon-container {
 		transform: translateX(50%);
+	}
+
+	details p {
+		padding-right: 2rem;
 	}
 
 	details[open] {
@@ -47,6 +52,19 @@ body:is(.home,.blue) .faq-list-container {
 		}
 	}
 } //close home/blue > faq-list-container
+
+body.blue .faq-list-container {
+	border-top: 1px solid var(--system-grey--300);
+	padding-top: clamp(24px, 5vh, 48px);
+
+	faq-card {
+		padding-left: 0;
+	}
+
+	text-content {
+		margin-top: 0.5rem;
+	}
+}
 
 body.wavy .faq-list-container {
 	

@@ -18,6 +18,7 @@
 
 		foreach ($pageData['sections'] as $section) { 
 			$columnWidth = $section['width'] ?? ""; ?>
+			
 			<section class="<?=$section['name']?>">
 				<inner-column class="<?=$columnWidth?>">
 					<?php include("modules/$section[name]/template.php");?>

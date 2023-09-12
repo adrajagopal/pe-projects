@@ -76,7 +76,7 @@
 			}
 		},
 		{
-			"name" : "faq-list"
+			"name" : "faq-list",
 			"width" : "tight"
 		}
 	]
