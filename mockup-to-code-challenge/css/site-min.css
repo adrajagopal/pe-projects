@@ -994,7 +994,7 @@ section.client-testimony .client-testimony-container, section.client-testimony t
 }
 section.client-testimony carousel {
   margin-top: 3rem;
-  gap: 2rem;
+  gap: clamp(12px, 8vw, 32px);
   display: block;
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -1010,11 +1010,22 @@ section.client-testimony .carousel-arrow {
 }
 
 body.home section.client-testimony carousel ul {
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 @media (max-width: 825px) {
   body.home section.client-testimony carousel li:nth-of-type(3) {
     display: none;
+  }
+}
+@media (max-width: 400px) {
+  body.home section.client-testimony carousel {
+    gap: 0;
+  }
+  body.home section.client-testimony carousel .carousel-arrow {
+    display: none;
+  }
+  body.home section.client-testimony quote-card .quote {
+    font-size: 1rem;
   }
 }
 
@@ -1100,7 +1111,7 @@ body.home quote-card .quote {
   margin-top: 1.5rem;
   font-size: 1.25rem;
   font-weight: 500;
-  min-height: 225px;
+  min-height: 200px;
   text-align: center;
 }
 body.home quote-card .attribute-container {
