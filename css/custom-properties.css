@@ -12,8 +12,8 @@ body {
 	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
 	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
 
-	--primary-font: "Vidaloka";
-	--secondary-font: "Ubuntu";
+	--primary-font: "Hanken Grotesk";
+	--secondary-font: "Hanken Grotesk";
 }
 
 @media (prefers-color-scheme:dark) {
