@@ -36,21 +36,21 @@ body {
 	--system-grey--900: hsla(0, 0%, 12.9%, 1);
 	--system-grey--1000: hsla(0, 0%, 0%, 1);
 
-	@media (prefers-color-scheme: dark) {
-		--a4: hsla(228, 10.2%, 9.6%, 1);
-		--a8: hsla(228, 16.1%, 12.2%, 1);
-		--a12: hsla(228, 20%, 14.7%, 1);
-		--a16: hsla(223, 24.1%, 17.1%, 1);
-		--a24: hsla(224, 26.8%, 22%, 1);
-		--a32: hsla(225, 29%, 27.1%, 1);
-		--a56: hsla(225, 32.7%, 42%, 1);
-		--lighter: hsla(224, 81.2%, 83.3%, 1);
-		--origin: hsla(225, 80.8%, 69.4%, 1);
-		--darker: hsla(225, 80.6%, 55.5%, 1);
-		--surface--level-0: hsla(0, 0%, 7.1%, 1);
-		--surface--level-1: hsla(0, 0%, 14.1%, 1);
-		--surface--level-2: hsla(0, 0%, 10.6%, 1);
-	}
+	// @media (prefers-color-scheme: dark) {
+	// 	--a4: hsla(228, 10.2%, 9.6%, 1);
+	// 	--a8: hsla(228, 16.1%, 12.2%, 1);
+	// 	--a12: hsla(228, 20%, 14.7%, 1);
+	// 	--a16: hsla(223, 24.1%, 17.1%, 1);
+	// 	--a24: hsla(224, 26.8%, 22%, 1);
+	// 	--a32: hsla(225, 29%, 27.1%, 1);
+	// 	--a56: hsla(225, 32.7%, 42%, 1);
+	// 	--lighter: hsla(224, 81.2%, 83.3%, 1);
+	// 	--origin: hsla(225, 80.8%, 69.4%, 1);
+	// 	--darker: hsla(225, 80.6%, 55.5%, 1);
+	// 	--surface--level-0: hsla(0, 0%, 7.1%, 1);
+	// 	--surface--level-1: hsla(0, 0%, 14.1%, 1);
+	// 	--surface--level-2: hsla(0, 0%, 10.6%, 1);
+	// }
 
 	--primary-font: "Inter";
 	--secondary-font: "Inter";
