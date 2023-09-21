@@ -18,7 +18,7 @@ $form.addEventListener('submit', function(event){
 		var sum = firstNum + secondNum;
 		var diff = firstNum - secondNum;
 		var product = firstNum * secondNum;
-		var quotient = Math.round(((firstNum / secondNum) + Number.EPSILON) * 100) / 100
+		var quotient = Math.round(((firstNum / secondNum) + Number.EPSILON) * 100) / 100;
 
 		var results = [
 			{
