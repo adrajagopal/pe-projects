@@ -1,16 +1,5 @@
 <?php include("../../../header.php"); ?>
 
-<!-- 
-
-inputs - first number and second number
-
-add, subtract, multiply and divide
-
-display outputs
-
-
--->
-
 <inner-column>
 	<h1 class="xl-voice">Simple math</h1>
 	
@@ -43,7 +32,7 @@ display outputs
 				
 	</form>
 	
-	<p id="form-result"></p>
+	<div id="form-result"></div> <!-- could replace this with <output> -->
 </inner-column>
 
 <script src="projects/exercises-for-programmers/simple-math/script.js"></script>

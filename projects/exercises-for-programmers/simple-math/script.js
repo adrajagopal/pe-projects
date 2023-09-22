@@ -1,17 +1,15 @@
 console.clear();
 
 var $form = document.querySelector('form');
-var $inputOne = document.getElementById('firstNumber');
-var $inputTwo = document.getElementById('secondNumber');
-var $output = document.getElementById('form-result');
-
-var ul = document.createElement('ul');
+var $inputOne = document.querySelector('#firstNumber');
+var $inputTwo = document.querySelector('#secondNumber');
+var $output = document.querySelector('#form-result');
 
 $form.addEventListener('submit', function(event){
 	event.preventDefault();
 
 	if ($inputOne.value && $inputTwo.value) {
-		
+
 		var firstNum = Number($inputOne.value);
 		var secondNum = Number($inputTwo.value);
 
@@ -45,18 +43,15 @@ $form.addEventListener('submit', function(event){
 
 		console.log(results);
 
+		var ul = `<ul class="form-result">`;
+
 		results.forEach ( function (item) {
-			var li = document.createElement('li');
-
-			li.textContent = item.operation + " = " + item.result;
-
-			ul.appendChild(li);
-
+			ul = ul + `<li>${item.operation} = ${item.result}</li>`;
 		});
 
-		$output.classList.add("form-result");
-		$output.appendChild(ul);
+		ul = ul + `</ul>`;
 
+		$output.innerHTML = ul;
 
 	} else {
 		alert("Please submit two numbers");
