@@ -2549,6 +2549,96 @@
       "oAP" : "\/projects\/exercises-for-programmers\/paint-calculator\/index.php",
       "oF" : 0
     },
+    "\/projects\/exercises-for-programmers\/room-area\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/room-area\/index.php",
+      "oF" : 0
+    },
+    "\/projects\/exercises-for-programmers\/room-area\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/room-area\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/projects\/exercises-for-programmers\/room-area\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/room-area\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/projects\/exercises-for-programmers\/self-checkout\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/self-checkout\/index.php",
+      "oF" : 0
+    },
+    "\/projects\/exercises-for-programmers\/self-checkout\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/self-checkout\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/projects\/exercises-for-programmers\/self-checkout\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/self-checkout\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/projects\/exercises-for-programmers\/simple-math-clean\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/simple-math-clean\/index.php",
+      "oF" : 0
+    },
+    "\/projects\/exercises-for-programmers\/simple-math-clean\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/simple-math-clean\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/projects\/exercises-for-programmers\/simple-math-clean\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/simple-math-clean\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/projects\/exercises-for-programmers\/simple-math\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2556,6 +2646,17 @@
       "oA" : 0,
       "oAP" : "\/projects\/exercises-for-programmers\/simple-math\/index.php",
       "oF" : 0
+    },
+    "\/projects\/exercises-for-programmers\/simple-math\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/exercises-for-programmers\/simple-math\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/projects\/exercises-for-programmers\/simple-math\/script.js" : {
       "bF" : 0,
