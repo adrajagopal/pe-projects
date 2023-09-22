@@ -51,6 +51,7 @@ form :is(p, span) {
 form :is(.prepend, .append) {
 	background-color: lightgrey;
 	color: black;
+	height: 100%;
 }
 
 /*Input styling*/
