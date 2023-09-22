@@ -9,7 +9,7 @@ form {
 	border: 2px solid var(--splash-secondary);
 	border-radius: 0.5rem;
 	width: 100%;
-	min-height: 300px;
+/*	min-height: 300px;*/
 	display: grid;
 	gap: 1.5rem;
 	justify-items: start;
@@ -175,7 +175,7 @@ button:active {
 
 /*Form results box*/
 
-p.form-result {
+.form-result {
 	font-size: 1.25rem;
 	margin-top: 2rem;
 	border: 2px solid var(--splash-secondary);
