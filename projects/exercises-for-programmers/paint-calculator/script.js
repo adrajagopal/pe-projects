@@ -1,13 +1,14 @@
 console.clear();
 
-var $form = document.body.querySelector('form');
-var $output = document.querySelector('output');
+const $form = document.querySelector('form');
+const $output = document.querySelector('output');
+const colorCheckbox = document.querySelector('[name="colorSelector"]');
 
-var lengthFeetInput = document.body.querySelector('[name="lengthFeet"]');
-var lengthInchesInput = document.body.querySelector('[name="lengthInches"]');
+const lengthFeetInput = document.querySelector('[name="lengthFeet"]');
+const lengthInchesInput = document.querySelector('[name="lengthInches"]');
 
-var widthFeetInput = document.body.querySelector('[name="widthFeet"]');
-var widthInchesInput = document.body.querySelector('[name="widthInches"]');
+const widthFeetInput = document.querySelector('[name="widthFeet"]');
+const widthInchesInput = document.querySelector('[name="widthInches"]');
 
 // convert feet + inches to a fraction
 function convertToFloat(feet, inches) {
@@ -24,39 +25,70 @@ function calculateGallons(roomArea) {
 	return Math.ceil(roomArea/350);
 }
 
+function clearMessage() {
+	$output.innerHTML = '';
+}
+
 // create function to render results
 function renderMessage(roomArea, gallons) {
-	if (gallons === 1) {
-		$output.innerHTML = `<p class="form-result">Your room is ${roomArea} square feet, so you'll only need ${gallons} gallon to paint it.</p>`;
-	} else if (gallons > 1) {
-		$output.innerHTML = `<p class="form-result">Your room is ${roomArea} square feet, so you'll need ${gallons} gallon to paint it.</p>`;
+	let message = `Your room is ${roomArea} square feet, so you'll only need ${gallons} gallon to paint it.`;
+
+	if (gallons > 1) {
+		message = `Your room is ${roomArea} square feet, so you'll need ${gallons} gallons to paint it.`;
 	}
+
+	$output.innerHTML = `<p class="form-result">${message}</p>`;
 }
 
 function handleForm() {
-	var length = convertToFloat(lengthFeetInput.value, lengthInchesInput.value);
-	var width = convertToFloat(widthFeetInput.value, widthInchesInput.value);
+	const length = convertToFloat(lengthFeetInput.value, lengthInchesInput.value);
+	const width = convertToFloat(widthFeetInput.value, widthInchesInput.value);
 
-	var area = calculateArea(length, width);
+	const area = calculateArea(length, width);
 
-	var gallons = calculateGallons(area);
+	const gallons = calculateGallons(area);
 
 	renderMessage(area, gallons);
 }
 
-
 $form.addEventListener('submit', function(event){
 	event.preventDefault();
 
-	if (lengthFeetInput && lengthInchesInput && widthFeetInput && widthInchesInput) {
+	if (lengthFeetInput && lengthInchesInput && widthFeetInput && widthInchesInput) { // fix this
 		handleForm();
 	} else {
 		alert("Please enter all values.");
 	}
+});
+
+//manages the checkbox
+colorCheckbox.addEventListener('click', function() {
+	if (colorCheckbox.checked) {
+		$output.innerHTML = `<div class="color-picker">Choose your color</div>`;
+	} else {
+		$output.innerHTML = ``;
+	}
+
+	//if it's checked, show it
 
 });
 
-$form.addEventListener('input', function(event) {
-	$output.innerHTML = '';
+//manages the color-picker UI ONLY when it exists
+window.addEventListener('click', function(event) {
+	if (event.target.matches('.color-picker')) {
+		// the .color-picker node exists so you can listen for color slider changes
+	}
 });
+
+
+
+
+
+
+
+
+
+
+
+
 

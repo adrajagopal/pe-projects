@@ -57,8 +57,19 @@
 
 	<p class="<?=$class?> span-two"><?=$message?></p>
 
-	<div class="button-container span-two">
-		<button type="submit" name="submitted">Calculate</button>
+	<div class="actions">
+		<div class="button-container span-one">
+			<button type="submit" name="submitted">Calculate</button>
+		</div>
+		
+		<label class="field checkbox span-one">
+			<input-container>
+				<checkbox-container>
+					<input type="checkbox" name="colorSelector">
+					<span class="label">Help me select a paint color</span>
+				</checkbox-container>
+			</input-container>
+		</label>
 	</div>
 
 </form>
