@@ -51,3 +51,7 @@ $form.addEventListener('submit', function(event){
 
 });
 
+$form.addEventListener('input', function(event) {
+	$output.innerHTML = '';
+});
+
