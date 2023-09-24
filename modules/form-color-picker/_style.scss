@@ -1,3 +1,30 @@
-.colorPicker {
-	// background-color: black;
+.color-picker-container {
+
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 24px;
+
+	@media(max-width: 600px) {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.color-swatch {
+		aspect-ratio: 1/1;
+		min-width: 300px;
+		max-width: 500px;
+		border: 2px solid var(--splash-secondary);
+		border-radius: 10px;
+		flex-basis: 50%;
+	}
+
+
+
+
+
+
+
+
+
+
 }
