@@ -1,1 +1,1 @@
-const $form=document.querySelector("form.colorPicker");
+const $form=document.querySelector("form.colorPicker"),hue=document.querySelector("#hue"),saturation=document.querySelector("#saturation"),lightness=document.querySelector("#lightness");window.addEventListener();
