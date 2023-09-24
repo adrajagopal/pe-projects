@@ -1,1 +1,1 @@
-console.log("hi");
+const $form=document.querySelector("form.colorPicker");
