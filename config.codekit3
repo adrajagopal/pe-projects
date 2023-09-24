@@ -33,209 +33,260 @@
       "oAP" : "\/config.php",
       "oF" : 0
     },
-    "\/css\/accessibility-min.css" : {
-      "aP" : 1,
+    "\/css\/_accessibility-min.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_accessibility-min.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_accessibility.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_accessibility.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_custom-properties.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_custom-properties.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_forms.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_forms.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_layout-modules.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_layout-modules.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_list-styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_list-styles.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_meyer-reset.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_meyer-reset.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_modules.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_modules.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_resume.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_resume.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_setup.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_setup.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_site-footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_site-footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_site-header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_site-header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_site-min-min.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_site-min-min.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_site-min.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_site-min.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/_site.scss" : {
+      "aP" : 0,
+      "bl" : 1,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/accessibility-min-min.css",
-      "oF" : 0,
-      "pg" : 0
+      "oAP" : "\/css\/site-min.css",
+      "oF" : 3,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
-    "\/css\/accessibility.css" : {
-      "aP" : 1,
+    "\/css\/_structure.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/css\/accessibility-min.css",
+      "oAP" : "\/css\/_structure.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
-    "\/css\/custom-properties.css" : {
-      "aP" : 1,
+    "\/css\/_typography.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/css\/custom-properties-min.css",
+      "oAP" : "\/css\/_typography.css",
       "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/forms.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/forms-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/layout-modules.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/layout-modules-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/list-styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/list-styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/meyer-reset.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/meyer-reset-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/modules.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/modules-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/resume.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/resume-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/setup.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/setup-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/site-footer.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/site-footer-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/site-header.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/site-header-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/site-min-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/site-min-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/site-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/site-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/site.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/site.css",
-      "oF" : 2,
-      "pg" : 0
-    },
-    "\/css\/structure.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/structure-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/typography.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/typography-min.css",
-      "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/data\/course-goals-database.json" : {
       "ft" : 524288,
@@ -648,17 +699,20 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
-    "\/layout-garden-modules\/article-card\/style.css" : {
-      "aP" : 1,
+    "\/layout-garden-modules\/article-card\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/article-card\/style-min.css",
+      "oAP" : "\/layout-garden-modules\/article-card\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/layout-garden-modules\/article-card\/template.php" : {
       "cB" : 0,
@@ -667,6 +721,21 @@
       "oA" : 0,
       "oAP" : "\/layout-garden-modules\/article-card\/template.php",
       "oF" : 0
+    },
+    "\/layout-garden-modules\/gallery-1\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/layout-garden-modules\/gallery-1\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/layout-garden-modules\/gallery-1\/style.css" : {
       "aP" : 1,
@@ -680,21 +749,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/layout-garden-modules\/gallery-1\/style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/gallery-1\/style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/layout-garden-modules\/gallery-1\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -703,17 +757,20 @@
       "oAP" : "\/layout-garden-modules\/gallery-1\/template.php",
       "oF" : 0
     },
-    "\/layout-garden-modules\/helfy-diptych\/style.css" : {
-      "aP" : 1,
+    "\/layout-garden-modules\/helfy-diptych\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/helfy-diptych\/style-min.css",
+      "oAP" : "\/layout-garden-modules\/helfy-diptych\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/layout-garden-modules\/helfy-diptych\/template.php" : {
       "cB" : 0,
@@ -835,17 +892,20 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/layout-garden-modules\/imessage-diptych\/style.css" : {
-      "aP" : 1,
+    "\/layout-garden-modules\/imessage-diptych\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/imessage-diptych\/style-min.css",
+      "oAP" : "\/layout-garden-modules\/imessage-diptych\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/layout-garden-modules\/imessage-diptych\/template.php" : {
       "cB" : 0,
@@ -855,6 +915,21 @@
       "oAP" : "\/layout-garden-modules\/imessage-diptych\/template.php",
       "oF" : 0
     },
+    "\/layout-garden-modules\/news-page\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/layout-garden-modules\/news-page\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/layout-garden-modules\/news-page\/data\/articles.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -862,18 +937,6 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
-    },
-    "\/layout-garden-modules\/news-page\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/news-page\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/layout-garden-modules\/news-page\/template.php" : {
       "cB" : 0,
@@ -883,17 +946,20 @@
       "oAP" : "\/layout-garden-modules\/news-page\/template.php",
       "oF" : 0
     },
-    "\/layout-garden-modules\/page-heading\/style.css" : {
-      "aP" : 1,
+    "\/layout-garden-modules\/page-heading\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/page-heading\/style-min.css",
+      "oAP" : "\/layout-garden-modules\/page-heading\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/layout-garden-modules\/page-heading\/template.php" : {
       "cB" : 0,
@@ -903,19 +969,7 @@
       "oAP" : "\/layout-garden-modules\/page-heading\/template.php",
       "oF" : 0
     },
-    "\/layout-garden-modules\/trail-grid\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/trail-grid\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/layout-garden-modules\/trail-grid\/style.scss" : {
+    "\/layout-garden-modules\/trail-grid\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -923,12 +977,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/trail-grid\/style.css",
+      "oA" : 1,
+      "oAP" : "\/layout-garden-modules\/trail-grid\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/layout-garden-modules\/trail-grid\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/layout-garden-modules\/trail-grid\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/layout-garden-modules\/trail-grid\/template.php" : {
       "cB" : 0,
@@ -2003,17 +2069,20 @@
       "oAP" : "\/mockup-to-code-challenge\/site-footer.php",
       "oF" : 0
     },
-    "\/modules\/about-me\/style.css" : {
-      "aP" : 1,
+    "\/modules\/about-me\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/about-me\/style-min.css",
+      "oAP" : "\/modules\/about-me\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/about-me\/template.php" : {
       "cB" : 0,
@@ -2023,17 +2092,20 @@
       "oAP" : "\/modules\/about-me\/template.php",
       "oF" : 0
     },
-    "\/modules\/about-nav\/style.css" : {
-      "aP" : 1,
+    "\/modules\/about-nav\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/about-nav\/style-min.css",
+      "oAP" : "\/modules\/about-nav\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/about-nav\/template.php" : {
       "cB" : 0,
@@ -2043,17 +2115,20 @@
       "oAP" : "\/modules\/about-nav\/template.php",
       "oF" : 0
     },
-    "\/modules\/contact-me\/style.css" : {
-      "aP" : 1,
+    "\/modules\/contact-me\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/contact-me\/style-min.css",
+      "oAP" : "\/modules\/contact-me\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/contact-me\/template.php" : {
       "cB" : 0,
@@ -2063,17 +2138,20 @@
       "oAP" : "\/modules\/contact-me\/template.php",
       "oF" : 0
     },
-    "\/modules\/e4p\/e4p-card\/style.css" : {
-      "aP" : 1,
+    "\/modules\/e4p\/e4p-card\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/e4p\/e4p-card\/style-min.css",
+      "oAP" : "\/modules\/e4p\/e4p-card\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/e4p\/e4p-card\/template.php" : {
       "cB" : 0,
@@ -2083,17 +2161,20 @@
       "oAP" : "\/modules\/e4p\/e4p-card\/template.php",
       "oF" : 0
     },
-    "\/modules\/e4p\/e4p-intro\/style.css" : {
-      "aP" : 1,
+    "\/modules\/e4p\/e4p-intro\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/e4p\/e4p-intro\/style-min.css",
+      "oAP" : "\/modules\/e4p\/e4p-intro\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/e4p\/e4p-intro\/template.php" : {
       "cB" : 0,
@@ -2103,7 +2184,7 @@
       "oAP" : "\/modules\/e4p\/e4p-intro\/template.php",
       "oF" : 0
     },
-    "\/modules\/form-character-count\/style.scss" : {
+    "\/modules\/form-character-count\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2112,7 +2193,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/modules\/form-character-count\/style.css",
+      "oAP" : "\/modules\/form-character-count\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -2126,19 +2207,7 @@
       "oAP" : "\/modules\/form-character-count\/template.php",
       "oF" : 0
     },
-    "\/modules\/form-compound-interest\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/modules\/form-compound-interest\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/modules\/form-compound-interest\/style.scss" : {
+    "\/modules\/form-color-picker\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2146,12 +2215,69 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/form-compound-interest\/style.css",
+      "oA" : 1,
+      "oAP" : "\/modules\/form-color-picker\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/modules\/form-color-picker\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-color-picker\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/modules\/form-color-picker\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-color-picker\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/modules\/form-color-picker\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-color-picker\/template.php",
+      "oF" : 0
+    },
+    "\/modules\/form-compound-interest\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/modules\/form-compound-interest\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/modules\/form-compound-interest\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/form-compound-interest\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/modules\/form-compound-interest\/template.php" : {
       "cB" : 0,
@@ -2169,17 +2295,20 @@
       "oAP" : "\/modules\/form-paint-calculator\/template.php",
       "oF" : 0
     },
-    "\/modules\/goals\/course-goals-card\/style.css" : {
-      "aP" : 1,
+    "\/modules\/goals\/course-goals-card\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/goals\/course-goals-card\/style-min.css",
+      "oAP" : "\/modules\/goals\/course-goals-card\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/goals\/course-goals-card\/template.php" : {
       "cB" : 0,
@@ -2189,17 +2318,20 @@
       "oAP" : "\/modules\/goals\/course-goals-card\/template.php",
       "oF" : 0
     },
-    "\/modules\/goals\/goals-intro\/style.css" : {
-      "aP" : 1,
+    "\/modules\/goals\/goals-intro\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/goals\/goals-intro\/style-min.css",
+      "oAP" : "\/modules\/goals\/goals-intro\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/goals\/goals-intro\/template.php" : {
       "cB" : 0,
@@ -2209,17 +2341,20 @@
       "oAP" : "\/modules\/goals\/goals-intro\/template.php",
       "oF" : 0
     },
-    "\/modules\/goals\/goals-list\/style.css" : {
-      "aP" : 1,
+    "\/modules\/goals\/goals-list\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/goals\/goals-list\/style-min.css",
+      "oAP" : "\/modules\/goals\/goals-list\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/goals\/goals-list\/template.php" : {
       "cB" : 0,
@@ -2229,17 +2364,20 @@
       "oAP" : "\/modules\/goals\/goals-list\/template.php",
       "oF" : 0
     },
-    "\/modules\/goals\/ideal-job-traits-card\/style.css" : {
-      "aP" : 1,
+    "\/modules\/goals\/ideal-job-traits-card\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/goals\/ideal-job-traits-card\/style-min.css",
+      "oAP" : "\/modules\/goals\/ideal-job-traits-card\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/goals\/ideal-job-traits-card\/template.php" : {
       "cB" : 0,
@@ -2249,17 +2387,20 @@
       "oAP" : "\/modules\/goals\/ideal-job-traits-card\/template.php",
       "oF" : 0
     },
-    "\/modules\/goals\/ideal-job-traits\/style.css" : {
-      "aP" : 1,
+    "\/modules\/goals\/ideal-job-traits\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/goals\/ideal-job-traits\/style-min.css",
+      "oAP" : "\/modules\/goals\/ideal-job-traits\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/goals\/ideal-job-traits\/template.php" : {
       "cB" : 0,
@@ -2277,17 +2418,20 @@
       "oAP" : "\/modules\/goals\/index.php",
       "oF" : 0
     },
-    "\/modules\/graphics\/boomerang-fu\/style.css" : {
-      "aP" : 1,
+    "\/modules\/graphics\/boomerang-fu\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/graphics\/boomerang-fu\/style-min.css",
+      "oAP" : "\/modules\/graphics\/boomerang-fu\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/graphics\/boomerang-fu\/template.php" : {
       "cB" : 0,
@@ -2297,17 +2441,20 @@
       "oAP" : "\/modules\/graphics\/boomerang-fu\/template.php",
       "oF" : 0
     },
-    "\/modules\/graphics\/graphics-body\/style.css" : {
-      "aP" : 1,
+    "\/modules\/graphics\/graphics-body\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/graphics\/graphics-body\/style-min.css",
+      "oAP" : "\/modules\/graphics\/graphics-body\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/graphics\/graphics-body\/template.php" : {
       "cB" : 0,
@@ -2317,17 +2464,20 @@
       "oAP" : "\/modules\/graphics\/graphics-body\/template.php",
       "oF" : 0
     },
-    "\/modules\/graphics\/graphics-intro\/style.css" : {
-      "aP" : 1,
+    "\/modules\/graphics\/graphics-intro\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/graphics\/graphics-intro\/style-min.css",
+      "oAP" : "\/modules\/graphics\/graphics-intro\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/graphics\/graphics-intro\/template.php" : {
       "cB" : 0,
@@ -2337,17 +2487,20 @@
       "oAP" : "\/modules\/graphics\/graphics-intro\/template.php",
       "oF" : 0
     },
-    "\/modules\/graphics\/other-graphics\/style.css" : {
-      "aP" : 1,
+    "\/modules\/graphics\/other-graphics\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/graphics\/other-graphics\/style-min.css",
+      "oAP" : "\/modules\/graphics\/other-graphics\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/graphics\/other-graphics\/template.php" : {
       "cB" : 0,
@@ -2357,17 +2510,20 @@
       "oAP" : "\/modules\/graphics\/other-graphics\/template.php",
       "oF" : 0
     },
-    "\/modules\/imessage-about-me\/style.css" : {
-      "aP" : 1,
+    "\/modules\/imessage-about-me\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/imessage-about-me\/style-min.css",
+      "oAP" : "\/modules\/imessage-about-me\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/imessage-about-me\/template.php" : {
       "cB" : 0,
@@ -2377,17 +2533,20 @@
       "oAP" : "\/modules\/imessage-about-me\/template.php",
       "oF" : 0
     },
-    "\/modules\/latest-projects\/style.css" : {
-      "aP" : 1,
+    "\/modules\/latest-projects\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/latest-projects\/style-min.css",
+      "oAP" : "\/modules\/latest-projects\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/latest-projects\/template.php" : {
       "cB" : 0,
@@ -2397,17 +2556,20 @@
       "oAP" : "\/modules\/latest-projects\/template.php",
       "oF" : 0
     },
-    "\/modules\/resume\/education-experience\/style.css" : {
-      "aP" : 1,
+    "\/modules\/resume\/education-experience\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/resume\/education-experience\/style-min.css",
+      "oAP" : "\/modules\/resume\/education-experience\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/resume\/education-experience\/template.php" : {
       "cB" : 0,
@@ -2425,17 +2587,20 @@
       "oAP" : "\/modules\/resume\/index.php",
       "oF" : 0
     },
-    "\/modules\/resume\/resume-intro\/style.css" : {
-      "aP" : 1,
+    "\/modules\/resume\/resume-intro\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/resume\/resume-intro\/style-min.css",
+      "oAP" : "\/modules\/resume\/resume-intro\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/resume\/resume-intro\/template.php" : {
       "cB" : 0,
@@ -2445,17 +2610,20 @@
       "oAP" : "\/modules\/resume\/resume-intro\/template.php",
       "oF" : 0
     },
-    "\/modules\/resume\/skills-section\/style.css" : {
-      "aP" : 1,
+    "\/modules\/resume\/skills-section\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/resume\/skills-section\/style-min.css",
+      "oAP" : "\/modules\/resume\/skills-section\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/resume\/skills-section\/template.php" : {
       "cB" : 0,
@@ -2465,17 +2633,20 @@
       "oAP" : "\/modules\/resume\/skills-section\/template.php",
       "oF" : 0
     },
-    "\/modules\/resume\/work-experience\/style.css" : {
-      "aP" : 1,
+    "\/modules\/resume\/work-experience\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/resume\/work-experience\/style-min.css",
+      "oAP" : "\/modules\/resume\/work-experience\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/resume\/work-experience\/template.php" : {
       "cB" : 0,
@@ -2485,17 +2656,20 @@
       "oAP" : "\/modules\/resume\/work-experience\/template.php",
       "oF" : 0
     },
-    "\/modules\/theme-challenges-intro\/style.css" : {
-      "aP" : 1,
+    "\/modules\/theme-challenges-intro\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/theme-challenges-intro\/style-min.css",
+      "oAP" : "\/modules\/theme-challenges-intro\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/theme-challenges-intro\/template.php" : {
       "cB" : 0,
@@ -2505,17 +2679,20 @@
       "oAP" : "\/modules\/theme-challenges-intro\/template.php",
       "oF" : 0
     },
-    "\/modules\/welcome\/style.css" : {
-      "aP" : 1,
+    "\/modules\/welcome\/_style.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/modules\/welcome\/style-min.css",
+      "oAP" : "\/modules\/welcome\/_style.css",
       "oF" : 0,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/modules\/welcome\/template.php" : {
       "cB" : 0,

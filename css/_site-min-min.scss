@@ -1,28 +1,29 @@
 /*Preset*/
-@import "meyer-reset.css";
+@import "_meyer-reset";
+@import "_test";
 
 /*Setup*/
-@import "setup.css";
+@import "_setup";
 
 /*Settings*/
-@import "custom-properties.css";
+@import "_custom-properties";
 
 /*Structure*/
-@import "structure.css";
-@import "list-styles.css";
+@import "_structure";
+@import "_list-styles";
 
 /*Typography*/
-@import "typography.css";
+@import "_typography";
 
 /*Components*/
-@import "forms.css";
+@import "_forms";
 
 /*Modules*/
-@import "modules.css";
-@import "layout-modules.css";
-@import "resume.css";
-@import "site-header.css";
-@import "site-footer.css";
+@import "_modules";
+@import "_layout-modules";
+@import "_resume";
+@import "_site-header";
+@import "_site-footer";
 
 /*Sections (in this file)*/
 

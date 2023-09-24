@@ -30,7 +30,7 @@
 	  property="og:image"
 	  content="[[INSERT CONTENT]].png">
 	
-	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/site-min.css">
 
 <!-- 	fonts used:
 Hanken Grotesk -->
