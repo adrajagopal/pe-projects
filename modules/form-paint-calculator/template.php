@@ -2,7 +2,8 @@
 
 
 	<span class="label span-two">Length</span>
-	<label class="field text">
+
+	<label class="field text span-two">
 		<input-container>
 			<input type="number"
 				name="lengthFeet"
@@ -15,7 +16,7 @@
 		</input-container>
 	</label>
 
-	<label class="field text">
+	<label class="field text span-two">
 		<input-container>
 			<input type="number"
 				name="lengthInches"
@@ -29,8 +30,10 @@
 		</input-container>
 	</label>
 
+
 	<span class="label span-two">Width</span>
-	<label class="field text">
+
+	<label class="field text span-two">
 		<input-container>
 			<input type="number"
 				name="widthFeet"
@@ -42,7 +45,7 @@
 		</input-container>
 	</label>
 
-	<label class="field text">
+	<label class="field text span-two">
 		<input-container>
 			<input type="number"
 				name="widthInches"
@@ -57,12 +60,12 @@
 
 	<p class="<?=$class?> span-two"><?=$message?></p>
 
-	<div class="actions">
-		<div class="button-container span-one">
+	<div class="actions span-two">
+		<div class="button-container">
 			<button type="submit" name="submitted">Calculate</button>
 		</div>
 		
-		<label class="field checkbox span-one">
+		<label class="field checkbox">
 			<input-container>
 				<checkbox-container>
 					<input type="checkbox" name="colorSelector">
