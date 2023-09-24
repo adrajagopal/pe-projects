@@ -87,7 +87,8 @@ input-container, select {
 	align-items: center;
 }
 
-input-container:focus-within, select:focus-within {
+input-container:focus-within, 
+select:focus-within {
 	background-color: var(--paper);
 	outline: 1px solid var(--splash-secondary);
 }
