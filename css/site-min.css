@@ -288,6 +288,11 @@ form {
   font-family: var(--secondary-font);
   grid-template-columns: 1fr 1fr;
 }
+@media (max-width: 400px) {
+  form {
+    padding: 5px;
+  }
+}
 
 form :is(h1, h2, h3, p, span) {
   margin-top: 0px;
@@ -332,6 +337,11 @@ input-container {
 input-container > * {
   padding: 0.5rem 1rem;
   background-color: transparent;
+}
+@media (max-width: 400px) {
+  input-container > * {
+    padding: 0.25rem 0.5rem;
+  }
 }
 
 /*Text inputs */
@@ -407,7 +417,7 @@ radio-container, checkbox-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75%;
+  width: 100%;
 }
 
 .slider input {
@@ -426,7 +436,11 @@ radio-container, checkbox-container {
 
 .actions {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.actions checkbox-container {
+  padding-left: 0;
 }
 
 button {
@@ -876,6 +890,26 @@ section.form-compound-interest form {
 }
 section.form-compound-interest .display-none {
   display: none;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 24px;
+}
+@media (max-width: 600px) {
+  .color-picker-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.color-picker-container .color-swatch {
+  aspect-ratio: 1/1;
+  min-width: 300px;
+  max-width: 500px;
+  border: 2px solid var(--splash-secondary);
+  border-radius: 10px;
+  flex-basis: 50%;
 }
 
 /*About page*/
@@ -1556,8 +1590,8 @@ footer.site-footer {
 }
 
 section:not(.about-header) {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 /*icon styling*/

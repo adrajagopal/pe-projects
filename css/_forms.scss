@@ -6,6 +6,10 @@
 
 form {
 	padding: 10px;
+
+	@media(max-width: 400px) {
+		padding: 5px;
+	}
 	border: 2px solid var(--splash-secondary);
 	border-radius: 0.5rem;
 	width: 100%;
@@ -63,6 +67,10 @@ input-container {
 input-container > * {
 	padding: 0.5rem 1rem;
 	background-color: transparent;
+
+	@media(max-width: 400px) {
+		padding: 0.25rem 0.5rem;
+	}
 }
 
 	/*Text inputs */
@@ -139,7 +147,7 @@ radio-container, checkbox-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 75%;
+	width: 100%;
 }
 
 .slider input {
@@ -158,7 +166,12 @@ radio-container, checkbox-container {
 
 .actions {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	gap: 0.5rem;
+
+	checkbox-container {
+		padding-left: 0;
+	}
 }
 
 button {
