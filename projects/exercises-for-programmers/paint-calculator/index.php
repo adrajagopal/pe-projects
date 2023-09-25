@@ -55,7 +55,8 @@
 <section>
 	<inner-column>
 
-		<output><!--placeholder for javascript output--></output>
+		<output class="calculator"><!--placeholder for paint calculator output--></output>
+		<output class="swatch"><!--placeholder for paint calculator output--></output>
 		<?php if (isset($gallons)) { 
 					if ($gallons === 1) { ?>
 						<p class="form-result">Your room is <?=$roomArea?> square feet, so you'll only need <?=$gallons?> gallon to paint it.</p>

@@ -1,7 +1,10 @@
 console.clear();
 
+
+/**************		Paint calculator form section			**************/
 const $form = document.querySelector('form');
-const $output = document.querySelector('output');
+const $calcOutput = document.querySelector('output.calculator');
+const $swatchOutput = document.querySelector('output.swatch');
 const colorCheckbox = document.querySelector('[name="colorPickerToggle"]');
 
 const lengthFeetInput = document.querySelector('[name="lengthFeet"]');
@@ -25,8 +28,8 @@ function calculateGallons(roomArea) {
 	return Math.ceil(roomArea/350);
 }
 
-function clearMessage() {
-	$output.innerHTML = '';
+function clearMessage(element) {
+	element.innerHTML = '';
 }
 
 // create function to render results
@@ -37,7 +40,7 @@ function renderMessage(roomArea, gallons) {
 		message = `Your room is ${roomArea} square feet, so you'll need ${gallons} gallons to paint it.`;
 	}
 
-	$output.innerHTML = `<p class="form-result">${message}</p>`;
+	$calcOutput.innerHTML = `<p class="form-result">${message}</p>`;
 }
 
 function handleForm() {
@@ -72,7 +75,7 @@ $form.addEventListener('submit', function(event){
 //manages the checkbox
 colorCheckbox.addEventListener('click', function() {
 	if (colorCheckbox.checked) {
-		$output.innerHTML = `
+		$swatchOutput.innerHTML = `
 
 			<div class="color-picker-container">
 
@@ -109,8 +112,10 @@ colorCheckbox.addEventListener('click', function() {
 			</div>
 
 		`;
+
+		$swatchOutput.style.margin = '40px 0 0 0';
 	} else {
-		clearMessage();
+		clearMessage($swatchOutput);
 	}
 
 	//if it's checked, show it
@@ -121,13 +126,9 @@ colorCheckbox.addEventListener('click', function() {
 window.addEventListener('input', function(event) {
 	if (event.target.matches('#hue, #saturation, #lightness')) {
 
-
-		const colorPicker = document.querySelector('.colorPicker');
 		const html = document.querySelector('html');
 
 		const colorSwatch = document.querySelector('.colorSwatch');
-
-		const hslOutput = document.querySelector('.hslOutput'); //Output is the letter o, not the number 0
 
 		const hueInput = document.querySelector('#hue');
 		const hue = toNumber(hueInput.value);
@@ -148,7 +149,6 @@ window.addEventListener('input', function(event) {
 		
 		html.style.setProperty('--hue', hue + 180);
 		html.style.setProperty('--lightness', lightnessInverse);
-
 
 	}
 });
