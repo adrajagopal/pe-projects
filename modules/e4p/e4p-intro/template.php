@@ -1,7 +1,7 @@
 <h3 class="large-voice">Exercises for Programmers</h3>
 
 <p>
-	<a href="https://pragprog.com/titles/bhwb/exercises-for-programmers/" target="_blank">Exercises for Programmers</a> is a book of more than 50 practice exercises with real applications. Here are a few I've done.
+	Exercises for Programmers is a <a href="https://pragprog.com/titles/bhwb/exercises-for-programmers/" target="_blank">book</a> of more than 50 practice exercises with real applications. Here are a few I've done.
 </p>
 
 <p>
