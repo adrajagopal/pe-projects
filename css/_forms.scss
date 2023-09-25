@@ -20,6 +20,9 @@ form {
 	font-family: var(--secondary-font);
 
 	grid-template-columns: 1fr 1fr;
+	@media (max-width: 600px) {
+		grid-template-columns: 1fr;
+	}
 }
 
 form :is(h1, h2, h3, p, span) {
@@ -212,6 +215,9 @@ button:active {
 
 .span-two {
 	grid-column: span 2;
+	@media (max-width:600px) {
+		grid-column: span 1;
+	}
 }
 
 .warning {

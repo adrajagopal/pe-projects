@@ -293,6 +293,11 @@ form {
     padding: 5px;
   }
 }
+@media (max-width: 600px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+}
 
 form :is(h1, h2, h3, p, span) {
   margin-top: 0px;
@@ -479,6 +484,11 @@ button:active {
 
 .span-two {
   grid-column: span 2;
+}
+@media (max-width: 600px) {
+  .span-two {
+    grid-column: span 1;
+  }
 }
 
 .warning {
@@ -930,6 +940,25 @@ html {
   color: hsl(var(--hue), 50%, var(--lightness));
 }
 
+/*form.paint-calculator {
+
+@media (max-width: 600px) {
+	grid-template-columns:1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}*/
 /*About page*/
 /*About nav*/
 section.about-header {
