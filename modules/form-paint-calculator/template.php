@@ -68,7 +68,7 @@
 		<label class="field checkbox">
 			<input-container>
 				<checkbox-container>
-					<input type="checkbox" name="colorSelector">
+					<input type="checkbox" name="colorPickerToggle">
 					<span class="label">Help me select a paint color</span>
 				</checkbox-container>
 			</input-container>

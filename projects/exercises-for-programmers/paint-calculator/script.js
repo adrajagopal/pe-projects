@@ -2,7 +2,7 @@ console.clear();
 
 const $form = document.querySelector('form');
 const $output = document.querySelector('output');
-const colorCheckbox = document.querySelector('[name="colorSelector"]');
+const colorCheckbox = document.querySelector('[name="colorPickerToggle"]');
 
 const lengthFeetInput = document.querySelector('[name="lengthFeet"]');
 const lengthInchesInput = document.querySelector('[name="lengthInches"]');
@@ -51,6 +51,14 @@ function handleForm() {
 	renderMessage(area, gallons);
 }
 
+function toNumber(string) {
+	return Number(string);
+}
+
+function toPercent(number) {
+	return (Number(number)/100).toLocaleString('en-US', {style: 'percent'});
+}
+
 $form.addEventListener('submit', function(event){
 	event.preventDefault();
 
@@ -68,7 +76,7 @@ colorCheckbox.addEventListener('click', function() {
 
 			<div class="color-picker-container">
 
-				<div class="color-swatch"></div>
+				<div class="colorSwatch"></div>
 
 				<form class="colorPicker">
 
@@ -110,25 +118,38 @@ colorCheckbox.addEventListener('click', function() {
 });
 
 //manages the color-picker UI ONLY when it exists
-window.addEventListener('click', function(event) {
-	if (event.target.matches('.color-picker')) {
-		const colorPicker = document.querySelector('form.colorPicker');
+window.addEventListener('input', function(event) {
+	if (event.target.matches('#hue, #saturation, #lightness')) {
 
-		const hue = document.querySelector('#hue');
-		const saturation = document.querySelector('#saturation');
-		const lightness = document.querySelector('#lightness');
 
-		// drag slider
-		// change color attribute
-		// change display
+		const colorPicker = document.querySelector('.colorPicker');
+		const html = document.querySelector('html');
 
-		console.log(hue.value + " " + saturation.value + " " + lightness.value);
+		const colorSwatch = document.querySelector('.colorSwatch');
+
+		const hslOutput = document.querySelector('.hslOutput'); //Output is the letter o, not the number 0
+		const hueInput = document.querySelector('#hue');
+		const saturationInput = document.querySelector('#saturation');
+		const lightnessInput = document.querySelector('#lightness');
+
+		const hue = toNumber(hueInput.value);
+		const saturation = toPercent(saturationInput.value);					
+		const lightness = toPercent(lightnessInput.value);
+		const lightnessInverse = toPercent(Math.abs(lightnessInput.value - 100));
+
+		colorSwatch.style.backgroundColor = `hsl(${hue}, ${saturation}, ${lightness})`;
+		colorSwatch.innerHTML = `
+			<p class="hslOutput">Hue: ${hue}</p>
+			<p class="hslOutput">Saturation: ${saturation}</p>
+			<p class="hslOutput">Lightness: ${lightness}</p>
+		`;
+		
+		html.style.setProperty('--hue', hue + 180);
+		html.style.setProperty('--lightness', lightnessInverse);
+
 
 	}
 });
-
-
-
 
 
 

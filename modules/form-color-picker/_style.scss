@@ -1,3 +1,9 @@
+html {
+	--hue: 180;
+	--saturation: 50%;
+	--lightness: 50%;
+}
+
 .color-picker-container {
 
 	display: flex;
@@ -9,22 +15,24 @@
 		align-items: center;
 	}
 
-	.color-swatch {
+	.colorSwatch {
 		aspect-ratio: 1/1;
 		min-width: 300px;
 		max-width: 500px;
 		border: 2px solid var(--splash-secondary);
 		border-radius: 10px;
 		flex-basis: 50%;
+		background-color: hsl(180, 50%, 50%);
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		p {
+			color: hsl(var(--hue), 50%, var(--lightness));
+		}
 	}
 
-
-
-
-
-
-
-
-
-
 }
+
