@@ -3,7 +3,7 @@
 
 	<span class="label span-two">Length</span>
 
-	<label class="field text span-two">
+	<label class="field text span-one">
 		<input-container>
 			<input type="number"
 				name="lengthFeet"
@@ -16,7 +16,7 @@
 		</input-container>
 	</label>
 
-	<label class="field text span-two">
+	<label class="field text span-one">
 		<input-container>
 			<input type="number"
 				name="lengthInches"
@@ -33,7 +33,7 @@
 
 	<span class="label span-two">Width</span>
 
-	<label class="field text span-two">
+	<label class="field text span-one">
 		<input-container>
 			<input type="number"
 				name="widthFeet"
@@ -45,7 +45,7 @@
 		</input-container>
 	</label>
 
-	<label class="field text span-two">
+	<label class="field text span-one">
 		<input-container>
 			<input type="number"
 				name="widthInches"

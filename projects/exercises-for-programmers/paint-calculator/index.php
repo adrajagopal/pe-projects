@@ -52,9 +52,8 @@
 	</inner-column>
 </section>
 
-<section>
-	<inner-column>
-
+<section class="outputs">
+	<inner-column >
 		<output class="calculator"><!--placeholder for paint calculator output--></output>
 		<output class="swatch"><!--placeholder for paint calculator output--></output>
 		<?php if (isset($gallons)) { 

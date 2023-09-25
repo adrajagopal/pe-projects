@@ -113,12 +113,11 @@ colorCheckbox.addEventListener('click', function() {
 
 		`;
 
+		$swatchOutput.style.display = 'block';
 		$swatchOutput.style.margin = '40px 0 0 0';
 	} else {
 		clearMessage($swatchOutput);
 	}
-
-	//if it's checked, show it
 
 });
 
