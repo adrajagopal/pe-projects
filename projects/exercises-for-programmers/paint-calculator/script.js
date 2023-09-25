@@ -128,12 +128,14 @@ window.addEventListener('input', function(event) {
 		const colorSwatch = document.querySelector('.colorSwatch');
 
 		const hslOutput = document.querySelector('.hslOutput'); //Output is the letter o, not the number 0
-		const hueInput = document.querySelector('#hue');
-		const saturationInput = document.querySelector('#saturation');
-		const lightnessInput = document.querySelector('#lightness');
 
+		const hueInput = document.querySelector('#hue');
 		const hue = toNumber(hueInput.value);
-		const saturation = toPercent(saturationInput.value);					
+
+		const saturationInput = document.querySelector('#saturation');
+		const saturation = toPercent(saturationInput.value);
+
+		const lightnessInput = document.querySelector('#lightness');
 		const lightness = toPercent(lightnessInput.value);
 		const lightnessInverse = toPercent(Math.abs(lightnessInput.value - 100));
 

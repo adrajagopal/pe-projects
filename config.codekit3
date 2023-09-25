@@ -371,6 +371,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/example.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/example.php",
+      "oF" : 0
+    },
     "\/form-template.php" : {
       "cB" : 0,
       "ft" : 8192,

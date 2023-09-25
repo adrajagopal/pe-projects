@@ -511,6 +511,9 @@ input[type=range] {
   background: transparent;
   cursor: pointer;
 }
+
+/***** Track Styles *****/
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
 input[type=range]::-webkit-slider-runnable-track {
   background: var(--paper);
   height: 0.5rem;
@@ -523,6 +526,7 @@ input[type=range]::-moz-range-track {
   border-radius: 5px;
 }
 
+/***** Thumb Styles *****/
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
   appearance: none;
