@@ -1,0 +1,1 @@
+console.clear();const $form=document.querySelector("form"),$input=document.querySelector("text-area");$form.addEventListener("submit",(function(e){e.preventDefault()}));

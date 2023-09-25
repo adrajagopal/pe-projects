@@ -4,8 +4,8 @@
 
 $string = '';
 $characters = 0;
-$message = "Please enter a string of at least 1 character.";
-$class= "warning";
+$message = "";
+$class= "";
 
 $formResult = $_POST;
 
@@ -15,9 +15,20 @@ if (isset($_POST["submitted"])) {
 
 	$characters = strlen($string);
 
+	$words = str_word_count($string);
+
+	// throw warning first if nothing submitted
+	$message = "Please complain about something before hitting submit.";
+	$class= "warning";
+
 	if (isset($string) and $characters > 0) { 
-		$message = "Your input, '$string' is $characters characters long.";
 		$class = "form-result";
+
+		if ($words < 5) {
+			$message = "Thanks! This is actually just a word counter. But you didn't have much to gripe about anyway.";			
+		} elseif ($words >= 5) {
+		$message = "Thanks! This is actually just a word counter. Your complaint was $words words long. Does that help?";
+		}
 	}
 }
 
@@ -26,7 +37,7 @@ if (isset($_POST["submitted"])) {
 <section class="form-intro">
 	<inner-column>
 		
-		<h1 class="xl-voice">Character counter</h1>
+		<h1 class="xl-voice">Submit a complaint</h1>
 		<a href="projects/exercises-for-programmers/character-count?">Clear form</a>
 	</inner-column>
 </section>
