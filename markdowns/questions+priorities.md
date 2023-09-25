@@ -8,8 +8,8 @@
 
 ## Personal site
     * switch php data to json objects
-    * do one more form
-    * clean up form template (instructions in form-template.php)
+    * add an index page for projects/exercises-for-programmers
+
 
 ## Case studies
 
