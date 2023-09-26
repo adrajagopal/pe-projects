@@ -626,6 +626,10 @@ section.welcome diptych picture {
   width: 1px;
 }
 
+.hiddenByJS {
+  display: none;
+}
+
 /*iMessage page*/
 .iphone {
   margin-top: 10vh;
