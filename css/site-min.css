@@ -299,6 +299,10 @@ form {
   }
 }
 
+output {
+  display: block;
+}
+
 form :is(h1, h2, h3, p, span) {
   margin-top: 0px;
 }
@@ -908,6 +912,13 @@ section.form-compound-interest form {
 }
 section.form-compound-interest .display-none {
   display: none;
+}
+
+section.form-character-count form {
+  gap: 0.5rem;
+}
+section.form-character-count output {
+  align-self: center;
 }
 
 html {

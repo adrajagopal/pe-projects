@@ -25,6 +25,10 @@ form {
 	}
 }
 
+output {
+	display: block;
+}
+
 form :is(h1, h2, h3, p, span) {
 	margin-top: 0px;
 }

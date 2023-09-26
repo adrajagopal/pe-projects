@@ -13,7 +13,7 @@
 			Submit complaint
 		</button>
 		<output><!--for JavaScript output--></output>
-		<p class="<?=$class?>"><?=$message?></p>
+		<p class="php-output <?=$class?>"><?=$message?></p>
 	</div>
 
 </form>
