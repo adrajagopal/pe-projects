@@ -1,7 +1,5 @@
 <form method="POST">
 
-	<!-- <h2 class="large-voice span-two">Enter y</h2> -->
-
 	<label class="field text span-two">
 		<span class="label">Please describe your issue:</span>
 		<input-container>
@@ -14,6 +12,7 @@
 		<button type="submit" name="submitted">
 			Submit complaint
 		</button>
+		<output><!--for JavaScript output--></output>
 		<p class="<?=$class?>"><?=$message?></p>
 	</div>
 
