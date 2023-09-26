@@ -34,10 +34,10 @@ function clearMessage(element) {
 
 // create function to render results
 function renderMessage(roomArea, gallons) {
-	let message = `Your room is ${roomArea} square feet, so you'll only need ${gallons} gallon to paint it.`;
+	let message = `Your room is ${roomArea.toLocaleString('en-US', {maximumFractionDigits:2})} square feet, so you'll only need ${gallons} gallon to paint it.`;
 
 	if (gallons > 1) {
-		message = `Your room is ${roomArea} square feet, so you'll need ${gallons} gallons to paint it.`;
+		message = `Your room is ${roomArea.toLocaleString('en-US', {maximumFractionDigits:2})} square feet, so you'll need ${gallons} gallons to paint it.`;
 	}
 
 	$calcOutput.innerHTML = `<p class="form-result">${message}</p>`;
