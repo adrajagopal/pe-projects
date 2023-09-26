@@ -30,7 +30,7 @@
 	  property="og:image"
 	  content="peprojects.dev/alpha-7/ad/images/black-indigo-gradient.jpg">
 	
-	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/site-min.css">
 
 <!-- 	fonts used:
 	Vidaloka 400, 700
