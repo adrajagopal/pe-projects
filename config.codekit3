@@ -387,6 +387,17 @@
       "oAP" : "\/form-template.php",
       "oF" : 0
     },
+    "\/functions.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/functions-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,

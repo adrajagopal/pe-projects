@@ -1,0 +1,1 @@
+function formatNumberWithCommasAndTwoDecimals(n){n.toLocaleString("en-US",{maximumFractionDigits:2})}function StringToNumber(n){return Number(n)}function StringToPercent(n){return(Number(n)/100).toLocaleString("en-US",{style:"percent"})}
