@@ -32,7 +32,10 @@ function handleForm() {
 
 	wordCount = countWords(array);
 
-	$output.innerHTML = `<p class="small-voice">${wordCount} words</p>`;	
+	$output.innerHTML = `
+		<p class="small-voice">${wordCount} words</p>
+		<p class="small-voice">PS - we don't actually take complaints here. But let it out!</p>
+	`;	
 
 	if (wordCount === 1) {
 		$output.innerHTML = `<p class="small-voice">1 word</p>`;
