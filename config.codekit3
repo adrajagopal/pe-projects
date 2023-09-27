@@ -2777,6 +2777,29 @@
       "oAP" : "\/modules\/resume\/work-experience\/template.php",
       "oF" : 0
     },
+    "\/modules\/style-guide-overview\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/modules\/style-guide-overview\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/modules\/style-guide-overview\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/style-guide-overview\/template.php",
+      "oF" : 0
+    },
     "\/modules\/theme-challenges-intro\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2798,29 +2821,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/modules\/theme-challenges-intro\/template.php",
-      "oF" : 0
-    },
-    "\/modules\/welcome\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/modules\/welcome\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/modules\/welcome\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/welcome\/template.php",
       "oF" : 0
     },
     "\/projects\/exercises-for-programmers\/character-count\/index.php" : {
