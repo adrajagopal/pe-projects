@@ -1,3 +1,4 @@
+
 console.clear();
 
 /************* Init variables *************/

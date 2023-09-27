@@ -1,5 +1,6 @@
 <?php $heading = $section['content']['heading'] ?? "Default heading"; ?>
 
+
 <div class="hero-container">
 	
 	<text-content>

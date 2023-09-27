@@ -18,13 +18,6 @@
 	</inner-column>
 </section>
 
-<!-- fuck me....include this when i can nail this down better
-<section class="helfy-diptych secondary">
-	<inner-column>
-		<?php //include(getFile('layout-garden-modules/helfy-diptych/template.php')); ?>
-	</inner-column>
-</section> -->
-
 <section class="imessage-diptych">
 	<inner-column>
 		<?php include(getFile('layout-garden-modules/imessage-diptych/template.php')); ?>
