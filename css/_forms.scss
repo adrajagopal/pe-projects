@@ -41,8 +41,9 @@ label {
 
 textarea {
 	display: block;
-	width: 100%;
 	border: none;
+	resize: vertical;
+
 }
 
 label.field {
