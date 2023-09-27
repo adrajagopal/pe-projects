@@ -1,11 +1,15 @@
 [
 	{
-		"module" : "about-me"
+		"module" : "style-guide-overview"
 	},
 	{
 		"module" : "contact-me"
 	},
 	{
-		"module" : "imessage-about-me"
+		"module" : "form-paint-calculator"
+	},
+	{
+		"module" : "about-me"
 	}
+
 ]

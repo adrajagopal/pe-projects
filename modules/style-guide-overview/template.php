@@ -1,5 +1,3 @@
-<?php include('../../header.php'); ?>
-<inner-column>
 <div class="style-guide-overview-container">
 	
 	<div class="type-overview">
@@ -63,26 +61,4 @@
 
 	</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
-</inner-column>
