@@ -32,9 +32,23 @@ function handleForm() {
 
 	wordCount = countWords(array);
 
+	var message = "";
+
+	if (wordCount < 11) {
+		message = "We're here to help!" 
+	} else if (wordCount < 16) {
+		message = "Sounds frustrating."
+	} else if (wordCount < 21) {
+		message = "Oh, wow, OK."
+	} else if (wordCount < 31) {
+		message = "I'm sorry, I'm going through a tunnel. I can't quite hear you."
+	} else {
+		message = "Just e--(fake static) and you'll be saved!"
+	}
+
 	$output.innerHTML = `
 		<p class="small-voice">${wordCount} words</p>
-		<p class="small-voice">PS - we don't actually take complaints here. But let it out!</p>
+		<p class="small-voice">${message}</p>
 	`;	
 
 	if (wordCount === 1) {
