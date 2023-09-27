@@ -1,14 +1,14 @@
 /*Custom properties comment*/
 
 body {
-	--paper-light: HSL(30,25%,95%); /* bright white */
-	--paper: HSL(30,25%,90%); /* darker white */
-	--splash-primary: HSL(23,50%,75%); /* pinkish */
-	--splash-secondary: HSL(37,80%,50%); /* marigold-ish?*/
-	--splash-secondary-pale: HSL(37,80%,75%); /* marigold-ish?*/
-	--splash-secondary-dark: HSL(37,80%,25%); /* marigold-ish?*/
-	--ink: HSL(250,20%,20%); /* maroon */
-	--ink-dark: HSL(250,20%,10%); /* dark maroon */
+	--paper-light: HSL(30,10%,95%); /* bright white */
+	--paper: HSL(30,20%,92%); /* darker white */
+	--splash-primary: HSL(215, 100%, 60%); /* blue */
+	--splash-secondary: HSL(30, 55%, 55%); /* marigold-ish?*/
+	--splash-secondary-pale: HSL(30, 100%, 75%); /* marigold-ish?*/
+	--splash-secondary-dark: HSL(30, 100%,25%); /* marigold-ish?*/
+	--ink: HSL(215,100%,15%); /* maroon */
+	--ink-dark: HSL(215,100%,5%); /* dark maroon */
 	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
 	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
 
