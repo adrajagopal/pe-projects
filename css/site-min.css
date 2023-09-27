@@ -1576,9 +1576,27 @@ section.imessage-diptych {
   }
 }
 /*AllTrails thumbnail grid*/
+inner-column:has(.trail-grid-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .trail-grid-container {
   display: grid;
   gap: 20px;
+}
+.trail-grid-container > *:not(.trail-list) {
+  padding: 0 1.25rem 0;
+}
+@media (min-width: 600px) {
+  .trail-grid-container > *:not(.trail-list) {
+    padding: 0 1.75rem 0;
+  }
+}
+@media (min-width: 900px) {
+  .trail-grid-container > *:not(.trail-list) {
+    padding: 0 2.25rem 0;
+  }
 }
 .trail-grid-container .see-more {
   display: flex;
@@ -1597,11 +1615,12 @@ section.imessage-diptych {
 .trail-grid-container .trail-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px 50px;
+  gap: 25px;
   overflow-x: scroll;
+  padding: 0 20px 5px;
 }
 .trail-grid-container .trail-list li {
-  width: 350px;
+  width: 320px;
   height: 80px;
   display: grid;
   gap: 5px 20px;
@@ -1635,25 +1654,6 @@ section.imessage-diptych {
   grid-area: text;
 }
 
-@media (min-width: 1000px) {
-  .trail-grid-container {
-    grid-template-areas: "title" "body";
-  }
-  .trail-grid-container h2 {
-    grid-area: title;
-  }
-  .trail-grid-container ul {
-    grid-area: body;
-  }
-  .trail-grid-container .see-more {
-    z-index: 5;
-    background-image: linear-gradient(90deg, transparent 33%, var(--paper-light) 66%);
-    grid-area: body;
-  }
-  .trail-grid-container .trail-list {
-    overflow-x: hidden;
-  }
-}
 .header-items {
   display: flex;
   flex-direction: row;
