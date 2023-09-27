@@ -1,5 +1,10 @@
 em {
 	font-style: italic;
+	font-weight: 400;
+}
+
+strong {
+	font-weight: 700;
 }
 
 p, ul, ol, li, legend, .medium-voice {
@@ -10,12 +15,8 @@ p, ul, ol, li, legend, .medium-voice {
 	line-height: 1.4;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
 	color: var(--ink);
-}
-
-h3 {
-	color: var(--splash-secondary);
 }
 
 a, p a {
