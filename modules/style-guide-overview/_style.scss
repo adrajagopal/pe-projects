@@ -1,0 +1,138 @@
+.style-guide-overview-container {
+
+	display: grid;
+	gap: 2rem;
+
+	.category-header {
+		color: var(--splash-secondary);
+		border-bottom: 1px solid var(--splash-secondary);
+	}
+
+	.type-overview {
+		font-weight: 400;
+
+		p.xl-voice, ul, li {
+			font-size: clamp(16px, 5vw, 32px);
+		}
+
+		ul {
+			margin-top: 1rem;
+			font-weight: 600;
+		}
+
+		li {
+			display: inline;
+		}
+	}
+
+	.voicings {
+		em {
+			font-weight: 700;
+		}
+
+		h1.xxl-voice {
+			margin-top: 1.25rem;			
+		}
+
+		h1.xl-voice {
+			margin-top: 1rem;			
+		}
+
+		h1.large-voice {
+			margin-top: 0.75rem;			
+		}
+
+		h1.medium-voice {
+			margin-top: 0.5rem;			
+		}
+
+		h1.small-voice {
+			margin-top: 0.25rem;			
+		}
+
+	}
+
+	.body-texts {
+		li {
+			list-style-type: disc;
+			margin-left: 1.25rem;
+		}
+	}
+
+	.color-grid {
+		margin-top: 0.5rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 1px;
+
+		.color {
+			text-align: center;
+			padding: 0.75rem 0;
+		}
+
+		.color:nth-of-type(1) {
+			background-color:var(--paper-light);
+			color:var(--ink-dark);
+		}
+
+		.color:nth-of-type(2) {
+			background-color:var(--paper);
+			color:var(--ink-dark);
+		}
+
+		.color:nth-of-type(3) {
+			background-color:var(--ink);
+			color:var(--paper-light);
+		}
+
+		.color:nth-of-type(4) {
+			background-color:var(--ink-dark);
+			color:var(--paper-light);
+		}
+
+		.color:nth-of-type(5) {
+			background-color:var(--splash-primary);
+			color:var(--ink-dark);
+		}
+
+		.color:nth-of-type(6) {
+			background-color:var(--splash-secondary);
+			color:var(--ink-dark);
+		}
+
+		.color:nth-of-type(7) {
+			background-color:var(--splash-secondary-pale);
+			color:var(--ink-dark);
+		}
+
+		.color:nth-of-type(8) {
+			background-color:var(--splash-secondary-dark);
+			color:var(--paper-light);
+		}
+
+		.color:nth-of-type(9) {
+			background-color:var(--warning-dark);
+			color:var(--paper-light);
+		}
+
+		.color:nth-of-type(10) {
+			background-color:var(--warning-light);
+			color:var(--ink-dark);
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

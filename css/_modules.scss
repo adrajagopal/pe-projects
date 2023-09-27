@@ -2,7 +2,6 @@
 @import "../modules/about-me/_style";
 @import "../modules/contact-me/_style";
 @import "../modules/latest-projects/_style";
-@import "../modules/welcome/_style";
 @import "_accessibility";
 @import "_hiddenByJS";
 
@@ -26,6 +25,8 @@
 @import "../modules/form-color-picker/_style";
 @import "../modules/form-paint-calculator/_style";
 
+/*Style guide page*/
+@import "../modules/style-guide-overview/_style";
 
 /*About page*/
 
