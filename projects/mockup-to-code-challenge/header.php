@@ -37,7 +37,7 @@
 
 <body class="<?=$page?>">
 	
-<?php include('../icons.php');?>
+<?php include('../../icons.php');?>
 
 <header class="site-header" aria-label="Site navigation menu">
 	<inner-column>
