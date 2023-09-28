@@ -115,7 +115,7 @@ body {
   --paper: HSL(30,20%,92%); /* darker white */
   --splash-primary: HSL(215, 100%, 60%); /* blue */
   --inactive-grey: HSL(215, 20%, 75%);
-  --ink-grey: HSL(215, 10%, 40%);
+  --ink-grey: HSL(215, 10%, 30%);
   --splash-secondary: HSL(30, 55%, 55%); /* marigold-ish?*/
   --splash-secondary-pale: HSL(30, 100%, 75%); /* marigold-ish?*/
   --splash-secondary-dark: HSL(30, 100%,25%); /* marigold-ish?*/
