@@ -58,7 +58,9 @@ Hanken Grotesk -->
 					<li><a href="about">About</a></li>
 					<li><a href="projects">Projects</a></li>
 					<li><a href="get-in-touch">Get in touch</a></li>
-					<li><a href="https://adrajagopal.substack.com/" target="_blank">Substack ✈️</a></li>
+					<li>
+						<?php createLinkOut("https://adrajagopal.substack.com/", "Substack");?>
+					</li>
 				</ul>
 			</nav>
 		</div>
