@@ -3,13 +3,21 @@
 		"module" : "style-guide-overview"
 	},
 	{
+		"module" : "about-me"
+	},
+	{
 		"module" : "contact-me"
 	},
 	{
-		"module" : "form-paint-calculator"
+		"module" : "latest-projects"
 	},
 	{
-		"module" : "about-me"
+		"module" : "resume"
+	},
+	{
+		"module" : "goals"
+	},
+	{
+		"module" : "e4p/e4p-intro"
 	}
-
 ]
