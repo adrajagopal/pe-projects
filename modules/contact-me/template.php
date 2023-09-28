@@ -1,4 +1,4 @@
-<content-section style="display:block;">
+<content-section class="contact-me" style="display:block;">
 
 	<h2 class="xl-voice">Get in touch</h2>
 
