@@ -40,4 +40,12 @@ function queryString() {
 	return $_SERVER['QUERY_STRING'];
 }
 
+// creates an <a> with text and the external-link icon inside it, preformatted
+function createLinkOut($linkURL, $linkCopy) {
+	$url = $linkURL;
+	$copy = $linkCopy;
+
+
+	include(getFile('components/external-link/template.php'));
+}           
 
