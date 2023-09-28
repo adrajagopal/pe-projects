@@ -4,7 +4,7 @@
 	
 	<p>Welcome to my garden. Here, you'll find a collection of plug-and-play responsive layouts for a variety of modules common in the modern web.</p>
 
-	<h2 class="xl-voice">Contents</h2>
+	<h2 class="xl-voice section-title">Contents</h2>
 	<ul role="list">
 		<li><a href="projects/layout-garden/#welcomes">Welcomes</a></li>
 		<li><a href="projects/layout-garden/#grids">Grids, articles and lists</a></li>

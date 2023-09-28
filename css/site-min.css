@@ -1832,6 +1832,9 @@ section:not(.about-header) {
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
+section:not(.about-header) .section-title {
+  color: var(--ink-grey);
+}
 
 /*icon styling*/
 [class^=icon-], [class*=" icon-"] {

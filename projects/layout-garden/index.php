@@ -8,7 +8,7 @@
 
 <section class="diptych-intro" id="welcomes">
 	<inner-column>
-		<h2 class="xl-voice">Graphic Diptych/Hero/Welcome Sections</h2>
+		<h2 class="xl-voice section-title">Graphic Diptych/Hero/Welcome Sections</h2>
 	</inner-column>
 </section>
 
@@ -26,7 +26,7 @@
 
 <section class="grids-intro" id="grids">
 	<inner-column>
-		<h2 class="xl-voice">Grids, articles and lists</h2>
+		<h2 class="xl-voice section-title">Grids, articles and lists</h2>
 	</inner-column>
 </section>
 

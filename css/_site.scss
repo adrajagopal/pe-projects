@@ -49,6 +49,10 @@ footer.site-footer {
 section:not(.about-header) {
 	padding-top: 2vh;
 	padding-bottom: 2vh;
+
+	.section-title {
+		color: var(--ink-grey);
+	}
 }
 
 /*icon styling*/
