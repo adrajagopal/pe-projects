@@ -114,6 +114,8 @@ body {
   --paper-light: HSL(30,10%,95%); /* bright white */
   --paper: HSL(30,20%,92%); /* darker white */
   --splash-primary: HSL(215, 100%, 60%); /* blue */
+  --inactive-grey: HSL(215, 20%, 75%);
+  --ink-grey: HSL(215, 10%, 40%);
   --splash-secondary: HSL(30, 55%, 55%); /* marigold-ish?*/
   --splash-secondary-pale: HSL(30, 100%, 75%); /* marigold-ish?*/
   --splash-secondary-dark: HSL(30, 100%,25%); /* marigold-ish?*/
@@ -1652,6 +1654,88 @@ inner-column:has(.trail-grid-container) {
   font-size: 0.8rem;
   color: grey;
   grid-area: text;
+}
+
+.faq-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.faq-list-container text-content p {
+  text-align: left;
+  margin-top: 1rem;
+}
+.faq-list-container ul {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .faq-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .faq-list-container text-content {
+    align-self: start;
+  }
+  .faq-list-container text-content h2 {
+    margin-top: 1.75rem;
+  }
+  .faq-list-container text-content p {
+    max-width: initial;
+  }
+  .faq-list-container ul {
+    margin-top: 0;
+  }
+}
+
+.faq-list-container faq-card {
+  display: block;
+  padding: clamp(20px, 5vh, 36px) 1rem 1rem 0;
+  border-bottom: 1px solid var(--inactive-grey);
+}
+.faq-list-container faq-card details summary::-webkit-details-marker {
+  display: none;
+}
+.faq-list-container summary {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+  color: var(--ink-grey);
+}
+.faq-list-container details p {
+  margin-top: 0.75rem;
+  padding-right: 2rem;
+}
+.faq-list-container .icon-container {
+  width: 32px;
+  height: 32px;
+  padding: 0.25rem;
+  transform: translateX(50%);
+}
+.faq-list-container .icon-container svg {
+  stroke: var(--inactive-grey);
+}
+.faq-list-container faq-card:has(details[open]) {
+  border-bottom: 1px solid var(--splash-primary);
+}
+.faq-list-container faq-card:has(details[open]) summary {
+  color: var(--ink-dark);
+}
+.faq-list-container faq-card:has(details[open]) .icon-container svg {
+  transform: rotate(-90deg);
+  stroke: var(--splash-primary);
+}
+
+text-content {
+  display: block;
+}
+text-content h2 {
+  font-size: clamp(1.25rem, 5vw, 2rem);
+  font-weight: 600;
 }
 
 .header-items {
