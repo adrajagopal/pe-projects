@@ -18,13 +18,20 @@
 
 <?php foreach($modules as $module) { ?>
 <section>
-<inner-column>
 	
 	<?php
-	include(getFile('modules/' . $module["module"] . '/template.php'));
+		$modulePath = 'modules/' . $module["module"] . '/template.php';
+		$pagePath = 'modules/' . $module["module"] . '/index.php';
+
+		if (file_exists(getFile($modulePath))) { ?>
+			<inner-column>
+			<?php include(getFile($modulePath)); ?>
+			</inner-column>
+		<?php } elseif (file_exists(getFile($pagePath))) {
+			include(getFile($pagePath));
+		}
 	?>
 
-</inner-column>
 </section>
 
 <?php } ?>
