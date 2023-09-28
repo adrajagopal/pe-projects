@@ -1,23 +1,9 @@
-// inner-column {
-// 	display: block;
-// 	margin-left: auto;
-// 	margin-right: auto;
-// 	max-width: 1100px;
-// 	padding: 0 1.25rem 0;
-// }
-
-
-
-
-
 inner-column:has(.trail-grid-container) {
 	padding-left: 0;
 	padding-right: 0;
 }
 
 .trail-grid-container {
-
-	// > * {border: 1px solid red};
 
 	> *:not(.trail-list) {
 		padding: 0 1.25rem 0;
