@@ -2,6 +2,12 @@
 
 <section class="layout-garden-heading">
 	<inner-column>
+		<?php include(getFile('layout-garden-modules/faq-list/template.php')); ?>
+	</inner-column>
+</section>
+
+<section class="layout-garden-heading">
+	<inner-column>
 		<?php include(getFile('layout-garden-modules/page-heading/template.php')); ?>
 	</inner-column>
 </section>

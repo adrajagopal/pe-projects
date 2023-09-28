@@ -1,0 +1,22 @@
+[
+	{
+		"question" : "How soon will my order ship?",
+		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+	},
+	{
+		"question" : "Are there any warranty exclusions?",
+		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+	},
+	{
+		"question" : "Are there any return exclusions?",
+		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+	},
+	{
+		"question" : "Will I be charged for a replacement item?",
+		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+	},
+	{
+		"question" : "How can I track my orders and payment?",
+		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+	}
+]
