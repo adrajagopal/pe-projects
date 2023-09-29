@@ -363,6 +363,8 @@ form button .svg-icon {
 .button {
   font-family: var(--secondary-font);
   text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   display: flex;
   gap: 0.75rem;
@@ -478,6 +480,7 @@ video-player picture {
 video-player picture svg {
   width: 48px;
   height: auto;
+  -webkit-transform: translateX(4px);
   transform: translateX(4px);
   stroke: transparent;
   fill: var(--origin);
@@ -557,6 +560,7 @@ section text-content h2 {
 @media (max-width: 1099px) {
   .header-items .site-nav, .header-items .login-items {
     clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
@@ -568,6 +572,7 @@ section text-content h2 {
 @media (min-width: 1100px) {
   .header-items .menu-hamburger {
     clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
@@ -616,6 +621,7 @@ body.wavy .language-dropdown span {
 .footer-list {
   display: flex;
   align-items: center;
+  -webkit-transform: translateX(-20px);
   transform: translateX(-20px);
 }
 
@@ -1081,6 +1087,7 @@ quote-card .client-portrait {
   overflow: hidden;
 }
 quote-card .client-portrait img {
+  -o-object-fit: cover;
   object-fit: cover;
   border: none;
 }
@@ -1134,6 +1141,7 @@ body.wavy quote-card .quote {
 }
 body.wavy quote-card .attribute-container {
   grid-area: attribute;
+  -webkit-transform: translateX(-25px);
   transform: translateX(-25px);
   display: flex;
   gap: 1.25rem;
@@ -1302,12 +1310,14 @@ body.blue .faq-list-container text-content {
 }
 
 body:is(.home, .blue) .faq-list-container .icon-container {
+  -webkit-transform: translateX(50%);
   transform: translateX(50%);
 }
 body:is(.home, .blue) .faq-list-container details p {
   padding-right: 2rem;
 }
 body:is(.home, .blue) .faq-list-container details[open] .icon-container svg {
+  -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 

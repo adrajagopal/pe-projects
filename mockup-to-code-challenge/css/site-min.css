@@ -180,6 +180,12 @@ body {
 }
 
 /*Structure*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .page-wrapper {
   flex-grow: 1;
 }
@@ -512,6 +518,7 @@ section.hero {
   padding: 20vh 10vw;
 }
 section text-content {
+  display: block;
   text-align: center;
 }
 section text-content h2 {
@@ -1341,12 +1348,3 @@ body.wavy .faq-list-container details[open] .icon-container svg .vertical {
 }
 
 /*Sections (in this file)*/
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-text-content {
-  display: block;
-}
