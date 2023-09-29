@@ -80,3 +80,5 @@
 
 </body>
 </html>
+
+<script src="../../packages/flickity_v2.0/flickity.pkgd.min.js"></script>

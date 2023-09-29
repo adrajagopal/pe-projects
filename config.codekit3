@@ -1897,6 +1897,208 @@
       "oAP" : "\/modules\/theme-challenges-intro\/template.php",
       "oF" : 0
     },
+    "\/packages\/flickity_v2.0\/_redirects" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/packages\/flickity_v2.0\/_redirects",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/api.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/api.html",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/css\/flickity-docs.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/css\/flickity-docs-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/packages\/flickity_v2.0\/events.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/events.html",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/extras.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/extras.html",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/favicon.ico",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/flickity.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/flickity-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/packages\/flickity_v2.0\/flickity.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/flickity.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/packages\/flickity_v2.0\/flickity.pkgd.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/flickity.pkgd-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/packages\/flickity_v2.0\/flickity.pkgd.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/flickity.pkgd.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff2",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff2",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff2",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/img\/flickity-illustration.png" : {
+      "ft" : 32768,
+      "iS" : 2704,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/img\/flickity-illustration.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/packages\/flickity_v2.0\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/index.html",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/js\/flickity-docs.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/js\/flickity-docs.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/packages\/flickity_v2.0\/license.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/license.html",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/options.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/options.html",
+      "oF" : 0
+    },
+    "\/packages\/flickity_v2.0\/style.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/packages\/flickity_v2.0\/style.html",
+      "oF" : 0
+    },
     "\/projects\/exercises-for-programmers\/character-count\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3157,6 +3359,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/projects\/mockup-to-code-challenge\/css\/site-min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/mockup-to-code-challenge\/css\/site-min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/projects\/mockup-to-code-challenge\/css\/site-min.css" : {
       "aP" : 1,

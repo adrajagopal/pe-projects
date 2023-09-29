@@ -31,6 +31,8 @@
 	
 	<link rel="stylesheet" href="css/site-min.css">
 
+	<link rel="stylesheet" href="../../packages/flickity_v2.0/flickity.min.css" media="screen">
+
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
