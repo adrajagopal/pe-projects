@@ -180,6 +180,12 @@ body {
 }
 
 /*Structure*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .page-wrapper {
   flex-grow: 1;
 }
@@ -512,6 +518,7 @@ section.hero {
   padding: 20vh 10vw;
 }
 section text-content {
+  display: block;
   text-align: center;
 }
 section text-content h2 {
@@ -975,54 +982,52 @@ section.client-testimony .client-testimony-container, section.client-testimony t
   justify-items: center;
   gap: 20px;
 }
-section.client-testimony carousel {
-  margin-top: 3rem;
-  gap: clamp(12px, 8vw, 32px);
-  display: block;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  justify-items: center;
+section.client-testimony ul {
+  width: 100%;
 }
-section.client-testimony carousel ul {
-  display: grid;
-  gap: 1.5rem;
-}
-section.client-testimony .carousel-arrow {
-  stroke: var(--system-grey--900);
+section.client-testimony ul .flickity-prev-next-button {
+  width: 20px;
+  height: 20px;
 }
 
-body.home section.client-testimony carousel ul {
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+body.home section.client-testimony ul {
+  width: 80%;
 }
-@media (max-width: 825px) {
-  body.home section.client-testimony carousel li:nth-of-type(3) {
-    display: none;
+body.home section.client-testimony .carousel-cell {
+  width: 50%;
+  margin-right: 8px;
+}
+@media (max-width: 800px) {
+  body.home section.client-testimony .carousel-cell {
+    width: 100%;
   }
+}
+@media (min-width: 1200px) {
+  body.home section.client-testimony .carousel-cell {
+    width: 33.3333333333%;
+  }
+}
+body.home section.client-testimony .flickity-prev-next-button.next {
+  right: -20px;
+}
+body.home section.client-testimony .flickity-prev-next-button.previous {
+  left: -20px;
 }
 @media (max-width: 400px) {
-  body.home section.client-testimony carousel {
-    gap: 0;
-  }
-  body.home section.client-testimony carousel .carousel-arrow {
-    display: none;
-  }
   body.home section.client-testimony quote-card .quote {
     font-size: 1rem;
   }
 }
 
-body.wavy section.client-testimony carousel {
-  grid-template-columns: auto 60% auto;
+body.wavy section.client-testimony .carousel-cell {
+  width: 100%;
+  margin-right: 8px;
 }
-@media (max-width: 500px) {
-  body.wavy section.client-testimony carousel {
-    grid-template-columns: auto 80% auto;
-    gap: 1rem;
-  }
+body.wavy section.client-testimony .flickity-prev-next-button.next {
+  right: -20px;
 }
-body.wavy section.client-testimony carousel li:nth-of-type(2n + 1) {
-  display: none;
+body.wavy section.client-testimony .flickity-prev-next-button.previous {
+  left: -20px;
 }
 
 body.blue section.client-testimony .client-testimony-container {
@@ -1035,19 +1040,11 @@ body.blue section.client-testimony .client-testimony-container text-content {
 body.blue section.client-testimony .client-testimony-container picture {
   grid-area: picture;
 }
-body.blue section.client-testimony .client-testimony-container carousel {
-  margin-top: 0;
-  gap: 0;
-  grid-area: carousel;
-}
-body.blue section.client-testimony .client-testimony-container carousel .carousel-arrow {
-  display: none;
-}
-body.blue section.client-testimony .client-testimony-container li:nth-of-type(2n + 1) {
-  display: none;
+body.blue section.client-testimony .client-testimony-container .flickity-viewport {
+  height: 100%;
 }
 @media (max-width: 600px) {
-  body.blue section.client-testimony .client-testimony-container {
+  body.blue section.client-testimony {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -1094,8 +1091,8 @@ body.home quote-card .quote {
   margin-top: 1.5rem;
   font-size: 1.25rem;
   font-weight: 500;
-  min-height: 200px;
   text-align: center;
+  min-height: 150px;
 }
 body.home quote-card .attribute-container {
   display: grid;
@@ -1174,7 +1171,7 @@ body.blue quote-card .stars, body.blue quote-card picture {
   display: none;
 }
 body.blue quote-card .quote {
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1rem, 2vw, 2rem);
   font-weight: 500;
 }
 body.blue quote-card .name {
@@ -1341,12 +1338,3 @@ body.wavy .faq-list-container details[open] .icon-container svg .vertical {
 }
 
 /*Sections (in this file)*/
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-text-content {
-  display: block;
-}

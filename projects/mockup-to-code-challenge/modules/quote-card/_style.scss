@@ -44,9 +44,8 @@ body.home quote-card {
 		margin-top: 1.5rem;
 		font-size: 1.25rem;
 		font-weight: 500;
-		min-height: 200px;
 		text-align: center;
-
+		min-height: 150px;
 	}
 
 	.attribute-container {
@@ -142,7 +141,7 @@ body.blue quote-card {
 	}
 
 	.quote {
-		font-size: clamp(1rem, 3vw, 2rem);
+		font-size: clamp(1rem, 2vw, 2rem);
 		font-weight: 500;
 	}
 

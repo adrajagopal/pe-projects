@@ -1203,18 +1203,6 @@
       "oAP" : "\/markdowns\/wordpress-notes.html",
       "oF" : 0
     },
-    "\/mockup-to-code-challenge\/css\/site-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/mockup-to-code-challenge\/css\/site-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/modules\/about-me\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3324,7 +3312,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/mockup-to-code-challenge\/css\/site-min.css",
+      "oAP" : "\/projects\/mockup-to-code-challenge\/css\/site-min.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,

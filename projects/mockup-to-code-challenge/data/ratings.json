@@ -19,5 +19,12 @@
 		"name" : "Lizzy McAlpine",
 		"portrait" : "lizzy",
 		"role" : "Creative Consultant"
+	},
+	{
+		"stars" : "4",
+		"quote" : "Tincidunt Blandit Proin Semper. Tellus amet porttitor hendrerit etiam arcu.",
+		"name" : "Ariana Grande",
+		"portrait" : "ariana",
+		"role" : "VP Ops"
 	}
 ]
