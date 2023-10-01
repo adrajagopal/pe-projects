@@ -3026,6 +3026,29 @@
       "oAP" : "\/projects\/mockup-to-code-challenge\/components\/component-name\/template.php",
       "oF" : 0
     },
+    "\/projects\/mockup-to-code-challenge\/components\/email-subscribe-2\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/projects\/mockup-to-code-challenge\/components\/email-subscribe-2\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/projects\/mockup-to-code-challenge\/components\/email-subscribe-2\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/mockup-to-code-challenge\/components\/email-subscribe-2\/template.php",
+      "oF" : 0
+    },
     "\/projects\/mockup-to-code-challenge\/components\/email-subscribe\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,

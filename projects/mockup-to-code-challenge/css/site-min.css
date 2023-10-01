@@ -317,27 +317,27 @@ body.wavy .site-footer .logo {
   fill: var(--origin);
 }
 
-form {
+form.email-form {
   font-family: var(--secondary-font);
 }
-form .email-container {
+form.email-form .email-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   max-width: 300px;
 }
-form label {
+form.email-form label {
   background-color: white;
   border: 1px solid var(--system-grey--350);
   border-right: none;
   border-radius: 5px 0 0 5px;
   grid-column: span 5;
 }
-form input {
+form.email-form input {
   background-color: transparent;
   padding: 1rem 15px;
   width: 100%;
 }
-form button {
+form.email-form button {
   grid-column: span 1;
   padding: 0.75rem;
   background-color: var(--origin);
@@ -348,10 +348,87 @@ form button {
   justify-items: center;
   align-items: center;
 }
-form button .svg-icon {
+form.email-form button .svg-icon {
   stroke: var(--white);
   width: 24px;
   margin: 0px;
+}
+
+form.email-form-2 {
+  font-family: var(--secondary-font);
+}
+form.email-form-2 .email-container {
+  display: flex;
+  gap: 20px;
+}
+form.email-form-2 .email-container > * {
+  border: 1px solid white;
+}
+form.email-form-2 .email-container label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  padding: 0 1.25rem;
+  border: 1px solid var(--system-grey--350);
+  border-radius: 5px;
+}
+form.email-form-2 .email-container button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+form.email-form-2 .email-container button .button {
+  padding: 0.75rem 1rem;
+}
+form.email-form-2 .email-container input {
+  background-color: transparent;
+  padding: 0.75rem 0;
+  width: 100%;
+}
+form.email-form-2 .email-container input:focus {
+  outline: 0;
+}
+form.email-form-2.primary label {
+  border: 1px solid var(--system-grey--500);
+  background-color: var(--white);
+}
+form.email-form-2.primary label:focus-within {
+  outline: 1px solid var(--origin);
+}
+form.email-form-2.primary .icon-container {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+form.email-form-2.primary svg {
+  stroke: var(--system-grey--500);
+}
+form.email-form-2.primary ::placeholder {
+  color: var(--system-grey--500);
+}
+form.email-form-2.primary input {
+  color: var(--system-grey--900);
+}
+form.email-form-2.secondary label {
+  border: none;
+  background-color: var(--darker);
+}
+form.email-form-2.secondary label:focus-within {
+  outline: 1px solid var(--system-grey--300);
+}
+form.email-form-2.secondary .icon-container {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+form.email-form-2.secondary svg {
+  stroke: white;
+}
+form.email-form-2.secondary ::placeholder {
+  color: var(--system-grey--300);
+}
+form.email-form-2.secondary input {
+  color: white;
 }
 
 .icon-placeholder {
@@ -755,12 +832,12 @@ section.hero text-content {
 section.hero text-content .xxl-voice {
   font-size: clamp(1.5rem, 8vw, 3rem);
 }
-section.hero .links-container {
+section.hero .actions-container {
   display: flex;
   gap: 1.5rem;
 }
 @media (max-width: 650px) {
-  section.hero .links-container {
+  section.hero .actions-container {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
