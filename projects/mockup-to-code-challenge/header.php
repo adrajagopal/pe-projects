@@ -48,9 +48,9 @@
 
 			<nav class="site-nav">
 				<ul class="site-nav-items">
-					<li><a class="active" href="">Home</a></li>
-					<li><a href="?page=wavy">Updates</a></li>
-					<li><a href="?page=blue">Services</a></li>
+					<li><a class="<?php if ($page === 'home') { echo 'active';}?>" href="">Home</a></li>
+					<li><a class="<?php if ($page === 'wavy') { echo 'active';}?>" href="?page=wavy">Updates</a></li>
+					<li><a class="<?php if ($page === 'blue') { echo 'active';}?>" href="?page=blue">Services</a></li>
 					<li><a href="">Features</a></li>
 					<li><a href="">About Us</a></li>
 				</ul>
