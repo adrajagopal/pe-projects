@@ -576,16 +576,10 @@ body:not(.wavy) footer.site-footer {
   background-color: var(--origin);
 }
 
-body.home section.hero {
+body:is(.home, .wavy) section.hero {
   background-image: url("../images/diagonal-background.svg");
   background-size: 100px;
   background-repeat: repeat;
-}
-
-body.wavy section.hero {
-  background-image: url("../images/wavy-background.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 section {

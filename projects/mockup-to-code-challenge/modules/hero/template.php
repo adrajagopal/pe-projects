@@ -13,4 +13,8 @@
 		} ?>
 	</div>
 
+	<?php //if ($page === "wavy") {
+		// include(getFile('images/wave.svg'));
+	// } ?>
+
 </div>

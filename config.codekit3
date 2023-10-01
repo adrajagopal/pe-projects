@@ -3700,6 +3700,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/projects\/mockup-to-code-challenge\/images\/wave.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/projects\/mockup-to-code-challenge\/images\/wave.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/projects\/mockup-to-code-challenge\/images\/wavy-background.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -3870,18 +3880,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/projects\/mockup-to-code-challenge\/modules\/hero\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/projects\/mockup-to-code-challenge\/modules\/hero\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/projects\/mockup-to-code-challenge\/modules\/hero\/template.php" : {
       "cB" : 0,
