@@ -25,12 +25,13 @@
 				"description" : "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus Amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor.",
 				"actions" : [
 					{
-						"type" : "email-subscribe",
+						"type" : "email-subscribe-2",
+						"typeClass" : "secondary",
 						"button" : "text",
 						"copy" : "Sign Up",
-						"icon" : "envelope",
+						"inputIcon" : "envelope",
 						"link" : "#",
-						"class" : "secondary",
+						"class" : "secondary round tight",
 						"target" : ""
 					}
 				]
@@ -83,12 +84,13 @@
 				"description" : "Fringilla non proin nec in in lorem amet eget ac. Mauris.",
 				"actions" : [
 					{
-						"type" : "email-subscribe",
+						"type" : "email-subscribe-2",
+						"typeClass" : "primary",
 						"button" : "text",
 						"copy" : "Sign Up",
-						"icon" : "envelope",
+						"inputIcon" : "envelope",
 						"link" : "#",
-						"class" : "secondary",
+						"class" : "primary round tight",
 						"target" : ""
 					}
 				]
