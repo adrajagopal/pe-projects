@@ -4033,6 +4033,21 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/scratchpad\/to-do-app\/_app.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/to-do-app\/site.css",
+      "oF" : 3,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scratchpad\/to-do-app\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
