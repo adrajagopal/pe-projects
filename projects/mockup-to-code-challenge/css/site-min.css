@@ -356,6 +356,7 @@ form.email-form button .svg-icon {
 
 form.email-form-2 {
   font-family: var(--secondary-font);
+  width: 100%;
 }
 form.email-form-2 .email-container {
   display: flex;
@@ -374,6 +375,11 @@ form.email-form-2 .email-container label {
   border: 1px solid var(--system-grey--350);
   border-radius: 5px;
 }
+form.email-form-2 .email-container label .icon-container {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
 form.email-form-2 .email-container button {
   padding: 0;
   background-color: transparent;
@@ -381,6 +387,7 @@ form.email-form-2 .email-container button {
 }
 form.email-form-2 .email-container button .button {
   padding: 0.75rem 1rem;
+  white-space: nowrap;
 }
 form.email-form-2 .email-container input {
   background-color: transparent;
@@ -397,10 +404,6 @@ form.email-form-2.primary label {
 form.email-form-2.primary label:focus-within {
   outline: 1px solid var(--origin);
 }
-form.email-form-2.primary .icon-container {
-  width: 1.5rem;
-  height: 1.5rem;
-}
 form.email-form-2.primary svg {
   stroke: var(--system-grey--500);
 }
@@ -416,10 +419,6 @@ form.email-form-2.secondary label {
 }
 form.email-form-2.secondary label:focus-within {
   outline: 1px solid var(--system-grey--300);
-}
-form.email-form-2.secondary .icon-container {
-  width: 1.5rem;
-  height: 1.5rem;
 }
 form.email-form-2.secondary svg {
   stroke: white;
@@ -587,6 +586,11 @@ section {
 }
 section.hero {
   padding: 20vh 10vw;
+}
+@media (max-width: 500px) {
+  section.hero {
+    padding: 10vh 2.5vw;
+  }
 }
 section text-content {
   display: block;
@@ -817,6 +821,11 @@ section.hero .hero-container {
   justify-items: center;
   gap: 3rem;
 }
+@media (max-width: 400px) {
+  section.hero .hero-container {
+    justify-items: start;
+  }
+}
 section.hero text-content {
   display: grid;
   justify-items: center;
@@ -825,6 +834,11 @@ section.hero text-content {
 }
 section.hero text-content .xxl-voice {
   font-size: clamp(1.5rem, 8vw, 3rem);
+}
+@media (max-width: 400px) {
+  section.hero text-content {
+    text-align: left;
+  }
 }
 section.hero .actions-container {
   display: flex;
@@ -835,6 +849,11 @@ section.hero .actions-container {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  section.hero .actions-container {
+    align-items: start;
   }
 }
 

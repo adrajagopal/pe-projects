@@ -20,6 +20,10 @@ section {
 
 	&.hero {
 		padding: 20vh 10vw;
+
+		@media (max-width: 500px) {
+			padding: 10vh 2.5vw;
+		}
 	}
 
 	text-content {

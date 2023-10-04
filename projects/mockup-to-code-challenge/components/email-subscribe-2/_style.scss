@@ -1,5 +1,6 @@
 form.email-form-2 {
 	font-family: var(--secondary-font);	
+	width: 100%;
 
 	.email-container {
 		display: flex;
@@ -18,6 +19,12 @@ form.email-form-2 {
 			padding: 0 1.25rem; //PADDING
 			border: 1px solid var(--system-grey--350);
 			border-radius: 5px;
+
+			.icon-container {
+				width: 1.5rem;
+				height: 1.5rem;
+				flex-shrink: 0;
+			}
 		}
 
 		button {
@@ -27,6 +34,7 @@ form.email-form-2 {
 
 			.button {
 				padding: 0.75rem 1rem; //PADDING
+				white-space: nowrap;
 			}
 		}
 
@@ -52,11 +60,6 @@ form.email-form-2 {
 				outline: 1px solid var(--origin);
 			}
 
-			.icon-container {
-				width: 1.5rem;
-				height: 1.5rem;
-			}
-
 			svg {
 				stroke: var(--system-grey--500);
 			}
@@ -78,11 +81,6 @@ form.email-form-2 {
 
 		label:focus-within {
 			outline: 1px solid var(--system-grey--300);
-		}
-
-		.icon-container {
-			width: 1.5rem;
-			height: 1.5rem;
 		}
 
 		svg {
