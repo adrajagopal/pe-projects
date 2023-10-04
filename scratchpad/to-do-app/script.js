@@ -36,8 +36,8 @@ const eventCalendar = {
 		this.events[id].alreadyHappened = true;
 	},
 
-	updateEvent: function(id, newValue) {	
-		var message = `changed "${this.events[id].eventName}" to "${newValue}" on the calendar`;
+	renameEvent: function(id, newValue) {	
+		var message = `renamed "${this.events[id].eventName}" to "${newValue}" on the calendar`;
 		
 		this.events[id].eventName = newValue;
 
@@ -48,5 +48,9 @@ const eventCalendar = {
 eventCalendar.addEvent('Movie Night', 9, 9, 9, 30);
 eventCalendar.rescheduleEvent(0, 10, 10, 10, 30);
 eventCalendar.addEvent('Trivia', 11, 15, 18, 0);
+eventCalendar.renameEvent(1, 'Game Night');
 console.log(eventCalendar.events[1].date.toLocaleTimeString('en-US'));
+eventCalendar.addEvent('Study block', 10, 4, 13, 45);
+eventCalendar.addEvent('Grounded - stay at home', 10, 10, 10, 30);
+eventCalendar.cancelEvent(0);
 
