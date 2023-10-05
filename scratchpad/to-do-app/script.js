@@ -1,29 +1,35 @@
+function CalEvent(title, month, day, hours, minutes, context) {
+
+	this.id = `a${context.idNum++}`;
+	this.eventName = title;
+	this.date = new Date(2023, month - 1, day, hours, minutes);
+	this.startTime = hours + (minutes/60);
+
+}
+
 const eventCalendar = {
 
 	events: [],
 	idNum : 0,
-	print: function(note = "") {
+	print(note = "") {
 		console.log(`--- ${note}`);
 		console.log(`events: `, this.events);	
 	},
 
-	addEvent: function(title, month, day, hours, minutes) {
-		var event = {
-			id : `event${this.idNum++}`,
-			eventName : title,
-			date : new Date(2023, month - 1, day, hours, minutes),
-			startTime : hours+(minutes/60)
-		};
+	addEvent(title, month, day, hours, minutes, context) {
+	
+		let event = new CalEvent(title, month, day, hours, minutes, eventCalendar);
+
 		this.events = [...this.events, event];
 		this.print(`scheduled ${title}`);
 	},
 
-	cancelEvent: function(id) {
+	cancelEvent(id) {
 		this.print(`canceled ${this.events[id].eventName}`);
 		this.events.splice(id, 1);
 	},
 
-	rescheduleEvent : function(id, newMonth, newDay, newHours, newMinutes) {
+	rescheduleEvent(id, newMonth, newDay, newHours, newMinutes) {
 		var newDate = new Date(2023, newMonth - 1, newDay, newHours, newMinutes);
 		var message = `rescheduled ${this.events[id].eventName} from ${this.events[id].date.toLocaleString('en-US')} to ${newDate.toLocaleString('en-US')}`;
 
@@ -32,11 +38,11 @@ const eventCalendar = {
 		this.print(message);
 	},
 
-	alreadyHappened: function(id){
+	alreadyHappened(id){
 		this.events[id].alreadyHappened = true;
 	},
 
-	renameEvent: function(id, newValue) {	
+	renameEvent(id, newValue) {	
 		var message = `renamed "${this.events[id].eventName}" to "${newValue}" on the calendar`;
 		
 		this.events[id].eventName = newValue;
