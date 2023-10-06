@@ -2,105 +2,7 @@
 // questiona bout initialize function
 // constructor function calendar
 
-dogs = [];
-
-function addToStorage(key, value) {
-	const stringifiedValue = JSON.stringify(value);
-
-	localStorage.setItem(key, stringifiedValue);
-}
-
-function getFromStorage(key) {
-	const value = localStorage.getItem(key);
-
-	const parsedValue = JSON.parse(value);
-
-	return parsedValue;
-
-}
-
-function deleteFromStorage(key) {
-	localStorage.removeItem(key);
-}
-
-function clearStorage() {
-	localStorage.clear();
-}
-
-var dog = {name : 'buddha', weight : "22.8lbs", age: "12", breed : "mutt"};
-
-addToStorage('dog', dog);
-
-
-clearStorage();
-
-function initialize() {
-	if ( !getFromStorage('dog') ) {
-		dogs.push("test");
-	}
-
-	console.log(dogs);
-}
-
-initialize();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Constructor to create events within a calendar
 function CalEvent(input) {
 
 	this.id = input.id;
@@ -109,10 +11,15 @@ function CalEvent(input) {
 	this.startTime = input.hours + (input.minutes/60);
 }
 
+//Constructor to create new calendars
 function Calendar(name) {
+
+	//variables to be used throughout the program
 	this.events = [];
 	this.idNum = 0;
 	this.name = name;
+
+	//functions to edit & update calendar
 	this.addEvent = function(input) {
 
 		input.id = this.idNum++;
@@ -121,10 +28,28 @@ function Calendar(name) {
 
 		this.events = [...this.events, event];
 		this.listEvents();
-		//call function to add to local storage
+		this.addToStorage(this.name, this.events); //add to local storage
 	};
 
-	//add function here to save to local storage
+	//functions to manage local storage
+
+	this.addToStorage = function(key, value) {
+		const stringifiedValue = JSON.stringify(value);
+
+		localStorage.setItem(key, stringifiedValue);
+	};
+
+	this.getFromStorage = function() {
+		const value = localStorage.getItem(this.name);
+
+		const parsedValue = JSON.parse(value);
+
+		console.log(parsedValue);
+		return parsedValue;
+
+	};
+
+	//other functions
 
 	this.listEvents = function() {
 		console.log(this.events);
@@ -142,8 +67,29 @@ function Calendar(name) {
 	this.initialize();
 }
 
-//comes from a user form that creates calendar events
+// create local storage functions to work inside the calendar constructor
+// create all the event calendar functionality inside the calendar constructor
+
+//App is initialized - now start interacting with it
+
+//example - a user submits a calendar event via form
 const data = {
+	title: "party",
+	month: 10,
+	day: 10,
+	hours: 15,
+	minutes: 0
+}
+
+const data1 = {
+	title: "party",
+	month: 10,
+	day: 10,
+	hours: 15,
+	minutes: 0
+}
+
+const data2 = {
 	title: "party",
 	month: 10,
 	day: 10,
@@ -153,37 +99,22 @@ const data = {
 
 const newCal = new Calendar('test calendar');
 
-newCal.addEvent(data);
-newCal.addEvent(data);
-newCal.addEvent(data);
+newCal.getFromStorage();
 
-// create local storage functions to work inside the calendar constructor
-// create all the event calendar functionality inside the calendar constructor
+//functions to add to constructor
 
 
 
+function deleteFromStorage(key) {
+	localStorage.removeItem(key);
+}
 
+function clearStorage() {
+	localStorage.clear();
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// addToStorage, getFromStorage, deleteFromStorage, clearStorage
+// addEvent, cancelEvent, rescheduleEvent, renameEvent, alreadyHappened
 
 
 
