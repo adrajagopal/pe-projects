@@ -4048,6 +4048,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scratchpad\/to-do-app\/cocaine-bear.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/to-do-app\/cocaine-bear.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/to-do-app\/dox.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/to-do-app\/dox.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/to-do-app\/hide-content.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/to-do-app\/hide-content.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/scratchpad\/to-do-app\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4055,6 +4085,36 @@
       "oA" : 0,
       "oAP" : "\/scratchpad\/to-do-app\/index.html",
       "oF" : 0
+    },
+    "\/scratchpad\/to-do-app\/litter-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/to-do-app\/litter-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/to-do-app\/profile-pic.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/to-do-app\/profile-pic.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/to-do-app\/report-content.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/to-do-app\/report-content.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/scratchpad\/to-do-app\/script-min.js" : {
       "bF" : 0,
