@@ -13,83 +13,43 @@
 	<header>
 		<h1>Litter</h1>
 		<picture class="logo">
-			<img src="litter-logo.svg" alt="">
+			<img src="images/litter-logo.svg" alt="">
 		</picture>
 	</header>
 
 	<form action="">
 
-		<h2>Say something incendiary or half-baked:</h2>
-		<textarea name="" id="" cols="30" rows="10"></textarea>
+		<h2>Create a post</h2>
+
+		<div class="question">
+			<label for="username">Select a username</label>
+			<input name="" id="username" type="text" maxlength="16"></input>
+		</div>
+
+		<div class="question">
+			<label for="handle">Select a handle (do not include @ in your handle)</label>
+			<input name="" id="handle" type="text" maxlength="16"></input>
+		</div>
+
+
+		<div class="question">
+			<label for="profile-pic">Select your profile pic</label>
+			<select name="" id="profile-pic">
+				<option value="screaming-void.svg">void screamer</option>
+				<option value="cocaine-bear.svg">cocaine bear</option>
+			</select>
+		</div>
+
+		<div class="question">
+			<label for="content">Say something incendiary or half-baked</label>
+			<textarea name="" id="content" cols="30" rows="10"></textarea>
+		</div>
 
 		<button type="submit">Start some shit</button>
 
 	</form>
 
-	<tweet-card>
-
-		<picture class="profile-photo">
-			<img src="profile-pic.svg" alt="">
-		</picture>
-
-		<div class="identity">
-			<p class="author">Fart noise</p>
-			<p class="handle">@rage</p>
-		</div>
-
-		<p class="tweet-body">why covid doesn't affect old fuckers the way that libs say it does, a thread ---></p>
-
-		<div class="actions">
-			<a>
-				<picture>
-					<img src="hide-content.svg" alt="">
-				</picture>
-			</a>
-			<a>
-				<picture>
-					<img src="report-content.svg" alt="">
-				</picture>
-			</a>
-			<a>
-				<picture>
-					<img src="dox.svg" alt="">
-				</picture>
-			</a>
-		</div>
-	</tweet-card>
-
-	<tweet-card>
-
-		<picture class="profile-photo">
-			<img src="cocaine-bear.svg" alt="">
-		</picture>
-
-		<div class="identity">
-			<p class="author">cocaine be4r</p>
-			<p class="handle">@paddingtonbe4r</p>
-		</div>
-
-		<p class="tweet-body">your an idiot, jesus christ</p>
-
-		<div class="actions">
-			<a>
-				<picture>
-					<img src="hide-content.svg" alt="">
-				</picture>
-			</a>
-			<a>
-				<picture>
-					<img src="report-content.svg" alt="">
-				</picture>
-			</a>
-			<a>
-				<picture>
-					<img src="dox.svg" alt="">
-				</picture>
-			</a>
-		</div>
-	</tweet-card>
-
+	<output><!--put your tweets here--></output>
 
 	<script src="script.js"></script>
 	
