@@ -51,6 +51,23 @@ form {
 form h1, form h2, form h3 {
   margin: 0;
 }
+form .question + .question {
+  margin-top: 10px;
+}
+form select, form input {
+  border: 1px solid rgba(231, 233, 234, 0.5);
+  display: block;
+  width: 100%;
+  background-color: inherit;
+  font-family: inherit;
+  color: inherit;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+form label + * {
+  margin-top: 10px;
+}
 form textarea {
   width: 100%;
   resize: vertical;

@@ -54,6 +54,26 @@ form {
 		margin: 0;
 	}
 
+	.question + .question {
+		margin-top: 10px;
+	}
+
+	select, input {
+		border: 1px solid rgba(231, 233, 234, 0.5);
+		display: block;
+		width: 100%;
+		background-color: inherit;
+		font-family: inherit;
+		color: inherit;
+		padding: 10px;
+		font-size: 1rem;
+		border-radius: 5px;
+	}
+
+	label + * {
+		margin-top: 10px;
+	}
+
 	textarea {
 		width: 100%;
 		resize: vertical;
