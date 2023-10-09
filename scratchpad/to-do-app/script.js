@@ -55,6 +55,22 @@ function showTweet(tweet) {
 		</li>
 	`;
 }
+
+function showFeed() {
+
+	let feed = "<ul class='postFeed'>";
+	
+
+	tweets.forEach( function(tweet) {
+		feed +=	showTweet(tweet);
+	});
+
+	feed += "</ul>";
+
+	output.innerHTML = feed;
+
+}
+
 const form = document.querySelector('form');
 const output = document.querySelector('output');
 
@@ -69,7 +85,6 @@ let content = null;
 
 form.addEventListener('submit', function(event) {
 	event.preventDefault();
-
 	username = usernameInput.value;
 	handle = handleInput.value;
 	profilePic = profilePicInput.value;
@@ -79,6 +94,9 @@ form.addEventListener('submit', function(event) {
 	if (username && handle && profilePic && content) {
 
 		addTweet();
+
+		showFeed();
+
 	} else {
 		alert("Please fill out all the fields");
 	}
