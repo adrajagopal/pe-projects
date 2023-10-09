@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -9,11 +10,46 @@ html {
 body {
   margin-inline: auto;
   padding: 0 5vw;
-  max-width: 800px;
+  max-width: 1200px;
   color: rgb(231, 233, 234);
   font-family: "Roboto";
 }
+body ul, body ol, body li {
+  list-style-type: none;
+  padding: 0;
+}
 
+picture {
+  display: block;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 700px) {
+  main {
+    grid-template-areas: "header header" "form feed";
+    grid-template-columns: 1fr minmax(250px, 1fr);
+  }
+  header {
+    grid-area: header;
+  }
+  form {
+    grid-area: form;
+    align-self: start;
+  }
+  output {
+    grid-area: feed;
+  }
+}
 header {
   padding-top: 20px;
   display: flex;
@@ -29,18 +65,7 @@ header picture {
   height: 4rem;
 }
 
-picture {
-  display: block;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 form {
-  margin-top: 20px;
   border: 1px solid rgba(231, 233, 234, 0.5);
   border-radius: 5px;
   padding: 20px;
@@ -91,12 +116,15 @@ form button {
   align-self: start;
 }
 
+li + li {
+  margin-top: 10px;
+}
+
 tweet-card {
   display: block;
   padding: 20px;
   border: 1px solid rgba(231, 233, 234, 0.5);
   border-radius: 5px;
-  margin-top: 10px;
   display: grid;
   grid-template-areas: "photo identity" "photo tweet" ". actions";
   grid-template-columns: auto 1fr;
@@ -115,6 +143,10 @@ tweet-card {
 }
 tweet-card * {
   margin: 0;
+}
+tweet-card.flagged {
+  border-color: firebrick;
+  background-color: maroon;
 }
 tweet-card .profile-photo {
   grid-area: photo;
@@ -150,9 +182,19 @@ tweet-card .actions {
   margin-top: 10px;
   grid-area: actions;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 tweet-card .actions picture {
   width: 25px;
   height: 25px;
+}
+tweet-card .actions button * {
+  pointer-events: none;
+}
+tweet-card .actions button {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
