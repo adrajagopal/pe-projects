@@ -3,13 +3,13 @@
 
 /*Setup*/
 @import "_setup";
-@import "_icons";
 
 /*Settings*/
 @import "_custom-properties";
 
 /*Structure*/
 @import "_structure";
+@import "_forms";
 @import "_list-styles";
 
 /*Typography*/
@@ -23,8 +23,6 @@
 @import "_sections";
 
 /*Modules*/
-@import "_site-header";
-@import "_site-footer";
 @import "_modules"; //don't add any more to this list. import in modules.scss
 
 /*Sections (in this file)*/
