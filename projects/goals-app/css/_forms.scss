@@ -1,0 +1,14 @@
+form, label, input {
+	display: block;
+	font-family: var(--primary-font);
+}
+
+form {
+	display: grid;
+	gap: 15px;
+}
+
+
+input {
+	border: 1px solid black;
+}
