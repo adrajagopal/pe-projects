@@ -1,4 +1,4 @@
-const templates = { };
+export const templates = { };
 
 templates.signIn = `
 	<h1 class="xxl-voice" style="color: red;">SIGN IN PAGE</h1>
