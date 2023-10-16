@@ -20,7 +20,7 @@ export function setCurrentUser(user) {
 			`;
 }
 
-function clearCurrentUser() {
+export function clearCurrentUser() {
 	database.setItem('currentUser', null);
 }
 
