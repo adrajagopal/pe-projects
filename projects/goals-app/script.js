@@ -20,13 +20,13 @@ const $footer = createElementVar('footer inner-column');
 
 	$header.innerHTML = '';
 	$footer.innerHTML = '';
-	renderView('signIn');
+	renderView($main, templates, 'signIn');
 
 window.addEventListener('click', function(event) {
 	if (event.target.matches('[data-view]')) {
 		const view = event.target.dataset.view;
 
-		renderView(view);
+		renderView($main, templates, view);
 	}
 });
 
@@ -47,18 +47,18 @@ window.addEventListener('submit', function(event) {
 		const form = createElementVar('form');
 
 		if (formTitle === 'createAccount') {
-			var handle = handleAccountCreation(form);
+			var handle = handleAccountCreation(form, users, database);
 
 			if (handle === true) {
-				renderView('home');
+				renderView($main, templates, 'home');
 			}
 		}
 
 		if (formTitle === 'signIn') {
-			handle = handleSignIn(form);
+			handle = handleSignIn(form, users, database);
 
 			if(handle === true) {
-				renderView('home');
+				renderView($main, templates, 'home');
 			}
 		}
 	}

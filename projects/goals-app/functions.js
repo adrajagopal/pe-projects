@@ -6,25 +6,25 @@ export function createElementVar(elementName) {
 	return document.querySelector(`${elementName}`);
 }
 
-export function renderView(module) {
-	$main.innerHTML = templates[module];
+export function renderView(location, templateList, module) {
+	location.innerHTML = templateList[module];
 }
 
 ///////*************************** USERS
 
-export function setCurrentUser(user) {
+export function setCurrentUser(user, database) { // THIS!!!!
 	database.setItem('currentUser', user.username);
 
-	$header.innerHTML = `
+	createElementVar('header inner-column').innerHTML = `
 		<p class="small-voice currentUser">Account: ${database.getItem('currentUser')}</p>
 			`;
-}
+} 
 
-export function clearCurrentUser() {
+export function clearCurrentUser(database) { // THIS!!!!
 	database.setItem('currentUser', null);
 }
 
-export function updateUsers(users) {
+export function updateUsers(users, database) { // THIS!!!!
 
 	let stringifiedUsers = JSON.stringify(users);
 
@@ -43,7 +43,7 @@ export function updateUsers(users) {
 
 ///////*************************** ACCOUNT
 
-export function handleAccountCreation(form) {
+export function handleAccountCreation(form, users, database) {
 
 	let usernameInput = form.querySelector('#username');
 	let passwordInput = form.querySelector('#password');
@@ -63,8 +63,8 @@ export function handleAccountCreation(form) {
 		} else {
 			users = [...users, user];
 
-			setCurrentUser(user);
-			updateUsers(users);
+			setCurrentUser(user, database);
+			updateUsers(users, database);
 			
 			usernameInput.value = "";
 			passwordInput.value = "";
@@ -75,7 +75,7 @@ export function handleAccountCreation(form) {
 
 }
 
-export function handleSignIn(form) {
+export function handleSignIn(form, users, database) {
 	let usernameInput = form.querySelector('#username');
 	let passwordInput = form.querySelector('#password');
 
@@ -91,7 +91,7 @@ export function handleSignIn(form) {
 
 		if (foundUser) { //if user does exist in database
 			if (foundUser.password === user.password) {
-				setCurrentUser(user);
+				setCurrentUser(user, database);
 				alert('success!');
 				return true; //use this to load the next page
 			} else {
