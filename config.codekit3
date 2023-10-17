@@ -2461,6 +2461,17 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/projects\/goals-app\/functions-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/goals-app\/functions-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/projects\/goals-app\/functions.js" : {
       "bF" : 0,
       "ft" : 64,
