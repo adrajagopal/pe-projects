@@ -2729,6 +2729,14 @@
       "oAP" : "\/projects\/goals-app\/modules\/see-it-now\/template.php",
       "oF" : 0
     },
+    "\/projects\/goals-app\/page-routing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/goals-app\/page-routing.html",
+      "oF" : 0
+    },
     "\/projects\/goals-app\/page-routing.md" : {
       "cB" : 0,
       "cS" : 0,
