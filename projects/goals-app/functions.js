@@ -1,3 +1,5 @@
+import {database, $header, $main, $footer, createElementVar} from './global.js';
+
 ///////*************************** SUNK TASK FORMS
 
 export const taskData = [
@@ -24,8 +26,8 @@ export function renderTaskOption(task) {
 	`;
 }
 
-export function renderTaskList(tasks) { //can i generalize this and use a callback function to call a specific renderOneItem() function?
-	var taskList = `<ul class="taskList">`;
+export function renderTaskOptionList(tasks) { //can i generalize this and use a callback function to call a specific renderOneItem() function?
+	var taskList = `<ul class="taskOptionList">`;
 
 	tasks.forEach( function(task) {
 		taskList += renderTaskOption(task);
@@ -48,20 +50,36 @@ export function handleSunkTaskDefinition(form, database) {
 	return true;
 }
 
-export function renderTaskIncrementer() {
+export function getTaskList(key, database) {
+	var listString = database.getItem(key);
+
+	return JSON.parse(listString);
+}
+
+export function renderTaskIncrementer(task) {
 	return `
 		<li>
-			<label for=""></label>
-			<input id="" type="number">
+			<label for="${task}">${task}</label>
+			<input id="${task}" type="number">
 		</li>
 	`;
 }
 
-///////*************************** DOCUMENT STRUCTURE
+export function renderTaskIncrementerList(selectedTasksArray, database) {
+	const tasks = getTaskList(selectedTasksArray, database);
 
-export function createElementVar(elementName) {
-	return document.querySelector(`${elementName}`);
+	let incrementerList = `<ul class="taskIncrementerList">`;
+
+	tasks.forEach( function(task) {
+		incrementerList += renderTaskIncrementer(task);
+	}); 
+
+	incrementerList += `</ul>`;
+
+	return incrementerList;
 }
+
+///////*************************** DOCUMENT STRUCTURE
 
 export function renderView(location, templateList, module) {
 	location.innerHTML = templateList[module];
