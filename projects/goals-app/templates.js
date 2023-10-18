@@ -1,6 +1,15 @@
-import {taskData, renderTaskList } from './functions.js';
+import {taskData, renderTaskOptionList, renderTaskIncrementerList } from './functions.js';
+import {database, $main, $header, $footer} from './global.js';
 
 export const templates = { };
+
+export function renderScreen(options) {
+	if (options.dynamic) {
+		$main.innerHTML = templates[options.template]();
+	} else {
+		$main.innerHTML = templates[options.template];	
+	}
+}
 
 templates.signIn = `
 	<h1 class="xxl-voice" style="color: firebrick;">SIGN IN PAGE</h1>
