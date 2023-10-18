@@ -54,20 +54,25 @@ templates.defineSunkTasks = `
 
 	<form data-form="defineSunkTasks">
 
-		${renderTaskList(taskData)}
+		${renderTaskOptionList(taskData)}
 
 		<button type="submit">Submit and assign time to sunk tasks</button>
 	</form>
 `;
 
-templates.estimateSunkTasks = `
+templates.estimateSunkTasks = function () {
+
+	return `
 	<h1 class="xxl-voice">Estimate your sunk tasks</h1>
 
 	<form data-form="estimateSunkTasks">
 
-		<button type="submit" data-view="goalsInstructions">Go to the next section</button>
+		${renderTaskIncrementerList('selectedTasks', database)}
+
+		<button type="submit">Go to the next section</button>
 	</form>
-`;
+`
+};
 
 templates.goalsInstructions = `
 	<h1 class="xxl-voice">How this works</h1>
