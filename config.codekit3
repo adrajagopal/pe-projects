@@ -2472,6 +2472,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/projects\/goals-app\/global.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/projects\/goals-app\/global-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/projects\/goals-app\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
