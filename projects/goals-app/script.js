@@ -68,6 +68,10 @@ window.addEventListener('submit', function(event) {
 			
 			const view = event.target.dataset.view;
 
+			//UPDATE THIS TO:
+			//actually handle each form similar to sign-in and acct creation
+			//and leave this last bit just for link buttons
+
 			renderView($main, templates, view);
 		}
 
