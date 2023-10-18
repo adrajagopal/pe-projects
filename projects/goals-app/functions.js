@@ -1,4 +1,61 @@
-//*************************** FUNCTIONS
+///////*************************** SUNK TASK FORMS
+
+export const taskData = [
+	{
+		name : "sleep"
+	},
+	{
+		name : "commute"
+	},
+	{
+		name : "eat"
+	},
+	{
+		name : "clean"
+	}
+];
+
+export function renderTaskOption(task) {
+	return `
+		<li class="pill">
+			<label for="${task.name}">${task.name}</label>
+			<input id="${task.name}" type="checkbox">
+		</li>
+	`;
+}
+
+export function renderTaskList(tasks) { //can i generalize this and use a callback function to call a specific renderOneItem() function?
+	var taskList = `<ul class="taskList">`;
+
+	tasks.forEach( function(task) {
+		taskList += renderTaskOption(task);
+	}); 
+
+	taskList += `</ul>`;
+
+	return taskList;
+}
+
+export function handleSunkTaskDefinition(form, database) {
+	var checkedItems = form.querySelectorAll(':checked');
+
+	var selectedTasks = [...checkedItems].map( function(item) {
+		return item.id;
+	})
+
+	database.setItem('selectedTasks', JSON.stringify(selectedTasks));
+
+	return true;
+}
+
+export function renderTaskIncrementer() {
+	return `
+		<li>
+			<label for=""></label>
+			<input id="" type="number">
+		</li>
+	`;
+}
 
 ///////*************************** DOCUMENT STRUCTURE
 
