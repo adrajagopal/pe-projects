@@ -20,11 +20,13 @@ const $footer = createElementVar('footer inner-column');
 
 	$header.innerHTML = '';
 	$footer.innerHTML = '';
-	renderView($main, templates, 'signIn');
+	renderView($main, templates, 'createAccount');
 
 window.addEventListener('click', function(event) {
 	if (event.target.matches('[data-view]')) {
 		const view = event.target.dataset.view;
+
+		console.log(view);
 
 		renderView($main, templates, view);
 	}
@@ -50,17 +52,25 @@ window.addEventListener('submit', function(event) {
 			var handle = handleAccountCreation(form, users, database);
 
 			if (handle === true) {
-				renderView($main, templates, 'home');
+				renderView($main, templates, 'newUserWelcome');
 			}
-		}
-
-		if (formTitle === 'signIn') {
+		} else if (formTitle === 'signIn') {
 			handle = handleSignIn(form, users, database);
 
 			if(handle === true) {
 				renderView($main, templates, 'home');
+
+				//UPDATE THIS TO:
+				//check whether intake has been completed...if no, take them there
+				//if yes, take them to the menu version
 			}
+		} else {
+			
+			const view = event.target.dataset.view;
+
+			renderView($main, templates, view);
 		}
+
 	}
 
 
