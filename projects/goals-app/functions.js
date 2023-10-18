@@ -12,7 +12,7 @@ export function renderView(location, templateList, module) {
 
 ///////*************************** USERS
 
-export function setCurrentUser(user, database) { // THIS!!!!
+export function setCurrentUser(user, database) {
 	database.setItem('currentUser', user.username);
 
 	createElementVar('header inner-column').innerHTML = `
@@ -20,11 +20,11 @@ export function setCurrentUser(user, database) { // THIS!!!!
 			`;
 } 
 
-export function clearCurrentUser(database) { // THIS!!!!
+export function clearCurrentUser(database) {
 	database.setItem('currentUser', null);
 }
 
-export function updateUsers(users, database) { // THIS!!!!
+export function updateUsers(users, database) {
 
 	let stringifiedUsers = JSON.stringify(users);
 
