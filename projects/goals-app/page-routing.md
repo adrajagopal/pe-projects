@@ -1,48 +1,48 @@
 # createAccount
 
-—> newUserWelcome
+* newUserWelcome
 
-—> intakeInstructions
+* intakeInstructions
 
-—> defineSunkTasks
+* defineSunkTasks
 
-—> estimateSunkTasks
+* estimateSunkTasks
 
-—> goalsInstructions
+* goalsInstructions
 
-—> defineGoalAreas
+* defineGoalAreas
 
-—> estimateGoalAreas
+* estimateGoalAreas
 
-—> intakeCompleted
+* intakeCompleted
 
-—> yourDaySummarized
+* yourDaySummarized
 
-—> makeAdjustments OR home
+* makeAdjustments OR home
 
-—> yourDaySummarized OR home
-
-
-# home
-
-—> makeAdjustments OR home
-
-—> yourDaySummarized OR home
+* yourDaySummarized OR home
 
 
 # home
 
-—> newNote
+* makeAdjustments OR home
 
-—> noteSaved
+* yourDaySummarized OR home
 
-—> noteHistory OR home
 
 # home
 
-—> noteHistory
+* newReflection
 
-—> noteDetails
+* reflectionSaved
+
+* reflectionHistory OR home
+
+# home
+
+* reflectionHistory
+
+* reflectionDetails
 
 
 
