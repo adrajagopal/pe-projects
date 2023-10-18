@@ -52,7 +52,8 @@ window.addEventListener('submit', function(event) {
 			var handle = handleAccountCreation(form, users, database);
 
 			if (handle === true) {
-				renderView($main, templates, 'newUserWelcome');
+
+				setTimeout(function () {renderView($main, templates, 'newUserWelcome')}, 2000);
 			}
 		} else if (formTitle === 'signIn') {
 			handle = handleSignIn(form, users, database);
