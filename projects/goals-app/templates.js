@@ -1,3 +1,5 @@
+import {taskData, renderTaskList } from './functions.js';
+
 export const templates = { };
 
 templates.signIn = `
@@ -52,7 +54,9 @@ templates.defineSunkTasks = `
 
 	<form data-form="defineSunkTasks">
 
-		<button type="submit" data-view="estimateSunkTasks">Assign time to sunk tasks</button>
+		${renderTaskList(taskData)}
+
+		<button type="submit">Submit and assign time to sunk tasks</button>
 	</form>
 `;
 
