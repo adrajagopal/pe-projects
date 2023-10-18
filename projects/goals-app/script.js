@@ -1,19 +1,12 @@
-import {templates} from './templates.js';
-import {createElementVar, renderView, 
+//****************** IMPORTS
+import {createElementVar, $header, $main, $footer, database} from './global.js';
+import {renderScreen, templates} from './templates.js';
+import {renderView, 
 			setCurrentUser, clearCurrentUser, updateUsers,
 			handleAccountCreation, handleSignIn,
-			taskData, renderTaskOption, renderTaskList, handleSunkTaskDefinition
+			taskData, renderTaskOption, renderTaskOptionList, handleSunkTaskDefinition
 			//, add more
 } from './functions.js';
-
-// window.localStorage.clear();
-
-var database = window.localStorage;
-
-//*************************** PAGE STRUCTURE
-const $header = createElementVar('header inner-column');
-const $main = createElementVar('main inner-column');
-const $footer = createElementVar('footer inner-column');
 
 //*************************** on app startup
 
@@ -26,9 +19,6 @@ const $footer = createElementVar('footer inner-column');
 		{username : 'derek', password : '1234'},
 		{username: 'santa', password : 'claus'}
 	];
-
-
-
 
 //************************** event listeners
 
@@ -43,20 +33,16 @@ window.addEventListener('click', function(event) {
 });
 
 
-
-
-
-
-
 window.addEventListener('submit', function(event) {
 	event.preventDefault();
 
 	if (event.target.matches('[data-form]')) {
 		const formTitle = event.target.dataset.form;
 		const form = createElementVar('form');
+		var handle = null;
 
 		if (formTitle === 'createAccount') {
-			var handle = handleAccountCreation(form, users, database);
+			handle = handleAccountCreation(form, users, database);
 
 			if (handle === true) {
 
@@ -65,7 +51,7 @@ window.addEventListener('submit', function(event) {
 		} else if (formTitle === 'signIn') {
 			handle = handleSignIn(form, users, database);
 
-			if(handle === true) {
+			if (handle === true) {
 				renderView($main, templates, 'home');
 
 				//UPDATE THIS TO:
@@ -75,9 +61,16 @@ window.addEventListener('submit', function(event) {
 		} else if (formTitle === 'defineSunkTasks') {
 			handle = handleSunkTaskDefinition(form, database);
 
-			if(handle ===true) {
-				renderView($main, templates, 'estimateSunkTasks');
+			if (handle === true) {
+				renderScreen({template: 'estimateSunkTasks', dynamic: true});
 			}
+		} else if (formTitle === 'estimateSunkTasks') {
+			// handle = SOME FUNCTION
+
+			if (handle === true) {
+				renderView($main, templates, 'goalsInstructions');
+			}
+
 		}
 
 		else {
