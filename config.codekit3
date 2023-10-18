@@ -2729,6 +2729,25 @@
       "oAP" : "\/projects\/goals-app\/modules\/see-it-now\/template.php",
       "oF" : 0
     },
+    "\/projects\/goals-app\/page-routing.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/goals-app\/page-routing.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/projects\/goals-app\/script-min.js" : {
       "bF" : 0,
       "ft" : 64,
