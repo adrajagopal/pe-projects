@@ -42,13 +42,13 @@ templates.newUserWelcome = `
 //*****************INTAKE FORM FLOW
 
 templates.intakeInstructions = `
-	<h1>How this works</h1>
+	<h1 class="xxl-voice">How this works</h1>
 
 	<button class="link" data-view="defineSunkTasks">Define my sunk tasks</button>
 `;
 
 templates.defineSunkTasks = `
-	<h1>Define your sunk tasks</h1>
+	<h1 class="xxl-voice">Define your sunk tasks</h1>
 
 	<form data-form="defineSunkTasks">
 
@@ -57,7 +57,7 @@ templates.defineSunkTasks = `
 `;
 
 templates.estimateSunkTasks = `
-	<h1>Estimate your sunk tasks</h1>
+	<h1 class="xxl-voice">Estimate your sunk tasks</h1>
 
 	<form data-form="estimateSunkTasks">
 
@@ -66,13 +66,13 @@ templates.estimateSunkTasks = `
 `;
 
 templates.goalsInstructions = `
-	<h1>How this works</h1>
+	<h1 class="xxl-voice">How this works</h1>
 
 	<button class="link" data-view="defineGoalAreas">Define my goal areas</button>
 `;
 
 templates.defineGoalAreas = `
-	<h1>Define your goal areas</h1>
+	<h1 class="xxl-voice">Define your goal areas</h1>
 
 	<form data-form="defineGoalAreas">
 
@@ -82,7 +82,7 @@ templates.defineGoalAreas = `
 `;
 
 templates.estimateGoalAreas = `
-	<h1>Estimate your goal areas</h1>
+	<h1 class="xxl-voice">Estimate your goal areas</h1>
 
 	<form data-form="estimateGoalAreas">
 
@@ -92,14 +92,14 @@ templates.estimateGoalAreas = `
 `;
 
 templates.intakeCompleted = `
-	<h1>Nice job!</h1>
+	<h1 class="xxl-voice">Nice job!</h1>
 
 	<button class="link" data-view="yourDaySummarized">See how your day shakes out</button>
 `;
 
 //***************** HOME FLOW
 templates.home = `
-	<h1 class="xxl-voice">Welcome back, Aditya</h1>
+	<h1 class="xxl-voice" class="xxl-voice">Welcome back, Aditya</h1>
 
 	<button class="link" data-view="newReflection">Add a reflection</button>
 	<button class="link" data-view="reflectionHistory">See prior reflections</button>
@@ -108,7 +108,7 @@ templates.home = `
 
 
 templates.yourDaySummarized = `
-	<h1>Here's how your day shakes out</h1>
+	<h1 class="xxl-voice">Here's how your day shakes out</h1>
 
 	<p>There are 24 hours in a day.</p>
 
@@ -123,7 +123,7 @@ templates.yourDaySummarized = `
 `;
 
 templates.makeAdjustments = `
-	<h1>Adjust your allocations</h1>
+	<h1 class="xxl-voice">Adjust your allocations</h1>
 
 	<h2>Some tips for doing this</h2>
 	<ul>
@@ -142,7 +142,7 @@ templates.makeAdjustments = `
 //*****************NOTES FLOW
 
 templates.newReflection = `
-	<h1>How did you do today?</h1>
+	<h1 class="xxl-voice">How did you do today?</h1>
 
 	<h2>Tuesday, October 17th</h2>
 
@@ -161,7 +161,7 @@ templates.newReflection = `
 `;
 
 templates.reflectionSaved = `
-	<h1>Great reflection!</h1>
+	<h1 class="xxl-voice">Great reflection!</h1>
 
 	<p>Every reflection is an opportunity to make small changes and improve tomorrow.</p>
 
@@ -170,7 +170,7 @@ templates.reflectionSaved = `
 `;
 
 templates.reflectionHistory = `
-	<h1>Your saved reflections</h1>
+	<h1 class="xxl-voice">Your saved reflections</h1>
 
 	<h2>Click to view a day.</h2>
 
@@ -184,7 +184,7 @@ templates.reflectionHistory = `
 `;
 
 templates.reflectionDetails = `
-	<h1>Your saved reflections</h1>
+	<h1 class="xxl-voice">Your saved reflections</h1>
 
 	<h2>Click to view a day.</h2>
 	

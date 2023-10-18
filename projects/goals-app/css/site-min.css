@@ -312,3 +312,6 @@ section text-content h2 {
 
 /*Modules*/
 /*Sections (in this file)*/
+h1, form, button {
+  margin-top: 20px;
+}
