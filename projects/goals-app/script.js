@@ -19,7 +19,18 @@ const $footer = createElementVar('footer inner-column');
 
 	$header.innerHTML = '';
 	$footer.innerHTML = '';
-	renderView($main, templates, 'createAccount');
+	renderView($main, templates, 'defineSunkTasks'); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
+	setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
+	
+	let users = [
+		{username : 'derek', password : '1234'},
+		{username: 'santa', password : 'claus'}
+	];
+
+
+
+
+//************************** event listeners
 
 window.addEventListener('click', function(event) {
 	if (event.target.matches('[data-view]')) {
@@ -31,10 +42,7 @@ window.addEventListener('click', function(event) {
 	}
 });
 
-let users = [
-	{username : 'derek', password : '1234'},
-	{username: 'santa', password : 'claus'}
-];
+
 
 
 
