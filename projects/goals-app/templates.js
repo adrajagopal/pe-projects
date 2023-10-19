@@ -140,7 +140,8 @@ templates.home = `
 `;
 
 
-templates.yourDaySummarized = `
+templates.yourDaySummarized = function() {
+	return `
 	<h1 class="xxl-voice">Here's how your day shakes out</h1>
 
 	<p>There are 24 hours in a day.</p>
@@ -153,7 +154,8 @@ templates.yourDaySummarized = `
 
 	<button class="link" data-view="makeAdjustments">Make adjustments</button>
 	<button class="link" data-view="home">Go home</button>
-`;
+`
+};
 
 templates.makeAdjustments = `
 	<h1 class="xxl-voice">Adjust your allocations</h1>
