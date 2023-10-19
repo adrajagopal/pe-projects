@@ -4,7 +4,9 @@ import {renderScreen, templates} from './templates.js';
 import {renderView, 
 			setCurrentUser, clearCurrentUser, updateUsers,
 			handleAccountCreation, handleSignIn,
-			taskData, renderTaskOption, renderTaskOptionList, handleSunkTaskDefinition
+			taskData, renderTaskOption, renderTaskOptionList, handleSunkTaskDefinition,
+			handleSunkTaskEstimation
+
 			//, add more
 } from './functions.js';
 
@@ -65,7 +67,7 @@ window.addEventListener('submit', function(event) {
 				renderScreen({template: 'estimateSunkTasks', dynamic: true});
 			}
 		} else if (formTitle === 'estimateSunkTasks') {
-			// handle = SOME FUNCTION
+			handle = handleSunkTaskEstimation('selectedTasks', form, database);
 
 			if (handle === true) {
 				renderView($main, templates, 'goalsInstructions');

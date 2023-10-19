@@ -60,7 +60,7 @@ export function renderTaskIncrementer(task) {
 	return `
 		<li>
 			<label for="${task}">${task}</label>
-			<input id="${task}" type="number">
+			<input id="${task}" type="number" min=1 required>
 		</li>
 	`;
 }
@@ -77,6 +77,21 @@ export function renderTaskIncrementerList(selectedTasksArray, database) {
 	incrementerList += `</ul>`;
 
 	return incrementerList;
+}
+
+export function handleSunkTaskEstimation(selectedTaskArrayKey, form, database) {
+	
+	let tasks = getTaskList(selectedTaskArrayKey, database);
+
+	let tasksWithTimes = [];
+
+	tasks.forEach( function(taskName) {	
+		tasksWithTimes = [...tasksWithTimes, {task: taskName, value: form.querySelector(`#${taskName}`).value}];
+	});
+
+	database.setItem('tasksWithTimes', JSON.stringify(tasksWithTimes));
+
+	return true;
 }
 
 ///////*************************** DOCUMENT STRUCTURE
