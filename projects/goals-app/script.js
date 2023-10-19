@@ -2,10 +2,11 @@
 import {createElementVar, $header, $main, $footer, database} from './global.js';
 import {renderScreen, templates} from './templates.js';
 import {renderView, 
-			setCurrentUser, clearCurrentUser, updateUsers,
+			setCurrentUser,
 			handleAccountCreation, handleSignIn,
-			taskData, renderTaskOption, renderTaskOptionList, handleSunkTaskDefinition,
-			handleSunkTaskEstimation
+			handleSunkTaskDefinition,handleSunkTaskEstimation,
+			handleGoalDefinition, handleGoalEstimation,
+			renderValues
 
 			//, add more
 } from './functions.js';
@@ -14,7 +15,7 @@ import {renderView,
 
 	$header.innerHTML = '';
 	$footer.innerHTML = '';
-	renderView($main, templates, 'defineSunkTasks'); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
+	renderView($main, templates, 'defineGoalAreas'); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
 	setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
 	
 	let users = [
@@ -73,6 +74,19 @@ window.addEventListener('submit', function(event) {
 				renderView($main, templates, 'goalsInstructions');
 			}
 
+		} else if (formTitle === 'defineGoalAreas') {
+			handle = handleGoalDefinition(form, database);
+
+			if (handle === true) {
+				renderScreen({template: 'estimateGoalAreas', dynamic: true});
+			}
+		} else if (formTitle === 'estimateGoalAreas') {
+			handle = handleGoalEstimation('selectedGoals', form, database);
+
+			if (handle === true) {
+				renderView($main, templates, 'intakeCompleted');
+				renderValues('tasksWithTimes', 'goalsWithTimes', database);
+			}
 		}
 
 		else {
