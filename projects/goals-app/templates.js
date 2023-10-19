@@ -1,5 +1,8 @@
-import {taskData, renderTaskOptionList, renderTaskIncrementerList } from './functions.js';
-import {database, $main, $header, $footer} from './global.js';
+import {
+	taskData, renderTaskOptionList, renderTaskIncrementerList,
+	goalData, renderGoalOptionList, renderGoalIncrementerList
+ } from './functions.js';
+import {database, $main} from './global.js';
 
 export const templates = { };
 
@@ -86,6 +89,12 @@ templates.estimateSunkTasks = function () {
 templates.goalsInstructions = `
 	<h1 class="xxl-voice">How this works</h1>
 
+	<p>Let's fill out your goal areas now.</p>
+
+	<p>Goal areas are broad -- career, school, self-development, exercise, diet, health.</p>
+
+	<p>Pick the ones that are most important to you, and that you want to do every single day.</p>
+
 	<button class="link" data-view="defineGoalAreas">Define my goal areas</button>
 `;
 
@@ -94,20 +103,26 @@ templates.defineGoalAreas = `
 
 	<form data-form="defineGoalAreas">
 
+		${renderGoalOptionList(goalData)}
 
-		<button type="submit" data-view="estimateGoalAreas">Assign time to goal areas</button>
+		<button type="submit">Assign time to goal areas</button>
 	</form>
 `;
 
-templates.estimateGoalAreas = `
+templates.estimateGoalAreas = function () {
+
+	return `
 	<h1 class="xxl-voice">Estimate your goal areas</h1>
 
 	<form data-form="estimateGoalAreas">
 
+		${renderGoalIncrementerList('selectedGoals', database)}
 
-		<button type="submit" data-view="intakeCompleted">Review and finalize</button>
+
+		<button type="submit">Review and finalize</button>
 	</form>
-`;
+	`
+};
 
 templates.intakeCompleted = `
 	<h1 class="xxl-voice">Nice job!</h1>
