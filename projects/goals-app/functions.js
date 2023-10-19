@@ -1,4 +1,4 @@
-import {database, $header, $main, $footer, createElementVar} from './global.js';
+import {createElementVar} from './global.js';
 
 ///////*************************** SUNK TASK FORMS
 
@@ -26,7 +26,7 @@ export function renderTaskOption(task) {
 	`;
 }
 
-export function renderTaskOptionList(tasks) { //can i generalize this and use a callback function to call a specific renderOneItem() function?
+export function renderTaskOptionList(tasks) {
 	var taskList = `<ul class="taskOptionList">`;
 
 	tasks.forEach( function(task) {
@@ -50,12 +50,6 @@ export function handleSunkTaskDefinition(form, database) {
 	return true;
 }
 
-export function getTaskList(key, database) {
-	var listString = database.getItem(key);
-
-	return JSON.parse(listString);
-}
-
 export function renderTaskIncrementer(task) {
 	return `
 		<li>
@@ -66,7 +60,7 @@ export function renderTaskIncrementer(task) {
 }
 
 export function renderTaskIncrementerList(selectedTasksArray, database) {
-	const tasks = getTaskList(selectedTasksArray, database);
+	const tasks = getListFromDatabase(selectedTasksArray, database);
 
 	let incrementerList = `<ul class="taskIncrementerList">`;
 
@@ -81,7 +75,7 @@ export function renderTaskIncrementerList(selectedTasksArray, database) {
 
 export function handleSunkTaskEstimation(selectedTaskArrayKey, form, database) {
 	
-	let tasks = getTaskList(selectedTaskArrayKey, database);
+	let tasks = getListFromDatabase(selectedTaskArrayKey, database);
 
 	let tasksWithTimes = [];
 
@@ -100,7 +94,13 @@ export function renderView(location, templateList, module) {
 	location.innerHTML = templateList[module];
 }
 
-///////*************************** USERS
+///////*************************** USERS/DATABASE
+
+export function getListFromDatabase(key, database) {
+	var listString = database.getItem(key);
+
+	return JSON.parse(listString);
+}
 
 export function setCurrentUser(user, database) {
 	database.setItem('currentUser', user.username);
