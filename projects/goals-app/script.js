@@ -15,8 +15,8 @@ import {renderView,
 
 	$header.innerHTML = '';
 	$footer.innerHTML = '';
-	renderView($main, templates, 'defineGoalAreas'); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
-	setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
+	renderView($main, templates, 'createAccount'); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
+	// setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
 	
 	let users = [
 		{username : 'derek', password : '1234'},
