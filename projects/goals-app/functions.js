@@ -88,6 +88,130 @@ export function handleSunkTaskEstimation(selectedTaskArrayKey, form, database) {
 	return true;
 }
 
+
+///////*************************** GOAL FORMS
+
+export const goalData = [
+	{
+		name : "exercise"
+	},
+	{
+		name : "diet"
+	},
+	{
+		name : "relaxation"
+	},
+	{
+		name : "career"
+	},
+	{
+		name : "relationships"
+	}
+];
+
+export function renderGoalOption(goal) {
+	return `
+		<li class="pill">
+			<label for="${goal.name}">${goal.name}</label>
+			<input id="${goal.name}" type="checkbox">
+		</li>
+	`;
+}
+
+export function renderGoalOptionList(goals) {
+	var goalList = `<ul class="goalOptionList">`;
+
+	goals.forEach( function(goal) {
+		goalList += renderGoalOption(goal);
+	}); 
+
+	goalList += `</ul>`;
+
+	return goalList;
+}
+
+export function handleGoalDefinition(form, database) {
+	var checkedItems = form.querySelectorAll(':checked');
+
+	var selectedGoals = [...checkedItems].map( function(item) {
+		return item.id;
+	})
+
+	database.setItem('selectedGoals', JSON.stringify(selectedGoals));
+
+	return true;
+}
+
+export function renderGoalIncrementer(goal) {
+	return `
+		<li>
+			<label for="${goal}">${goal}</label>
+			<input id="${goal}" type="number" min=1 required>
+		</li>
+	`;
+}
+
+export function renderGoalIncrementerList(selectedGoalsArray, database) {
+	const goals = getListFromDatabase(selectedGoalsArray, database);
+
+	let incrementerList = `<ul class="goalIncrementerList">`;
+
+	goals.forEach( function(goal) {
+		incrementerList += renderGoalIncrementer(goal);
+	}); 
+
+	incrementerList += `</ul>`;
+
+	return incrementerList;
+}
+
+export function handleGoalEstimation(selectedGoalArrayKey, form, database) {
+	
+	let goals = getListFromDatabase(selectedGoalArrayKey, database);
+
+	let goalsWithTimes = [];
+
+	goals.forEach( function(goalName) {	
+		goalsWithTimes = [...goalsWithTimes, {goal: goalName, value: form.querySelector(`#${goalName}`).value}];
+	});
+
+	database.setItem('goalsWithTimes', JSON.stringify(goalsWithTimes));
+
+	return true;
+}
+
+///////*************************** PROCESSING FINAL DATA
+
+//get the task values into an array of numbers
+//get the parent array
+// pull out the values
+
+function sumValues(ArrayKey, database) {
+	let taskList = getListFromDatabase(ArrayKey, database);
+
+	let taskValues = [];
+
+	taskList.forEach( function(task) {
+		taskValues = [...taskValues, Number(task.value)];
+	});
+
+	var sum = taskValues.reduce((accumulator, currentValue) => {
+		return accumulator + currentValue
+	},0);
+
+	return sum;
+}
+
+
+export function renderValues(taskArrayKey, goalArrayKey, database) {
+	let taskSum = sumValues(taskArrayKey, database);
+
+	let goalSum = sumValues(goalArrayKey, database);
+
+	console.log(`24 minus ${taskSum} minus ${goalSum} is ${24 - taskSum - goalSum}`);
+
+}
+
 ///////*************************** DOCUMENT STRUCTURE
 
 export function renderView(location, templateList, module) {
