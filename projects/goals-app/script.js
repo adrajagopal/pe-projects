@@ -5,8 +5,7 @@ import {renderView,
 			setCurrentUser,
 			handleAccountCreation, handleSignIn,
 			handleSunkTaskDefinition,handleSunkTaskEstimation,
-			handleGoalDefinition, handleGoalEstimation,
-			renderValues
+			handleGoalDefinition, handleGoalEstimation
 
 			//, add more
 } from './functions.js';
@@ -15,8 +14,8 @@ import {renderView,
 
 	$header.innerHTML = '';
 	$footer.innerHTML = '';
-	renderView($main, templates, 'createAccount'); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
-	// setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
+	renderView($main, templates, 'home'); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
+	setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
 	
 	let users = [
 		{username : 'derek', password : '1234'},
@@ -29,9 +28,11 @@ window.addEventListener('click', function(event) {
 	if (event.target.matches('[data-view]')) {
 		const view = event.target.dataset.view;
 
-		console.log(view);
+		const isDynamic = event.target.dataset.dynamic;
 
-		renderView($main, templates, view);
+		console.log(view, isDynamic);
+
+		renderScreen({template: view, dynamic: isDynamic});
 	}
 });
 
@@ -85,7 +86,6 @@ window.addEventListener('submit', function(event) {
 
 			if (handle === true) {
 				renderView($main, templates, 'intakeCompleted');
-				renderValues('tasksWithTimes', 'goalsWithTimes', database);
 			}
 		}
 
