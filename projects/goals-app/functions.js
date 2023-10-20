@@ -203,13 +203,30 @@ function sumValues(ArrayKey, database) {
 }
 
 
-export function renderValues(taskArrayKey, goalArrayKey, database) {
+export function summarizeResults(taskArrayKey, goalArrayKey, database) {
 	let taskSum = sumValues(taskArrayKey, database);
 
 	let goalSum = sumValues(goalArrayKey, database);
 
-	console.log(`24 minus ${taskSum} minus ${goalSum} is ${24 - taskSum - goalSum}`);
+	let totalTime = taskSum + goalSum;
 
+	let timeDiff = 24 - totalTime;
+
+	let surplusMessage = "";
+
+	if (timeDiff > 0) {
+		surplusMessage = `You have a buffer of ${timeDiff} hours in your day.`
+	} else {
+		surplusMessage = `You're ${timeDiff} hours short in your day.`
+	}
+
+	return {
+		taskSum,
+		goalSum,
+		totalTime,
+		timeDiff,
+		surplusMessage
+	};
 }
 
 ///////*************************** DOCUMENT STRUCTURE
