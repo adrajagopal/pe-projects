@@ -1,3 +1,4 @@
+// import {notes} from './script.js';
 import {
 	taskData, renderTaskOptionList, renderTaskIncrementerList,
 	goalData, renderGoalOptionList, renderGoalIncrementerList,
@@ -8,7 +9,7 @@ import {database} from './global.js';
 export const templates = { };
 
 templates.signIn = `
-	<h1 class="xxl-voice" style="color: firebrick;">SIGN IN PAGE</h1>
+	<h1 class="xxl-voice">Sign in</h1>
 
 	<form data-form="signIn">
 		<label for="username">Enter username</label>
@@ -20,11 +21,11 @@ templates.signIn = `
 		<button type="submit">Sign in</button>
 	</form>
 
-	<p>New here? <button data-view="createAccount">Create an account</button>.</p>
+	<p>New here? <button class="link" data-view="createAccount">Create an account</button>.</p>
 `;
 
 templates.createAccount = `
-	<h1 class="xxl-voice" style="color: dodgerblue;">CREATE ACCOUNT PAGE</h1>
+	<h1 class="xxl-voice">Create an account</h1>
 
 	<form data-form="createAccount">
 		<label for="username">Choose a username</label>
@@ -36,7 +37,7 @@ templates.createAccount = `
 		<button type="submit">Create account</button>
 	</form>
 
-	<p>Existing user? <button data-view="signIn">Sign in</button>.</p>
+	<p>Existing user? <button class="link" data-view="signIn">Sign in</button>.</p>
 `;
 
 templates.newUserWelcome = `
@@ -44,7 +45,7 @@ templates.newUserWelcome = `
 
 	<p>Because we all know there's a huge difference between knowing what you want to get done, and actually getting it done.</p>
 
-	<button class="link" data-view="intakeInstructions">Let's get started</button>
+	<button class="link" data-view="intakeInstructions">Let's get started <span class="arrow">→</span></button>
 
 `;
 
@@ -53,7 +54,7 @@ templates.newUserWelcome = `
 templates.intakeInstructions = `
 	<h1 class="xxl-voice">How this works</h1>
 
-	<button class="link" data-view="defineSunkTasks" data-dynamic>Define my sunk tasks</button>
+	<button class="link" data-view="defineSunkTasks" data-dynamic>Define my sunk tasks <span class="arrow">→</span></button>
 `;
 
 templates.defineSunkTasks = function () {
@@ -61,12 +62,14 @@ templates.defineSunkTasks = function () {
 	<h1 class="xxl-voice">Define your sunk tasks</h1>
 
 	<form data-form="defineSunkTasks">
+
 		${renderTaskOptionList(taskData)}
 
 		<button type="submit">Submit and assign time to sunk tasks</button>
 	</form>
 	`
 };
+
 templates.estimateSunkTasks = function () {
 
 	return `
@@ -90,7 +93,7 @@ templates.goalsInstructions = `
 
 	<p>Pick the ones that are most important to you, and that you want to do every single day.</p>
 
-	<button class="link" data-view="defineGoalAreas" data-dynamic>Define my goal areas</button>
+	<button class="link" data-view="defineGoalAreas" data-dynamic>Define my goal areas <span class="arrow">→</span></button>
 `;
 
 templates.defineGoalAreas = function () {
@@ -123,7 +126,7 @@ templates.estimateGoalAreas = function () {
 templates.intakeCompleted = `
 	<h1 class="xxl-voice">Nice job!</h1>
 
-	<button class="link" data-view="yourDaySummarized" data-dynamic>See how your day shakes out</button>
+	<button class="link" data-view="yourDaySummarized" data-dynamic>See how your day shakes out <span class="arrow">→</span></button>
 `;
 
 //***************** HOME FLOW
@@ -156,7 +159,7 @@ templates.yourDaySummarized = function() {
 	<p>${results.surplusMessage}</p>	
 
 	<button class="link" data-view="makeAdjustments" data-dynamic>Make adjustments</button>
-	<button class="link" data-view="home">Go home</button>
+	<button class="link" data-view="home" data-dynamic>Go home</button>
 `
 };
 
@@ -173,7 +176,7 @@ templates.makeAdjustments = `
 	<form data-form="makeAdjustments">
 
 
-		<button type="submit" data-view="yourDaySummarized">Review your day</button>
+		<button type="submit" data-view="yourDaySummarized">Review your day <span class="arrow">→</span></button>
 	</form>
 `;
 
@@ -198,7 +201,7 @@ templates.newReflection = function() {
 		<label for="note">Reflect on the day</label>
 		<textarea id="note" cols="30" rows="10" required></textarea>
 
-		<button type="button" class="link" data-view="home" data-exit>Discard</button>
+		<button type="button" class="link" data-view="home" data-dynamic data-exit>Discard</button>
 		<button type="submit">Save note</button>
 	</form>
 	`
@@ -210,7 +213,7 @@ templates.reflectionSaved = `
 	<p>Every reflection is an opportunity to make small changes and improve tomorrow.</p>
 
 	<button class="link" data-view="reflectionHistory" data-dynamic>See your prior day reflections</button>
-	<button class="link" data-view="home">Go home</button>
+	<button class="link" data-view="home" data-dynamic>Go home</button>
 `;
 
 templates.reflectionHistory = function () {
