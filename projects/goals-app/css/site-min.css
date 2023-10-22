@@ -112,6 +112,14 @@ p a { /* "all links in paragraphs..." */
 /*Custom properties comment*/
 body {
   /* Color styles */
+  --paper: #F5F4F0;
+  --ink: #1C1B17;
+  --splash-primary: #4747EB;
+  --splash-dark: #0D0D73;
+  --splash-pale: #A3A3F5;
+  --accent: #F53D5C;
+  --accent-2: #F2B90D;
+  --grey: #D9D9D9;
   --primary-font: "Inter";
   --secondary-font: "Inter";
 }
@@ -191,10 +199,14 @@ form, label, input {
 form {
   display: grid;
   gap: 15px;
+  max-width: 600px;
 }
 
-input {
+input, textarea {
   border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font: inherit;
 }
 
 pill {
@@ -239,16 +251,8 @@ p, ul, ol, li, legend, .medium-voice {
   line-height: 1.4;
 }
 
-p, .preheading, .description {
-  color: var(--system-grey--600);
-}
-
-p.preheading {
-  font-size: 0.75rem;
-}
-
 h1, h2, h3, h4 {
-  color: var(--system-grey--900);
+  color: var(--ink);
 }
 
 a, p a {
@@ -317,7 +321,74 @@ section text-content h2 {
 }
 
 /*Modules*/
+button {
+  width: fit-content;
+}
+
+button.link {
+  background-color: transparent;
+  border: none;
+  color: var(--splash-primary);
+  text-decoration: underline;
+  font-size: inherit;
+  cursor: pointer;
+  padding-left: 0;
+}
+button.link span.arrow {
+  font-size: 1.25rem;
+}
+
+form button {
+  min-width: 150px;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  color: var(--paper);
+  font-weight: 600;
+  background-color: var(--splash-primary);
+  border: none;
+  border-radius: 10px;
+}
+
+p button {
+  margin: 0;
+  padding: 0;
+}
+
+.home-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.home-nav button {
+  margin-top: 0;
+  aspect-ratio: 1/1;
+  width: 200px;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  color: var(--paper);
+}
+.home-nav button:first-of-type {
+  background-color: var(--splash-primary);
+}
+.home-nav button:nth-of-type(2) {
+  background-color: var(--accent-2);
+  color: var(--ink);
+}
+.home-nav button:last-of-type {
+  background-color: var(--accent);
+}
+
 /*Sections (in this file)*/
+body {
+  background-color: var(--paper);
+}
+
 h1, form, button {
   margin-top: 20px;
 }
