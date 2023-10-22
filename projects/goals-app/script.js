@@ -14,8 +14,8 @@ import {renderScreen, getListFromDatabase,
 
 	$header.innerHTML = '';
 	$footer.innerHTML = '';
-	renderScreen({template: 'home'}); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
-	setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
+	renderScreen({template: 'createAccount'}); //RESET THIS TO CREATEACCOUNT WHEN DONE TESTING
+	// setCurrentUser({username: 'derek', password: '1234'}, database); //USE THIS ONLY FOR TESTING
 	
 	let users = [
 		{username : 'derek', password : '1234'},
