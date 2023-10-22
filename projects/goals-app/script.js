@@ -32,6 +32,11 @@ import {renderScreen, getListFromDatabase,
 
 window.addEventListener('click', function(event) {
 	if (event.target.matches('[data-view]')) {
+		
+		// if (event.target.matches('data-exit')) {
+		// 	confirm('If you leave this page now, your information will not be saved. Hit "Cancel" to stay on the current page.');
+		// }
+
 		const view = event.target.dataset.view;
 
 		const isDynamic = event.target.dataset.dynamic;
