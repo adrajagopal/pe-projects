@@ -3,17 +3,9 @@ import {
 	goalData, renderGoalOptionList, renderGoalIncrementerList,
 	summarizeResults
  } from './functions.js';
-import {database, $main} from './global.js';
+import {database} from './global.js';
 
 export const templates = { };
-
-export function renderScreen(options) {
-	if (options.dynamic != null) {
-		$main.innerHTML = templates[options.template]();
-	} else {
-		$main.innerHTML = templates[options.template];	
-	}
-}
 
 templates.signIn = `
 	<h1 class="xxl-voice" style="color: firebrick;">SIGN IN PAGE</h1>
@@ -65,7 +57,7 @@ templates.intakeInstructions = `
 `;
 
 templates.defineSunkTasks = function () {
-	return`
+	return `
 	<h1 class="xxl-voice">Define your sunk tasks</h1>
 
 	<form data-form="defineSunkTasks">
@@ -140,7 +132,7 @@ templates.intakeCompleted = `
 templates.home = `
 	<h1 class="xxl-voice" class="xxl-voice">Welcome back, Aditya</h1>
 
-	<button class="link" data-view="newReflection">Add a reflection</button>
+	<button class="link" data-view="newReflection" data-dynamic>Add a reflection</button>
 	<button class="link" data-view="reflectionHistory">See prior reflections</button>
 	<button class="link" data-view="makeAdjustments">View/change tasks/goals and times</button>
 `;
@@ -215,30 +207,32 @@ templates.reflectionSaved = `
 
 templates.reflectionHistory = function () {
 	return `
-	<h1 class="xxl-voice">Your saved reflections</h1>
+		<h1 class="xxl-voice">Your saved reflections</h1>
 
-	<h2>Click to view a day.</h2>
+		<h2>Click to view a day.</h2>
 
-	<ul>
-		<li>day 1</li>
-		<li>day 2</li>
-		<li>day 3</li>
-	</ul>
+		<ul>
+			<li>day 1</li>
+			<li>day 2</li>
+			<li>day 3</li>
+		</ul>
 
-	<button class="link" data-view="home">Go home</button>
+		<button class="link" data-view="home">Go home</button>
 	`
 };
 
-templates.reflectionDetails = `
-	<h1 class="xxl-voice">Your saved reflections</h1>
+templates.reflectionDetails = function () { 
+	return `
+		<h1 class="xxl-voice">Your saved reflections</h1>
 
-	<h2>Click to view a day.</h2>
-	
-	<ul>
-		<li>day 1</li>
-		<li>day 2</li>
-		<li>day 3</li>
-	</ul>
+		<h2>Click to view a day.</h2>
+		
+		<ul>
+			<li>day 1</li>
+			<li>day 2</li>
+			<li>day 3</li>
+		</ul>
 
-	<button class="link" data-view="home">Go home</button>
-`;
+		<button class="link" data-view="home">Go home</button>
+	`
+};

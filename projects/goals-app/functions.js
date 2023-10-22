@@ -1,4 +1,5 @@
-import {createElementVar} from './global.js';
+import {createElementVar, $main} from './global.js';
+import {templates} from './templates.js';
 
 ///////*************************** SUNK TASK FORMS
 
@@ -87,7 +88,6 @@ export function handleSunkTaskEstimation(selectedTaskArrayKey, form, database) {
 
 	return true;
 }
-
 
 ///////*************************** GOAL FORMS
 
@@ -182,10 +182,6 @@ export function handleGoalEstimation(selectedGoalArrayKey, form, database) {
 
 ///////*************************** PROCESSING FINAL DATA
 
-//get the task values into an array of numbers
-//get the parent array
-// pull out the values
-
 function sumValues(ArrayKey, database) {
 	let taskList = getListFromDatabase(ArrayKey, database);
 
@@ -231,8 +227,12 @@ export function summarizeResults(taskArrayKey, goalArrayKey, database) {
 
 ///////*************************** DOCUMENT STRUCTURE
 
-export function renderView(location, templateList, module) {
-	location.innerHTML = templateList[module];
+export function renderScreen(options) {
+	if (options.dynamic != null) {
+		$main.innerHTML = templates[options.template]();
+	} else {
+		$main.innerHTML = templates[options.template];
+	}
 }
 
 ///////*************************** USERS/DATABASE
