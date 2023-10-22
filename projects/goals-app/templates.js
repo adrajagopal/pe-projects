@@ -177,24 +177,30 @@ templates.makeAdjustments = `
 
 //*****************NOTES FLOW
 
-templates.newReflection = `
+templates.newReflection = function() {
+
+	const currentTimeRaw = new Date();
+
+	const currentTimeFormatted = currentTimeRaw.toLocaleString('en-US');
+
+	return `
 	<h1 class="xxl-voice">How did you do today?</h1>
 
-	<h2>Tuesday, October 17th</h2>
+	<h2 class="xl-voice">${currentTimeFormatted}</h2>
 
-	<form data-form="newReflection">
-		<label>Rate your day</label>
-		<input type="range">
+	<form data-form="newReflection" data-timestamp="${currentTimeFormatted}">
 
-		<label>Reflect on the day</label>
-		<textarea name="" id="" cols="30" rows="10"></textarea>
+		<label for="rating">Rate your day</label>
+		<input id="rating" type="range" min=1 max=5 required>
 
-		<button type="button" class="link" data-view="home">Discard</button>
-		<button type="submit" data-view="reflectionSaved">Save note</button>
+		<label for="note">Reflect on the day</label>
+		<textarea id="note" cols="30" rows="10" required></textarea>
+
+		<button type="button" class="link" data-view="home" data-exit>Discard</button>
+		<button type="submit">Save note</button>
 	</form>
-
-
-`;
+	`
+};
 
 templates.reflectionSaved = `
 	<h1 class="xxl-voice">Great reflection!</h1>

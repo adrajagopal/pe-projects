@@ -5,6 +5,7 @@ import {renderScreen, getListFromDatabase,
 			handleAccountCreation, handleSignIn,
 			handleSunkTaskDefinition,handleSunkTaskEstimation,
 			handleGoalDefinition, handleGoalEstimation,
+			handleNewReflection, updateReflectionList
 
 			//, add more
 } from './functions.js';
@@ -20,6 +21,12 @@ import {renderScreen, getListFromDatabase,
 		{username : 'derek', password : '1234'},
 		{username: 'santa', password : 'claus'}
 	];
+
+	let notes = [];
+
+	if (database.getItem('notes') != null && database.getItem('notes') != '') {
+		notes = getListFromDatabase('notes', database);
+	}
 
 //************************** event listeners
 
@@ -84,6 +91,17 @@ window.addEventListener('submit', function(event) {
 			if (handle === true) {
 				renderScreen({template:'intakeCompleted'});
 			}
+		} else if (formTitle === 'newReflection') {
+
+			const timeStamp = event.target.dataset.timestamp;
+
+			const formOutput = handleNewReflection(form); //add function
+
+			const resultsArray = {timeStamp, rating : formOutput.rating, note : formOutput.note};
+
+			updateReflectionList(resultsArray, notes, database);
+
+			renderScreen({template: 'reflectionSaved'});
 		}
 
 		else {

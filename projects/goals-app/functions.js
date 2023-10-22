@@ -225,6 +225,32 @@ export function summarizeResults(taskArrayKey, goalArrayKey, database) {
 	};
 }
 
+///////*************************** REFLECTIONS
+
+export function handleNewReflection(form) {
+	let ratingInput = form.querySelector('#rating');
+	let rating = ratingInput.value
+
+	let noteInput = form.querySelector('#note');
+	let note = noteInput.value;
+
+	return {
+		"rating" : rating,
+		"note" : note
+	};
+
+}
+
+export function updateReflectionList(newNote, notes, database) {
+
+	notes = [...notes, newNote];
+
+	const stringifiedNotes = JSON.stringify(notes);
+
+	database.setItem('notes', stringifiedNotes);
+}
+
+
 ///////*************************** DOCUMENT STRUCTURE
 
 export function renderScreen(options) {
