@@ -1,7 +1,7 @@
 import {
 	taskData, renderTaskOptionList, renderTaskIncrementerList,
 	goalData, renderGoalOptionList, renderGoalIncrementerList,
-	summarizeResults
+	summarizeResults, renderReflectionList
  } from './functions.js';
 import {database} from './global.js';
 
@@ -61,14 +61,12 @@ templates.defineSunkTasks = function () {
 	<h1 class="xxl-voice">Define your sunk tasks</h1>
 
 	<form data-form="defineSunkTasks">
-
 		${renderTaskOptionList(taskData)}
 
 		<button type="submit">Submit and assign time to sunk tasks</button>
 	</form>
 	`
 };
-
 templates.estimateSunkTasks = function () {
 
 	return `
@@ -217,28 +215,8 @@ templates.reflectionHistory = function () {
 
 		<h2>Click to view a day.</h2>
 
-		<ul>
-			<li>day 1</li>
-			<li>day 2</li>
-			<li>day 3</li>
-		</ul>
+		${renderReflectionList('notes', database)}
 
-		<button class="link" data-view="home">Go home</button>
-	`
-};
-
-templates.reflectionDetails = function () { 
-	return `
-		<h1 class="xxl-voice">Your saved reflections</h1>
-
-		<h2>Click to view a day.</h2>
-		
-		<ul>
-			<li>day 1</li>
-			<li>day 2</li>
-			<li>day 3</li>
-		</ul>
-
-		<button class="link" data-view="home">Go home</button>
+		<button class="link" data-view="home" data-dynamic>Go home</button>
 	`
 };
