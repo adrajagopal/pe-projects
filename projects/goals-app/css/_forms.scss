@@ -6,11 +6,15 @@ form, label, input {
 form {
 	display: grid;
 	gap: 15px;
+	max-width: 600px;
 }
 
 
-input {
+input, textarea {
 	border: 1px solid black;
+	border-radius: 5px;
+	padding: 8px 16px;
+	font: inherit;
 }
 
 pill {
