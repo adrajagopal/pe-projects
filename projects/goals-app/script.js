@@ -1,7 +1,6 @@
 //****************** IMPORTS
 import {$header, $footer, createElementVar, database} from './global.js';
-import {renderScreen, getListFromDatabase,
-			setCurrentUser,
+import {renderScreen, initializeReflectionList,
 			handleAccountCreation, handleSignIn,
 			handleSunkTaskDefinition,handleSunkTaskEstimation,
 			handleGoalDefinition, handleGoalEstimation,
@@ -22,11 +21,9 @@ import {renderScreen, getListFromDatabase,
 		{username: 'santa', password : 'claus'}
 	];
 
-	let notes = [];
+	export let notes = [];
 
-	if (database.getItem('notes') != null && database.getItem('notes') != '') {
-		notes = getListFromDatabase('notes', database);
-	}
+	initializeReflectionList(notes, 'notes', database);
 
 //************************** event listeners
 
