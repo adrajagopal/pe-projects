@@ -127,13 +127,17 @@ templates.intakeCompleted = `
 `;
 
 //***************** HOME FLOW
-templates.home = `
-	<h1 class="xxl-voice" class="xxl-voice">Welcome back, Aditya</h1>
+templates.home = function() {
+	return `
+		<h1 class="xxl-voice" class="xxl-voice">Welcome back, ${database.getItem('currentUser')}</h1>
 
-	<button class="link" data-view="newReflection" data-dynamic>Add a reflection</button>
-	<button class="link" data-view="reflectionHistory">See prior reflections</button>
-	<button class="link" data-view="makeAdjustments">View/change tasks/goals and times</button>
-`;
+		<nav class="home-nav">
+			<button class="nav link" data-view="newReflection" data-dynamic>Add a reflection</button>
+			<button class="nav link" data-view="reflectionHistory" data-dynamic>See prior reflections</button>
+			<button class="nav link" data-view="makeAdjustments">View/change tasks/goals and times</button>
+		</nav>
+	`
+};
 
 
 templates.yourDaySummarized = function() {
