@@ -242,13 +242,56 @@ export function handleNewReflection(form) {
 }
 
 export function updateReflectionList(newNote, notes, database) {
+	
+	initializeReflectionList(notes, 'notes', database);
 
-	notes = [...notes, newNote];
+	notes.push(newNote);
 
 	const stringifiedNotes = JSON.stringify(notes);
 
 	database.setItem('notes', stringifiedNotes);
 }
+
+export function initializeReflectionList(array, arrayKey, database) {
+
+	if (database.getItem(arrayKey) != null && database.getItem(arrayKey) != '') {
+		array = getListFromDatabase(arrayKey, database);
+	} else {
+		array = [];
+	}
+
+}
+
+function renderReflectionCard(reflection) {
+	return `
+		<li class="reflection-card">
+			<details>
+				<summary class="medium-voice">
+					${reflection.timeStamp}
+					<div class="icon-container"><?php include(getFile("images/$faqIcon.svg")); ?></div>
+				</summary>
+				<p class="medium-voice">Your rating: ${reflection.rating}/5</p>
+				<p class="medium-voice">Your reflection:</p>
+				<p class="medium-voice">${reflection.note}</p>
+			</details>
+		</li>
+	`;
+}
+
+export function renderReflectionList(arrayKey, database) {
+	let reflectionList = getListFromDatabase(arrayKey, database)
+
+	let view = `<ul class=reflectionList>`;
+
+	reflectionList.forEach( function(reflection) {
+		view += renderReflectionCard(reflection)
+	});
+
+	view += `</ul>`;
+
+	return view;
+}
+
 
 
 ///////*************************** DOCUMENT STRUCTURE
