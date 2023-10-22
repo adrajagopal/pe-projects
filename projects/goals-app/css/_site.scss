@@ -31,6 +31,10 @@ section * {
 	// border: 1px solid black;
 }
 
+body {
+	background-color: var(--paper);
+}
+
 h1, form, button {
 	margin-top: 20px;
 }
