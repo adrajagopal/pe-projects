@@ -9,16 +9,8 @@ p, ul, ol, li, legend, .medium-voice {
 	line-height: 1.4;
 }
 
-p, .preheading, .description {
-	color: var(--system-grey--600);
-}
-
-p.preheading {
-	font-size: 0.75rem
-}
-
 h1, h2, h3, h4 {
-	color: var(--system-grey--900);
+	color: var(--ink);
 }
 
 a, p a {
