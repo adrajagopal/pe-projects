@@ -1,0 +1,95 @@
+playground {
+	display: block;
+
+	hero {
+		display: block;
+		margin-top: 20px;
+
+
+		inner-column {
+			display: flex;
+			gap: 20px;
+			align-items: center;
+		}
+
+		h2 {
+			margin-top: 0px;
+			color: grey;
+		}
+	}
+
+	about, hook, latest {
+		display: block;
+		margin-top: 20px;
+	}
+
+	aboutMeOutlet {
+		display: block;
+	}
+
+	.portrait-placeholder {
+		width:200px;
+		aspect-ratio: 1/1;
+		background-color: salmon;
+	}
+
+
+	.toggler {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+		gap: 5px;
+
+		button {
+			min-width: 215px;
+			background-color: transparent;
+			border-radius: 25px;
+			font-weight: 400;
+			text-wrap: nowrap;
+		}
+	}
+
+
+	latest {
+
+		.article-list {
+			display: flex;
+			gap: 20px;
+		}
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
