@@ -24,6 +24,7 @@
 		</text-content>
 
 		<p class="large-voice">Which version of me do you want?</p>
+		<p class="medium-voice">I contain multitudes...or something</p>
 		<div class="toggler">
 			<button>aggressively confident</button>
 			<button>nervous perfectionist</button>
@@ -55,6 +56,8 @@
 		</text-content>
 
 
+		<div class="formResult"></div>
+
 		<form style="border: none;">
 			
 			<label for="">play with this</label>
@@ -64,6 +67,11 @@
 			<label for="">play with this</label>
 			<input type="range">			
 		</form>
+
+		<text-content>
+			<h3 class="large-voice">Check out more of this</h3>
+			<button>Go do it</button>
+		</text-content>
 
 	</inner-column>
 </hook>
