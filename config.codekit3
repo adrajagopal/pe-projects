@@ -4317,6 +4317,14 @@
       "oAP" : "\/projects\/style-guide\/index.php",
       "oF" : 0
     },
+    "\/scratchpad\/new-site\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/new-site\/index.php",
+      "oF" : 0
+    },
     "\/scratchpad\/test-encoding-json.php" : {
       "cB" : 0,
       "ft" : 8192,
