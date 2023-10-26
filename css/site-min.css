@@ -1832,10 +1832,11 @@ playground hero h2 {
 }
 playground about, playground hook, playground latest {
   display: block;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 playground aboutMeOutlet {
   display: block;
+  margin-top: 20px;
 }
 playground .portrait-placeholder {
   width: 200px;
@@ -1843,6 +1844,7 @@ playground .portrait-placeholder {
   background-color: salmon;
 }
 playground .toggler {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
   gap: 5px;
@@ -1853,6 +1855,11 @@ playground .toggler button {
   border-radius: 25px;
   font-weight: 400;
   text-wrap: nowrap;
+}
+playground hook .formResult {
+  width: 75%;
+  height: 300px;
+  background-color: hsla(5, 100%, 80%, 0.3);
 }
 playground latest .article-list {
   display: flex;
