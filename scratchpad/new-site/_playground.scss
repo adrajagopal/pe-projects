@@ -1,6 +1,23 @@
 playground {
 	display: block;
 
+	@media (min-width: 1200px) {
+
+		main {
+			display: grid;
+			grid-template-areas: "left right";
+			grid-template-columns: 1fr 1fr;
+
+			hero {
+				grid-area: left;
+			}
+
+			content {
+				grid-area: right;
+			}
+		}
+	}
+
 	hero {
 		display: block;
 		margin-top: 20px;
@@ -18,8 +35,11 @@ playground {
 		}
 	}
 
-	about, hook, latest {
+	content, about, hook, latest {
 		display: block;
+	}
+
+	content {
 		margin-top: 50px;
 	}
 
