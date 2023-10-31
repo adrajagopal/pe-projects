@@ -16,89 +16,93 @@
 </hero>
 <!--  -->
 
-<about>
-	<inner-column>
-	
-		<text-content>
-			<h2 class="xl-voice">About me</h1>
-		</text-content>
+<content>
 
-		<p class="large-voice">Which version of me do you want?</p>
-		<p class="medium-voice">I contain multitudes...or something</p>
-		<div class="toggler">
-			<button>aggressively confident</button>
-			<button>nervous perfectionist</button>
-			<button>somewhere in the middle</button>
-		</div>
+	<about>
+		<inner-column>
+		
+			<text-content>
+				<h2 class="xl-voice">About me</h1>
+			</text-content>
 
-		<aboutMeOutlet><!--inject JS here-->
-			
-			<p>
-				I'm Ad, a frontend web developer. I'm a very organized person, so I like to lean into design system and reusable components.
-			</p>
+			<p class="large-voice">Which version of me do you want?</p>
+			<p class="medium-voice">I contain multitudes...or something</p>
+			<div class="toggler">
+				<button>aggressively confident</button>
+				<button>nervous perfectionist</button>
+				<button>somewhere in the middle</button>
+			</div>
 
-			<p>
-				I'm looking for a highly collaborative role that values developer input during the design process. I get excited about products that help people live better -- making healthcare easier for patients, helping people get outside, and music.
-			</p>
+			<aboutMeOutlet><!--inject JS here-->
+				
+				<p>
+					I'm Ad, a frontend web developer. I'm a very organized person, so I like to lean into design system and reusable components.
+				</p>
 
-		</aboutMeOutlet>
+				<p>
+					I'm looking for a highly collaborative role that values developer input during the design process. I get excited about products that help people live better -- making healthcare easier for patients, helping people get outside, and music.
+				</p>
 
-	</inner-column>
-</about>
-<!--  -->
+			</aboutMeOutlet>
 
-
-<hook>
-	<inner-column>
-
-		<text-content>
-			<h2 class="xl-voice">Here's some interactive thing you can play with</h1>
-		</text-content>
+		</inner-column>
+	</about>
+	<!--  -->
 
 
-		<div class="formResult"></div>
+	<hook>
+		<inner-column>
 
-		<form style="border: none;">
-			
-			<label for="">play with this</label>
-			<input type="range">			
-			<label for="">play with this</label>
-			<input type="range">			
-			<label for="">play with this</label>
-			<input type="range">			
-		</form>
+			<text-content>
+				<h2 class="xl-voice">Here's some interactive thing you can play with</h1>
+			</text-content>
 
-		<text-content>
-			<h3 class="large-voice">Check out more of this</h3>
-			<button>Go do it</button>
-		</text-content>
 
-	</inner-column>
-</hook>
+			<div class="formResult"></div>
 
-<latest>
-	<inner-column>
+			<form style="border: none;">
+				
+				<label for="">play with this</label>
+				<input type="range">			
+				<label for="">play with this</label>
+				<input type="range">			
+				<label for="">play with this</label>
+				<input type="range">			
+			</form>
 
-		<text-content>
-			<h2 class="xl-voice">Here's the latest of my work</h1>
-		</text-content>
-	
-		<ul class="article-list">
-			<li>
-				<div class="portrait-placeholder"></div>
-			</li>
-			<li>
-				<div class="portrait-placeholder"></div>
-			</li>
-			<li>
-				<div class="portrait-placeholder"></div>
-			</li>
-		</ul>
+			<text-content>
+				<h3 class="large-voice">Check out more of this</h3>
+				<button>Go do it</button>
+			</text-content>
 
-		<p><a href="#">See all my work</a></p>
+		</inner-column>
+	</hook>
 
-	</inner-column>
-</latest>
+	<latest>
+		<inner-column>
+
+			<text-content>
+				<h2 class="xl-voice">Here's the latest of my work</h1>
+			</text-content>
+		
+			<ul class="article-list">
+				<li>
+					<div class="portrait-placeholder"></div>
+				</li>
+				<li>
+					<div class="portrait-placeholder"></div>
+				</li>
+				<li>
+					<div class="portrait-placeholder"></div>
+				</li>
+			</ul>
+
+			<p><a href="#">See all my work</a></p>
+
+		</inner-column>
+	</latest>
+
+</content>
 <!--  -->
 
 
