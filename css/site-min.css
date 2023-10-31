@@ -1817,6 +1817,19 @@ text-content h2 {
 playground {
   display: block;
 }
+@media (min-width: 1200px) {
+  playground main {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 1fr 1fr;
+  }
+  playground main hero {
+    grid-area: left;
+  }
+  playground main content {
+    grid-area: right;
+  }
+}
 playground hero {
   display: block;
   margin-top: 20px;
@@ -1830,8 +1843,10 @@ playground hero h2 {
   margin-top: 0px;
   color: grey;
 }
-playground about, playground hook, playground latest {
+playground content, playground about, playground hook, playground latest {
   display: block;
+}
+playground content {
   margin-top: 50px;
 }
 playground aboutMeOutlet {
@@ -1862,8 +1877,12 @@ playground hook .formResult {
   background-color: hsla(5, 100%, 80%, 0.3);
 }
 playground latest .article-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+}
+playground latest .article-list .portrait-placeholder {
+  width: 100%;
 }
 
 /*Sections (in this file)*/
