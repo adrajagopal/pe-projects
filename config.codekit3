@@ -2231,6 +2231,58 @@
       "oAP" : "\/new-site\/icons.php",
       "oF" : 0
     },
+    "\/new-site\/images\/ad-portrait-anxious.jpg" : {
+      "ft" : 16384,
+      "iS" : 107686,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/images\/ad-portrait-anxious.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/new-site\/images\/ad-portrait-blonde.jpg" : {
+      "ft" : 16384,
+      "iS" : 246377,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/images\/ad-portrait-blonde.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/new-site\/images\/ad-portrait.png" : {
+      "ft" : 32768,
+      "iS" : 211584,
+      "oA" : 0,
+      "oAP" : "\/new-site\/images\/ad-portrait.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/new-site\/images\/ad-tech-portrait.jpg" : {
+      "ft" : 16384,
+      "iS" : 172585,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/images\/ad-tech-portrait.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/new-site\/images\/name-logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -2247,6 +2299,52 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/index.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/biography-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/biography-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/biography-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/biography-card\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/biography-controls\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/biography-controls\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/biography-controls\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/biography-controls\/template.php",
       "oF" : 0
     },
     "\/new-site\/site-footer.php" : {

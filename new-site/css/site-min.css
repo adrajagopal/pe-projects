@@ -113,7 +113,7 @@ p a { /* "all links in paragraphs..." */
 body {
   --paper: white;
   --ink-grey: grey;
-  --ink-dark: black; /* dark maroon */
+  --ink: black; /* dark maroon */
   --primary-font: "Inter";
   --secondary-font: "Inter";
 }
@@ -457,7 +457,7 @@ button {
   color: var(--ink);
   border: 1px solid var(--ink);
   min-width: 150px;
-  border-radius: 0.5rem;
+  border-radius: 25px;
   padding: 0.5rem 1rem;
   font-family: var(--secondary-font);
   font-size: 1rem;
@@ -465,6 +465,7 @@ button {
   /*	margin-top: 20px;*/
   /*	margin-bottom: 5px;*/
   justify-self: start;
+  text-wrap: nowrap;
 }
 
 button:active {
@@ -601,6 +602,51 @@ input[type=range]:focus::-moz-range-thumb {
 
 .socials a {
   padding: 20px;
+}
+
+biography-card {
+  max-width: 80%;
+  border: 2px solid dodgerblue;
+  padding: 20px;
+  display: block;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "portrait traits" "biography biography";
+  grid-template-columns: 2fr 1fr;
+}
+biography-card picture {
+  width: 100%;
+  grid-area: portrait;
+}
+biography-card .bio-attributes {
+  grid-area: traits;
+}
+biography-card text-content {
+  grid-area: biography;
+}
+
+biography-controls {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  container-type: inline-size;
+}
+biography-controls p {
+  margin: 0;
+}
+biography-controls .button-container {
+  display: flex;
+}
+@container (max-width: 700px) {
+  biography-controls .button-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+biography-controls .button-container button {
+  min-width: 200px;
+  max-width: 250px;
 }
 
 /*Sections (in this file)*/
