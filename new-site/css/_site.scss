@@ -1,0 +1,49 @@
+/*Presets*/
+
+@import "_meyer-reset";
+
+/*Setup*/
+@import "_setup";
+
+/*Settings*/
+@import "_custom-properties";
+
+/*Structure*/
+@import "_structure";
+@import "_list-styles";
+
+/*Typography*/
+@import "_typography";
+
+/*Components*/
+@import "_forms";
+@import "_range-slider";
+@import "../components/external-link/_style";
+
+/*Modules*/
+@import "_modules";
+
+/*Sections (in this file)*/
+
+.page-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header.site-header {
+	border-bottom: 1px solid black;
+}
+
+footer.site-footer {
+	border-top: 1px solid black;
+}
+
+/*icon styling*/
+
+[class^="icon-"], [class*=" icon-"] {
+    height: 32px;
+    width: 32px;
+    display: inline-block; 
+    fill: currentColor; 
+}

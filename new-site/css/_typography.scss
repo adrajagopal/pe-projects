@@ -1,0 +1,58 @@
+em {
+	font-style: italic;
+	font-weight: 400;
+}
+
+strong {
+	font-weight: 700;
+}
+
+p, ul, ol, li, legend, .medium-voice {
+	font-family: var(--secondary-font);
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--ink-dark);
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+	color: var(--ink);
+}
+
+a, p a {
+	color: var(--ink);
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	a:not(.site-nav a, .site-footer a), p a {
+		color: var(--ink);
+		text-decoration: underline;
+	}	
+}
+
+/*margin & padding*/
+
+h1, h2, h3 {
+	margin-top: 1.25rem;
+}
+
+h1 + h2, h1 + p, h2 + h3 {
+	margin-top: 2rem;
+}
+
+h2 + p {
+	margin-top: 1.5rem;
+}
+
+h3 + p {
+	margin-top: 1rem;
+}
+
+p + p {
+	margin-top: 1rem;
+}
+
+img + p {
+	margin-top: 0.75rem;
+}

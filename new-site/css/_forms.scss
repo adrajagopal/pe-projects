@@ -1,0 +1,233 @@
+/* Test rules */
+
+	/*label, label > * {border: 1px solid red}*/
+
+/*Form structure */
+
+form {
+	padding: 10px;
+
+	@media(max-width: 400px) {
+		padding: 5px;
+	}
+	border: 2px solid var(--ink);
+	border-radius: 0.5rem;
+	width: 100%;
+/*	min-height: 300px;*/
+	display: grid;
+	gap: 1.5rem;
+	justify-items: start;
+	font-family: var(--secondary-font);
+
+	grid-template-columns: 1fr 1fr;
+	@media (max-width: 600px) {
+		grid-template-columns: 1fr;
+	}
+}
+
+output {
+	display: block;
+}
+
+form :is(h1, h2, h3, p, span) {
+	margin-top: 0px;
+}
+
+/* Input fields */
+
+label {
+	display: block;
+}
+
+textarea {
+	display: block;
+	border: none;
+	resize: vertical;
+
+}
+
+label.field {
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+form :is(p, span, label) {
+	font-family: var(--secondary-font);
+	font-size: 1rem;
+	color: var(--ink);
+}
+
+form :is(.prepend, .append) {
+	background-color: lightgrey;
+	color: black;
+	height: 100%;
+}
+
+/*Input styling*/
+
+input-container {
+	overflow: hidden;
+}
+
+input-container > * {
+	padding: 0.5rem 1rem;
+	background-color: transparent;
+
+	@media(max-width: 400px) {
+		padding: 0.25rem 0.5rem;
+	}
+}
+
+	/*Text inputs */
+
+.text input, select, .text textarea {
+	font-family: var(--secondary-font);
+	color: var(--ink);
+	font-size: 1rem;
+	width: 100%;
+}
+
+select {
+	padding: 0.5rem 1rem;
+	background-color: transparent;
+}
+
+input-container, select {
+	border-radius: 0.5rem;
+	border: 1px solid var(--ink);
+	display: block;
+	display: flex;
+	align-items: center;
+}
+
+input-container:focus-within, 
+select:focus-within {
+	background-color: var(--paper);
+	outline: 1px solid var(--ink);
+}
+
+input:focus, textarea:focus {
+	outline: 0;
+}
+
+input[type="checkbox"]:focus, input[type="radio"]:focus {
+	outline: 1px solid var(--ink);
+}
+
+:is(.radio, .checkbox, .checkbox-pills, .slider) input-container {
+	border: none;
+}
+
+:is(.checkbox, .radio) input-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+radio-container, checkbox-container {
+	display: block;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.checkbox-pills input-container {
+	display: flex;
+	gap: clamp(1rem, 1rem, 50px);
+}
+
+.checkbox-pills label { /* aka the actual button */
+	border: 2px solid var(--ink);
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	font-family: var(--secondary-font);
+}
+
+.checkbox-pills label:focus-within {
+	background-color: var(--ink);
+	color: var(--paper);
+}
+
+.slider input-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.slider input {
+	width: 100%;
+}
+
+.submit-container {
+	margin-top: 2rem;
+	border-top: 2px solid var(--paper);
+}
+
+.button-container {
+	display: grid;
+	gap: 1rem;
+}
+
+.actions {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+
+	checkbox-container {
+		padding-left: 0;
+	}
+}
+
+button {
+	background-color: var(--paper);
+	color: var(--ink);
+	border: 1px solid var(--ink);
+	min-width: 150px;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	font-family: var(--secondary-font);
+	font-size: 1rem;
+	font-weight: 600;
+/*	margin-top: 20px;*/
+/*	margin-bottom: 5px;*/
+	justify-self: start;
+}
+
+button:active {
+	background-color: var(--ink);
+	color: var(--paper);
+}
+
+/*utility classes*/
+
+.span-one {
+	grid-column: span 1;
+}
+
+.span-two {
+	grid-column: span 2;
+	@media (max-width:600px) {
+		grid-column: span 1;
+	}
+}
+
+.warning {
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+	padding-left: 0.5rem;
+	border-left: 2px solid firebrick;
+	color: firebrick;
+	font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	.warning {
+		color: hotpink;
+		border-left: 2px solid hotpink;
+	}
+}
