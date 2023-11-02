@@ -1,0 +1,54 @@
+biography-card {
+	max-width: 80%;
+	border: 2px solid dodgerblue;
+	padding: 20px;
+
+	display: block;
+	display: grid;
+	gap: 20px;
+
+	grid-template-areas:
+		"portrait traits"
+		"biography biography"
+	;
+
+	grid-template-columns: 2fr 1fr;
+
+	picture {
+		width: 100%;
+		grid-area: portrait;
+	}
+
+	.bio-attributes {
+		grid-area: traits;
+	}
+
+	text-content {
+		grid-area: biography;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
