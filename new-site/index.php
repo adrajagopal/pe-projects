@@ -9,23 +9,45 @@
 
 <?php include("header.php");?>
 
-<ul class="modules">
-	<?php 
+<div class="page-container">
+	<div class="left-side">
 
-		$json = file_get_contents("data/pages/$page.json");
+		<header class="site-header" aria-label="Site navigation menu">
+			<nav class="site-nav">
+				<ul class="site-nav-items">
+					<li><a href="home">home</a></li>
+					<li><a href="work">work</a></li>
+					<li><a href="resume">resume</a></li>
+					<li><a href="get-in-touch">get in touch</a></li>
+				</ul>
+			</nav>
+		</header>
 
-		$pageData = json_decode($json, true);
+		<div class="hero">
+			<text-content>
+				<h1 class="xxl-voice">Hi, I'm Ad.</h1>
+				<h2 class="xl-voice">I'm a frontend developer.</h2>
+			</text-content>
+		</div>
 
-		foreach ($pageData['sections'] as $section) { 
-			$columnWidth = $section['width'] ?? ""; ?>
-			
-			<section class="<?=$section['name']?>">
-				<inner-column class="<?=$columnWidth?>">
-					<?php include("modules/$section[name]/template.php");?>
-				</inner-column>
-			</section>
-		<?php } ?>
+		<div class="controls">
+			<h3 class="large-voice">Controls:</h3>
+			<button>click</button>
+			<button>click</button>
+			<button>click</button>
+		</div>
 
-</ul>
+	</div>
 
+	<div class="right-side">
+
+		<main class="page-wrapper">
+		</main>
+
+	</div>
+	
 <?php include("site-footer.php");?>
+
+</div>
+
+

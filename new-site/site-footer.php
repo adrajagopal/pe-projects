@@ -1,5 +1,3 @@
-	</main>
-
 <!-- Site footer-------------------------------------- -->
 	
 	<footer class="site-footer" aria-label="Site footer">
