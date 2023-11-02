@@ -9,7 +9,7 @@
 
 <?php include("header.php");?>
 
-<div class="page-container">
+<div class="page-wrapper">
 	<div class="left-side">
 
 		<header class="site-header" aria-label="Site navigation menu">
@@ -31,17 +31,17 @@
 		</div>
 
 		<div class="controls">
-			<h3 class="large-voice">Controls:</h3>
-			<button>click</button>
-			<button>click</button>
-			<button>click</button>
+			<?php include(getFile('modules/biography-controls/template.php'));?>
 		</div>
 
 	</div>
 
 	<div class="right-side">
 
-		<main class="page-wrapper">
+		<main>
+
+			<?php include(getFile('modules/biography-card/template.php'));?>
+
 		</main>
 
 	</div>
