@@ -1955,6 +1955,14 @@
       "oAP" : "\/new-site\/config.php",
       "oF" : 0
     },
+    "\/new-site\/contact\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/contact\/index.php",
+      "oF" : 0
+    },
     "\/new-site\/css\/_accessibility.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2211,6 +2219,14 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/new-site\/data\/bios-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/data\/pages\/home.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/pages\/home-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
