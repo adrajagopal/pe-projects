@@ -1,6 +1,36 @@
 .page-wrapper {
-	flex-grow:1;
+	display: grid;
 
+	@media (min-width: 1000px) {
+		grid-template-areas:
+			"header header"
+			"left right"
+			"footer footer"
+		;
+
+		grid-template-columns: 1fr 2fr;
+
+		left-side {
+			grid-area: left;
+			margin-left: auto;
+			max-width: 400px;
+		}
+
+		right-side {
+			grid-area: right;
+			margin-right: auto;
+			max-width: 800px;
+		}
+
+		.site-header {
+			grid-area: header;
+		}
+
+		.site-footer {
+			grid-area: footer;
+		}
+
+	}
 	
 }
 
@@ -8,7 +38,7 @@ inner-column {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1100px;
+	max-width: 1200px;
 	padding: 0 1.25rem 0;
 
 	&.skinny {
