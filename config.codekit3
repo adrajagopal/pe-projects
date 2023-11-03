@@ -2207,6 +2207,14 @@
       "oF" : 1,
       "pg" : 0
     },
+    "\/new-site\/data\/bios.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/bios-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/new-site\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2257,6 +2265,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/new-site\/images\/ad-portrait-tech.jpg" : {
+      "ft" : 16384,
+      "iS" : 172585,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/images\/ad-portrait-tech.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/new-site\/images\/ad-portrait.png" : {
       "ft" : 32768,
       "iS" : 211584,
@@ -2268,19 +2289,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/new-site\/images\/ad-tech-portrait.jpg" : {
-      "ft" : 16384,
-      "iS" : 172585,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/images\/ad-tech-portrait.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
       "rq" : 75
     },
     "\/new-site\/images\/name-logo.svg" : {
