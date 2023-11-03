@@ -9,34 +9,26 @@
 
 <?php include("header.php");?>
 
-<div class="page-wrapper">
-	<div class="left-side">
+<!-- the <div class="page-wrapper"> OPENING TAG is in the header.php file -- above the header -->
 
-		<header class="site-header" aria-label="Site navigation menu">
-			<nav class="site-nav">
-				<ul class="site-nav-items">
-					<li><a href="home">home</a></li>
-					<li><a href="work">work</a></li>
-					<li><a href="resume">resume</a></li>
-					<li><a href="get-in-touch">get in touch</a></li>
-				</ul>
-			</nav>
-		</header>
+	<left-side>
 
 		<div class="hero">
-			<text-content>
-				<h1 class="xxl-voice">Hi, I'm Ad.</h1>
-				<h2 class="xl-voice">I'm a frontend developer.</h2>
-			</text-content>
+			<inner-column>
+				<text-content>
+					<h1 class="xxl-voice">Hi, I'm Ad.</h1>
+					<h2 class="xl-voice">I'm a frontend developer.</h2>
+				</text-content>
+			</inner-column>
 		</div>
 
 		<div class="controls">
 			<?php include(getFile('modules/biography-controls/template.php'));?>
 		</div>
 
-	</div>
+	</left-side>
 
-	<div class="right-side">
+	<right-side>
 
 		<main>
 
@@ -44,10 +36,11 @@
 
 		</main>
 
-	</div>
-	
-<?php include("site-footer.php");?>
+	</right-side>
 
-</div>
+	<?php include("site-footer.php");?>
+
+
+</div> <!-- end .page-wrapper -->
 
 

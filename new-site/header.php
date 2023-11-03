@@ -43,3 +43,18 @@ Inter -->
 <body>
 	
 <?php include('icons.php');?>
+
+<div class="page-wrapper">
+
+<header class="site-header" aria-label="Site navigation menu">
+	<inner-column>
+		<nav class="site-nav">
+			<ul class="site-nav-items">
+				<li><a href="home">home</a></li>
+				<li><a href="work">work</a></li>
+				<li><a href="resume">resume</a></li>
+				<li><a href="get-in-touch">get in touch</a></li>
+			</ul>
+		</nav>
+	</inner-column>
+</header>
