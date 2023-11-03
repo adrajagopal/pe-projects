@@ -1,0 +1,29 @@
+[
+	{
+		"version" : "normal",
+		"portrait" : "ad-portrait-blonde.jpg",
+		"type" : "Normal",
+		"rarity" : "Extremely common",
+		"Interests" : "design systems, health tech, the outdoors, music, dogs",
+		"bioParagraph" : "This version of Ad appears most of the time. He’s a hyper-organized, analytics-loving, former product manager with an obsessive attention to detail. He takes a lot of pride in bringing things to life, which is why he’d rather be coding than writing product briefs.",
+		"bioClosingSentence" : "He loves feeling like part of a team and making your days (and meetings) a little more joyful."
+	},
+	{
+		"version" : "aggressive",
+		"portrait" : "ad-portrait-tech.jpg",
+		"type" : "Aggressive confidence",
+		"rarity" : "Extremely rare",
+		"Interests" : "Ranting about trivial things",
+		"bioParagraph" : "This version of Ad rarely, if ever, appears in the wild. If you do happen to encounter an aggressively confident Ad, you’re likely talking about something trivial, like how annoying it is when streaming services replay ads when you rewind too far, or how big food has co-opted terms like “plant-based” in a way that’s overly broad and confusing.",
+		"bioClosingSentence" : "He still does great work. You can check it out here:"
+	},
+	{
+		"version" : "anxious",
+		"portrait" : "ad-portrait-anxious.jpg",
+		"type" : "Anxious perfectionism",
+		"rarity" : "Somewhat rare",
+		"Interests" : "Worrying, pacing, standing while eating",
+		"bioParagraph" : "This version of Ad pops up every once in a while. He means well, but just gets a little stressed and wants to do a good job. You might not even notice that he’s there. He’s a sneaky creature.",
+		"bioClosingSentence" : "The upside? All that attention to detail, careful debugging, and thorough testing? That’s this guy."
+	}
+]
