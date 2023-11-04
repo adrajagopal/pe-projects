@@ -2,4 +2,12 @@
 	padding: 12px 0px;
 	display: flex;
 	gap: 1.25rem;
+
+	a {
+		text-decoration: none;
+	}
+
+	.active {
+		font-weight: 700;
+	}
 }
