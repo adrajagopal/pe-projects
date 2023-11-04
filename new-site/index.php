@@ -12,20 +12,20 @@
 <!-- the <div class="page-wrapper"> OPENING TAG is in the header.php file -- above the header -->
 
 	<left-side>
+		<div class="left-content">
 
-		<div class="hero">
-			<inner-column>
-				<text-content>
-					<h1 class="xxl-voice">Hi, I'm Ad.</h1>
-					<h2 class="xl-voice">I'm a frontend developer.</h2>
-				</text-content>
-			</inner-column>
+			<section class="hero">
+				<inner-column>
+					<?php include(getFile('modules/hero/template.php'));?>
+				</inner-column>
+			</section>
+
+			<section class="controls">
+				<inner-column>
+					<?php include(getFile('modules/biography-controls/template.php'));?>
+				</inner-column>
+			</section>
 		</div>
-
-		<div class="controls">
-			<?php include(getFile('modules/biography-controls/template.php'));?>
-		</div>
-
 	</left-side>
 
 	<right-side>
