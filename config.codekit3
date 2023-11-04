@@ -2223,14 +2223,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/data\/pages\/home.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/new-site\/data\/pages\/home-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/new-site\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2369,6 +2361,29 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/modules\/biography-controls\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/hero\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/hero\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/hero\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/hero\/template.php",
       "oF" : 0
     },
     "\/new-site\/site-footer.php" : {
