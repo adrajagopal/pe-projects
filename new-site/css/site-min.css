@@ -180,7 +180,6 @@ inner-column.skinny {
 
 left-side {
   display: block;
-  background-color: hsl(20, 80%, 50%);
 }
 left-side .left-content {
   padding-top: calc(2 * var(--gap));
@@ -188,19 +187,18 @@ left-side .left-content {
 
 right-side {
   display: block;
-  background-color: hsl(20, 80%, 90%);
 }
 
 .left-content, .right-content {
   display: flex;
   flex-direction: column;
-  gap: var(--gap);
+  gap: calc(1.5 * var(--gap));
 }
 
 @media (min-width: 1000px) {
   body {
     display: grid;
-    grid-template-columns: auto repeat(12, minmax(0, 80px)) auto;
+    grid-template-columns: auto repeat(12, minmax(0, 75px)) auto;
     grid-template-rows: auto 1fr auto;
     gap: 0 var(--gap);
     min-height: 100dvh;
@@ -224,7 +222,6 @@ right-side {
     grid-column: 2/-2;
   }
   left-side {
-    border: 2px solid black;
     grid-column: 1/6;
     margin-right: calc(-1 * var(--gap));
     display: grid;
@@ -232,7 +229,6 @@ right-side {
     grid-template-rows: auto;
   }
   right-side {
-    border: 2px solid black;
     grid-column: 6/-1;
     display: grid;
     grid-template-columns: subgrid;
@@ -240,12 +236,12 @@ right-side {
   }
   .left-content {
     grid-column: 2/-1;
-    border: 1px dashed black;
+    padding-right: calc(0.5 * var(--gap));
   }
   .right-content {
     grid-column: 1/-2;
+    padding-left: calc(0.5 * var(--gap));
     padding-top: calc(2 * var(--gap));
-    border: 1px dashed black;
   }
 }
 [role=list].numbered-list {
@@ -663,8 +659,8 @@ input[type=range]:focus::-moz-range-thumb {
 }
 
 biography-card {
-  max-width: 80%;
-  border: 2px solid white;
+  border: 2px solid black;
+  border-radius: 5px;
   padding: 20px;
   display: block;
   display: grid;
