@@ -41,10 +41,10 @@
 		</main>
 
 	</right-side>
-
-	<?php include("site-footer.php");?>
-
-
 </div> <!-- end .page-wrapper -->
+<?php include("site-footer.php");?>
+
+
+
 
 
