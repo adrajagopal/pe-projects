@@ -1,6 +1,6 @@
 <biography-controls>
-	<h3 class="large-voice"><strong>Get to know me.</strong></h3>
-	<p class="large-voice">Which me? Your choice.</p>
+	<h3 class="large-voice"><strong>get to know me.</strong></h3>
+	<p class="large-voice">which me? your choice.</p>
 	<div class="button-container">
 		<button>normal bio</button>
 		<button>anxious perfectionism</button>
