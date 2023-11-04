@@ -33,15 +33,16 @@
 	</left-side>
 
 	<right-side>
-
+		<div class="right-content">
 		<main>
-
-			<?php include(getFile('modules/biography-card/template.php'));?>
-
+			<inner-column>
+				<?php include(getFile('modules/biography-card/template.php'));?>
+			</inner-column>
 		</main>
-
+		</div>
 	</right-side>
 </div> <!-- end .page-wrapper -->
+
 <?php include("site-footer.php");?>
 
 
