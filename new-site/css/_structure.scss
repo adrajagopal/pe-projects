@@ -15,7 +15,7 @@ inner-column {
 
 left-side {
 	display: block;
-	background-color: hsl(20, 80%, 50%);
+	// background-color: hsl(40, 80%, 50%);
 
 	.left-content {
 		padding-top: calc(2 * var(--gap));
@@ -24,7 +24,7 @@ left-side {
 
 right-side {
 	display: block;
-	background-color: hsl(20, 80%, 90%);
+	// background-color: hsl(40, 80%, 90%);
 }
 
 .left-content, .right-content {
