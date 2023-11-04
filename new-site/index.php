@@ -9,8 +9,8 @@
 
 <?php include("header.php");?>
 
-<!-- the <div class="page-wrapper"> OPENING TAG is in the header.php file -- above the header -->
 
+<div class="page-wrapper">
 	<left-side>
 		<div class="left-content">
 

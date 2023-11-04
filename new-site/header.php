@@ -44,8 +44,6 @@ Inter -->
 	
 <?php include('icons.php');?>
 
-<div class="page-wrapper">
-
 <header class="site-header" aria-label="Site navigation menu">
 	<inner-column>
 		<nav class="site-nav">
