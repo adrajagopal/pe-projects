@@ -9,6 +9,10 @@
 
 <?php include("header.php");?>
 
+<?php 
+	$heroTitle = "hi, i'm Ad.";
+	$heroDescription = "i'm a frontend developer."
+?>
 
 <div class="page-wrapper">
 	<left-side>
