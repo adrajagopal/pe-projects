@@ -30,7 +30,7 @@ right-side {
 .left-content, .right-content {
 	display: flex;
 	flex-direction: column;
-	gap: var(--gap);
+	gap: calc(1.5 * var(--gap));
 }
 
 .site-header, .site-footer {
@@ -41,7 +41,7 @@ right-side {
 
 	body {
 		display: grid;
-		grid-template-columns: auto repeat(12, minmax(0, 80px)) auto;
+		grid-template-columns: auto repeat(12, minmax(0, 75px)) auto;
 		grid-template-rows: auto 1fr auto;
 		gap: 0 var(--gap);
 		min-height: 100dvh; // move this to small screen later
@@ -71,7 +71,7 @@ right-side {
 	}
 
 	left-side {
-		border: 2px solid black;
+		// border: 2px solid black;
 		grid-column: 1 / 6;
 		margin-right: calc(-1 * var(--gap)); //gets rid of the gap between left and right side
 
@@ -81,7 +81,7 @@ right-side {
 	}
 
 	right-side {
-		border: 2px solid black;
+		// border: 2px solid black;
 		grid-column: 6 / -1;
 
 		display: grid;
@@ -91,15 +91,15 @@ right-side {
 
 	.left-content {
 		grid-column: 2 / -1;
-		border: 1px dashed black;
 		padding-right: calc(0.5 * var(--gap));
+		// border: 1px dashed black;
 	}
 
 	.right-content {
 		grid-column: 1 / -2; //needs to stop one column shorter than right-side, bc right-side includes the padding column 
 		padding-left: calc(0.5 * var(--gap));
 		padding-top: calc(2 * var(--gap));
-		border: 1px dashed black;
+		// border: 1px dashed black;
 	}
 
 }
