@@ -113,7 +113,7 @@ p a { /* "all links in paragraphs..." */
 body {
   --paper: white;
   --ink-grey: grey;
-  --ink: black; /* dark maroon */
+  --ink: maroon; /* dark maroon */
   --primary-font: "Inter";
   --secondary-font: "Inter";
   --gap: 20px;
@@ -189,7 +189,7 @@ right-side {
   gap: calc(1.5 * var(--gap));
 }
 
-.right-content > :first-of-type {
+main {
   margin-top: calc(1.5 * var(--gap));
 }
 
@@ -200,6 +200,9 @@ right-side {
     grid-template-rows: auto 1fr auto;
     gap: 0 var(--gap);
     min-height: 100dvh;
+  }
+  main {
+    margin-top: 0;
   }
   .page-wrapper {
     padding-top: 0;
@@ -283,7 +286,7 @@ p, ul, ol, li, legend, .medium-voice {
   font-family: var(--secondary-font);
   font-size: 1rem;
   font-weight: 400;
-  color: var(--ink-dark);
+  color: var(--ink);
   line-height: 1.4;
 }
 
@@ -303,6 +306,16 @@ a, p a {
   }
 }
 /*margin & padding*/
+text-content h1 + :is(p, ul) {
+  margin-top: 1rem;
+}
+text-content :is(h2, h3) + :is(p, ul) {
+  margin-top: 0.75rem;
+}
+text-content p + p {
+  margin-top: 1rem;
+}
+
 article h1, article h2, article h3 {
   margin-top: 1.25rem;
 }
@@ -657,25 +670,39 @@ input[type=range]:focus::-moz-range-thumb {
 }
 
 biography-card {
-  border: 2px solid black;
+  max-width: 600px;
+  border: 2px solid var(--ink);
   border-radius: 5px;
   padding: 20px;
   display: block;
   display: grid;
   gap: 20px;
-  grid-template-areas: "portrait traits" "biography biography";
-  grid-template-columns: 2fr 1fr;
 }
 biography-card picture {
   width: 100%;
   max-width: 300px;
-  grid-area: portrait;
 }
 biography-card .bio-attributes {
-  grid-area: traits;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  justify-self: start;
+  max-width: 30ch;
 }
-biography-card text-content {
-  grid-area: biography;
+@media (min-width: 420px) {
+  biography-card {
+    grid-template-areas: "portrait traits" "biography biography";
+  }
+  biography-card picture {
+    grid-area: portrait;
+  }
+  biography-card .bio-attributes {
+    grid-area: traits;
+    align-self: center;
+  }
+  biography-card text-content {
+    grid-area: biography;
+  }
 }
 
 biography-controls {
@@ -685,23 +712,35 @@ biography-controls {
   gap: 10px;
   container-type: inline-size;
 }
-biography-controls p {
-  margin: 0;
+biography-controls text-content p {
+  margin-top: 0.5rem;
 }
 biography-controls .button-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  border-left: 2px solid var(--ink);
-}
-biography-controls .button-container button {
-  min-width: 150px;
-  max-width: 200px;
-  padding: 8px 12px;
-  font-size: 0.8rem;
+  align-items: flex-start;
+  gap: 16px;
   border: none;
   border-radius: 0;
-  text-align: left;
+  padding-left: 0;
+}
+biography-controls .button-container .option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  min-width: 250px;
+  border-radius: 25px;
+}
+biography-controls .button-container .option:has(:checked) {
+  background-color: var(--ink);
+}
+biography-controls .button-container .option:has(:checked) label {
+  color: var(--paper);
+  min-width: 200px;
+}
+biography-controls .button-container .option:has(:checked) input {
+  accent-color: var(--ink);
 }
 
 /*Sections (in this file)*/
