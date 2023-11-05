@@ -1,11 +1,22 @@
 <biography-controls>
 	<text-content>
 		<h3 class="large-voice"><strong>get to know me.</strong></h3>
-		<p class="large-voice">which me? your choice.</p>
+		<!-- <p class="medium-voice">which me? your choice.</p> -->
 	</text-content>
-	<div class="button-container">
-		<button>normal bio</button>
-		<button>anxious perfectionism</button>
-		<button>aggressive confidence</button>
-	</div>
+	<form class="button-container">
+		<div class="option">
+			<input id="normal" type="radio" name="bio-control">
+			<label for="normal">normal bio</label>
+		</div>
+
+		<div class="option">
+			<input id="anxious" type="radio" name="bio-control">
+			<label for="anxious">anxious perfectionist</label>
+		</div>
+
+		<div class="option">
+			<input id="aggressive" type="radio" name="bio-control">
+			<label for="aggressive">aggressively confident</label>
+		</div>
+	</form>
 </biography-controls>
