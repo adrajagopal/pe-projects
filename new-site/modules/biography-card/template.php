@@ -2,11 +2,17 @@
 	<picture>
 		<img src="images/ad-portrait-blonde.jpg">
 	</picture>
-	<div class="medium-voice bio-attributes">
-		<h3><strong class="bold">type: </strong>normal</h3>
-		<h3><strong class="bold">rarity: </strong>extremely common</h3>
-		<h3><strong class="bold">interests: </strong>design systems, health tech, the outdoors, music, dogs</h3>
-	</div>
+	<ul class="medium-voice bio-attributes">
+		<li>
+			<h3><strong class="bold">type: </strong>normal</h3>
+		</li>
+		<li>
+			<h3><strong class="bold">rarity: </strong>extremely common</h3>
+		</li>
+		<li>
+			<h3><strong class="bold">interests: </strong>design systems, health tech, the outdoors, music, dogs</h3>
+		</li>
+	</ul>
 
 	<text-content>
 		<h3 class="large-voice"><strong>biography:</strong></h3>
