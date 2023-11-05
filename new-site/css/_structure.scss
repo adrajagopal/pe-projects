@@ -33,7 +33,7 @@ right-side {
 	gap: calc(1.5 * var(--gap));
 }
 
-.right-content > :first-of-type {
+main {
 	margin-top: calc(1.5 * var(--gap));
 }
 
@@ -45,6 +45,10 @@ right-side {
 		grid-template-rows: auto 1fr auto;
 		gap: 0 var(--gap);
 		min-height: 100dvh; // move this to small screen later
+	}
+
+	main {
+		margin-top: 0;
 	}
 
 	.page-wrapper {
