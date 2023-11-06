@@ -1,0 +1,21 @@
+{
+	"name": "Home",
+	"slug": "home",
+	"leftSections": [
+		{
+			"name": "hero",
+			"content": {
+				"heading": "hi, i'm Ad",
+				"description": "i'm a frontend developer"
+			}
+		},
+		{
+			"name": "biography-controls"
+		}
+	],
+	"rightSections": [
+		{
+			"name": "biography-card"
+		}
+	]
+}
