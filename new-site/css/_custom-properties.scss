@@ -1,9 +1,14 @@
 /*Custom properties comment*/
 
 body {
-	--paper: white;
-	--ink-grey: grey; // splash primary greyed out but readable
-	--ink: maroon; /* dark maroon */
+
+	--hue: 240;
+
+	--paper: hsl(var(--hue), 75%, 98%);
+	--paper-accent: hsl(var(--hue), 75%, 90%);
+	--ink-grey: hsl(var(--hue), 25%, 40%); // splash primary greyed out but readable
+	--ink: hsl(var(--hue), 95%, 25%); /* dark maroon */
+
 
 	--primary-font: "Inter";
 	--secondary-font: "Inter";
