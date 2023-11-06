@@ -1,0 +1,20 @@
+.skill-list {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.skill {
+	padding: 0.25em 0.5em;
+	border-radius: 0.5em;
+	background-color: var(--ink);
+	color: var(--paper);
+}
+
+@media (prefers-color-scheme: dark) {
+	.skill {
+		background-color: var(--paper);
+		color: var(--ink);
+	}
+}
