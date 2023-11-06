@@ -13,7 +13,7 @@
 
 <?php include("header.php");?>
 
-<div class="page-wrapper">
+<div class="page-wrapper <?=$page?>">
 	<left-side>
 		<div class="left-content">
 
