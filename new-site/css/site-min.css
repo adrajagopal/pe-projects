@@ -111,7 +111,7 @@ p a { /* "all links in paragraphs..." */
 /*Settings*/
 /*Custom properties comment*/
 body {
-  --hue: 240;
+  --hue: 180;
   --paper: hsl(var(--hue), 75%, 98%);
   --paper-accent: hsl(var(--hue), 75%, 90%);
   --ink-grey: hsl(var(--hue), 25%, 40%);
@@ -121,6 +121,12 @@ body {
   --gap: 20px;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    --paper: hsl(var(--hue), 95%, 25%);
+    --ink: hsl(var(--hue), 75%, 98%);
+  }
+}
 /*Type patterns*/
 .xxl-voice {
   font-family: var(--primary-font);
