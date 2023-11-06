@@ -2223,10 +2223,42 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/new-site\/data\/nowList.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/nowList-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/new-site\/data\/pages\/home.json" : {
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/new-site\/data\/pages\/home-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/data\/pages\/now.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/pages\/now-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/data\/pages\/resume.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/pages\/resume-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/data\/pages\/work.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/pages\/work-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -2246,6 +2278,14 @@
       "oA" : 0,
       "oAP" : "\/new-site\/data\/resume-job-list.php",
       "oF" : 0
+    },
+    "\/new-site\/data\/resumeJobs.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/resumeJobs-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/new-site\/functions.php" : {
       "cB" : 0,
@@ -2571,22 +2611,6 @@
       "oAP" : "\/new-site\/modules\/resume-work\/template.php",
       "oF" : 0
     },
-    "\/new-site\/now\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/now\/index.php",
-      "oF" : 0
-    },
-    "\/new-site\/resume\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/resume\/index.php",
-      "oF" : 0
-    },
     "\/new-site\/site-footer.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2601,30 +2625,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/socials.php",
-      "oF" : 0
-    },
-    "\/new-site\/work\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/work\/index.php",
-      "oF" : 0
-    },
-    "\/new-site\/work\/project-details\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/work\/project-details\/index.php",
-      "oF" : 0
-    },
-    "\/new-site\/work\/project-details\/sample.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/work\/project-details\/sample.php",
       "oF" : 0
     },
     "\/packages\/flickity_v2.0\/_redirects" : {
