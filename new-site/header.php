@@ -48,10 +48,10 @@ Inter -->
 	<inner-column>
 		<nav class="site-nav">
 			<ul class="site-nav-items">
-				<li><a href="">home</a></li>
-				<li><a href="work">work</a></li>
-				<li><a href="resume">resume</a></li>
-				<li><a href="now">now</a></li>
+				<li><a href="?page=home">home</a></li>
+				<li><a href="?page=work">work</a></li>
+				<li><a href="?page=resume">resume</a></li>
+				<li><a href="?page=now">now</a></li>
 			</ul>
 		</nav>
 	</inner-column>
