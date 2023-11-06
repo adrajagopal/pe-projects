@@ -111,9 +111,9 @@ p a { /* "all links in paragraphs..." */
 /*Settings*/
 /*Custom properties comment*/
 body {
-  --hue: 180;
+  --hue: 190;
   --paper: hsl(var(--hue), 75%, 98%);
-  --paper-accent: hsl(var(--hue), 75%, 90%);
+  --paper-accent: hsl(var(--hue), 40%, 90%);
   --ink-grey: hsl(var(--hue), 25%, 40%);
   --ink: hsl(var(--hue), 95%, 25%); /* dark maroon */
   --primary-font: "Inter";
@@ -682,13 +682,16 @@ biography-card {
   display: grid;
   gap: 20px;
   max-width: 600px;
-  border: 2px solid var(--ink);
-  border-radius: 5px;
+  background-color: var(--paper-accent);
+  border-radius: 20px;
   padding: 20px;
 }
 biography-card picture {
   width: 100%;
   max-width: 300px;
+}
+biography-card picture, biography-card img {
+  border-radius: 15px;
 }
 biography-card .bio-attributes {
   display: flex;

@@ -2,10 +2,10 @@
 
 body {
 
-	--hue: 180;
+	--hue: 190;
 
 	--paper: hsl(var(--hue), 75%, 98%);
-	--paper-accent: hsl(var(--hue), 75%, 90%);
+	--paper-accent: hsl(var(--hue), 40%, 90%);
 	--ink-grey: hsl(var(--hue), 25%, 40%); // splash primary greyed out but readable
 	--ink: hsl(var(--hue), 95%, 25%); /* dark maroon */
 
