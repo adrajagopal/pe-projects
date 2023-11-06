@@ -2,7 +2,7 @@
 
 <?php 
 	$heroTitle = "now";
-	$heroDescription = "updated Nov 5, 2023"
+	$heroDescription = "updated Nov 5, 2023";
 ?>
 
 <div class="page-wrapper">

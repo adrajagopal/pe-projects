@@ -1,12 +1,12 @@
 biography-card {
+	display: block;
+	display: grid;
+	gap: 20px;
+
 	max-width: 600px;
 	border: 2px solid var(--ink);
 	border-radius: 5px;
 	padding: 20px;
-
-	display: block;
-	display: grid;
-	gap: 20px;
 
 	picture {
 		width: 100%;
