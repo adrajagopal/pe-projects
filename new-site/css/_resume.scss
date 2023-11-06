@@ -1,0 +1,17 @@
+.resume {
+
+	padding-bottom: 50px;
+
+	.section-title + * {
+		margin-top: var(--gap);
+	}
+
+	li + li h3 {
+		margin-top: var(--gap);
+	}
+
+	div + div {
+		margin-top: calc(1.5 * var(--gap));
+	}
+
+}
