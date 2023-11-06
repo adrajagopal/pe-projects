@@ -2223,6 +2223,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/new-site\/data\/projects.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/projects-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/new-site\/data\/resume-job-list.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2394,6 +2402,75 @@
       "oAP" : "\/new-site\/modules\/hero\/template.php",
       "oF" : 0
     },
+    "\/new-site\/modules\/project-figure\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/project-figure\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/project-figure\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/project-figure\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/project-intro\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/project-intro\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/project-intro\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/project-intro\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/project-text\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/project-text\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/project-text\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/project-text\/template.php",
+      "oF" : 0
+    },
     "\/new-site\/modules\/resume-education\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2524,6 +2601,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/work\/index.php",
+      "oF" : 0
+    },
+    "\/new-site\/work\/project-details\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/work\/project-details\/index.php",
+      "oF" : 0
+    },
+    "\/new-site\/work\/project-details\/sample.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/work\/project-details\/sample.php",
       "oF" : 0
     },
     "\/packages\/flickity_v2.0\/_redirects" : {

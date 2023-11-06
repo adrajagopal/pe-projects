@@ -111,9 +111,11 @@ p a { /* "all links in paragraphs..." */
 /*Settings*/
 /*Custom properties comment*/
 body {
-  --paper: white;
-  --ink-grey: grey;
-  --ink: maroon; /* dark maroon */
+  --hue: 240;
+  --paper: hsl(var(--hue), 75%, 98%);
+  --paper-accent: hsl(var(--hue), 75%, 90%);
+  --ink-grey: hsl(var(--hue), 25%, 40%);
+  --ink: hsl(var(--hue), 95%, 25%); /* dark maroon */
   --primary-font: "Inter";
   --secondary-font: "Inter";
   --gap: 20px;
@@ -670,13 +672,13 @@ input[type=range]:focus::-moz-range-thumb {
 }
 
 biography-card {
+  display: block;
+  display: grid;
+  gap: 20px;
   max-width: 600px;
   border: 2px solid var(--ink);
   border-radius: 5px;
   padding: 20px;
-  display: block;
-  display: grid;
-  gap: 20px;
 }
 biography-card picture {
   width: 100%;
@@ -724,23 +726,34 @@ biography-controls .button-container {
   border-radius: 0;
   padding-left: 0;
 }
-biography-controls .button-container .option {
+biography-controls .option {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem 1rem;
   min-width: 250px;
+  padding: 0.5rem 1rem;
   border-radius: 25px;
 }
-biography-controls .button-container .option:has(:checked) {
+biography-controls .option:has(:checked) {
   background-color: var(--ink);
+  transition: all 500ms;
 }
-biography-controls .button-container .option:has(:checked) label {
+biography-controls .option:has(:checked) label {
   color: var(--paper);
   min-width: 200px;
 }
-biography-controls .button-container .option:has(:checked) input {
+biography-controls .option:has(:checked) input {
   accent-color: var(--ink);
+}
+biography-controls input::after {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
 }
 
 .resume {
@@ -797,6 +810,10 @@ biography-controls .button-container .option:has(:checked) input {
   }
 }
 /*Sections (in this file)*/
+body {
+  background-color: var(--paper);
+}
+
 /*icon styling*/
 [class^=icon-], [class*=" icon-"] {
   height: 32px;
