@@ -1,34 +1,47 @@
-<?php include("header.php");?>
+<?php
+	$page = "home";
 
-<?php 
-	$heroTitle = "hi, i'm Ad.";
-	$heroDescription = "//i'm a frontend developer."
+	if (isset($_GET["page"])) {
+		$page = $_GET["page"];
+	}
+
+	$json = file_get_contents("data/pages/$page.json");
+
+	$pageData = json_decode($json, true);
+
 ?>
+
+<?php include("header.php");?>
 
 <div class="page-wrapper">
 	<left-side>
 		<div class="left-content">
 
-			<section class="hero">
-				<inner-column>
-					<?php include(getFile('modules/hero/template.php'));?>
-				</inner-column>
-			</section>
+			<?php
+				foreach ($pageData['leftSections'] as $section) { ?>
+					<section class="<?=$section['name']?>">
+						<inner-column>
+							<?php include(getFile("modules/$section[name]/template.php")); ?>
+						</inner-column>
+					</section>
 
-			<section class="controls">
-				<inner-column>
-					<?php include(getFile('modules/biography-controls/template.php'));?>
-				</inner-column>
-			</section>
+			<?php } ?>
+
 		</div>
 	</left-side>
 
 	<right-side>
 		<div class="right-content">
 		<main>
-			<inner-column>
-				<?php include(getFile('modules/biography-card/template.php'));?>
-			</inner-column>
+			<?php
+				foreach ($pageData['rightSections'] as $section) { ?>
+					<section class="<?=$section['name']?>">
+						<inner-column>
+							<?php include(getFile("modules/$section[name]/template.php")); ?>
+						</inner-column>
+					</section>
+
+			<?php } ?>
 		</main>
 		</div>
 	</right-side>
