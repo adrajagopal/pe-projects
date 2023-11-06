@@ -1,0 +1,28 @@
+{
+	"name": "Resume",
+	"slug": "resume",
+	"skills": ["HTML", "CSS", "JavaScript", "SQL", "PHP"],
+	"leftSections": [
+		{
+			"name": "hero",
+			"content": {
+				"heading": "resume",
+				"description": "where i've been"
+			}
+		},
+		{
+			"name": "resume-intro"
+		}
+	],
+	"rightSections": [
+		{
+			"name": "resume-work"
+		},
+		{
+			"name": "resume-education"
+		},
+		{
+			"name": "resume-skills"
+		}
+	]
+}
