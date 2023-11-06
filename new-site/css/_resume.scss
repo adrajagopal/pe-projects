@@ -10,8 +10,10 @@
 		margin-top: var(--gap);
 	}
 
-	div + div {
-		margin-top: calc(1.5 * var(--gap));
+	right-side {
+		section + section {
+			margin-top: calc(1.5 * var(--gap));
+		}
 	}
 
 }

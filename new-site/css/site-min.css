@@ -771,7 +771,7 @@ biography-controls input::after {
 .resume li + li h3 {
   margin-top: var(--gap);
 }
-.resume div + div {
+.resume right-side section + section {
   margin-top: calc(1.5 * var(--gap));
 }
 
@@ -793,6 +793,9 @@ biography-controls input::after {
 }
 .resume-education .degree-subtitle {
   font-size: 0.75rem;
+}
+.resume-education .item + .item {
+  margin-top: var(--gap);
 }
 
 .skill-list {

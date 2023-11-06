@@ -9,6 +9,10 @@
 		font-size: 0.75rem;
 	}
 
+	.item + .item {
+		margin-top: var(--gap);
+	}
+
 
 
 

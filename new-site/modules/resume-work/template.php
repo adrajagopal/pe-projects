@@ -1,7 +1,7 @@
 <div class="resume-work">
 	<h2 class="xl-voice section-title">Work Experience</h2>
 	
-	<ul>
+	<ul role="list">
 	
 	<?php
 
