@@ -270,7 +270,7 @@ main {
 
 /*Typography*/
 p, li {
-  max-width: 75ch;
+  max-width: 70ch;
 }
 
 em {
@@ -743,6 +743,59 @@ biography-controls .button-container .option:has(:checked) input {
   accent-color: var(--ink);
 }
 
+.resume {
+  padding-bottom: 50px;
+}
+.resume .section-title + * {
+  margin-top: var(--gap);
+}
+.resume li + li h3 {
+  margin-top: var(--gap);
+}
+.resume div + div {
+  margin-top: calc(1.5 * var(--gap));
+}
+
+@media (min-width: 1000px) {
+  .resume-intro p {
+    max-width: 35ch;
+  }
+}
+
+.job-bullet {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 0.5rem;
+}
+
+.resume-education .degree-title {
+  border-left: 5px solid var(--ink);
+  padding-left: 8px;
+}
+.resume-education .degree-subtitle {
+  font-size: 0.75rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 0.25em 0.5em;
+  border-radius: 0.5em;
+  background-color: var(--ink);
+  color: var(--paper);
+}
+
+@media (prefers-color-scheme: dark) {
+  .skill {
+    background-color: var(--paper);
+    color: var(--ink);
+  }
+}
 /*Sections (in this file)*/
 /*icon styling*/
 [class^=icon-], [class*=" icon-"] {

@@ -2223,6 +2223,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/new-site\/data\/resume-job-list.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/data\/resume-job-list.php",
+      "oF" : 0
+    },
     "\/new-site\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2386,6 +2394,114 @@
       "oAP" : "\/new-site\/modules\/hero\/template.php",
       "oF" : 0
     },
+    "\/new-site\/modules\/resume-education\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/resume-education\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/resume-education\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/resume-education\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/resume-intro\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/resume-intro\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/resume-intro\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/resume-intro\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/resume-skills\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/resume-skills\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/resume-skills\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/resume-skills\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/resume-work\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/resume-work\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/resume-work\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/resume-work\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/now\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/now\/index.php",
+      "oF" : 0
+    },
+    "\/new-site\/resume\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/resume\/index.php",
+      "oF" : 0
+    },
     "\/new-site\/site-footer.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2400,6 +2516,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/socials.php",
+      "oF" : 0
+    },
+    "\/new-site\/work\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/work\/index.php",
       "oF" : 0
     },
     "\/packages\/flickity_v2.0\/_redirects" : {
