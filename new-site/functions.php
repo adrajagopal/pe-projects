@@ -24,14 +24,10 @@ function getFile($path) {
 
 //checks if current page is active page - use to output class for CSS
 function ifActivePage($pageName) {
-	$page = "goals";
-
-	if (isset($_GET['page'])) {
-		$page = $_GET['page'];				
-	}
+	$page = basename(parse_url($url, PHP_URL_PATH));
 
 	if ($page === $pageName) {
-			return 'active-page';
+			return 'active';
 	}
 }
 

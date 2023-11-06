@@ -1,17 +1,8 @@
-<?php
-	$page = "home";
-
-	if (isset($_GET["page"])) {
-		$page = $_GET["page"];
-	}
-
-?>
-
 <?php include("header.php");?>
 
 <?php 
 	$heroTitle = "hi, i'm Ad.";
-	$heroDescription = "i'm a frontend developer."
+	$heroDescription = "//i'm a frontend developer."
 ?>
 
 <div class="page-wrapper">
