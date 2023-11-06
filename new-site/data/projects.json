@@ -1,0 +1,29 @@
+{
+	"title": "developing a visual language",
+	"oneLiner": "creating a visual language that feels familiar, yet unique, and implementing it with CSS",
+	"sections": [
+		{ //start section
+			"title": "brief",
+			"ariaLabel" : "brief",
+			"modules": [
+				{
+					"type": "intro",
+					"title": "brief",
+					"description" : "I was handed a folder of HTML and PHP files and was tasked with styling it like a professional website – borrowing heavily from an industry of my choosing – over the course of a one-week sprint."
+				},
+				{
+					"type": "figure",
+					"src" : "images/name-logo.svg",
+					"alt" : "alt text for this photo",
+					"figcaption" : "figure caption describing photo" 
+				}
+			]
+		}, //end section
+	]
+}
+
+
+
+// section --> { header copy, body copy, images }
+
+ 
