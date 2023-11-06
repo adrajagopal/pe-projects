@@ -4,10 +4,15 @@
 	<ul>
 	
 	<?php
+
+		$json = file_get_contents('data/resumeJobs.json');
+
+		$jobs = json_decode($json, true);
+
 		foreach ($jobs as $job) { 
-			$startDate = date_format($job["tenure"]["startDate"], "M Y");
-			$endDate = date_format($job["tenure"]["endDate"], "M Y");
-			$duration = date_diff($job["tenure"]["startDate"], $job["tenure"]["endDate"]);
+			$startDate = date_format(date_create($job["tenure"]["startDate"]), "M Y");
+			$endDate = date_format(date_create($job["tenure"]["endDate"]), "M Y");
+			$duration = date_diff(date_create($job["tenure"]["startDate"]), date_create($job["tenure"]["endDate"]));
 	?>
 		
 		<li>

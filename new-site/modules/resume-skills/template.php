@@ -1,3 +1,9 @@
+<?php
+
+	$skills = $pageData['skills'];
+
+?>
+
 <div class="resume-skills">
 	<h2 class="xl-voice section-title">Skills</h2>
 	
