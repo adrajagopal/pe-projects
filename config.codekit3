@@ -2673,6 +2673,14 @@
       "oAP" : "\/new-site\/socials.php",
       "oF" : 0
     },
+    "\/new-site\/ugh-project-details.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/ugh-project-details.php",
+      "oF" : 0
+    },
     "\/packages\/flickity_v2.0\/_redirects" : {
       "cB" : 0,
       "ft" : 8192,
