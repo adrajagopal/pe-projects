@@ -1,5 +1,7 @@
 {
 	"title": "developing a visual language",
+	"projectId": "themeChallenge",
+	"liveDemo": "google.com",
 	"internalTitle": "theme challenge",
 	"oneLiner": "creating a visual language for a mock brand that feels familiar within the industry, yet unique, and implementing it with CSS",
 	"tags": ["HTML", "CSS", "PHP", "style tiles", "research & feedback"],
@@ -15,7 +17,7 @@
 				},
 				{
 					"type": "figure",
-					"src": "images/name-logo.svg",
+					"src": "name-logo.svg",
 					"alt": "alt text for this photo",
 					"figcaption": "figure caption describing photo" 
 				}
@@ -51,7 +53,7 @@
 				},
 				{
 					"type": "figure",
-					"src": "images/name-logo.svg",
+					"src": "name-logo.svg",
 					"alt": "alt text for this photo",
 					"figcaption": "caption describing photo"
 				},
@@ -61,7 +63,7 @@
 				},
 				{
 					"type": "figure",
-					"src": "images/name-logo.svg",
+					"src": "name-logo.svg",
 					"alt": "alt text for this photo",
 					"figcaption": "caption describing photo"
 				},
@@ -90,7 +92,7 @@
 				},
 				{
 					"type": "figure",
-					"src" : "images/name-logo.svg",
+					"src" : "name-logo.svg",
 					"alt" : "alt text for this photo",
 					"figcaption" : "figure caption describing photo" 
 				}
