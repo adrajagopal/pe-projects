@@ -2263,6 +2263,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/new-site\/data\/projects.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/projects-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/new-site\/data\/projects\/themeChallenge.json" : {
       "ft" : 524288,
       "oA" : 1,
