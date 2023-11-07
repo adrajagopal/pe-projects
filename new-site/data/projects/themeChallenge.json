@@ -1,6 +1,8 @@
 {
 	"title": "developing a visual language",
-	"oneLiner": "creating a visual language that feels familiar, yet unique, and implementing it with CSS",
+	"jargonTitle": "theme challenge",
+	"oneLiner": "creating a visual language for a mock brand that feels familiar within the industry, yet unique, and implementing it with CSS",
+	"tags": ["HTML", "CSS", "PHP", "style tiles", "research & feedback"],
 	"sections": [
 		{ //start section
 			"title": "brief",
