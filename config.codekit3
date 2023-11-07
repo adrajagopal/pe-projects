@@ -2496,6 +2496,29 @@
       "oAP" : "\/new-site\/modules\/now-grid\/template.php",
       "oF" : 0
     },
+    "\/new-site\/modules\/project-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/project-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/project-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/project-card\/template.php",
+      "oF" : 0
+    },
     "\/new-site\/modules\/project-figure\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2563,6 +2586,52 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/modules\/project-text\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/projects-grid\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/projects-grid\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/projects-grid\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/projects-grid\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/modules\/projects-section-title\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/projects-section-title\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/projects-section-title\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/projects-section-title\/template.php",
       "oF" : 0
     },
     "\/new-site\/modules\/resume-education\/_style.scss" : {
