@@ -1,3 +1,3 @@
 <div class="project-text">
-	<p>Some paragraph of text</p>
+	<p><?= $module['text'] ?? "Sample paragraph to show what should go in here"?></p>
 </div>

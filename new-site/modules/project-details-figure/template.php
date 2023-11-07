@@ -1,6 +1,6 @@
 <div class="project-figure">
 	<figure>
-		<picture><img src="images/name-logo.svg" alt=""></picture>
-		<figcaption>Here's the logo</figcaption>
+		<picture><img src="images/<?=$module['src']?>" alt="<?=$module['src'] ?? "photo alt text"?>"></picture>
+		<figcaption><?=$module['figcaption'] ?? "Sample figcaption"?></figcaption>
 	</figure>
 </div>
