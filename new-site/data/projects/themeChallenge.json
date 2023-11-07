@@ -17,9 +17,9 @@
 				},
 				{
 					"type": "figure",
-					"src": "name-logo.svg",
-					"alt": "alt text for this photo",
-					"figcaption": "figure caption describing photo" 
+					"src": "themeChallenge/helfy-before-after.jpg",
+					"alt": "a side-by-side comparison of the HTML skeleton before and after I styled it. before looks like a frankenstein mish-mash, after looks cohesive and beautiful.",
+					"figcaption": "the HTML skeleton before and after I styled it" 
 				}
 			]
 		},
@@ -53,9 +53,9 @@
 				},
 				{
 					"type": "figure",
-					"src": "name-logo.svg",
-					"alt": "alt text for this photo",
-					"figcaption": "caption describing photo"
+					"src": "themeChallenge/health-tech-screenshots.jpg",
+					"alt": "screenshots from my inspiration companies, with lots of green, a mix of elegant serif display fonts, app screenshots, grids with healthcare buzzwords, and smiling people",
+					"figcaption": "the final set of companies I used for visual inspiration"
 				},
 				{
 					"type": "text",
@@ -63,9 +63,9 @@
 				},
 				{
 					"type": "figure",
-					"src": "name-logo.svg",
-					"alt": "alt text for this photo",
-					"figcaption": "caption describing photo"
+					"src": "themeChallenge/style-tile.jpg",
+					"alt": "a collection of sample components, color palettes, logos and icons in my visual language",
+					"figcaption": "One of three style tiles I put together"
 				},
 				{
 					"type": "text",
@@ -92,9 +92,9 @@
 				},
 				{
 					"type": "figure",
-					"src" : "name-logo.svg",
-					"alt" : "alt text for this photo",
-					"figcaption" : "figure caption describing photo" 
+					"src" : "themeChallenge/helfy-big.jpg",
+					"alt" : "a clear shot of my website's banner -- a woman looking up and smiling, on a backdrop of colored rectangular blocks",
+					"figcaption" : "The final product" 
 				}
 			]
 		}
