@@ -14,11 +14,16 @@
 @import "../modules/resume-education/_style";
 @import "../modules/resume-skills/_style";
 
+//projects list page
+@import "../modules/projects-section-title/_style";
+@import "../modules/projects-grid/_style";
+@import "../modules/project-card/_style";
 
-//project page
+//project details page
 @import "../modules/project-intro/_style";
 @import "../modules/project-text/_style";
 @import "../modules/project-figure/_style";
+
 
 //now page
 @import "../modules/now-card/_style";
