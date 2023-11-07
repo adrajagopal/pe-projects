@@ -1,17 +1,92 @@
 {
 	"title": "developing a visual language",
-	"jargonTitle": "theme challenge",
+	"internalTitle": "theme challenge",
 	"oneLiner": "creating a visual language for a mock brand that feels familiar within the industry, yet unique, and implementing it with CSS",
 	"tags": ["HTML", "CSS", "PHP", "style tiles", "research & feedback"],
 	"sections": [
-		{ //start section
+		{
 			"title": "brief",
 			"ariaLabel" : "brief",
 			"modules": [
 				{
-					"type": "intro",
+					"type": "section-intro",
 					"title": "brief",
-					"description" : "I was handed a folder of HTML and PHP files and was tasked with styling it like a professional website – borrowing heavily from an industry of my choosing – over the course of a one-week sprint."
+					"text" : "I was handed a folder of HTML and PHP files and was tasked with styling it like a professional website – borrowing heavily from an industry of my choosing – over the course of a one-week sprint."
+				},
+				{
+					"type": "figure",
+					"src": "images/name-logo.svg",
+					"alt": "alt text for this photo",
+					"figcaption": "figure caption describing photo" 
+				}
+			]
+		},
+		{
+			"title": "challenges",
+			"ariaLabel" : "challenges",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "challenges",
+					"text" : "Design was definitely the most challenging piece of this project. The goal of the project was to “steal” from industry peers, but then take that and create something unique, yet familiar. It took lots of feedback and iteration to get it to a place where my design language communicated what I needed it to, while also feeling fresh and interesting."
+				},
+				{
+					"type": "text",
+					"text" : "This project also pushed my knowledge on CSS grid and working with modules – in other words, making sure my scoping was airtight so my styles didn’t leak all over the place." 
+				}
+			]
+		},
+		{
+			"title": "process",
+			"ariaLabel" : "process",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "process",
+					"text" : "The first step was to write the CSS for the layout, so that I would have a responsive wireframe to work with."
+				},
+				{
+					"type": "text",
+					"text" : "Next, I analyzed 10-15 digital health companies’ marketing websites, and narrowed that list down to a group of 6 favorites to compare their color palettes, brand copy, structure, and overall tone." 
+				},
+				{
+					"type": "figure",
+					"src": "images/name-logo.svg",
+					"alt": "alt text for this photo",
+					"figcaption": "caption describing photo"
+				},
+				{
+					"type": "text",
+					"text" : "From there, I created style tiles – a loose deliverable that’s used to communicate the overall vision and feeling of a design, with clear definition of typography, color, and some sample modules." 
+				},
+				{
+					"type": "figure",
+					"src": "images/name-logo.svg",
+					"alt": "alt text for this photo",
+					"figcaption": "caption describing photo"
+				},
+				{
+					"type": "text",
+					"text" : "I got feedback from around 7 people over the course of 2 days, and iterated quite a bit on my style tile. At that point, I cranked out the CSS." 
+				},
+				{
+					"type": "text",
+					"text" : "I actually finished early – and spent that time creating a brand new module. I wrote the HTML, CSS, and also created a set of icons to use." 
+				}
+			]
+		},
+		{
+			"title": "learnings",
+			"ariaLabel" : "learnings",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "learnings",
+					"text" : "This project was a test of the prior 2 months of learning the ins and outs of HTML, CSS, typography, graphics & image preparation, and PHP. It pushed my abilities in all of those areas and I learned a lot."
+				},
+				{
+					"type": "text",
+					"text": "I got very comfortable working with CSS grids, learned the value of modular code and reusable components, creating icons that are optically aligned, and learned how to iterate through design concepts and take an idea from a loose collection of bullet-points to a polished website."
 				},
 				{
 					"type": "figure",
@@ -20,12 +95,6 @@
 					"figcaption" : "figure caption describing photo" 
 				}
 			]
-		}, //end section
+		}
 	]
 }
-
-
-
-// section --> { header copy, body copy, images }
-
- 
