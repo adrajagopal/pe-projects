@@ -119,6 +119,7 @@ body {
   --primary-font: "Inter";
   --secondary-font: "Inter";
   --gap: 20px;
+  --box-radius: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -683,7 +684,7 @@ biography-card {
   gap: 20px;
   max-width: 600px;
   background-color: var(--paper-accent);
-  border-radius: 20px;
+  border-radius: var(--box-radius);
   padding: 20px;
 }
 biography-card picture {
@@ -821,6 +822,85 @@ biography-controls input::after {
     color: var(--ink);
   }
 }
+.now-card {
+  padding: 12px;
+  max-width: 600px;
+  border-radius: var(--box-radius);
+}
+.now-card h2 {
+  border-bottom: 1px solid var(--ink);
+}
+.now-card:nth-of-type(odd) {
+  background-color: var(--paper-accent);
+}
+.now-card:nth-of-type(even) {
+  background-color: var(--ink);
+}
+.now-card:nth-of-type(even) h2, .now-card:nth-of-type(even) li {
+  color: var(--paper);
+}
+.now-card:nth-of-type(even) h2 {
+  border-color: var(--paper);
+}
+@media (min-width: 1000px) {
+  .now-card {
+    display: flex;
+    gap: var(--gap);
+  }
+  .now-card .heading-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .now-card .heading-container .colored-box {
+    width: 100%;
+    height: 50%;
+    border-radius: var(--box-radius);
+  }
+  .now-card h2 {
+    border-bottom: none;
+    padding: 8px;
+  }
+  .now-card ul {
+    padding: 12px;
+    border-radius: var(--box-radius);
+  }
+  .now-card li {
+    margin-left: 12px;
+  }
+  .now-card:nth-of-type(odd) {
+    background-color: unset;
+  }
+  .now-card:nth-of-type(odd) h2 {
+    color: var(--ink);
+  }
+  .now-card:nth-of-type(odd) .colored-box {
+    background-color: var(--paper-accent);
+  }
+  .now-card:nth-of-type(odd) ul {
+    background-color: var(--paper-accent);
+  }
+  .now-card:nth-of-type(even) {
+    flex-direction: row-reverse;
+    background-color: unset;
+  }
+  .now-card:nth-of-type(even) .heading-container {
+    flex-direction: column-reverse;
+  }
+  .now-card:nth-of-type(even) h2 {
+    color: var(--ink);
+  }
+  .now-card:nth-of-type(even) .colored-box {
+    background-color: var(--ink);
+  }
+  .now-card:nth-of-type(even) ul {
+    background-color: var(--ink);
+  }
+}
+
+.now-grid .now-card + .now-card {
+  margin-top: var(--gap);
+}
+
 /*Sections (in this file)*/
 body {
   background-color: var(--paper);
