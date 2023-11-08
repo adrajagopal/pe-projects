@@ -3,6 +3,7 @@
 	"projectId": "layoutGarden",
 	"liveDemo": "layout-garden",
 	"internalTitle": "layout garden",
+	"category": "design",
 	"oneLiner": "a showcase of responsive layouts. modules for all garden and screen sizes",
 	"tags": ["CSS", "responsive design", "grid-template-areas is a hammer", "everything is a nail"],
 	"sections": [

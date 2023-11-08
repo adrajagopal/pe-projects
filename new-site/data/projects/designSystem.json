@@ -3,6 +3,7 @@
 	"projectId": "designSystem",
 	"liveDemo": "creating-a-design-system",
 	"internalTitle": "figma challenge",
+	"category": "design",
 	"oneLiner": "creating (and implementing) a design system to handle 3 variants of a landing page",
 	"tags": ["HTML", "CSS", "PHP", "design systems", "reusable components"],
 	"sections": [

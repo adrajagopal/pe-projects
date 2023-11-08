@@ -3,6 +3,7 @@
 	"projectId": "styleGuide",
 	"liveDemo": "style-guide",
 	"internalTitle": "style guide",
+	"category": "design",
 	"oneLiner": "a guide to the visual language of this site -- colors, typography, hierarchy, and example modules",
 	"tags": ["style guide", "CSS", "design", "typography"],
 	"sections": [
