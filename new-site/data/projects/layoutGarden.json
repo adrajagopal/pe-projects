@@ -1,0 +1,64 @@
+{
+	"title": "responsive layout garden",
+	"projectId": "layoutGarden",
+	"liveDemo": "layout-garden",
+	"internalTitle": "layout garden",
+	"oneLiner": "a showcase of responsive layouts. modules for all garden and screen sizes",
+	"tags": ["CSS", "responsive design", "grid-template-areas is a hammer", "everything is a nail"],
+	"sections": [
+		{
+			"title": "brief",
+			"ariaLabel" : "brief",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "brief",
+					"text" : ""
+				},
+				{
+					"type": "figure",
+					"src": "ad-portrait-blonde.jpg",
+					"alt": "",
+					"figcaption": "" 
+				},
+				{
+					"type": "link-out",
+					"linkCopy": "See the live project"
+				}
+			]
+		},
+		{
+			"title": "challenges",
+			"ariaLabel" : "challenges",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "challenges",
+					"text" : ""
+				}
+			]
+		},
+		{
+			"title": "process",
+			"ariaLabel" : "process",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "process",
+					"text" : ""
+				}
+			]
+		},
+		{
+			"title": "learnings",
+			"ariaLabel" : "learnings",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "learnings",
+					"text" : ""
+				}
+			]
+		}
+	]
+}

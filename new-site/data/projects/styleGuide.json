@@ -1,0 +1,64 @@
+{
+	"title": "style guide",
+	"projectId": "styleGuide",
+	"liveDemo": "style-guide",
+	"internalTitle": "style guide",
+	"oneLiner": "a guide to the visual language of this site -- colors, typography, hierarchy, and example modules",
+	"tags": ["style guide", "CSS", "design", "typography"],
+	"sections": [
+		{
+			"title": "brief",
+			"ariaLabel" : "brief",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "brief",
+					"text" : ""
+				},
+				{
+					"type": "figure",
+					"src": "ad-portrait-blonde.jpg",
+					"alt": "",
+					"figcaption": "" 
+				},
+				{
+					"type": "link-out",
+					"linkCopy": "See the live project"
+				}
+			]
+		},
+		{
+			"title": "challenges",
+			"ariaLabel" : "challenges",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "challenges",
+					"text" : ""
+				}
+			]
+		},
+		{
+			"title": "process",
+			"ariaLabel" : "process",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "process",
+					"text" : ""
+				}
+			]
+		},
+		{
+			"title": "learnings",
+			"ariaLabel" : "learnings",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "learnings",
+					"text" : ""
+				}
+			]
+		}
+	]
+}
