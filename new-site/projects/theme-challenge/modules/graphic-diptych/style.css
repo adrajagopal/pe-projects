@@ -1,0 +1,46 @@
+
+graphic-diptych {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: clamp(10px, 5vw, 200px) 0;
+}
+
+graphic-diptych p {
+	margin-top: 1rem;
+}
+
+graphic-diptych picture {
+	border-radius: 5px;
+	background-image: url("../../images/squares.svg");
+	background-size: cover;
+}
+
+graphic-diptych .button {
+	margin-top: 2rem;
+	width: 20%;
+}
+
+@media (min-width:  700px) {
+	graphic-diptych {
+		flex-direction: row;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	graphic-diptych picture {
+		background-image: none;
+		background-color: var(--primary-brand);
+		object-fit: cover;
+	}
+
+	graphic-diptych :is(picture, text-content) {
+		flex-basis: 50%;
+	}
+
+	graphic-diptych .button {
+		margin-top: 3rem;
+		width: 33%;
+	}
+}

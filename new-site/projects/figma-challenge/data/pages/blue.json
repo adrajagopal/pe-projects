@@ -1,0 +1,100 @@
+{
+	"name" : "Home",
+	"slug" : "home",
+	"headerLinks" : [
+		{
+			"type" : "button",
+			"copy" : "Sign Up",
+			"link" : "#",
+			"class" : "secondary round tight",
+			"target" : ""
+		},
+		{
+			"type" : "button",
+			"copy" : "Log In",
+			"link" : "#",
+			"class" : "primary round tight",
+			"target" : ""
+		}		
+	],
+	"sections" : [
+		{
+			"name" : "hero",
+			"content" : {
+				"heading" : "Arcu Suscipit Massa Aliquam Proin Amet",
+				"description" : "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus Amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor.",
+				"actions" : [
+					{
+						"type" : "email-subscribe-2",
+						"typeClass" : "secondary",
+						"button" : "text",
+						"copy" : "Sign Up",
+						"inputIcon" : "envelope",
+						"link" : "#",
+						"class" : "secondary round tight",
+						"target" : ""
+					}
+				]
+			}
+		},
+		{
+			"name" : "highlighted-articles",
+			"content" : {
+				"preheading" : "Rhoncus, accumsan dictum",
+				"heading" : "Etiam nulla lectus amet nunc",
+				"modules" : [
+					{
+						"type" : "see-it-now-grid",
+						"class" : ""
+					}
+				],
+				"actions" : [
+					{
+						"type" : "link",
+						"copy" : "See All",
+						"icon" : "external-link",
+						"link" : "#",
+						"class" : "primary",
+						"target" : ""
+					}
+				]
+			}
+		},
+		{
+			"name" : "grid-content",
+			"content" : {
+				"heading" : "Etiam nulla lfulputate.",
+				"description" : "Neque, pulvinar vestibulum non aliquam."
+			}
+		},
+		{
+			"name" : "client-testimony",
+			"content" : {
+				"heading" : "What Our Clients Say",
+				"description" : "Neque, pulvinar vestibulum non aliquam."
+			}
+		},
+		{
+			"name" : "faq-list"
+		},
+		{
+			"name" : "call-to-action",
+			"content" : {
+				"heading" : "Etiam nulla lectus amet nunc",
+				"description" : "Fringilla non proin nec in in lorem amet eget ac. Mauris.",
+				"actions" : [
+					{
+						"type" : "email-subscribe-2",
+						"typeClass" : "primary",
+						"button" : "text",
+						"copy" : "Sign Up",
+						"inputIcon" : "envelope",
+						"link" : "#",
+						"class" : "primary round tight",
+						"target" : ""
+					}
+				]
+			}
+		}
+	]
+}

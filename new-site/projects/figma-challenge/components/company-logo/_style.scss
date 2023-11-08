@@ -1,0 +1,31 @@
+.logo {
+	width: 134px;
+	height: auto;
+	flex-shrink: 0;
+
+	& svg {
+		width: 134px;
+		height: 35px;
+	}
+}
+
+//home & blue styles
+.site-header .logo {
+	fill: var(--origin);
+}
+
+.site-footer .logo {
+	fill: var(--white);
+}
+
+body.wavy { // wavy styles
+	.site-header .logo {
+		fill: var(--white);
+	}
+
+	.site-footer .logo {
+		fill: var(--origin);
+	}	
+}
+
+

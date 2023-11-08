@@ -1,0 +1,35 @@
+selling-points-intro {
+	display: block;
+	padding: 5vh 0;
+}
+
+selling-points-intro header p {
+	margin-top: 0.5rem;
+}
+
+selling-point-grid {
+	display: block;
+	margin-top: 3rem;
+}
+
+selling-point-grid ul {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: flex-start;
+}
+
+@media (min-width: 600px) {
+	selling-points-intro {
+		text-align: center;
+	}
+
+	selling-point-grid ul {
+		flex-direction: row;
+		flex-basis: 50%;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+

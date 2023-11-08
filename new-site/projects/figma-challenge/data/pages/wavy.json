@@ -1,0 +1,91 @@
+{
+	"name" : "Home",
+	"slug" : "home",
+	"headerLinks" : [
+		{
+			"type" : "button",
+			"copy" : "Log In",
+			"link" : "#",
+			"class" : "secondary round tight",
+			"target" : ""
+		}		
+	],
+	"sections" : [
+		{
+			"name" : "hero",
+			"content" : {
+				"heading" : "Arcu Suscipit Massa Aliquam Proin Amet",
+				"description" : "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus Amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor.",
+				"actions" : [
+					{
+						"type" : "button",
+						"copy" : "Get Started",
+						"link" : "#",
+						"class" : "primary sharp spacious",
+						"target" : ""
+					}
+				]
+			}
+		},
+		{
+			"name" : "see-it-now",
+			"content" : {
+				"preheading" : "Rhoncus, accumsan dictum",
+				"heading" : "Etiam nulla lectus amet nunc molestie at vulputate.",
+				"description" : "Neque, pulvinar vestibulum non aliquam.",
+				"video" : "external-link",
+				"actions" : [
+					{
+						"type" : "link",
+						"copy" : "Learn more",
+						"link" : "#",
+						"icon" : "arrow-right"
+					}
+				]
+			}
+		},
+		{
+			"name" : "grid-content",
+			"content" : {
+				"heading" : "Etiam nulla lfulputate.",
+				"description" : "Neque, pulvinar vestibulum non aliquam."
+			}
+		},
+		{
+			"name" : "client-testimony",
+			"content" : {
+				"heading" : "What Our Clients Say",
+				"description" : "Neque, pulvinar vestibulum non aliquam."
+			}
+		},
+		{
+			"name" : "call-to-action",
+			"content" : {
+				"preheading" : "Arcu Suscipit Massa Aliquam Proin Amet",
+				"heading" : "Etiam nulla lectus amet nunc molestie at vulputate.",
+				"actions" : [
+					{
+						"type" : "button",
+						"copy" : "Get free quotes",
+						"link" : "#",
+						"class" : "primary sharp normal has-icon",
+						"icon" : "chevron-right",
+						"target" : ""
+					},
+					{
+						"type" : "button",
+						"copy" : "Free Signup",
+						"link" : "#",
+						"class" : "secondary sharp normal has-icon",
+						"icon" : "chevron-right",
+						"target" : ""
+					}
+				]
+			}
+		},
+		{
+			"name" : "faq-list",
+			"width" : "tight"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+em {
+	font-style: italic;
+}
+
+p, ul, ol, li, legend, .medium-voice {
+	font-family: var(--secondary-font);
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+p, .preheading, .description {
+	color: var(--system-grey--600);
+}
+
+p.preheading {
+	font-size: 0.75rem
+}
+
+h1, h2, h3, h4 {
+	color: var(--system-grey--900);
+}
+
+a, p a {
+	text-decoration: none;
+}
+
+/*margin & padding*/
+
+article {
+
+	p, li {
+		max-width: 75ch;
+	}
+
+	h1, h2, h3 {
+		margin-top: 1.25rem;
+	}
+
+	h1 + h2, h1 + p, h2 + h3 {
+		margin-top: 2rem;
+	}
+
+	h2 + p {
+		margin-top: 1.5rem;
+	}
+
+	h3 + p {
+		margin-top: 1rem;
+	}
+
+	p + p {
+		margin-top: 1rem;
+	}
+
+	img + p {
+		margin-top: 0.75rem;
+	}
+
+}
