@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Litter</title>
+
+	<link rel="stylesheet" href="site.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Litter</h1>
+			<picture class="logo">
+				<img src="images/litter-logo.svg" alt="">
+			</picture>
+		</header>
+		
+		<form action="">
+		
+			<h2>Create a post</h2>
+		
+			<div class="question">
+				<label for="username">Select a username</label>
+				<input name="" id="username" type="text" maxlength="16"></input>
+			</div>
+		
+			<div class="question">
+				<label for="handle">Select a handle (do not include @ in your handle)</label>
+				<input name="" id="handle" type="text" maxlength="16"></input>
+			</div>
+		
+		
+			<div class="question">
+				<label for="profile-pic">Select your profile pic</label>
+				<select name="" id="profile-pic">
+					<option value="screaming-void.svg">void screamer</option>
+					<option value="cocaine-bear.svg">cocaine bear</option>
+				</select>
+			</div>
+		
+			<div class="question">
+				<label for="content">Say something incendiary or half-baked</label>
+				<textarea name="" id="content" cols="30" rows="10"></textarea>
+			</div>
+		
+			<button type="submit">Start some shit</button>
+		
+		</form>
+		
+		<output><!--put your tweets here--></output>
+	</main>
+
+	<script src="script.js"></script>
+	
+</body>
+</html>
