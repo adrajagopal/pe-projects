@@ -1,9 +1,9 @@
 .diptych {
-	background-color: aqua;
+/*	background-color: aqua;*/
 }
 
 .diptych-content picture, .diptych-text {
-	padding: 0.5rem;
+/*	padding: 0.5rem;*/
 }
 
 .diptych-content {
@@ -14,12 +14,12 @@
 }
 
 .diptych-text {
-	padding: 1.5rem 0.5rem;
+/*	padding: 1.5rem 0.5rem;*/
 }
 
 .diptych-text > * {
-	margin-top: 0.5rem;
-	padding: 1rem 0.5rem;
+/*	margin-top: 0.5rem;*/
+/*	padding: 1rem 0.5rem;*/
 }
 
 
@@ -29,6 +29,6 @@
 	}
 	
 	.diptych-content > * {
-		width: 50%;
+/*		width: 50%;*/
 	}
 }

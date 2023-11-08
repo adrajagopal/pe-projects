@@ -8,6 +8,18 @@ body {
 	min-height: 100vh;
 }
 
+body > * {
+	border: 2px dashed grey;
+}
+
+body > * > * > * > * {
+	border: 2px dashed red;
+}
+
+body > * > * > * > * > * {
+	border: 2px dashed blue;
+}
+
 .page-wrapper {
 	flex-grow: 1;
 }

@@ -1,9 +1,9 @@
 header {
-	background-image: linear-gradient(90deg, lightblue, royalblue);
+/*	background-image: linear-gradient(90deg, lightblue, royalblue);*/
 }
 
 .site-header, nav, header a, .sign-in {
-	padding: 0.5rem;
+/*	padding: 0.5rem;*/
 }
 
 .site-header a {
