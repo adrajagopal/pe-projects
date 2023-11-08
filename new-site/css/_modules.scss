@@ -17,12 +17,13 @@
 //projects list page
 @import "../modules/projects-section-title/_style";
 @import "../modules/projects-grid/_style";
-@import "../modules/project-card/_style";
+// @import "../modules/project-card/_style";
 
 //project details page
-@import "../modules/project-intro/_style";
-@import "../modules/project-text/_style";
-@import "../modules/project-figure/_style";
+@import "../modules/project-details-section-intro/_style";
+@import "../modules/project-details-text/_style";
+@import "../modules/project-details-figure/_style";
+@import "../modules/project-details-link-out/_style";
 
 
 //now page
