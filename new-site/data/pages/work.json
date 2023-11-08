@@ -12,7 +12,20 @@
 	],
 	"rightSections": [
 		{
-			"name": "PLACEHOLDER"
+			"name": "projects-category-title",
+			"title": "Design",
+			"description": "Using HTML & CSS to build responsive layouts, accessible content, and design systems"
+		},
+		{
+			"name": "projects-grid"
+		},
+		{
+			"name": "projects-category-title",
+			"title": "Programming",
+			"description": "Using JavaScript and PHP to build interactive UIs"
 		}
+
 	]
 }
+
+
