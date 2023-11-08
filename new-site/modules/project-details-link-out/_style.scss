@@ -1,0 +1,20 @@
+.link-out {
+	margin-top: var(--gap);
+
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+
+	[class^="icon-"], [class*=" icon-"] {
+	    height: 1.1rem;
+	    width: 1.1rem;
+	}
+
+	a {
+		background-color: var(--ink);
+		color: var(--paper);
+		text-decoration: none;
+		padding: 0.5rem 1rem;
+		border-radius: 25px;
+	}
+}
