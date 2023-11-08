@@ -75,6 +75,7 @@
 		<right-side>
 			<div class="right-content">
 			<main>
+				<article>
 				<?php
 					foreach ($pageData['sections'] as $section) { ?>
 						<section class="<?=$section['title']?>">
@@ -88,6 +89,7 @@
 						</section>
 
 				<?php } ?>
+				</article> <!-- -->
 			</main>
 			</div>
 		</right-side>
