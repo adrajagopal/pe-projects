@@ -2279,6 +2279,30 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/new-site\/data\/projects\/designSystem.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/projects\/designSystem-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/data\/projects\/layoutGarden.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/projects\/layoutGarden-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/data\/projects\/styleGuide.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/projects\/styleGuide-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/new-site\/data\/projects\/themeChallenge.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -2402,6 +2426,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/new-site\/images\/themeChallenge\/helfy-before-after-vertical.jpg" : {
+      "ft" : 16384,
+      "iS" : 207898,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/images\/themeChallenge\/helfy-before-after-vertical.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/new-site\/images\/themeChallenge\/helfy-before-after.jpg" : {
       "ft" : 16384,
       "iS" : 160193,
@@ -2410,7 +2447,7 @@
       "oAP" : "\/new-site\/images\/themeChallenge\/helfy-before-after.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2656,6 +2693,29 @@
       "oAP" : "\/new-site\/modules\/project-details-text\/template.php",
       "oF" : 0
     },
+    "\/new-site\/modules\/projects-category-title\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/projects-category-title\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/projects-category-title\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/projects-category-title\/template.php",
+      "oF" : 0
+    },
     "\/new-site\/modules\/projects-grid\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2700,29 +2760,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/modules\/projects-project-card\/template.php",
-      "oF" : 0
-    },
-    "\/new-site\/modules\/projects-section-title\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/new-site\/modules\/projects-section-title\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/new-site\/modules\/projects-section-title\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/modules\/projects-section-title\/template.php",
       "oF" : 0
     },
     "\/new-site\/modules\/resume-education\/_style.scss" : {
@@ -2817,7 +2854,7 @@
       "oAP" : "\/new-site\/modules\/resume-work\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/button\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/button\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2826,21 +2863,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/button\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/button\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/button\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/button\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/button\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/button\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/company-logo\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/company-logo\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2849,21 +2886,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/company-logo\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/company-logo\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/company-logo\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/company-logo\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/company-logo\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/company-logo\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/component-name\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/component-name\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2872,21 +2909,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/component-name\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/component-name\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/component-name\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/component-name\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/component-name\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/component-name\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/email-subscribe-2\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe-2\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2895,21 +2932,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/email-subscribe-2\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe-2\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/email-subscribe-2\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe-2\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/email-subscribe-2\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe-2\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/email-subscribe\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2918,21 +2955,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/email-subscribe\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/email-subscribe\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/email-subscribe\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/email-subscribe\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/icon-placeholder\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/icon-placeholder\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2941,13 +2978,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/icon-placeholder\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/icon-placeholder\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/icon-placeholder\/style.css" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/icon-placeholder\/style.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -2955,19 +2992,19 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/icon-placeholder\/style-min.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/icon-placeholder\/style-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/icon-placeholder\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/icon-placeholder\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/icon-placeholder\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/icon-placeholder\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/link\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/link\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2976,21 +3013,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/link\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/link\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/link\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/link\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/link\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/link\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/video-player\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/video-player\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2999,29 +3036,29 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/video-player\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/video-player\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/components\/video-player\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/components\/video-player\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/components\/video-player\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/components\/video-player\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/config.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/config.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/config.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/config.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_accessibility.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_accessibility.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3030,13 +3067,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_accessibility.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_accessibility.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_components.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_components.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3045,13 +3082,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_components.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_components.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_custom-properties.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_custom-properties.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3060,13 +3097,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_custom-properties.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_custom-properties.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_icons.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3075,13 +3112,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_icons.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_icons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_list-styles.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_list-styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3090,13 +3127,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_list-styles.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_list-styles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_meyer-reset.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_meyer-reset.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3105,13 +3142,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_meyer-reset.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_meyer-reset.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_modules.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_modules.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3120,13 +3157,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_modules.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_modules.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_sections.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_sections.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3135,13 +3172,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_sections.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_sections.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_setup.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_setup.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3150,13 +3187,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_setup.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_setup.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_site-footer.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_site-footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3165,13 +3202,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_site-footer.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_site-footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_site-header.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_site-header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3180,13 +3217,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_site-header.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_site-header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_site.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_site.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3195,13 +3232,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_site.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_site.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_structure.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_structure.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3210,13 +3247,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_structure.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_structure.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/_typography.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3225,13 +3262,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/_typography.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/site-min-min.css" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/site-min-min.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -3239,11 +3276,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/site-min-min-min.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/site-min-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/css\/site-min.css" : {
+    "\/new-site\/projects\/creating-a-design-system\/css\/site-min.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -3251,96 +3288,96 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/css\/site-min-min.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/css\/site-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/data\/faqs.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/faqs.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/faqs-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/faqs-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/data\/grid-items.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/grid-items.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/grid-items-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/grid-items-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/data\/modules.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/modules.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/modules-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/modules-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/data\/pages\/blue.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/pages\/blue.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/pages\/blue-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/pages\/blue-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/data\/pages\/home.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/pages\/home.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/pages\/home-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/pages\/home-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/data\/pages\/wavy.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/pages\/wavy.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/pages\/wavy-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/pages\/wavy-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/data\/ratings.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/ratings.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/ratings-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/ratings-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/data\/see-it-now.json" : {
+    "\/new-site\/projects\/creating-a-design-system\/data\/see-it-now.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/data\/see-it-now-min.json",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/data\/see-it-now-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/projects\/figma-challenge\/functions.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/functions.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/functions.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/header.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/header.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/header.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/header.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/ariana.jpg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/ariana.jpg" : {
       "ft" : 16384,
       "iS" : 24946,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/ariana.jpg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/ariana.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3348,22 +3385,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/new-site\/projects\/figma-challenge\/images\/arrow-right.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/arrow-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/arrow-right.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/arrow-right.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/camila.jpg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/camila.jpg" : {
       "ft" : 16384,
       "iS" : 30009,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/camila.jpg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/camila.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3371,102 +3408,102 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/new-site\/projects\/figma-challenge\/images\/chevron-left.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/chevron-left.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/chevron-left.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/chevron-left.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/chevron-right.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/chevron-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/chevron-right.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/chevron-right.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/chevron-up.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/chevron-up.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/chevron-up.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/chevron-up.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/diagonal-background.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/diagonal-background.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/diagonal-background.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/diagonal-background.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/envelope.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/envelope.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/envelope.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/envelope.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/external-link.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/external-link.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/external-link.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/external-link.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/facebook.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/facebook.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/facebook.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/git.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/git.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/git.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/git.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/globe.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/globe.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/globe.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/globe.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/kacey.jpg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/kacey.jpg" : {
       "ft" : 16384,
       "iS" : 26587,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/kacey.jpg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/kacey.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3474,12 +3511,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/new-site\/projects\/figma-challenge\/images\/language-icon.jpg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/language-icon.jpg" : {
       "ft" : 16384,
       "iS" : 43955,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/language-icon.jpg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/language-icon.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3487,22 +3524,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/new-site\/projects\/figma-challenge\/images\/linked-in.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/linked-in.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/linked-in.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/linked-in.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/lizzy.jpg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/lizzy.jpg" : {
       "ft" : 16384,
       "iS" : 27369,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/lizzy.jpg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/lizzy.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3510,85 +3547,85 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/new-site\/projects\/figma-challenge\/images\/play.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/play.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/play.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/play.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/plus.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/plus.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/plus.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/plus.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/star.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/star.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/star.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/star.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/three-lines.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/three-lines.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/three-lines.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/three-lines.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/upload-cloud.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/upload-cloud.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/upload-cloud.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/upload-cloud.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/wave.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/wave.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/wave.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/wave.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/images\/wavy-background.svg" : {
+    "\/new-site\/projects\/creating-a-design-system\/images\/wavy-background.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/images\/wavy-background.svg",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/images\/wavy-background.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/index.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/index.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/index.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/call-to-action\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/call-to-action\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3597,21 +3634,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/call-to-action\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/call-to-action\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/call-to-action\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/call-to-action\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/call-to-action\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/call-to-action\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/client-testimony\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/client-testimony\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3620,21 +3657,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/client-testimony\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/client-testimony\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/client-testimony\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/client-testimony\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/client-testimony\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/client-testimony\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/faq-card\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/faq-card\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3643,21 +3680,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/faq-card\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/faq-card\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/faq-card\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/faq-card\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/faq-card\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/faq-card\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/faq-list\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/faq-list\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3666,21 +3703,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/faq-list\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/faq-list\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/faq-list\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/faq-list\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/faq-list\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/faq-list\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/grid-card\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/grid-card\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3689,21 +3726,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/grid-card\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/grid-card\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/grid-card\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/grid-card\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/grid-card\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/grid-card\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/grid-content\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/grid-content\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3712,21 +3749,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/grid-content\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/grid-content\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/grid-content\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/grid-content\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/grid-content\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/grid-content\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/hero\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/hero\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3735,21 +3772,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/hero\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/hero\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/hero\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/hero\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/hero\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/hero\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/highlighted-articles\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/highlighted-articles\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3758,29 +3795,29 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/highlighted-articles\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/highlighted-articles\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/highlighted-articles\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/highlighted-articles\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/highlighted-articles\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/highlighted-articles\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/ignore\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/ignore\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/ignore\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/ignore\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/quote-card\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/quote-card\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3789,21 +3826,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/quote-card\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/quote-card\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/quote-card\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/quote-card\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/quote-card\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/quote-card\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/see-it-now\/_style.scss" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/see-it-now\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -3812,21 +3849,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/see-it-now\/_style.css",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/see-it-now\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/modules\/see-it-now\/template.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/modules\/see-it-now\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/modules\/see-it-now\/template.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/modules\/see-it-now\/template.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/README.md" : {
+    "\/new-site\/projects\/creating-a-design-system\/README.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -3836,7 +3873,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/README.html",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/README.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -3845,20 +3882,20 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/site-footer.php" : {
+    "\/new-site\/projects\/creating-a-design-system\/site-footer.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/site-footer.php",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/site-footer.php",
       "oF" : 0
     },
-    "\/new-site\/projects\/figma-challenge\/wave.txt" : {
+    "\/new-site\/projects\/creating-a-design-system\/wave.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/projects\/figma-challenge\/wave.txt",
+      "oAP" : "\/new-site\/projects\/creating-a-design-system\/wave.txt",
       "oF" : 0
     },
     "\/new-site\/projects\/layout-garden\/images\/24-7-access.svg" : {
@@ -7606,6 +7643,18 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/ultra-layout-challenge-2\/css\/structure-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/ultra-layout-challenge-2\/css\/style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/ultra-layout-challenge-2\/css\/style-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
