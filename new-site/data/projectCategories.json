@@ -1,0 +1,12 @@
+[
+	{
+		"name": "design",
+		"id": "design",
+		"projects": ["designSystem", "layoutGarden", "styleGuide", "themeChallenge"]
+	},
+	{
+		"name": "programming",
+		"id": "programming",
+		"projects": ["litter"]
+	}
+]

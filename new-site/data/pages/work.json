@@ -12,19 +12,17 @@
 	],
 	"rightSections": [
 		{
-			"name": "projects-category-title",
+			"name": "projects-group",
 			"title": "Design",
+			"category": "design",
 			"description": "Using HTML & CSS to build responsive layouts, accessible content, and design systems"
 		},
 		{
-			"name": "projects-grid"
-		},
-		{
-			"name": "projects-category-title",
+			"name": "projects-group",
 			"title": "Programming",
+			"category": "programming",
 			"description": "Using JavaScript and PHP to build interactive UIs"
 		}
-
 	]
 }
 
