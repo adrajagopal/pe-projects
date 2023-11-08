@@ -2247,14 +2247,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/data\/pages\/projectDetails.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/new-site\/data\/pages\/projectDetails-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/new-site\/data\/pages\/resume.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -2271,10 +2263,10 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/data\/projects.json" : {
+    "\/new-site\/data\/projectCategories.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/new-site\/data\/projects-min.json",
+      "oAP" : "\/new-site\/data\/projectCategories-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -2291,6 +2283,14 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/new-site\/data\/projects\/layoutGarden-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/data\/projects\/litter.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/projects\/litter-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -2693,7 +2693,7 @@
       "oAP" : "\/new-site\/modules\/project-details-text\/template.php",
       "oF" : 0
     },
-    "\/new-site\/modules\/projects-category-title\/_style.scss" : {
+    "\/new-site\/modules\/projects-group\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2702,41 +2702,18 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/modules\/projects-category-title\/_style.css",
+      "oAP" : "\/new-site\/modules\/projects-group\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/modules\/projects-category-title\/template.php" : {
+    "\/new-site\/modules\/projects-group\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/modules\/projects-category-title\/template.php",
-      "oF" : 0
-    },
-    "\/new-site\/modules\/projects-grid\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/new-site\/modules\/projects-grid\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/new-site\/modules\/projects-grid\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/modules\/projects-grid\/template.php",
+      "oAP" : "\/new-site\/modules\/projects-group\/template.php",
       "oF" : 0
     },
     "\/new-site\/modules\/projects-project-card\/_style.scss" : {
@@ -3967,6 +3944,131 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/projects\/layout-garden\/index.php",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/litter\/_app.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/projects\/litter\/_app.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/projects\/litter\/images\/cocaine-bear.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/litter\/images\/cocaine-bear.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/projects\/litter\/images\/dox.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/litter\/images\/dox.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/projects\/litter\/images\/hide-content.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/litter\/images\/hide-content.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/projects\/litter\/images\/litter-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/litter\/images\/litter-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/projects\/litter\/images\/report-content.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/litter\/images\/report-content.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/projects\/litter\/images\/screaming-void.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/litter\/images\/screaming-void.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/projects\/litter\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/litter\/index.html",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/litter\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/litter\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/projects\/litter\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/litter\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/projects\/litter\/site.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/litter\/site-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/projects\/litter\/tweet-card-template.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/litter\/tweet-card-template.html",
       "oF" : 0
     },
     "\/new-site\/projects\/style-guide\/index.php" : {
@@ -7034,6 +7136,131 @@
       "oAP" : "\/projects\/style-guide\/index.php",
       "oF" : 0
     },
+    "\/scratchpad\/Litter\/_app.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/to-do-app\/site.css",
+      "oF" : 3,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scratchpad\/Litter\/images\/cocaine-bear.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/Litter\/images\/cocaine-bear.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/Litter\/images\/dox.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/Litter\/images\/dox.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/Litter\/images\/hide-content.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/Litter\/images\/hide-content.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/Litter\/images\/litter-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/Litter\/images\/litter-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/Litter\/images\/report-content.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/Litter\/images\/report-content.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/Litter\/images\/screaming-void.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/scratchpad\/Litter\/images\/screaming-void.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/scratchpad\/Litter\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/Litter\/index.html",
+      "oF" : 0
+    },
+    "\/scratchpad\/Litter\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/Litter\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/scratchpad\/Litter\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/Litter\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/scratchpad\/Litter\/site.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/Litter\/site-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/scratchpad\/Litter\/tweet-card-template.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/scratchpad\/Litter\/tweet-card-template.html",
+      "oF" : 0
+    },
     "\/scratchpad\/new-site\/_playground.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -7080,131 +7307,6 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
-    },
-    "\/scratchpad\/to-do-app\/_app.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scratchpad\/to-do-app\/site.css",
-      "oF" : 3,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/scratchpad\/to-do-app\/images\/cocaine-bear.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/scratchpad\/to-do-app\/images\/cocaine-bear.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/scratchpad\/to-do-app\/images\/dox.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/scratchpad\/to-do-app\/images\/dox.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/scratchpad\/to-do-app\/images\/hide-content.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/scratchpad\/to-do-app\/images\/hide-content.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/scratchpad\/to-do-app\/images\/litter-logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/scratchpad\/to-do-app\/images\/litter-logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/scratchpad\/to-do-app\/images\/report-content.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/scratchpad\/to-do-app\/images\/report-content.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/scratchpad\/to-do-app\/images\/screaming-void.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/scratchpad\/to-do-app\/images\/screaming-void.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/scratchpad\/to-do-app\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/scratchpad\/to-do-app\/index.html",
-      "oF" : 0
-    },
-    "\/scratchpad\/to-do-app\/script-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/scratchpad\/to-do-app\/script-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/scratchpad\/to-do-app\/script.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/scratchpad\/to-do-app\/script-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/scratchpad\/to-do-app\/site.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scratchpad\/to-do-app\/site-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/scratchpad\/to-do-app\/tweet-card-template.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/scratchpad\/to-do-app\/tweet-card-template.html",
-      "oF" : 0
     },
     "\/site-footer.php" : {
       "cB" : 0,
