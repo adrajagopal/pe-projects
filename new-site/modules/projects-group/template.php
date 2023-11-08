@@ -1,7 +1,11 @@
 <?php
+
+// variables from up higher -- in the project-level JSON
 	$categoryTitle = $section['title'];
 	$categoryDescription = $section['description'];
 	$categoryId = $section['category']; //possible values: design or programming. same as categoryTitle, but lowercased
+
+//filter the projectCategories file by the current category in this page section
 
 	$json = file_get_contents(getFile('data/projectCategories.json'));
 
@@ -13,12 +17,11 @@
 
 	$filteredCategory = reset($filteredCategories);
 
-	$projectsByCategory = $filteredCategory['projects'];
+	$projectsByCategory = $filteredCategory['projects']; //filtered list
+
+//create an array to pull from in the project-grid
 
 	$projectDetails = [];
-
-	//get a list of project title and one-liner for all the projects
-	//for each project in the category, go get the data from the file
 
 	foreach ($projectsByCategory as $project) {
 		$json = file_get_contents("data/projects/$project.json");
@@ -42,29 +45,7 @@
 	</text-content>
 </div>
 
-<div class="projects-grid">
-
-	<ul role="list" class="bulleted-list">
-
-		<?php
-			foreach ($projectDetails as $detail) { ?>
-				<li>
-					<p><?=$detail['title']?></p>
-					<p><?=$detail['oneLiner']?></p>
-				</li>
-		<?php } ?>
-
-
-
-	</ul>
-
-
+<div class="category-list">
+	<?php include(getFile('modules/projects-grid/template.php'));?>
 </div>
 
-<!-- [
-	{
-		"category": "design",
-		"projects": ["designSystem", "layoutGarden", "styleGuide", "themeChallenge"]
-	}
-]
--->
