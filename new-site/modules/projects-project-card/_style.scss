@@ -1,1 +1,29 @@
-// _style.scss
+.project-card {
+
+	.top-banner {
+		padding: 8px 12px;
+		background-color: var(--ink);
+		border: 1px solid var(--ink);
+		border-top-left-radius: var(--box-radius);
+		border-top-right-radius: var(--box-radius);
+	}
+
+	.bottom-section {
+		padding: 4px 12px 12px;
+		background-color: var(--paper-accent);
+		border-bottom-left-radius: var(--box-radius);
+		border-bottom-right-radius: var(--box-radius);	
+	}
+
+	h3 {
+		font-weight: 600;
+		color: var(--paper);
+	}
+
+	a {
+		margin-top: calc(1.5 * var(--gap));
+	}
+
+
+
+}
