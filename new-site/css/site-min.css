@@ -830,6 +830,40 @@ biography-controls input::after {
     color: var(--ink);
   }
 }
+.projects-group + .projects-group {
+  margin-top: calc(2 * var(--gap));
+}
+
+.projects-grid {
+  margin-top: var(--gap);
+}
+.projects-grid ul {
+  display: flex;
+  flex-direction: column;
+  gap: calc(0.25 * var(--gap));
+}
+
+.project-card .top-banner {
+  padding: 8px 12px;
+  background-color: var(--ink);
+  border: 1px solid var(--ink);
+  border-top-left-radius: var(--box-radius);
+  border-top-right-radius: var(--box-radius);
+}
+.project-card .bottom-section {
+  padding: 4px 12px 12px;
+  background-color: var(--paper-accent);
+  border-bottom-left-radius: var(--box-radius);
+  border-bottom-right-radius: var(--box-radius);
+}
+.project-card h3 {
+  font-weight: 600;
+  color: var(--paper);
+}
+.project-card a {
+  margin-top: calc(1.5 * var(--gap));
+}
+
 .section-intro {
   margin-top: calc(1.5 * var(--gap));
 }
