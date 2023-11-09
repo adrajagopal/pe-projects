@@ -1,0 +1,21 @@
+{
+	"name": "Layout Garden",
+	"slug": "layout-garden",
+	"leftSections": [
+		{
+			"name": "hero",
+			"content": {
+				"heading": "responsive layout garden",
+				"description": "i'm a frontend developer"
+			}
+		},
+		{
+			"name": "biography-controls"
+		}
+	],
+	"rightSections": [
+		{
+			"name": "biography-card"
+		}
+	]
+}
