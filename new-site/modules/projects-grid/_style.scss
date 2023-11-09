@@ -1,1 +1,12 @@
-// _style.scss
+.projects-grid {
+	margin-top: var(--gap);
+	
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: calc(0.25 * var(--gap));
+	}
+
+
+
+}

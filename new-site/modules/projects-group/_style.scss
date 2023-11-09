@@ -1,1 +1,3 @@
-// _style.scss
+.projects-group + .projects-group {
+	margin-top: calc(2 * var(--gap));
+}
