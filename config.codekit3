@@ -2239,6 +2239,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/new-site\/data\/pages\/layoutGarden.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/data\/pages\/layoutGarden-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/new-site\/data\/pages\/now.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -2485,6 +2493,349 @@
       "oA" : 0,
       "oAP" : "\/new-site\/index.php",
       "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/article-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/article-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/article-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/article-card\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/faq-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/faq-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/faq-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/faq-card\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/faq-list\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/faq-list\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/faq-list\/layout-garden-faqs.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/faq-list\/layout-garden-faqs-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/layout-garden-modules\/faq-list\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/faq-list\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/gallery-1\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/gallery-1\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/gallery-1\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/gallery-1\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/helfy-diptych\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/helfy-diptych\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/helfy-diptych\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/helfy-diptych\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/images\/blue-triangles.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/blue-triangles.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/layout-garden-modules\/images\/green-clouds.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/green-clouds.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/layout-garden-modules\/images\/patient-green-background.jpg" : {
+      "ft" : 16384,
+      "iS" : 168913,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/patient-green-background.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/new-site\/layout-garden-modules\/images\/peach-circles.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/peach-circles.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/layout-garden-modules\/images\/phone-gradient.jpg" : {
+      "ft" : 16384,
+      "iS" : 138491,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/phone-gradient.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/new-site\/layout-garden-modules\/images\/phone-screenshot.jpg" : {
+      "ft" : 16384,
+      "iS" : 153439,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/phone-screenshot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/new-site\/layout-garden-modules\/images\/phone-silhouette.jpg" : {
+      "ft" : 16384,
+      "iS" : 23218,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/phone-silhouette.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/new-site\/layout-garden-modules\/images\/purple-polygons.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/purple-polygons.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/layout-garden-modules\/images\/squares.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/squares.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/layout-garden-modules\/images\/yellow-squares.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/layout-garden-modules\/images\/yellow-squares.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/layout-garden-modules\/imessage-diptych\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/imessage-diptych\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/imessage-diptych\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/imessage-diptych\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/news-page\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/news-page\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/news-page\/data\/articles.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/news-page\/data\/articles-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/layout-garden-modules\/news-page\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/news-page\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/page-heading\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/page-heading\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/page-heading\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/page-heading\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/trail-grid\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/trail-grid\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/trail-grid\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/trail-grid\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/layout-garden-modules\/trail-grid\/trail-grid-data.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/trail-grid\/trail-grid-data-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/new-site\/modules\/biography-card\/_style.scss" : {
       "aP" : 0,
@@ -2852,6 +3203,208 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/modules\/resume-work\/template.php",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/_redirects" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/_redirects",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/api.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/api.html",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/css\/flickity-docs.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/css\/flickity-docs-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/events.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/events.html",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/extras.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/extras.html",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/favicon.ico",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/flickity.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/flickity-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/flickity.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/flickity.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/flickity.pkgd.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/flickity.pkgd-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/flickity.pkgd.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/flickity.pkgd.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_0_0.woff2",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_1_0.woff2",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/fonts\/2D333F_2_0.woff2",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/img\/flickity-illustration.png" : {
+      "ft" : 32768,
+      "iS" : 2704,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/img\/flickity-illustration.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/new-site\/packages\/flickity_v2.0\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/index.html",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/js\/flickity-docs.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/js\/flickity-docs.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/license.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/license.html",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/options.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/options.html",
+      "oF" : 0
+    },
+    "\/new-site\/packages\/flickity_v2.0\/style.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/packages\/flickity_v2.0\/style.html",
       "oF" : 0
     },
     "\/new-site\/projects\/creating-a-design-system\/components\/button\/_style.scss" : {
