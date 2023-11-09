@@ -1,0 +1,28 @@
+.layout-article-card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border-radius: 10px;
+	background-color: var(--paper);
+}
+
+.layout-article-card :is(picture, img) {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.layout-article-card text-content {
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	padding: 0 1rem 1rem;
+}
+
+.layout-article-card text-content :is(h1,p,a) {
+	margin-top: 0px;
+}
+
+.layout-article-card text-content a {
+	margin-top: 1.25rem;
+}
