@@ -30,22 +30,25 @@
 
 		$projectCopy = [
 			'title' => $projectData['title'],
-			'oneLiner' => $projectData['oneLiner']
+			'oneLiner' => $projectData['oneLiner'],
+			'projectId' => $projectData['projectId']
 		];
 
 		array_push($projectDetails, $projectCopy);
 	}
 
 ?>
+<div class="projects-group">
 
-<div class="category-title">
-	<text-content>
-		<h2 class="xl-voice"><?=$categoryTitle ?? "Sample title"?></h2>
-		<p class="medium-voice"><?=$categoryDescription ?? "Sample description"?></p>
-	</text-content>
-</div>
+	<div class="category-title">
+		<text-content>
+			<h2 class="xl-voice"><?=$categoryTitle ?? "Sample title"?></h2>
+			<p class="medium-voice">//<?=$categoryDescription ?? "Sample description"?></p>
+		</text-content>
+	</div>
 
-<div class="category-list">
-	<?php include(getFile('modules/projects-grid/template.php'));?>
+	<div class="category-list">
+		<?php include(getFile('modules/projects-grid/template.php'));?>
+	</div>
 </div>
 
