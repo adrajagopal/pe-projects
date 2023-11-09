@@ -5,14 +5,14 @@
 		$page = $_GET["page"];
 	}
 
-	$json = file_get_contents("data/pages/$page.json");
-
 	if ($page === "projectDetails") {
 		if (isset($_GET["projectId"])) {
 			$projectId = $_GET["projectId"];
 
 			$json = file_get_contents("data/projects/$projectId.json");
 		}
+	} else {
+		$json = file_get_contents("data/pages/$page.json");		
 	}
 
 	$pageData = json_decode($json, true);
