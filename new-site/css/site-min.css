@@ -1565,6 +1565,81 @@ text-content h2 {
   font-weight: 600;
 }
 
+.style-guide-overview-container {
+  display: grid;
+  gap: 2rem;
+}
+.style-guide-overview-container .category-header {
+  color: var(--splash-secondary);
+  border-bottom: 1px solid var(--splash-secondary);
+}
+.style-guide-overview-container .type-overview {
+  font-weight: 400;
+}
+.style-guide-overview-container .type-overview p.xl-voice, .style-guide-overview-container .type-overview ul, .style-guide-overview-container .type-overview li {
+  font-size: clamp(16px, 5vw, 32px);
+}
+.style-guide-overview-container .type-overview ul {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.style-guide-overview-container .type-overview li {
+  display: inline;
+}
+.style-guide-overview-container .voicings em {
+  font-weight: 700;
+}
+.style-guide-overview-container .voicings h1.xxl-voice {
+  margin-top: 1.25rem;
+}
+.style-guide-overview-container .voicings h1.xl-voice {
+  margin-top: 1rem;
+}
+.style-guide-overview-container .voicings h1.large-voice {
+  margin-top: 0.75rem;
+}
+.style-guide-overview-container .voicings h1.medium-voice {
+  margin-top: 0.5rem;
+}
+.style-guide-overview-container .voicings h1.small-voice {
+  margin-top: 0.25rem;
+}
+.style-guide-overview-container .body-texts li {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+}
+.style-guide-overview-container .color-grid {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1px;
+}
+.style-guide-overview-container .color-grid .color {
+  text-align: center;
+  padding: 0.75rem 0;
+}
+.style-guide-overview-container .color-grid .color:nth-of-type(1) {
+  background-color: hsl(var(--hue), 100%, 40%);
+  color: var(--paper);
+}
+.style-guide-overview-container .color-grid .color:nth-of-type(2) {
+  background-color: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+}
+.style-guide-overview-container .color-grid .color:nth-of-type(3) {
+  background-color: var(--paper-accent);
+  color: var(--ink);
+}
+.style-guide-overview-container .color-grid .color:nth-of-type(4) {
+  background-color: var(--ink);
+  color: var(--paper);
+}
+.style-guide-overview-container .color-grid .color:nth-of-type(5) {
+  background-color: var(--ink-grey);
+  color: var(--paper);
+}
+
 /*Sections (in this file)*/
 body {
   background-color: var(--paper);
