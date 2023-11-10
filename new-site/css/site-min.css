@@ -111,7 +111,7 @@ p a { /* "all links in paragraphs..." */
 /*Settings*/
 /*Custom properties comment*/
 body {
-  --hue: 240;
+  --hue: 30;
   --paper: hsl(var(--hue), 75%, 98%);
   --paper-accent: hsl(var(--hue), 40%, 90%);
   --ink-grey: hsl(var(--hue), 15%, 50%);
