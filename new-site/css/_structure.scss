@@ -58,6 +58,12 @@ body:has(.layoutGarden) {
 	}
 }
 
+body:has(.styleGuide) {
+	right-side main section:not(:first-child) {
+		margin-top: var(--gap);
+	}
+}
+
 body:not(:has(.layoutGarden)) {
 
 @media (min-width: 1000px) { //handle the split screen design
