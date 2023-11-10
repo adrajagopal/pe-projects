@@ -39,6 +39,19 @@ body:has(.layoutGarden) {
 	inner-column {
 		max-width: 1200px;
 	}
+
+	section {
+		padding-top: calc(2 * var(--gap));
+		padding-bottom: calc(2 * var(--gap));
+
+		&:nth-of-type(odd) {
+			background-color: var(--paper-accent);
+		}
+
+		&:nth-of-type(even) {
+			background-color: var(--paper);
+		}
+	}
 }
 
 body:not(:has(.layoutGarden)) {

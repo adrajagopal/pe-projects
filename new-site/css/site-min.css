@@ -205,6 +205,16 @@ main {
 body:has(.layoutGarden) inner-column {
   max-width: 1200px;
 }
+body:has(.layoutGarden) section {
+  padding-top: calc(2 * var(--gap));
+  padding-bottom: calc(2 * var(--gap));
+}
+body:has(.layoutGarden) section:nth-of-type(odd) {
+  background-color: var(--paper-accent);
+}
+body:has(.layoutGarden) section:nth-of-type(even) {
+  background-color: var(--paper);
+}
 
 @media (min-width: 1000px) {
   body:not(:has(.layoutGarden)) {
