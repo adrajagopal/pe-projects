@@ -181,6 +181,10 @@ inner-column.skinny {
   max-width: 700px;
 }
 
+.page-wrapper {
+  padding-bottom: 50px;
+}
+
 left-side {
   display: block;
 }
@@ -229,6 +233,7 @@ body:has(.layoutGarden) section:nth-of-type(even) {
   }
   body:not(:has(.layoutGarden)) .page-wrapper {
     padding-top: 0;
+    padding-bottom: 0;
   }
   body:not(:has(.layoutGarden)) inner-column {
     margin: 0;
@@ -789,9 +794,6 @@ biography-controls input::after {
   content: "";
 }
 
-.resume {
-  padding-bottom: 50px;
-}
 .resume .section-title + * {
   margin-top: var(--gap);
 }

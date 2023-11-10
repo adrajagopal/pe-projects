@@ -13,6 +13,10 @@ inner-column {
 	}
 }
 
+.page-wrapper {
+	padding-bottom: 50px;
+}
+
 left-side {
 	display: block;
 
@@ -72,6 +76,7 @@ body:not(:has(.layoutGarden)) {
 
 	.page-wrapper {
 		padding-top: 0;
+		padding-bottom: 0;
 	}
 
 	inner-column {
