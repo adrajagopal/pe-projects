@@ -12,10 +12,11 @@ biography-card {
 	picture {
 		width: 100%;
 		max-width: 300px;		
+		border-radius: 15px;
 	}
 
-	picture, img {
-		border-radius: 15px;
+	img {
+		overflow: hidden;
 	}
 
 	.bio-attributes {

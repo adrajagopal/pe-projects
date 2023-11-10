@@ -722,9 +722,10 @@ biography-card {
 biography-card picture {
   width: 100%;
   max-width: 300px;
-}
-biography-card picture, biography-card img {
   border-radius: 15px;
+}
+biography-card img {
+  overflow: hidden;
 }
 biography-card .bio-attributes {
   display: flex;
