@@ -21,18 +21,13 @@
 <?php include("header.php");?>
 
 <?php 
-	if ($page != "projectDetails") { 
-		include(getFile('templates/main.php'));
+	if ($page === "layoutGarden") {
+		include(getFile('templates/layoutGarden.php'));
 	} elseif ($page === "projectDetails") { 
 		include(getFile('templates/projectDetails.php'));
-	} elseif ($page === "layoutGarden") {
-		include(getFile('templates/layoutGarden.php'));
+	} else { 
+		include(getFile('templates/main.php'));
 	}
-
-
-
-
-
 ?>
 
 <?php include("site-footer.php");?>
