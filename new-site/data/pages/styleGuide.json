@@ -12,7 +12,20 @@
 	],
 	"rightSections": [
 		{
-			"name" : "style-guide-overview"
+			"name" : "style-guide-type-overview",
+			"title": "type overview"
+		},
+		{
+			"name" : "style-guide-type-voicings",
+			"title": "type voicings"
+		},
+		{
+			"name" : "style-guide-type-body",
+			"title": "body text"
+		},
+		{
+			"name" : "style-guide-colors-overview",
+			"title": "colors"
 		}
 	]
 }
