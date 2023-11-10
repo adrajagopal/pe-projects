@@ -19,7 +19,15 @@
 		<div class="right-content">
 		<main>
 			<?php
-				foreach ($pageData['rightSections'] as $section) { ?>
+				foreach ($pageData['rightSections'] as $section) {
+					if ($page === "styleGuide") { ?>
+						<section class="category-header">
+							<inner-column>
+								<?php include(getFile("modules/style-guide-section-intro/template.php")); ?>	
+							</inner-column>
+						</section>
+					<?php } ?>
+
 					<section class="<?=$section['name']?>">
 						<inner-column>
 							<?php include(getFile("modules/$section[name]/template.php")); ?>
