@@ -8,8 +8,8 @@
 
 			<?php if ($detail['hasCaseStudy']) { ?>
 				<a href="?page=projectDetails&projectId=<?=$detail['projectId']?>">read more</a>
-			<?php } elseif ($detail['projectId'] === 'layoutGarden') { 
-				$url = '?page=layoutGarden';
+			<?php } elseif (($detail['projectId'] === 'layoutGarden') OR ($detail['projectId'] === 'styleGuide')) { 
+				$url = "?page=$detail[projectId]";
 				$copy = "see it live";
 
 				include(getFile('components/external-link/template.php'));
