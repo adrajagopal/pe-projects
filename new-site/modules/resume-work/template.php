@@ -17,10 +17,10 @@
 		
 		<li>
 			<h3 class="large-voice"><?=$job["role"]?> | <?=$job["organization"]?> |&nbsp;<?=$startDate?>&nbsp;-&nbsp;<?=$endDate?> </h3>
-			<ul>
+			<ul role="list" class="bulleted-list">
 				<?php
 					foreach ($job["actions"] as $action) { ?>
-						<li class="job-bullet"><?=$action?></li>
+						<li><?=$action?></li>
 				<?php	} ?>
 			</ul>
 		</li>
