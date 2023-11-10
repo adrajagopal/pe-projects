@@ -31,7 +31,9 @@
 		$projectCopy = [
 			'title' => $projectData['title'],
 			'oneLiner' => $projectData['oneLiner'],
-			'projectId' => $projectData['projectId']
+			'hasCaseStudy' => $projectData['hasCaseStudy'],
+			'projectId' => $projectData['projectId'],
+			'liveDemo' => $projectData['liveDemo'],
 		];
 
 		array_push($projectDetails, $projectCopy);
