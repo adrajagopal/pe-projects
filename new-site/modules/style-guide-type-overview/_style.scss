@@ -1,0 +1,13 @@
+.type-overview {
+	font-weight: 400;
+
+	p.xl-voice, ul, li {
+		font-size: clamp(16px, 5vw, 32px);
+	}
+
+	ul {
+		margin-top: 1rem;
+		font-weight: 600;
+	}
+
+}
