@@ -2760,6 +2760,29 @@
       "oAP" : "\/new-site\/layout-garden-modules\/imessage-diptych\/template.php",
       "oF" : 0
     },
+    "\/new-site\/layout-garden-modules\/layout-garden-heading\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/layout-garden-modules\/layout-garden-heading\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/layout-garden-modules\/layout-garden-heading\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/layout-garden-modules\/layout-garden-heading\/template.php",
+      "oF" : 0
+    },
     "\/new-site\/layout-garden-modules\/news-page\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2791,7 +2814,7 @@
       "oAP" : "\/new-site\/layout-garden-modules\/news-page\/template.php",
       "oF" : 0
     },
-    "\/new-site\/layout-garden-modules\/page-heading\/_style.scss" : {
+    "\/new-site\/layout-garden-modules\/section-intro\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -2800,18 +2823,18 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/new-site\/layout-garden-modules\/page-heading\/_style.css",
+      "oAP" : "\/new-site\/layout-garden-modules\/section-intro\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/layout-garden-modules\/page-heading\/template.php" : {
+    "\/new-site\/layout-garden-modules\/section-intro\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/layout-garden-modules\/page-heading\/template.php",
+      "oAP" : "\/new-site\/layout-garden-modules\/section-intro\/template.php",
       "oF" : 0
     },
     "\/new-site\/layout-garden-modules\/trail-grid\/_style.scss" : {
@@ -4545,14 +4568,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/new-site\/projects\/layout-garden\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/projects\/layout-garden\/index.php",
-      "oF" : 0
-    },
     "\/new-site\/projects\/litter\/_app.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5309,6 +5324,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/new-site\/socials.php",
+      "oF" : 0
+    },
+    "\/new-site\/templates\/layoutGarden.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/templates\/layoutGarden.php",
+      "oF" : 0
+    },
+    "\/new-site\/templates\/main.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/templates\/main.php",
+      "oF" : 0
+    },
+    "\/new-site\/templates\/projectDetails.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/templates\/projectDetails.php",
       "oF" : 0
     },
     "\/packages\/flickity_v2.0\/_redirects" : {

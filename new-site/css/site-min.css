@@ -202,58 +202,63 @@ main {
   margin-top: calc(1.5 * var(--gap));
 }
 
+body:has(.layoutGarden) inner-column {
+  max-width: 1200px;
+}
+
 @media (min-width: 1000px) {
-  body {
+  body:not(:has(.layoutGarden)) {
     display: grid;
     grid-template-columns: auto repeat(12, minmax(0, 75px)) auto;
     grid-template-rows: auto 1fr auto;
     gap: 0 var(--gap);
     min-height: 100dvh;
   }
-  main {
+  body:not(:has(.layoutGarden)) main {
     margin-top: 0;
   }
-  .page-wrapper {
+  body:not(:has(.layoutGarden)) .page-wrapper {
     padding-top: 0;
   }
-  inner-column {
+  body:not(:has(.layoutGarden)) inner-column {
     margin: 0;
     max-width: unset;
     padding: 0;
   }
-  .site-header, .site-footer, .page-wrapper {
+  body:not(:has(.layoutGarden)) .site-header, body:not(:has(.layoutGarden)) .site-footer, body:not(:has(.layoutGarden)) .page-wrapper {
     display: grid;
     grid-template-columns: subgrid;
   }
-  .site-header, .page-wrapper, .site-footer {
+  body:not(:has(.layoutGarden)) .site-header, body:not(:has(.layoutGarden)) .page-wrapper, body:not(:has(.layoutGarden)) .site-footer {
     grid-column: 1/-1;
   }
-  :is(.site-header, .site-footer, .page-wrapper) inner-column {
+  body:not(:has(.layoutGarden)) :is(.site-header, .site-footer, .page-wrapper) inner-column {
     grid-column: 2/-2;
   }
-  left-side {
+  body:not(:has(.layoutGarden)) left-side {
     grid-column: 1/7;
     margin-right: calc(-1 * var(--gap));
     display: grid;
     grid-template-columns: subgrid;
     grid-template-rows: auto;
   }
-  right-side {
+  body:not(:has(.layoutGarden)) right-side {
     grid-column: 7/-1;
     display: grid;
     grid-template-columns: subgrid;
     grid-template-rows: auto;
   }
-  .left-content {
+  body:not(:has(.layoutGarden)) .left-content {
     grid-column: 2/-1;
     padding-right: calc(0.5 * var(--gap));
   }
-  .right-content {
+  body:not(:has(.layoutGarden)) .right-content {
     grid-column: 1/-2;
     padding-left: calc(0.5 * var(--gap));
     padding-top: calc(2 * var(--gap));
   }
 }
+
 [role=list].numbered-list {
   list-style: decimal;
   padding-left: 1rem;
