@@ -5,6 +5,7 @@
 	"internalTitle": "style guide",
 	"category": "design",
 	"oneLiner": "a guide to the visual language of this site -- colors, typography, hierarchy, and example modules",
+	"hasCaseStudy": false,
 	"tags": ["style guide", "CSS", "design", "typography"],
 	"sections": [
 		{
