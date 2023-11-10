@@ -1,21 +1,27 @@
 {
 	"name": "Layout Garden",
 	"slug": "layout-garden",
-	"leftSections": [
+	"sections": [
 		{
-			"name": "hero",
-			"content": {
-				"heading": "responsive layout garden",
-				"description": "i'm a frontend developer"
-			}
+			"name": "layout-garden-heading"
 		},
 		{
-			"name": "biography-controls"
-		}
-	],
-	"rightSections": [
+			"name": "helfy-diptych"
+		},
 		{
-			"name": "biography-card"
+			"name": "imessage-diptych"
+		},
+		{
+			"name": "faq-list"
+		},
+		{
+			"name": "trail-grid"
+		},
+		{
+			"name": "news-page"
+		},
+		{
+			"name": "gallery-1"
 		}
 	]
 }
