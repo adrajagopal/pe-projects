@@ -8,7 +8,12 @@
 
 			<?php if ($detail['hasCaseStudy']) { ?>
 				<a href="?page=projectDetails&projectId=<?=$detail['projectId']?>">read more</a>
-			<?php } else {
+			<?php } elseif ($detail['projectId'] === 'layoutGarden') { 
+				$url = '?page=layoutGarden';
+				$copy = "see it live";
+
+				include(getFile('components/external-link/template.php'));
+			} else {
 				$url = "projects/$detail[liveDemo]";
 				$copy = "see it live";
 
