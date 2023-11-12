@@ -5,17 +5,13 @@ biography-card {
 
 	max-width: 600px;
 	background-color: var(--paper-accent);
-	// border: 1px solid var(--ink);
 	border-radius: var(--box-radius);
-	padding: 20px;
+	padding: 24px;
 
 	picture {
 		width: 100%;
 		max-width: 300px;		
-		border-radius: 15px;
-	}
-
-	img {
+		border-radius: 20px;
 		overflow: hidden;
 	}
 
