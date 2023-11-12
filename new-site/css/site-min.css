@@ -114,6 +114,7 @@ body {
   --hue: 30;
   --paper: hsl(var(--hue), 75%, 98%);
   --paper-accent: hsl(var(--hue), 40%, 90%);
+  --paper-grey: hsl(var(--hue), 15%, 90%);
   --ink-grey: hsl(var(--hue), 15%, 50%);
   --ink: hsl(var(--hue), 95%, 25%); /* dark maroon */
   --primary-font: "Inter";
@@ -561,7 +562,7 @@ button {
   color: var(--ink);
   border: 1px solid var(--ink);
   min-width: 150px;
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 0.5rem 1rem;
   font-family: var(--secondary-font);
   font-size: 1rem;
@@ -717,14 +718,12 @@ biography-card {
   max-width: 600px;
   background-color: var(--paper-accent);
   border-radius: var(--box-radius);
-  padding: 20px;
+  padding: 24px;
 }
 biography-card picture {
   width: 100%;
   max-width: 300px;
-  border-radius: 15px;
-}
-biography-card img {
+  border-radius: 20px;
   overflow: hidden;
 }
 biography-card .bio-attributes {
@@ -776,6 +775,7 @@ biography-controls .option {
   gap: 0.5rem;
   min-width: 250px;
   padding: 0.5rem 1rem;
+  border: 1px solid var(--paper-grey);
   border-radius: 25px;
 }
 biography-controls .option:has(:checked) {
@@ -1643,24 +1643,28 @@ section.category-header {
   text-align: center;
   padding: 0.75rem 0;
 }
-.colors-overview .color:nth-of-type(1) {
+.colors-overview .baseHue {
   background-color: hsl(var(--hue), 100%, 40%);
   color: var(--paper);
 }
-.colors-overview .color:nth-of-type(2) {
+.colors-overview .paper {
   background-color: var(--paper);
   color: var(--ink);
-  border: 1px solid var(--ink);
+  border: 1px solid var(--paper-grey);
 }
-.colors-overview .color:nth-of-type(3) {
+.colors-overview .paperAccent {
   background-color: var(--paper-accent);
   color: var(--ink);
 }
-.colors-overview .color:nth-of-type(4) {
+.colors-overview .paperGrey {
+  background-color: var(--paper-grey);
+  color: var(--ink);
+}
+.colors-overview .ink {
   background-color: var(--ink);
   color: var(--paper);
 }
-.colors-overview .color:nth-of-type(5) {
+.colors-overview .inkGrey {
   background-color: var(--ink-grey);
   color: var(--paper);
 }
