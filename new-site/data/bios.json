@@ -2,28 +2,28 @@
 	{
 		"version" : "normal",
 		"portrait" : "ad-portrait-blonde.jpg",
-		"type" : "normal",
-		"rarity" : "extremely common",
-		"Interests" : "design systems, health tech, the outdoors, music, dogs",
-		"bioParagraph" : "this version of Ad appears most of the time. he’s a hyper-organized, analytics-loving, former product manager with an obsessive attention to detail. he takes a lot of pride in handcrafting things himself, which is why he’d rather be coding than writing product briefs.",
-		"bioClosingSentence" : "he loves feeling like part of a team and making your days (and meetings) a little more joyful."
+		"type" : "Classic",
+		"rarity" : "Extremely common",
+		"interests" : "Design systems, health tech, the outdoors, music, dogs",
+		"bioParagraph" : "This version of Ad appears most of the time. He’s a hyper-organized, analytics-loving, former product manager with an obsessive attention to detail. He takes a lot of pride in handcrafting things himself, which is why he’d rather be coding than writing product briefs.",
+		"bioClosingSentence" : "He loves feeling like part of a team and making your days (and meetings) a little more joyful."
 	},
 	{
 		"version" : "aggressive",
 		"portrait" : "ad-portrait-tech.jpg",
-		"type" : "aggressive confidence",
-		"rarity" : "extremely rare",
-		"Interests" : "ranting about trivial things",
-		"bioParagraph" : "this version of Ad rarely, if ever, appears in the wild. if you do happen to encounter an aggressively confident Ad, you’re likely talking about something trivial, like how annoying it is when streaming services replay ads when you rewind too far, or how big food has co-opted terms like “plant-based” in a way that’s overly broad and confusing.",
-		"bioClosingSentence" : "he still does great work. you can check it out here:"
+		"type" : "Blind Optimist",
+		"rarity" : "Extremely rare",
+		"interests" : "Ranting about trivial things",
+		"bioParagraph" : "This version of Ad rarely, if ever, appears in the wild.",
+		"bioClosingSentence" : "He still does great work. You can check it out here:"
 	},
 	{
-		"version" : "anxious",
+		"version" : "nitpicky",
 		"portrait" : "ad-portrait-anxious.jpg",
-		"type" : "anxious perfectionism",
-		"rarity" : "somewhat rare",
-		"Interests" : "worrying, pacing, standing while eating",
-		"bioParagraph" : "this version of Ad pops up every once in a while. he means well, but just gets a little stressed and wants to do a good job. you might not even notice that he’s there. he’s a sneaky creature.",
-		"bioClosingSentence" : "the upside? all that attention to detail, careful debugging, and thorough testing? that’s this guy."
+		"type" : "Nitpicky",
+		"rarity" : "Fairly common",
+		"interests" : "Worrying, pacing, reading ingredient lists",
+		"bioParagraph" : "This version of Ad pops up every once in a while. He means well, but can go off on tangents about how annoying it is that streaming services can't pick a consistent scrub speed, or how big food has co-opted terms like “plant-based” in a way that’s overly broad and confusing.",
+		"bioClosingSentence" : "The upside? All that attention to detail, careful debugging, and thorough testing? That’s this guy."
 	}
 ]
