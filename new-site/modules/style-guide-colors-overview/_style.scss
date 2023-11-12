@@ -11,28 +11,33 @@
 		padding: 0.75rem 0;
 	}
 
-	.color:nth-of-type(1) {
+	.baseHue {
 		background-color: hsl(var(--hue), 100%, 40%);
 		color:var(--paper);
 	}
 
-	.color:nth-of-type(2) {
+	.paper {
 		background-color:var(--paper);
 		color:var(--ink);
-		border: 1px solid var(--ink);
+		border: 1px solid var(--paper-grey);
 	}
 
-	.color:nth-of-type(3) {
+	.paperAccent {
 		background-color:var(--paper-accent);
 		color:var(--ink);
 	}
 
-	.color:nth-of-type(4) {
+	.paperGrey {
+		background-color:var(--paper-grey);
+		color:var(--ink);
+	}
+
+	.ink {
 		background-color:var(--ink);
 		color:var(--paper);
 	}
 
-	.color:nth-of-type(5) {
+	.inkGrey {
 		background-color:var(--ink-grey);
 		color:var(--paper);
 	}
