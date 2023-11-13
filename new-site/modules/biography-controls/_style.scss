@@ -44,7 +44,10 @@ biography-controls {
 		input {
 			accent-color: var(--ink);
 		}
-		
+	}
+
+	input[type="radio"]:focus {
+		outline: none;
 	}
 
 	input::after {

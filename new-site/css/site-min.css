@@ -865,6 +865,9 @@ biography-controls .option:has(:checked) label {
 biography-controls .option:has(:checked) input {
   accent-color: var(--ink);
 }
+biography-controls input[type=radio]:focus {
+  outline: none;
+}
 biography-controls input::after {
   top: 0;
   left: 0;
