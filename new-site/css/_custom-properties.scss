@@ -2,13 +2,13 @@
 
 body {
 
-	--hue: 30;
+	--hue: 200;
 
-	--paper: hsl(var(--hue), 75%, 98%);
-	--paper-accent: hsl(var(--hue), 40%, 90%);
+	--paper: hsl(var(--hue), 60%, 98%);
+	--paper-accent: hsl(var(--hue), 30%, 90%);
 	--paper-grey: hsl(var(--hue), 15%, 90%);
 	--ink-grey: hsl(var(--hue), 15%, 50%); // splash primary greyed out but readable
-	--ink: hsl(var(--hue), 95%, 25%); /* dark maroon */
+	--ink: hsl(var(--hue), 70%, 25%); /* dark maroon */
 
 
 	--primary-font: "Inter";
@@ -20,8 +20,8 @@ body {
 
 @media (prefers-color-scheme:dark) {
 	body {
-		--paper: hsl(var(--hue), 95%, 25%);
-		--ink: hsl(var(--hue), 75%, 98%);
+		--paper: hsl(var(--hue), 70%, 25%);
+		--ink: hsl(var(--hue), 60%, 98%);
 	}
 }
 
@@ -30,35 +30,35 @@ body {
 .xxl-voice {
 	font-family: var(--primary-font);
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .xl-voice {
 	font-family: var(--primary-font);
 	font-size: 2rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .large-voice {
 	font-family: var(--primary-font);
 	font-size: 1.5rem;
-	font-weight: 100;
+	font-weight: 500;
 }
 
 .med-plus-voice {
 	font-family: var(--secondary-font);
 	font-size: 1.25rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .small-voice {
 	font-family: var(--secondary-font);
 	font-size: 0.75rem;
-	font-weight: 400;
+	font-weight: 300;
 }
