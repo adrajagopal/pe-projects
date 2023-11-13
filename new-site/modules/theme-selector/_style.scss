@@ -1,0 +1,76 @@
+.themeSelector {
+	display: flex;
+	gap: 8px;
+
+
+	.palettes {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 5px;
+	}
+
+	.palettes div {
+		width: 24px;
+		border-radius: 5px;
+		aspect-ratio: 1/1;
+		cursor: pointer;
+
+		&:hover {
+			border-radius: 25px;
+		}
+
+	}
+
+	.active {
+		border: 1px solid var(--ink);
+	}
+
+	[id="0"] {
+		background-color: hsl(0, 40%, 75%);
+	}
+
+	[id="30"] {
+		background-color: hsl(30, 40%, 75%);
+	}
+
+	[id="60"] {
+		background-color: hsl(60, 40%, 75%);
+	}
+
+	[id="90"] {
+		background-color: hsl(90, 40%, 75%);
+	}
+
+	[id="120"] {
+		background-color: hsl(120, 40%, 75%);
+	}
+
+	[id="150"] {
+		background-color: hsl(150, 40%, 75%);
+	}
+
+	[id="180"] {
+		background-color: hsl(180, 40%, 75%);
+	}
+
+	[id="210"] {
+		background-color: hsl(210, 40%, 75%);
+	}
+
+	[id="240"] {
+		background-color: hsl(240, 40%, 75%);
+	}
+
+	[id="270"] {
+		background-color: hsl(270, 40%, 75%);
+	}
+	
+	[id="300"] {
+		background-color: hsl(300, 40%, 75%);
+	}
+
+	[id="330"] {
+		background-color: hsl(330, 40%, 75%);
+	}
+
+}

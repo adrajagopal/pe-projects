@@ -1,0 +1,1 @@
+const palettes=document.querySelector(".palettes"),body=document.querySelector("body");palettes.addEventListener("click",(function(e){if(e.target.matches(".color")){const t=document.querySelector(".palettes .active");let c=Number(e.target.id);body.style.setProperty("--hue",c),e.target.classList.add("active"),t.classList.remove("active")}}));

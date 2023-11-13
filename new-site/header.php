@@ -45,13 +45,17 @@ Inter -->
 
 <header class="site-header" aria-label="Site navigation menu">
 	<inner-column>
-		<nav class="site-nav">
-			<ul class="site-nav-items">
-				<li><a href="?page=home">Home</a></li>
-				<li><a href="?page=work">Work</a></li>
-				<li><a href="?page=resume">Resume</a></li>
-				<li><a href="?page=now">Now</a></li>
-			</ul>
-		</nav>
+		<div class="header-items">
+			<nav class="site-nav">
+				<ul class="site-nav-items">
+					<li><a href="?page=home">Home</a></li>
+					<li><a href="?page=work">Work</a></li>
+					<li><a href="?page=resume">Resume</a></li>
+					<li><a href="?page=now">Now</a></li>
+				</ul>
+			</nav>
+			
+			<?php include("modules/theme-selector/template.php");?>
+		</div>
 	</inner-column>
 </header>

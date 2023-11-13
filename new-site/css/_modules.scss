@@ -2,6 +2,8 @@
 @import "_site-header";
 @import "_site-footer";
 @import "../modules/hero/_style";
+@import "../modules/theme-selector/_style";
+
 
 //homepage
 @import "../modules/biography-card/_style";
@@ -24,7 +26,6 @@
 @import "../modules/project-details-text/_style";
 @import "../modules/project-details-figure/_style";
 @import "../modules/project-details-link-out/_style";
-
 
 //now page
 @import "../modules/now-card/_style";
