@@ -2883,6 +2883,17 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/new-site\/modules\/biography-card\/controller-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/biography-card\/controller-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/new-site\/modules\/biography-card\/controller.js" : {
       "bF" : 0,
       "ft" : 64,

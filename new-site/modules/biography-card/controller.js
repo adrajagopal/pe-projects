@@ -38,7 +38,7 @@ bioControls.addEventListener('change', function(event) {
 		// look into https://jsonplaceholder.typicode.com/, promise, fetch
 
 		// bioOutlet.innerHTML = renderBio(versionId);
-		bioOutlet.innerHTML = versionId;
+		// bioOutlet.innerHTML = versionId;
 	}
 
 });
