@@ -2,7 +2,7 @@
 
 body {
 
-	--hue: 200;
+	--hue: 270;
 
 	--paper: hsl(var(--hue), 60%, 98%);
 	--paper-accent: hsl(var(--hue), 30%, 90%);
@@ -17,6 +17,8 @@ body {
 	--gap: 20px;
 	--box-radius: 20px;
 	--button-radius: 15px;
+	--card-padding: 20px;
+	--card-shadow: 8px 8px 2px hsla(var(--hue), 70%, 15%, 0.2);
 }
 
 @media (prefers-color-scheme:dark) {

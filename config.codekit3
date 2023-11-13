@@ -3373,6 +3373,51 @@
       "oAP" : "\/new-site\/modules\/style-guide-type-voicings\/template.php",
       "oF" : 0
     },
+    "\/new-site\/modules\/theme-selector\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/theme-selector\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/new-site\/modules\/theme-selector\/controller-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/theme-selector\/controller-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/modules\/theme-selector\/controller.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/theme-selector\/controller-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/modules\/theme-selector\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/theme-selector\/template.php",
+      "oF" : 0
+    },
     "\/new-site\/packages\/flickity_v2.0\/_redirects" : {
       "cB" : 0,
       "ft" : 8192,

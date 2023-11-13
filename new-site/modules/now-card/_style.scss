@@ -1,10 +1,11 @@
 .now-card {
 
-	padding: 12px;
+	padding: var(--card-padding);
 	max-width: 600px;
 	border-radius: var(--box-radius);
 	background-color: var(--paper-accent);
 	border: 1px solid var(--ink);
+	box-shadow: var(--card-shadow);
 
 	h2 {
 		font-weight: 300;
