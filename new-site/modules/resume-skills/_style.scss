@@ -8,14 +8,7 @@
 .skill {
 	padding: 0.5em 1em;
 	border-radius: var(--button-radius);
-	background-color: var(--ink);
-	color: var(--paper);
+	background-color: var(--paper-accent);
+	color: var(--ink);
 	font-weight: 500;
-}
-
-@media (prefers-color-scheme: dark) {
-	.skill {
-		background-color: var(--paper);
-		color: var(--ink);
-	}
 }

@@ -22,7 +22,11 @@
 	}
 
 	.active {
-		border: 1px solid var(--ink);
+		border: 2px solid hsl(var(--hue), 100%, 30%);;
+
+		@media (prefers-color-scheme:dark) {
+			border: 2px solid hsl(var(--hue), 100%, 98%);
+		}
 	}
 
 	[id="0"] {

@@ -2,7 +2,7 @@
 
 body {
 
-	--hue: 270;
+	--hue: 210;
 
 	--paper: hsl(var(--hue), 60%, 98%);
 	--paper-accent: hsl(var(--hue), 30%, 90%);
@@ -23,9 +23,11 @@ body {
 
 @media (prefers-color-scheme:dark) {
 	body {
-		--paper: hsl(var(--hue), 70%, 15%);
-		--paper-accent: hsl(var(--hue), 70%, 25%);
+		--paper: hsl(var(--hue), 50%, 10%);
+		--paper-accent: hsl(var(--hue), 25%, 25%);
 		--ink: hsl(var(--hue), 60%, 98%);
+		--paper-grey: hsl(var(--hue), 15%, 50%);
+		--ink-grey: hsl(var(--hue), 15%, 70%);
 	}
 }
 
