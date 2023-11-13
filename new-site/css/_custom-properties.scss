@@ -7,8 +7,8 @@ body {
 	--paper: hsl(var(--hue), 60%, 98%);
 	--paper-accent: hsl(var(--hue), 30%, 90%);
 	--paper-grey: hsl(var(--hue), 15%, 90%);
-	--ink-grey: hsl(var(--hue), 15%, 50%); // splash primary greyed out but readable
-	--ink: hsl(var(--hue), 70%, 25%); /* dark maroon */
+	--ink-grey: hsl(var(--hue), 15%, 50%);
+	--ink: hsl(var(--hue), 70%, 15%);
 
 
 	--primary-font: "Inter";
@@ -20,7 +20,8 @@ body {
 
 @media (prefers-color-scheme:dark) {
 	body {
-		--paper: hsl(var(--hue), 70%, 25%);
+		--paper: hsl(var(--hue), 70%, 15%);
+		--paper-accent: hsl(var(--hue), 70%, 25%);
 		--ink: hsl(var(--hue), 60%, 98%);
 	}
 }
