@@ -817,10 +817,11 @@ biography-controls input::after {
   }
 }
 
-.job-bullet {
-  list-style-type: disc;
-  margin-left: 20px;
-  margin-top: 0.5rem;
+.resume-work .job-group {
+  margin-top: calc(2 * var(--gap));
+}
+.resume-work .job-group li {
+  margin-top: var(--gap);
 }
 
 .resume-education .degree-title {
@@ -831,7 +832,10 @@ biography-controls input::after {
   font-size: 0.75rem;
 }
 .resume-education .item + .item {
-  margin-top: var(--gap);
+  margin-top: calc(2 * var(--gap));
+}
+.resume-education .item p {
+  margin-top: calc(0.5 * var(--gap));
 }
 
 .skill-list {

@@ -10,7 +10,13 @@
 	}
 
 	.item + .item {
-		margin-top: var(--gap);
+		margin-top: calc(2 * var(--gap));
+	}
+
+	.item {
+		p {
+			margin-top: calc(0.5 * var(--gap));
+		}
 	}
 
 

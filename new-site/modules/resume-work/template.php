@@ -15,8 +15,8 @@
 			$duration = date_diff(date_create($job["tenure"]["startDate"]), date_create($job["tenure"]["endDate"]));
 	?>
 		
-		<li>
-			<h3 class="large-voice"><?=$job["role"]?> | <?=$job["organization"]?> |&nbsp;<?=$startDate?>&nbsp;-&nbsp;<?=$endDate?> </h3>
+		<li class="job-group">
+			<h3 class="med-plus-voice"><?=$job["role"]?> | <?=$job["organization"]?> |&nbsp;<?=$startDate?>&nbsp;-&nbsp;<?=$endDate?> </h3>
 			<ul role="list" class="bulleted-list">
 				<?php
 					foreach ($job["actions"] as $action) { ?>

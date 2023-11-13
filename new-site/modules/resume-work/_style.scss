@@ -1,5 +1,9 @@
-.job-bullet {
-	list-style-type: disc;
-	margin-left: 20px;
-	margin-top: 0.5rem;
+.resume-work {
+	.job-group {
+		margin-top: calc(2 * var(--gap));
+	}
+
+	.job-group li {
+		margin-top: var(--gap);
+	}
 }
