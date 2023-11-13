@@ -1,0 +1,1 @@
+export const database=window.localStorage;function initializeHue(){if(database.getItem("themeCode")){database.getItem("themeCode")}else{let e=210;database.setItem("themeCode",210),console.log(e)}}window.addEventListener("load",(function(e){initializeHue()}));

@@ -1,5 +1,6 @@
-const palettes = document.querySelector('.palettes');
-const body = document.querySelector('body');
+import {database, palettes, body} from './../../main.js';
+
+
 
 palettes.addEventListener('click', function(event) {
 
@@ -8,6 +9,7 @@ palettes.addEventListener('click', function(event) {
 
 		let hue = Number(event.target.id);
 
+		database.setItem("themeCode", hue);
 		body.style.setProperty('--hue', hue);
 
 		event.target.classList.add("active");
