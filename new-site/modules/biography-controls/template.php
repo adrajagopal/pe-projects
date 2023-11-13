@@ -1,6 +1,6 @@
 <biography-controls>
 	<text-content>
-		<h3 class="large-voice"><strong>Choose your vibe:</strong></h3>
+		<h3 class="large-voice">Choose your vibe:</h3>
 		<!-- <p class="medium-voice">which me? your choice.</p> -->
 	</text-content>
 	<form class="button-container">
