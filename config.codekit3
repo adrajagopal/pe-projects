@@ -2868,6 +2868,17 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/new-site\/main.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/new-site\/main-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/new-site\/modules\/biography-card\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
