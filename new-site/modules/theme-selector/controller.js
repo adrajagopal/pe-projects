@@ -10,6 +10,7 @@ palettes.addEventListener('click', function(event) {
 		let hue = Number(event.target.id);
 
 		database.setItem("themeCode", hue);
+		document.cookie = `themeCode=${hue}`;
 		body.style.setProperty('--hue', hue);
 
 		event.target.classList.add("active");
