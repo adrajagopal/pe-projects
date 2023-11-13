@@ -6,10 +6,13 @@
 
 	h2 {
 		border-bottom: 1px solid var(--ink);
+		font-weight: 300;
 	}
 
 	&:nth-of-type(odd) {
 		background-color: var(--paper-accent);
+	li {
+		font-weight: 300;
 	}
 
 	&:nth-of-type(even) {
