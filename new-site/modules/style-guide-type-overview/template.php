@@ -6,10 +6,10 @@
 	<p class="xl-voice">1234567890</p>
 	<ul class="xl-voice">
 		<li class="xl-voice">Font weights:</li>
-		<li class="xl-voice" style="font-weight: 100;">extralight</li>
-		<li class="xl-voice" style="font-weight: 300;">light</li>
-		<li class="xl-voice" style="font-weight: 400;">regular</li>
-		<li class="xl-voice" style="font-weight: 600;">semibold</li>
-		<li class="xl-voice" style="font-weight: 700;">bold</li>
+		<li class="xl-voice" style="font-weight: 100;">Extralight</li>
+		<li class="xl-voice" style="font-weight: 300;">Light</li>
+		<li class="xl-voice" style="font-weight: 400;">Regular</li>
+		<li class="xl-voice" style="font-weight: 600;">Semibold</li>
+		<li class="xl-voice" style="font-weight: 700;">Bold</li>
 	</ul>
 </div>

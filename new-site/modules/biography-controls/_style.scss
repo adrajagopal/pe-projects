@@ -28,7 +28,7 @@ biography-controls {
 		min-width: 250px;
 		padding: 0.5rem 1rem;
 		border: 1px solid var(--paper-grey);
-		border-radius: 25px;
+		border-radius: var(--button-radius);
 	}
 
 	.option:has(:checked) {

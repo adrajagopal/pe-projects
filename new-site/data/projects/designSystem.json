@@ -1,10 +1,10 @@
 {
-	"title": "creating a design system",
+	"title": "Creating a design system",
 	"projectId": "designSystem",
 	"liveDemo": "creating-a-design-system",
-	"internalTitle": "figma challenge",
+	"internalTitle": "Figma challenge",
 	"category": "design",
-	"oneLiner": "creating (and implementing) a design system to handle 3 variants of a landing page",
+	"oneLiner": "Creating (and implementing) a design system to handle 3 variants of a landing page",
 	"hasCaseStudy": true,
 	"tags": ["HTML", "CSS", "PHP", "design systems", "reusable components"],
 	"sections": [
@@ -14,7 +14,7 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "brief",
+					"title": "Brief",
 					"text" : ""
 				},
 				{
@@ -35,7 +35,7 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "challenges",
+					"title": "Challenges",
 					"text" : ""
 				}
 			]
@@ -46,7 +46,7 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "process",
+					"title": "Process",
 					"text" : ""
 				}
 			]
@@ -57,7 +57,7 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "learnings",
+					"title": "Learnings",
 					"text" : ""
 				}
 			]

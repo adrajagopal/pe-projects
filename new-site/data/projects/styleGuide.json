@@ -1,10 +1,10 @@
 {
-	"title": "style guide",
+	"title": "Style guide",
 	"projectId": "styleGuide",
 	"liveDemo": "style-guide",
-	"internalTitle": "style guide",
+	"internalTitle": "Style guide",
 	"category": "design",
-	"oneLiner": "a guide to the visual language of this site -- colors, typography, hierarchy, and example modules",
+	"oneLiner": "A guide to the visual language of this site -- colors, typography, hierarchy, and example modules",
 	"hasCaseStudy": false,
 	"tags": ["style guide", "CSS", "design", "typography"]
 }

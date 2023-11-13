@@ -7,10 +7,10 @@
 		<p>List styles within a body of text:</p>
 		
 		<ul role="list" class="bulleted-list">
-			<li>list item 1</li>
-			<li>list item 2</li>
-			<li>list item 3</li>
-			<li>list item 4</li>
+			<li>List item 1</li>
+			<li>List item 2</li>
+			<li>List item 3</li>
+			<li>List item 4</li>
 		</ul>
 	</article>
 </div>

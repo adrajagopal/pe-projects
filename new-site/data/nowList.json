@@ -1,25 +1,25 @@
 [
 	{
-		"category": "working on",
+		"category": "Working on",
 		"items": [
-			"hunting for a full-time job doing frontend web development",
-			"finishing a 9-month frontend webdev mentorship at the end of the year"
+			"Hunting for a full-time job doing frontend web development",
+			"Finishing a 9-month frontend webdev mentorship at the end of the year"
 		]
 	},
 	{
-		"category": "learning about",
+		"category": "Learning about",
 		"items": [
-			"vanilla JavaScript",
-			"design systems",
-			"whether I can use grid-template-areas for everything"
+			"Vanilla JavaScript",
+			"Design systems",
+			"The limits of using grid-template-areas for everything"
 		]
 	},
 	{
-		"category": "reading about",
+		"category": "Reading about",
 		"items": [
-			"what happens when humans encroach on wild ecosystems, through the lens of wolves and tigers",
-			"animal behavior and intelligence",
-			"thriller stories that take place in the wilderness"
+			"What happens when humans encroach on wild ecosystems, through the lens of wolves and tigers",
+			"Animal behavior and intelligence",
+			"Thriller stories that take place in the wilderness"
 		]
 	}
 ]

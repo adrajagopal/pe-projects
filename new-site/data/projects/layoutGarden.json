@@ -1,10 +1,10 @@
 {
-	"title": "responsive layout garden",
+	"title": "Responsive layout garden",
 	"projectId": "layoutGarden",
 	"liveDemo": "layout-garden",
-	"internalTitle": "layout garden",
+	"internalTitle": "Layout garden",
 	"category": "design",
-	"oneLiner": "a showcase of responsive layouts. modules for all garden and screen sizes",
+	"oneLiner": "A showcase of responsive layouts. modules for all garden and screen sizes",
 	"hasCaseStudy": false,
 	"tags": ["CSS", "responsive design", "grid-template-areas is a hammer", "everything is a nail"]
 }

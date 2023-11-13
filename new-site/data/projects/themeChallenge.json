@@ -1,10 +1,10 @@
 {
-	"title": "developing a visual language",
+	"title": "Developing a visual language",
 	"projectId": "themeChallenge",
 	"liveDemo": "theme-challenge",
-	"internalTitle": "theme challenge",
+	"internalTitle": "Theme challenge",
 	"category": "design",
-	"oneLiner": "creating a visual language for a mock brand that feels familiar within the industry, yet unique, and implementing it with CSS",
+	"oneLiner": "Creating a visual language for a mock brand that feels familiar within the industry, yet unique, and implementing it with CSS",
 	"hasCaseStudy": true,
 	"tags": ["HTML", "CSS", "PHP", "style tiles", "research & feedback"],
 	"sections": [
@@ -14,13 +14,13 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "brief",
+					"title": "Brief",
 					"text" : "I was handed a folder of HTML and PHP files and was tasked with styling it like a 'pro' marketing site – borrowing heavily from an industry of my choosing – over the course of a one-week sprint."
 				},
 				{
 					"type": "figure",
 					"src": "themeChallenge/helfy-before-after.jpg",
-					"alt": "a side-by-side comparison of the HTML skeleton before and after I styled it. before looks like a frankenstein mish-mash, after looks cohesive and beautiful.",
+					"alt": "A side-by-side comparison of the HTML skeleton before and after I styled it. before looks like a frankenstein mish-mash, after looks cohesive and beautiful.",
 					"figcaption": "the HTML skeleton before and after I styled it" 
 				},
 				{
@@ -35,7 +35,7 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "challenges",
+					"title": "Challenges",
 					"text" : "Design was definitely the most challenging piece of this project. The goal of the project was to steal from industry peers, but then take that and create something unique, yet familiar. It took lots of feedback and iteration to get it to a place where my design language communicated what I needed it to, while also feeling fresh and interesting."
 				},
 				{
@@ -50,7 +50,7 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "process",
+					"title": "Process",
 					"text" : "The first step was to write the CSS for the layout, so that I would have a responsive wireframe to work with."
 				},
 				{
@@ -89,7 +89,7 @@
 			"modules": [
 				{
 					"type": "section-intro",
-					"title": "learnings",
+					"title": "Learnings",
 					"text" : "This project was a test of the prior 2 months of learning the ins and outs of HTML, CSS, typography, graphics & image preparation, and PHP. It pushed my abilities in all of those areas and I learned a lot."
 				},
 				{

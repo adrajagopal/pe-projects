@@ -11,7 +11,7 @@ form {
 		padding: 5px;
 	}
 	border: 2px solid var(--ink);
-	border-radius: 0.5rem;
+	border-radius: var(--box-radius);
 	width: 100%;
 /*	min-height: 300px;*/
 	display: grid;
@@ -142,7 +142,7 @@ radio-container, checkbox-container {
 .checkbox-pills label { /* aka the actual button */
 	border: 2px solid var(--ink);
 	padding: 0.5rem 1rem;
-	border-radius: 0.5rem;
+	border-radius: var(--button-radius);
 	font-family: var(--secondary-font);
 }
 
@@ -187,7 +187,7 @@ button {
 	color: var(--ink);
 	border: 1px solid var(--ink);
 	min-width: 150px;
-	border-radius: 20px;
+	border-radius: var(--button-radius);
 	padding: 0.5rem 1rem;
 	font-family: var(--secondary-font);
 	font-size: 1rem;

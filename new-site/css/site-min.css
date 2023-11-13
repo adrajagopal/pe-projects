@@ -121,6 +121,7 @@ body {
   --secondary-font: "Inter";
   --gap: 20px;
   --box-radius: 20px;
+  --button-radius: 15px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -384,7 +385,7 @@ article figcaption {
 form {
   padding: 10px;
   border: 2px solid var(--ink);
-  border-radius: 0.5rem;
+  border-radius: var(--box-radius);
   width: 100%;
   /*	min-height: 300px;*/
   display: grid;
@@ -518,7 +519,7 @@ radio-container, checkbox-container {
 .checkbox-pills label { /* aka the actual button */
   border: 2px solid var(--ink);
   padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  border-radius: var(--button-radius);
   font-family: var(--secondary-font);
 }
 
@@ -562,7 +563,7 @@ button {
   color: var(--ink);
   border: 1px solid var(--ink);
   min-width: 150px;
-  border-radius: 20px;
+  border-radius: var(--button-radius);
   padding: 0.5rem 1rem;
   font-family: var(--secondary-font);
   font-size: 1rem;
@@ -776,7 +777,7 @@ biography-controls .option {
   min-width: 250px;
   padding: 0.5rem 1rem;
   border: 1px solid var(--paper-grey);
-  border-radius: 25px;
+  border-radius: var(--button-radius);
 }
 biography-controls .option:has(:checked) {
   background-color: var(--ink);
@@ -841,10 +842,11 @@ biography-controls input::after {
 }
 
 .skill {
-  padding: 0.25em 0.5em;
-  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: var(--button-radius);
   background-color: var(--ink);
   color: var(--paper);
+  font-weight: 500;
 }
 
 @media (prefers-color-scheme: dark) {

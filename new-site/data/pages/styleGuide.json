@@ -5,8 +5,8 @@
 		{
 			"name": "hero",
 			"content": {
-				"heading": "style guide",
-				"description": "style guides are used to exemplify a design system. this includes typography, colors & contrast, component styling, and content spacing."
+				"heading": "Style guide",
+				"description": "Style guides are used to exemplify a design system. This includes typography, colors & contrast, component styling, and content spacing."
 			}
 		}
 	],
