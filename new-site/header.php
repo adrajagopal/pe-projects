@@ -48,10 +48,10 @@ Inter -->
 		<div class="header-items">
 			<nav class="site-nav">
 				<ul class="site-nav-items">
-					<li><a href="?page=home">Home</a></li>
-					<li><a href="?page=work">Work</a></li>
-					<li><a href="?page=resume">Resume</a></li>
-					<li><a href="?page=now">Now</a></li>
+					<li><a href="?page=home" class="<?php if ($page === "home") { echo "active";} ?>">Home</a></li>
+					<li><a href="?page=work" class="<?php if ($page === "work") { echo "active";} ?>">Work</a></li>
+					<li><a href="?page=resume" class="<?php if ($page === "resume") { echo "active";} ?>">Resume</a></li>
+					<li><a href="?page=now" class="<?php if ($page === "now") { echo "active";} ?>">Now</a></li>
 				</ul>
 			</nav>
 			
