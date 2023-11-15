@@ -1,6 +1,13 @@
 <?php include("config.php");?>
 <?php include("functions.php");?>
 
+<?php //load theme hue
+	$activeHue = 210;
+
+	if (isset($_COOKIE["themeCode"])) {
+		$activeHue = $_COOKIE["themeCode"];
+	}
+?>
 
 <!doctype html>
 
@@ -41,7 +48,7 @@ Inter -->
 
 </head>
 
-<body>
+<body style="--hue: <?=$activeHue?>">
 	
 <?php include('icons.php');?>
 
