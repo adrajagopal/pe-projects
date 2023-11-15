@@ -754,40 +754,40 @@ input[type=range]:focus::-moz-range-thumb {
     border: 2px solid hsl(var(--hue), 100%, 98%);
   }
 }
-.themeSelector [id="0"] {
+.themeSelector [data-hue="0"] {
   background-color: hsl(0, 40%, 75%);
 }
-.themeSelector [id="30"] {
+.themeSelector [data-hue="30"] {
   background-color: hsl(30, 40%, 75%);
 }
-.themeSelector [id="60"] {
+.themeSelector [data-hue="60"] {
   background-color: hsl(60, 40%, 75%);
 }
-.themeSelector [id="90"] {
+.themeSelector [data-hue="90"] {
   background-color: hsl(90, 40%, 75%);
 }
-.themeSelector [id="120"] {
+.themeSelector [data-hue="120"] {
   background-color: hsl(120, 40%, 75%);
 }
-.themeSelector [id="150"] {
+.themeSelector [data-hue="150"] {
   background-color: hsl(150, 40%, 75%);
 }
-.themeSelector [id="180"] {
+.themeSelector [data-hue="180"] {
   background-color: hsl(180, 40%, 75%);
 }
-.themeSelector [id="210"] {
+.themeSelector [data-hue="210"] {
   background-color: hsl(210, 40%, 75%);
 }
-.themeSelector [id="240"] {
+.themeSelector [data-hue="240"] {
   background-color: hsl(240, 40%, 75%);
 }
-.themeSelector [id="270"] {
+.themeSelector [data-hue="270"] {
   background-color: hsl(270, 40%, 75%);
 }
-.themeSelector [id="300"] {
+.themeSelector [data-hue="300"] {
   background-color: hsl(300, 40%, 75%);
 }
-.themeSelector [id="330"] {
+.themeSelector [data-hue="330"] {
   background-color: hsl(330, 40%, 75%);
 }
 
