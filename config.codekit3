@@ -2916,17 +2916,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/new-site\/modules\/biography-card\/controller.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/new-site\/modules\/biography-card\/controller-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/new-site\/modules\/biography-card\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2934,6 +2923,17 @@
       "oA" : 0,
       "oAP" : "\/new-site\/modules\/biography-card\/template.php",
       "oF" : 0
+    },
+    "\/new-site\/modules\/biography-card\/vue.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/biography-card\/vue-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/new-site\/modules\/biography-controls\/_style.scss" : {
       "aP" : 0,

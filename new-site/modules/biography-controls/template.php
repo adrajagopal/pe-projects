@@ -11,6 +11,7 @@
 				type="radio"
 				name="version"
 				v-model="activeVersion"
+				@click="log"
 				checked="checked"
 			>
 			<label for="normal">Classic</label>
@@ -23,6 +24,7 @@
 				type="radio"
 				name="version"
 				v-model="activeVersion"
+				@click="log"
 			>
 			<label for="anxious">Anxious perfectionist</label>
 		</div>
@@ -34,6 +36,7 @@
 				type="radio"
 				name="version"
 				v-model="activeVersion"
+				@click="log"
 			>
 			<label for="aggressive">Aggressively confident</label>
 		</div>

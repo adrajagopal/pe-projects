@@ -1,0 +1,1 @@
+Vue.createApp({data:()=>({portrait:"ad-portrait-blonde.jpg"}),computed:{log(){let e=this.activeVersion;console.log(e)}}}).mount(".page-wrapper.home");
