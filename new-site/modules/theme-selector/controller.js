@@ -10,7 +10,7 @@ palettes.addEventListener('click', function(event) {
 		document.cookie = `themeCode=${hue}`;
 		body.style.setProperty('--hue', hue);
 
-		event.target.classList.add("active"); //handle the border colors
 		currentTheme.classList.remove("active");
+		event.target.classList.add("active"); //handle the border colors
 	}
 });
