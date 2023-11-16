@@ -866,7 +866,6 @@ biography-controls .option:has(:checked) {
 }
 biography-controls .option:has(:checked) label {
   color: var(--paper);
-  min-width: 200px;
   font-weight: 500;
 }
 biography-controls .option:has(:checked) input {

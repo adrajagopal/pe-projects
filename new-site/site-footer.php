@@ -15,7 +15,6 @@
 	</footer>
 
 <script src="main.js" type="module"></script>
-<script src="modules/biography-card/vue.js" type="module"></script>
 
 </body>
 </html>
