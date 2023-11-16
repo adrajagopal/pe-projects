@@ -1,25 +1,26 @@
 [
 	{
-		"category": "Working on",
+		"category": "Working",
 		"items": [
 			"Hunting for a full-time job doing frontend web development",
 			"Finishing a 9-month frontend webdev mentorship at the end of the year"
 		]
 	},
 	{
-		"category": "Learning about",
+		"category": "Learning",
 		"items": [
+			"Vue 3",
 			"Vanilla JavaScript",
 			"Design systems",
-			"The limits of using grid-template-areas for everything"
+			"How far I can push grid-template-areas"
 		]
 	},
 	{
-		"category": "Reading about",
+		"category": "Reading",
 		"items": [
-			"What happens when humans encroach on wild ecosystems, through the lens of wolves and tigers",
-			"Animal behavior and intelligence",
-			"Thriller stories that take place in the wilderness"
+			"Books about wolves",
+			"Books about animal behavior and cognition",
+			"Thrillers that take place in the wilderness"
 		]
 	}
 ]
