@@ -1,7 +1,7 @@
 <biography-card>
 	<!-- outlet -->
 	<picture>
-			<img src="images/ad-portrait-blonde.jpg">
+			<img src="">
 	</picture>
 	<ul class="medium-voice bio-attributes">
 		<li>
@@ -25,4 +25,3 @@
 
 	<button>Check out my work</button>
 </biography-card>
-<script src="modules/biography-card/controller.js"></script>

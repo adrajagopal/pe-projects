@@ -15,6 +15,7 @@
 	</footer>
 
 <script src="main.js" type="module"></script>
+<script src="modules/biography-card/controller.js" type="module"></script>
 
 </body>
 </html>

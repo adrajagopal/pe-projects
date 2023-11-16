@@ -5,18 +5,38 @@
 	</text-content>
 	<form class="button-container">
 		<div class="option">
-			<input id="normal" type="radio" name="bio-control" checked="checked">
+			<input 
+				id="normal"
+				value="normal"
+				type="radio"
+				name="version"
+				v-model="activeVersion"
+				checked="checked"
+			>
 			<label for="normal">Classic</label>
 		</div>
 
 		<div class="option">
-			<input id="anxious" type="radio" name="bio-control">
+			<input 
+				id="anxious"
+				value="anxious"
+				type="radio"
+				name="version"
+				v-model="activeVersion"
+			>
 			<label for="anxious">Anxious perfectionist</label>
 		</div>
 
 		<div class="option">
-			<input id="aggressive" type="radio" name="bio-control">
+			<input 
+				id="aggressive"
+				value="aggressive"
+				type="radio"
+				name="version"
+				v-model="activeVersion"
+			>
 			<label for="aggressive">Aggressively confident</label>
 		</div>
+
 	</form>
 </biography-controls>
