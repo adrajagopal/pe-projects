@@ -1,4 +1,4 @@
-[
+export const bios = [
 	{
 		"version" : "normal",
 		"portrait" : "ad-portrait-blonde.jpg",
@@ -18,7 +18,7 @@
 		"bioClosingSentence" : "He still does great work. You can check it out here:"
 	},
 	{
-		"version" : "nitpicky",
+		"version" : "anxious",
 		"portrait" : "ad-portrait-anxious.jpg",
 		"type" : "Nitpicky",
 		"rarity" : "Fairly common",

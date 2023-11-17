@@ -795,6 +795,7 @@ biography-card {
   display: block;
   display: grid;
   gap: 20px;
+  transition: 5s all ease-in;
   max-width: 600px;
   background-color: var(--paper-accent);
   border: 1px solid var(--ink);
@@ -805,6 +806,7 @@ biography-card {
 biography-card picture {
   width: 100%;
   max-width: 300px;
+  aspect-ratio: 1/1;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -841,7 +843,7 @@ biography-controls {
 biography-controls text-content p {
   margin-top: 0.5rem;
 }
-biography-controls .button-container {
+biography-controls .controlsForm {
   display: flex;
   flex-direction: column;
   align-items: flex-start;

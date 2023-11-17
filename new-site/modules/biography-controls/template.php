@@ -1,25 +1,16 @@
-<?php
-	if (isset($_POST['submitted'])) {
-
-	}
- 
-
-?>
-
-
 <biography-controls>
 	<text-content>
 		<h3 class="large-voice">Choose your vibe:</h3>
 		<!-- <p class="medium-voice">which me? your choice.</p> -->
 	</text-content>
-	<form class="button-container" method="POST">
+	<form class="controlsForm">
 		<div class="option">
 			<input 
 				id="normal"
 				value="normal"
 				type="radio"
 				name="version"
-				checked="<?=$checked?>"
+				checked="checked"
 			>
 			<label for="normal">Classic</label>
 		</div>
@@ -30,7 +21,6 @@
 				value="anxious"
 				type="radio"
 				name="version"
-				checked="<?=$checked?>"
 			>
 			<label for="anxious">Anxious perfectionist</label>
 		</div>
@@ -41,10 +31,10 @@
 				value="aggressive"
 				type="radio"
 				name="version"
-				checked="<?=$checked?>"
 			>
 			<label for="aggressive">Aggressively confident</label>
 		</div>
 
 	</form>
 </biography-controls>
+<!-- the JS controls file is linked in the biography-card module file -->

@@ -7,7 +7,7 @@
       "uuidString" : "B38AF47C-8782-4857-9EB7-42F35CDCB136"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34564",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -2215,14 +2215,6 @@
       "oF" : 1,
       "pg" : 0
     },
-    "\/new-site\/data\/bios.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/new-site\/data\/bios-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/new-site\/data\/nowList.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -2904,6 +2896,50 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/new-site\/modules\/biography-card\/bioData-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/biography-card\/bioData-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/modules\/biography-card\/bioData.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/new-site\/modules\/biography-card\/bioData-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/modules\/biography-card\/controller-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/biography-card\/controller-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/modules\/biography-card\/controller.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/modules\/biography-card\/controller-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/new-site\/modules\/biography-card\/template.php" : {
       "cB" : 0,
@@ -9510,9 +9546,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -9524,6 +9557,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
