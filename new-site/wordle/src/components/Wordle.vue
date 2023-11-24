@@ -130,7 +130,7 @@
   // user enters guess -- DONE
   // upon submit, display version of guess below
     // for each letter, mark it black, yellow or green
-    // be able to handle duplicate letters -- MAYBE
+    // be able to handle duplicate letters -- DIDN'T DO THIS
   // if answer incorrect AND guessCounter < 6, let them guess again
   // if correct OR if guessNumber = 6, end game
   // show button to play again, which sets answer = a different word

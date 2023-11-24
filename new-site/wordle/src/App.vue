@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Wordle from './components/Wordle.vue'
 </script>
 
 <template>
