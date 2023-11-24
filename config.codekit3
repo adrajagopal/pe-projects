@@ -833,6 +833,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/shopping-site-basket-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/shopping-site-basket-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4700,6 +4710,261 @@
       "oAP" : "\/new-site\/projects\/creating-a-design-system\/wave.txt",
       "oF" : 0
     },
+    "\/new-site\/projects\/final-project\/.eslintrc.cjs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/.eslintrc.cjs",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/.gitignore",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/.prettierrc.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/projects\/final-project\/.prettierrc-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/projects\/final-project\/.vscode\/extensions.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/projects\/final-project\/.vscode\/extensions-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/projects\/final-project\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/index.html",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/final-project\/node_modules",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/projects\/final-project\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/projects\/final-project\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/projects\/final-project\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/projects\/final-project\/public\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/public\/favicon.ico",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/App.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/App.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/assets\/base.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/assets\/base-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/assets\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/assets\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/assets\/main.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/assets\/main-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/HelloWorld.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/HelloWorld.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/icons\/IconCommunity.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/icons\/IconCommunity.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/icons\/IconDocumentation.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/icons\/IconDocumentation.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/icons\/IconEcosystem.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/icons\/IconEcosystem.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/icons\/IconSupport.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/icons\/IconSupport.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/icons\/IconTooling.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/icons\/IconTooling.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/TheWelcome.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/TheWelcome.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/components\/WelcomeItem.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/components\/WelcomeItem.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/main.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/main-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/router\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/router\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/stores\/counter.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/stores\/counter-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/views\/AboutView.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/views\/AboutView.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/src\/views\/HomeView.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/src\/views\/HomeView.vue",
+      "oF" : 0
+    },
+    "\/new-site\/projects\/final-project\/vite.config.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/projects\/final-project\/vite.config-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/new-site\/projects\/layout-garden\/images\/24-7-access.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -5544,6 +5809,190 @@
       "oA" : 0,
       "oAP" : "\/new-site\/templates\/projectDetails.php",
       "oF" : 0
+    },
+    "\/new-site\/wordle\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/.gitignore",
+      "oF" : 0
+    },
+    "\/new-site\/wordle\/.vscode\/extensions.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/wordle\/.vscode\/extensions-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/wordle\/dist\/assets\/index-oy80Ql-e.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/dist\/assets\/index-oy80Ql-e-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/wordle\/dist\/assets\/index-TyXtlpII.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/dist\/assets\/index-TyXtlpII-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/wordle\/dist\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/dist\/index.html",
+      "oF" : 0
+    },
+    "\/new-site\/wordle\/dist\/vite.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/wordle\/dist\/vite.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/wordle\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/index.html",
+      "oF" : 0
+    },
+    "\/new-site\/wordle\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/new-site\/wordle\/node_modules",
+      "oF" : 0
+    },
+    "\/new-site\/wordle\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/wordle\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/wordle\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/new-site\/wordle\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/new-site\/wordle\/public\/CNAME" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/public\/CNAME",
+      "oF" : 0
+    },
+    "\/new-site\/wordle\/public\/vite.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/wordle\/public\/vite.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/wordle\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/new-site\/wordle\/src\/App.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/src\/App.vue",
+      "oF" : 0
+    },
+    "\/new-site\/wordle\/src\/assets\/vue.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/new-site\/wordle\/src\/assets\/vue.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/new-site\/wordle\/src\/components\/Wordle.vue" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/src\/components\/Wordle.vue",
+      "oF" : 0
+    },
+    "\/new-site\/wordle\/src\/main.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/src\/main-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/new-site\/wordle\/src\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/src\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/new-site\/wordle\/vite.config.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/new-site\/wordle\/vite.config-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/packages\/flickity_v2.0\/_redirects" : {
       "cB" : 0,
