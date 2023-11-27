@@ -5642,14 +5642,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/new-site\/wordle\/public\/CNAME" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/new-site\/wordle\/public\/CNAME",
-      "oF" : 0
-    },
     "\/new-site\/wordle\/public\/vite.svg" : {
       "ft" : 2097152,
       "miP" : 0,
