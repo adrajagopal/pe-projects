@@ -346,7 +346,6 @@ a, p a {
 @media (prefers-color-scheme: dark) {
   a:not(.site-nav a, .site-footer a), p a {
     color: var(--ink);
-    text-decoration: underline;
   }
 }
 /*margin & padding*/
@@ -795,7 +794,7 @@ biography-card {
   display: block;
   display: grid;
   gap: 20px;
-  transition: 5s all ease-in;
+  transition: 250ms background-color ease-in;
   max-width: 600px;
   background-color: var(--paper-accent);
   border: 1px solid var(--ink);
@@ -816,6 +815,22 @@ biography-card .bio-attributes {
   gap: var(--gap);
   justify-self: start;
   max-width: 30ch;
+}
+biography-card button {
+  position: relative;
+}
+biography-card button a {
+  text-decoration: none;
+  font-weight: 500;
+}
+biography-card button a::after {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
 }
 @media (min-width: 420px) {
   biography-card {
