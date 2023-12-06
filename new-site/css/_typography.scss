@@ -35,7 +35,6 @@ a, p a {
 @media (prefers-color-scheme: dark) {
 	a:not(.site-nav a, .site-footer a), p a {
 		color: var(--ink);
-		text-decoration: underline;
 	}	
 }
 
