@@ -27,6 +27,25 @@ biography-card {
 		max-width: 30ch;
 	}
 
+	button {
+
+		position: relative; 
+		a {
+			text-decoration: none;
+			font-weight: 500;
+		}
+
+		a::after {
+			top: 0;
+			left: 0;
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			content: "";
+		}
+	}
+
 	@media (min-width: 420px) {
 		grid-template-areas:
 			"portrait traits"
