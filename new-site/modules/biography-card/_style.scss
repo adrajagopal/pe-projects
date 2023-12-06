@@ -2,7 +2,7 @@ biography-card {
 	display: block;
 	display: grid;
 	gap: 20px;
-	transition: 5s all ease-in;
+	transition: 250ms background-color ease-in;
 
 	max-width: 600px;
 	background-color: var(--paper-accent);
