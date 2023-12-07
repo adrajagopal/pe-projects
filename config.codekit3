@@ -2395,6 +2395,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/new-site\/images\/ad-portrait-outdoorsy.jpg.jpg" : {
+      "ft" : 16384,
+      "iS" : 186815,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/new-site\/images\/ad-portrait-outdoorsy.jpg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/new-site\/images\/ad-portrait-tech.jpg" : {
       "ft" : 16384,
       "iS" : 172585,
