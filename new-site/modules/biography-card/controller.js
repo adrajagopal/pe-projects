@@ -16,9 +16,6 @@ function renderBio(input) {
 				<h3><strong>Type: </strong>${input.type}</h3>
 			</li>
 			<li>
-				<h3><strong>Rarity: </strong>${input.rarity}</h3>
-			</li>
-			<li>
 				<h3><strong>Interests: </strong>${input.interests}</h3>
 			</li>
 		</ul>
@@ -31,7 +28,7 @@ function renderBio(input) {
 			<p>${input.bioClosingSentence}</p>
 		</text-content>
 
-		<button><a href="?page=work">Check out my work</a></button>
+		<button><a href="?page=work">See his work</a></button>
 	`;
 }
 

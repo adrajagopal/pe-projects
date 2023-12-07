@@ -8,13 +8,13 @@
 	</picture>
 	<ul class="medium-voice bio-attributes">
 		<li>
-			<h3><strong>Type: </strong>Classic</h3>
+			<h3><strong>Type: </strong>Collaborative dev</h3>
 		</li>
-		<li>
+		<!-- <li>
 			<h3><strong>Rarity: </strong>Extremely common</h3>
-		</li>
+		</li> -->
 		<li>
-			<h3><strong>Interests: </strong>Design systems, health tech, the outdoors, music, dogs</h3>
+			<h3><strong>Interests: </strong>Pair programming, design systems, health tech, the outdoors, personal finance</h3>
 		</li>
 	</ul>
 
@@ -26,6 +26,6 @@
 		<p>He loves feeling like part of a team and making your days (and meetings) a little more joyful.</p>
 	</text-content>
 
-	<button><a href="?page=work">Check out my work</a></button>
+	<button><a href="?page=work">See his work</a></button>
 </biography-card>
 <script src="modules/biography-card/controller.js" type="module"></script>

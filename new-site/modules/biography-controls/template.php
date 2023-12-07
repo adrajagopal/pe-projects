@@ -1,7 +1,6 @@
 <biography-controls>
 	<text-content>
-		<h3 class="large-voice">Choose your vibe:</h3>
-		<!-- <p class="medium-voice">which me? your choice.</p> -->
+		<h3 class="large-voice">Get to know me:</h3>
 	</text-content>
 	<form class="controlsForm">
 		<div class="option">
@@ -12,7 +11,7 @@
 				name="version"
 				checked="checked"
 			>
-			<label for="normal">Classic</label>
+			<label for="normal">The collaborative dev</label>
 		</div>
 
 		<div class="option">
@@ -22,17 +21,17 @@
 				type="radio"
 				name="version"
 			>
-			<label for="anxious">Anxious perfectionist</label>
+			<label for="anxious">The anxious perfectionist</label>
 		</div>
 
 		<div class="option">
 			<input 
-				id="aggressive"
-				value="aggressive"
+				id="personal"
+				value="personal"
 				type="radio"
 				name="version"
 			>
-			<label for="aggressive">Aggressively confident</label>
+			<label for="personal">The outdoorsy dog-lover</label>
 		</div>
 
 	</form>
