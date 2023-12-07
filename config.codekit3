@@ -2907,17 +2907,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/new-site\/modules\/biography-card\/bioData-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/new-site\/modules\/biography-card\/bioData-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/new-site\/modules\/biography-card\/bioData.js" : {
       "bF" : 0,
       "ft" : 64,

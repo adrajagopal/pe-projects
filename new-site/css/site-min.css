@@ -117,6 +117,7 @@ body {
   --paper-grey: hsl(var(--hue), 15%, 90%);
   --ink-grey: hsl(var(--hue), 15%, 50%);
   --ink: hsl(var(--hue), 70%, 15%);
+  --highlight: hsl(calc(var(--hue) + 210), 70%, 70%);
   --primary-font: "Inter";
   --secondary-font: "Inter";
   --gap: 20px;
@@ -133,6 +134,7 @@ body {
     --ink: hsl(var(--hue), 60%, 98%);
     --paper-grey: hsl(var(--hue), 15%, 50%);
     --ink-grey: hsl(var(--hue), 15%, 70%);
+    --highlight: hsl(calc(var(--hue) + 150), 50%, 50%);
   }
 }
 /*Type patterns*/
@@ -309,6 +311,10 @@ body:has(.styleGuide) right-side main section:not(:first-child) {
 }
 
 /*Typography*/
+body *::selection {
+  background-color: var(--highlight);
+}
+
 p, li {
   max-width: 70ch;
 }
@@ -725,6 +731,10 @@ input[type=range]:focus::-moz-range-thumb {
 
 .socials a {
   padding: 12px;
+}
+
+.hero-card .code-comment {
+  color: var(--ink-grey);
 }
 
 .themeSelector {
@@ -1647,9 +1657,6 @@ section.category-header {
   section.category-header div.category-header {
     border-left: 10px solid var(--ink);
     padding: 12px;
-    background-color: var(--paper-accent);
-    border-top-right-radius: var(--box-radius);
-    border-bottom-right-radius: var(--box-radius);
   }
 }
 
@@ -1695,6 +1702,11 @@ section.category-header {
 .colors-overview .baseHue {
   background-color: hsl(var(--hue), 100%, 40%);
   color: var(--paper);
+}
+@media (prefers-color-scheme: dark) {
+  .colors-overview .baseHue {
+    color: var(--ink);
+  }
 }
 .colors-overview .paper {
   background-color: var(--paper);
