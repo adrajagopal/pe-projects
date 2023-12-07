@@ -1,7 +1,7 @@
 {
 	"name": "Resume",
 	"slug": "resume",
-	"skills": ["HTML", "CSS", "JavaScript", "SQL", "PHP"],
+	"skills": ["HTML", "CSS", "JavaScript", "VueJS", "SQL", "PHP"],
 	"leftSections": [
 		{
 			"name": "hero",
