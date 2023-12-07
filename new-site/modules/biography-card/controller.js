@@ -37,7 +37,7 @@ function renderBio(input) {
 
 form.addEventListener('input', function(event) {
 
-	let found = bios.find(function(item){
+	let found = bios.find( function(item) {
 		return event.target.id === item.version;
 	});
 

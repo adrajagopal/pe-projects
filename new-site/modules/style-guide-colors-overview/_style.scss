@@ -14,6 +14,9 @@
 	.baseHue {
 		background-color: hsl(var(--hue), 100%, 40%);
 		color:var(--paper);
+		@media (prefers-color-scheme: dark) {
+			color: var(--ink);
+		}
 	}
 
 	.paper {

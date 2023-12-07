@@ -13,6 +13,6 @@
 <div class="hero-card">
 	<text-content>
 		<h1 class="xxl-voice"><?= $heroTitle ?? "Sample Header"?></h1>
-		<p class="large-voice">// <?= $heroDescription ?? "Sample description"?></p>
+		<p class="large-voice code-comment">// <?= $heroDescription ?? "Sample description"?></p>
 	</text-content>
 </div>
