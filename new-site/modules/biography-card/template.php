@@ -10,9 +10,6 @@
 		<li>
 			<h3><strong>Type: </strong>Collaborative dev</h3>
 		</li>
-		<!-- <li>
-			<h3><strong>Rarity: </strong>Extremely common</h3>
-		</li> -->
 		<li>
 			<h3><strong>Interests: </strong>Pair programming, design systems, health tech, the outdoors, personal finance</h3>
 		</li>
