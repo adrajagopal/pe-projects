@@ -3,12 +3,12 @@ biography-card {
 	display: grid;
 	gap: 20px;
 	transition: 250ms background-color, color ease-in;
-
 	max-width: 600px;
 	background-color: var(--paper-accent);
 	border: 1px solid var(--ink);
 	border-radius: var(--box-radius);
 	padding: calc(1.5 * var(--card-padding));
+
 	box-shadow: var(--card-shadow);
 
 	&:hover {
@@ -22,6 +22,7 @@ biography-card {
 		width: 100%;
 		max-width: 300px;
 		aspect-ratio: 1 / 1;
+		border: 1px solid var(--ink);
 		border-radius: 20px;
 		overflow: hidden;
 	}
@@ -53,28 +54,48 @@ biography-card {
 		}
 	}
 
-	@media (min-width: 420px) {
-		grid-template-areas:
-			"portrait traits"
-			"biography biography"
-		;
+	grid-template-areas:
+		"portrait traits"
+		"biography biography"
+	;
+	grid-template-columns: 1fr 1fr;
 
-		picture {
-			grid-area: portrait;
-		}
-
-		.bio-attributes {
-			grid-area: traits;
-			align-self: center;
-		}
-
-		text-content {
-			grid-area: biography;
-		}
+	picture {
+		grid-area: portrait;
 	}
 
+	.bio-attributes {
+		grid-area: traits;
+		align-self: center;
+	}
 
+	text-content {
+		grid-area: biography;
+	}
 
+	@media (max-width: 420px) {
+		padding: 0 0 calc(0.75 * var(--card-padding)) 0 ;
+		overflow: hidden;
+		> * {
+			padding: calc(0.75 * var(--card-padding));
+		}
+
+		picture {
+			padding: 0;
+			border: none;
+			border-bottom: 1px solid var(--ink);
+			border-radius: 0;
+			max-width: unset;
+		}
+
+		grid-template-areas:
+			"portrait"
+			"biography"
+			"traits"
+		;
+
+		grid-template-columns: unset;
+	}
 
 
 

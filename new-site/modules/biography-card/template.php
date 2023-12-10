@@ -4,7 +4,7 @@
 <biography-card>
 	<!-- outlet -->
 	<picture>
-			<img src="images/ad-portrait-blonde.jpg">
+		<img src="images/ad-portrait-blonde.jpg">
 	</picture>
 	<ul class="medium-voice bio-attributes">
 		<li>
@@ -26,6 +26,6 @@
 		<p>He loves feeling like part of a team and making your days (and meetings) a little more joyful.</p>
 	</text-content>
 
-	<button><a href="?page=work">See his work</a></button>
+	<div class="button-container"><button><a href="?page=work">See his work</a></button></div>
 </biography-card>
 <script src="modules/biography-card/controller.js" type="module"></script>

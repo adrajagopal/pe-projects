@@ -28,7 +28,7 @@ function renderBio(input) {
 			<p>${input.bioClosingSentence}</p>
 		</text-content>
 
-		<button><a href="?page=work">See his work</a></button>
+		<div class="button-container"><button><a href="?page=work">See his work</a></button></div>
 	`;
 }
 
