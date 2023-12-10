@@ -33,7 +33,7 @@ biography-controls {
 
 	.option:has(:checked) {
 		background-color: var(--ink);
-		transition: all 500ms;
+		transition: all 250ms;
 
 		label {
 			color: var(--paper);
@@ -41,7 +41,9 @@ biography-controls {
 		}
 
 		input {
-			accent-color: var(--ink);
+			outline: none;
+			border: none;
+			accent-color: var(--paper);
 		}
 	}
 
