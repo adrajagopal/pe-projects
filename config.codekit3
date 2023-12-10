@@ -2395,15 +2395,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/new-site\/images\/ad-portrait-outdoorsy.jpg.jpg" : {
+    "\/new-site\/images\/ad-portrait-outdoorsy.jpg" : {
       "ft" : 16384,
       "iS" : 186815,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/new-site\/images\/ad-portrait-outdoorsy.jpg.jpg",
+      "oAP" : "\/new-site\/images\/ad-portrait-outdoorsy.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
