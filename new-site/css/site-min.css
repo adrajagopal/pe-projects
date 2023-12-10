@@ -833,7 +833,6 @@ biography-card .bio-attributes {
   flex-direction: column;
   gap: var(--gap);
   justify-self: start;
-  max-width: 30ch;
 }
 biography-card button {
   position: relative;
@@ -851,6 +850,12 @@ biography-card button a::after {
   height: 100%;
   content: "";
 }
+biography-card button:active {
+  border-color: var(--paper);
+}
+biography-card button:active a {
+  color: var(--paper);
+}
 biography-card picture {
   grid-area: portrait;
 }
@@ -861,7 +866,7 @@ biography-card .bio-attributes {
 biography-card text-content {
   grid-area: biography;
 }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   biography-card {
     padding: 0 0 calc(0.75 * var(--card-padding)) 0;
     overflow: hidden;
@@ -869,7 +874,7 @@ biography-card text-content {
     grid-template-columns: unset;
   }
   biography-card > * {
-    padding: calc(0.75 * var(--card-padding));
+    padding: 0 calc(0.75 * var(--card-padding));
   }
   biography-card picture {
     padding: 0;
