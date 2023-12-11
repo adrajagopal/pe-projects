@@ -3,16 +3,16 @@
 		"category": "Working",
 		"items": [
 			"Hunting for a full-time job doing frontend web development",
-			"Finishing a 9-month frontend webdev mentorship at the end of the year"
+			"Building things that expand my breadth and depth of programming experience"
 		]
 	},
 	{
 		"category": "Learning",
 		"items": [
-			"Vue 3",
-			"Vanilla JavaScript",
+			"VueJS and working with build tools",
+			"JavaScript fundamentals",
 			"Design systems",
-			"How far I can push grid-template-areas"
+			"Complex layouts"
 		]
 	},
 	{
