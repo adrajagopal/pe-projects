@@ -13,8 +13,10 @@
 		margin-top: calc(0.5 * var(--gap));
 	}
 
-	a {
+	.card-links {
 		margin-top: calc(1.5 * var(--gap));
+		display: flex;
+		gap: 20px;
 	}
 
 	&:hover {
