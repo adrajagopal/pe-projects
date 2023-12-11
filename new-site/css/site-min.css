@@ -1018,8 +1018,10 @@ biography-controls input::after {
 .project-card p {
   margin-top: calc(0.5 * var(--gap));
 }
-.project-card a {
+.project-card .card-links {
   margin-top: calc(1.5 * var(--gap));
+  display: flex;
+  gap: 20px;
 }
 .project-card:hover {
   background-color: var(--ink);
