@@ -1,47 +1,42 @@
-/*Homepage*/
-@import "../modules/about-me/_style";
-@import "../modules/contact-me/_style";
-@import "../modules/latest-projects/_style";
-@import "_accessibility";
-@import "_hiddenByJS";
+// structure
+@import "_site-header";
+@import "_site-footer";
+@import "../modules/hero/_style";
+@import "../modules/theme-selector/_style";
 
-/*iMessage page*/
-@import "../modules/imessage-about-me/_style";
 
-/*Graphics page*/
+//homepage
+@import "../modules/biography-card/_style";
+@import "../modules/biography-controls/_style";
 
-@import "../modules/graphics/graphics-intro/_style";
-@import "../modules/graphics/graphics-body/_style";
-@import "../modules/graphics/boomerang-fu/_style";
-@import "../modules/graphics/other-graphics/_style";
+//resume page
+@import "_resume";
+@import "../modules/resume-intro/_style";
+@import "../modules/resume-work/_style";
+@import "../modules/resume-education/_style";
+@import "../modules/resume-skills/_style";
 
-/*Projects page*/
+//projects list page
+@import "../modules/projects-group/_style";
+@import "../modules/projects-grid/_style";
+@import "../modules/projects-project-card/_style";
 
-@import "../modules/theme-challenges-intro/_style";
-@import "../modules/e4p/e4p-intro/_style";
-@import "../modules/e4p/e4p-card/_style";
-@import "../modules/form-compound-interest/_style";
-@import "../modules/form-character-count/_style";
-@import "../modules/form-color-picker/_style";
-@import "../modules/form-paint-calculator/_style";
+//project details page
+@import "../modules/project-details-section-intro/_style";
+@import "../modules/project-details-text/_style";
+@import "../modules/project-details-figure/_style";
+@import "../modules/project-details-link-out/_style";
 
-/*Style guide page*/
-@import "../modules/style-guide-overview/_style";
+//now page
+@import "../modules/now-card/_style";
+@import "../modules/now-grid/_style";
 
-/*About page*/
+//layout garden
+@import "_layout-modules";
 
-	/*About nav*/
-	@import "../modules/about-nav/_style";
-
-	/*Resume page */
-	@import "../modules/resume/resume-intro/_style";
-	@import "../modules/resume/work-experience/_style";
-	@import "../modules/resume/education-experience/_style";
-	@import "../modules/resume/skills-section/_style";
-
-	/* Goals page */
-	@import "../modules/goals/goals-intro/_style";
-	@import "../modules/goals/goals-list/_style";
-	@import "../modules/goals/course-goals-card/_style";
-	@import "../modules/goals/ideal-job-traits/_style";
-	@import "../modules/goals/ideal-job-traits-card/_style";
+//style guide
+@import "../modules/style-guide-section-intro/_style";
+@import "../modules/style-guide-type-overview/_style";
+@import "../modules/style-guide-type-voicings/_style";
+@import "../modules/style-guide-type-body/_style";
+@import "../modules/style-guide-colors-overview/_style";

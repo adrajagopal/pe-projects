@@ -35,7 +35,7 @@ graphic-diptych.layout-garden .button {
 	padding: 0.5rem 1rem;
 	border-radius: 10px;
 	text-align: center;
-	background-color: var(--splash-secondary);
+	background-color: var(--ink);
 	margin-top: 2rem;
 	width: 150px;
 	color: white;
@@ -50,7 +50,7 @@ graphic-diptych.layout-garden .button {
 
 	graphic-diptych picture {
 		background-image: none;
-		background-color: var(--primary-brand);
+		background-color: var(--paper-accent);
 	}
 
 	graphic-diptych :is(picture, text-content) {

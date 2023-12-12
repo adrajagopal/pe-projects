@@ -1,6 +1,20 @@
 <?php
 	$jobs = [
 		[
+			"role" => "Career break",
+			"organization" => "Perpetual Education",
+			"tenure" => [
+				"startDate" => date_create("01-02-2023"),
+				"endDate" => date_create("31-12-2023")
+			],
+			"actions" => [
+				"Learned web development at Perpetual Education",
+				"Reset my vision for the future and my approach to my career",
+				"Worked on my physical and mental health",
+				"Walked my dogs 4-5 miles a day, almost every day"
+			]
+		],
+		[
 			"role" => "Product Manager",
 			"organization" => "Oshi Health",
 			"tenure" => [

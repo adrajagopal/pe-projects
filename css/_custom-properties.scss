@@ -1,64 +1,72 @@
 /*Custom properties comment*/
 
 body {
-	--paper-light: HSL(30,10%,95%); /* bright white */
-	--paper: HSL(30,20%,92%); /* darker white */
-	--splash-primary: HSL(215, 100%, 60%); /* blue */
-	--inactive-grey: HSL(215, 20%, 75%);// splash primary greyed out
-	--ink-grey: HSL(215, 10%, 30%); // splash primary greyed out but readable
-	--splash-secondary: HSL(30, 55%, 55%); /* marigold-ish?*/
-	--splash-secondary-pale: HSL(30, 100%, 75%); /* marigold-ish?*/
-	--splash-secondary-dark: HSL(30, 100%,25%); /* marigold-ish?*/
-	--ink: HSL(215,100%,15%); /* maroon */
-	--ink-dark: HSL(215,100%,5%); /* dark maroon */
-	--warning-dark: HSL(10,100%,50%); /* bold salmon-ish */
-	--warning-light: HSL(10,100%,75%); /* pale red salmon-ish */
 
-	--primary-font: "Hanken Grotesk";
-	--secondary-font: "Hanken Grotesk";
+	--hue: 210;
+
+	--paper: hsl(var(--hue), 60%, 98%);
+	--paper-accent: hsl(var(--hue), 30%, 90%);
+	--paper-grey: hsl(var(--hue), 15%, 90%);
+	--ink-grey: hsl(var(--hue), 15%, 50%);
+	--ink: hsl(var(--hue), 70%, 15%);
+	--highlight: hsl(calc(var(--hue) + 210), 70%, 70%);
+
+
+	--primary-font: "Inter";
+	--secondary-font: "Inter";
+
+	--gap: 20px;
+	--box-radius: 20px;
+	--button-radius: 15px;
+	--card-padding: 20px;
+	--card-shadow: 8px 8px 2px hsla(var(--hue), 70%, 15%, 0.2);
 }
 
 @media (prefers-color-scheme:dark) {
 	body {
-		--paper: HSL(250,20%,20%); /* pull from ink*/
-		--paper-light: HSL(250,20%,10%); /* pull from ink-dark */;
-		--ink: HSL(30,25%,90%); /* pull from paper */;
-		--ink-dark: HSL(30,25%,95%); /* pull from paper-light */;
+		--paper: hsl(var(--hue), 50%, 10%);
+		--paper-accent: hsl(var(--hue), 25%, 25%);
+		--ink: hsl(var(--hue), 60%, 98%);
+		--paper-grey: hsl(var(--hue), 15%, 50%);
+		--ink-grey: hsl(var(--hue), 15%, 70%);
+		--highlight: hsl(calc(var(--hue) + 150), 50%, 50%);
 	}
 }
-
-
-
-
 
 /*Type patterns*/
 
 .xxl-voice {
 	font-family: var(--primary-font);
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .xl-voice {
 	font-family: var(--primary-font);
 	font-size: 2rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .large-voice {
 	font-family: var(--primary-font);
 	font-size: 1.5rem;
-	font-weight: 100;
+	font-weight: 500;
+}
+
+.med-plus-voice {
+	font-family: var(--secondary-font);
+	font-size: 1.25rem;
+	font-weight: 300;
 }
 
 .medium-voice {
 	font-family: var(--secondary-font);
 	font-size: 1rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .small-voice {
 	font-family: var(--secondary-font);
 	font-size: 0.75rem;
-	font-weight: 400;
+	font-weight: 300;
 }

@@ -4,7 +4,7 @@
 }
 
 [role="list"].bulleted-list {
-	list-style: disc;
+	list-style: circle;
 	padding-left: 1rem;
 }
 
@@ -17,7 +17,6 @@
 }
 
 .list-item-title {
-	font-family: var(--secondary-item);
+	font-family: var(--secondary-font);
 	font-weight: 400;
-	color: var(--splash-secondary);
-}
+} 

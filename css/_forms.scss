@@ -10,8 +10,8 @@ form {
 	@media(max-width: 400px) {
 		padding: 5px;
 	}
-	border: 2px solid var(--splash-secondary);
-	border-radius: 0.5rem;
+	border: 2px solid var(--ink);
+	border-radius: var(--box-radius);
 	width: 100%;
 /*	min-height: 300px;*/
 	display: grid;
@@ -97,7 +97,7 @@ select {
 
 input-container, select {
 	border-radius: 0.5rem;
-	border: 1px solid var(--splash-primary);
+	border: 1px solid var(--ink);
 	display: block;
 	display: flex;
 	align-items: center;
@@ -106,7 +106,7 @@ input-container, select {
 input-container:focus-within, 
 select:focus-within {
 	background-color: var(--paper);
-	outline: 1px solid var(--splash-secondary);
+	outline: 1px solid var(--ink);
 }
 
 input:focus, textarea:focus {
@@ -114,7 +114,7 @@ input:focus, textarea:focus {
 }
 
 input[type="checkbox"]:focus, input[type="radio"]:focus {
-	outline: 1px solid var(--splash-primary);
+	outline: 1px solid var(--ink);
 }
 
 :is(.radio, .checkbox, .checkbox-pills, .slider) input-container {
@@ -142,13 +142,13 @@ radio-container, checkbox-container {
 .checkbox-pills label { /* aka the actual button */
 	border: 2px solid var(--ink);
 	padding: 0.5rem 1rem;
-	border-radius: 0.5rem;
+	border-radius: var(--button-radius);
 	font-family: var(--secondary-font);
 }
 
 .checkbox-pills label:focus-within {
 	background-color: var(--ink);
-	color: var(--paper-light);
+	color: var(--paper);
 }
 
 .slider input-container {
@@ -183,33 +183,25 @@ radio-container, checkbox-container {
 }
 
 button {
-	background-color: var(--splash-secondary);
-	color: var(--ink-dark);
-	border: 1px solid var(--splash-primary);
+	background-color: var(--paper);
+	color: var(--ink);
+	border: 1px solid var(--ink);
 	min-width: 150px;
-	border-radius: 0.5rem;
+	border-radius: var(--button-radius);
 	padding: 0.5rem 1rem;
 	font-family: var(--secondary-font);
 	font-size: 1rem;
-	font-weight: 600;
+	font-weight: 500;
 /*	margin-top: 20px;*/
 /*	margin-bottom: 5px;*/
 	justify-self: start;
+	text-wrap: nowrap;
+
 }
 
 button:active {
-	background-color: var(--splash-secondary-pale);
-}
-
-/*Form results box*/
-
-.form-result {
-	font-size: 1.25rem;
-	margin-top: 2rem;
-	border: 2px solid var(--splash-secondary);
-	border-radius: 0.5rem;
-	padding: 1rem;
-	background-color: var(--paper);
+	background-color: var(--ink);
+	color: var(--paper);
 }
 
 /*utility classes*/
@@ -230,14 +222,14 @@ button:active {
 	width: 100%;
 	margin-top: 0.25rem;
 	padding-left: 0.5rem;
-	border-left: 2px solid var(--warning-dark);
-	color: var(--warning-dark);
+	border-left: 2px solid firebrick;
+	color: firebrick;
 	font-size: 0.9rem;
 }
 
 @media (prefers-color-scheme: dark) {
 	.warning {
-		color: var(--warning-light);
-		border-left: 2px solid var(--warning-light);
+		color: hotpink;
+		border-left: 2px solid hotpink;
 	}
 }

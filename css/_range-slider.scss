@@ -6,7 +6,7 @@
 
 	input-container:focus-within {
 		background-color: transparent;
-		outline: 1px solid var(--splash-secondary-dark);
+		outline: 1px solid red;
 	}
 }
 
@@ -38,7 +38,7 @@ input[type="range"]::-webkit-slider-thumb {
    -webkit-appearance: none; /* Override default look */
    appearance: none;
    margin-top: -8px; /* Centers thumb on the track */
-   background-color: var(--splash-primary);
+   background-color: red;
    height: 1.5rem;
    width: 0.5rem;
    border-radius: 5px;
@@ -48,7 +48,7 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-moz-range-thumb {
     border: none; /*Removes extra border that FF applies*/
     border-radius: 0; /*Removes default border-radius that FF applies*/
-    background-color: var(--splash-primary);
+    background-color: red;
     height: 1.5rem;
     width: 0.5rem;
     border-radius: 5px;
@@ -62,10 +62,10 @@ input[type="range"]:focus {
 
 /***** Chrome, Safari, Opera, and Edge Chromium *****/
 input[type="range"]:focus::-webkit-slider-thumb {
-  outline: 1.5px solid var(--splash-secondary-dark);
+  outline: 1.5px solid red;
 }
 
 /******** Firefox ********/
 input[type="range"]:focus::-moz-range-thumb {
-  outline: 1.5px solid var(--splash-secondary-dark);
+  outline: 1.5px solid red;
 }

@@ -22,40 +22,11 @@
 
 /*Modules*/
 @import "_modules";
-@import "_layout-modules";
-@import "_resume";
-@import "_site-header";
-@import "_site-footer";
-
-/*scratchpad*/
-@import "../scratchpad/new-site/_playground";
 
 /*Sections (in this file)*/
-
 body {
-	background-color: var(--paper-light);
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-header.site-header {
-	background-color: var(--paper);
-	border-bottom: 1px solid var(--splash-primary);
-}
-
-footer.site-footer {
-	background-color: var(--paper);
-	border-top: 1px solid var(--splash-primary);
-}
-
-section:not(.about-header) {
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-
-	.section-title {
-		color: var(--ink-grey);
-	}
+    background-color: var(--paper);
+    // background: conic-gradient(var(--paper), var(--paper-accent), var(--paper), var(--paper-accent), var(--paper), var(--paper-accent));
 }
 
 /*icon styling*/

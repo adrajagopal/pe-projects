@@ -6,7 +6,7 @@
 
 	<ul>
 		<?php
-			$json = file_get_contents(getFile('data/layout-garden-faqs.json'));
+			$json = file_get_contents(getFile('layout-garden-modules/faq-list/layout-garden-faqs.json'));
 	
 			$faqs = json_decode($json, true);
 	
