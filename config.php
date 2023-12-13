@@ -1,1 +1,1 @@
-<?php define("BASE_URL", "https://adrajagopal.com/");?>
+<?php define("BASE_URL", "http://localhost:8888/")?>
