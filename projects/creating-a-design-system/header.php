@@ -11,23 +11,7 @@
 	
 
 <!-- delete this comment once you've replaced the template content -->
-	<title>Pixel Perfect Challenge</title>
-
-<!-- delete this comment once you've replaced the template content -->
-	<meta name="description" content="This is some page. You hit it.">
-	
-<!-- delete this comment once you've replaced the template content -->
-	<meta property="og:title" content="Ad's Portfolio'">
-
-<!-- delete this comment once you've replaced the template content -->
-	<!-- <meta
-	  property="og:description"
-	  content="[[INSERT CONTENT]]"> -->
-
-<!-- delete this comment once you've replaced the template content -->
-	<meta
-	  property="og:image"
-	  content="[[INSERT CONTENT]].png">
+	<title>Creating a Design System</title>
 	
 	<link rel="stylesheet" href="css/site-min.css">
 
