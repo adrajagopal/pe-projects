@@ -602,13 +602,17 @@ section text-content h2 {
 }
 
 /*Modules*/
+.site-header:has(.site-nav.open) {
+  position: relative;
+}
+
 .header-items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  padding: 1rem 0px;
+  padding: 1rem 0;
 }
 .header-items * {
   flex-shrink: 0;
@@ -629,15 +633,35 @@ section text-content h2 {
   text-decoration: none;
 }
 .header-items .menu-hamburger {
-  width: 32px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 36px;
   aspect-ratio: 1/1;
   display: flex;
   align-items: center;
   stroke: var(--origin);
 }
+.header-items .exit-menu {
+  justify-self: end;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  width: 28px;
+  aspect-ratio: 1/1;
+  transform: translate(-8px, 8px) rotate(45deg);
+}
+.header-items .exit-menu svg {
+  transform: translateX(-8px);
+  stroke: var(--origin);
+  stroke-width: 8.33;
+  stroke-linecap: round;
+  fill: none;
+}
 
-@media (max-width: 1099px) {
-  .header-items .site-nav, .header-items .login-items {
+@media (max-width: 849px) {
+  .header-items .login-items {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -646,9 +670,34 @@ section text-content h2 {
     white-space: nowrap;
     width: 1px;
   }
+  .header-items .site-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsla(0, 100%, 100%, 0.85);
+    backdrop-filter: blur(15px);
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    display: grid;
+    align-content: start;
+  }
+  .header-items .site-nav .site-nav-items {
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+  }
+  .header-items .site-nav.closed {
+    transform: translateX(-200%);
+  }
+  .header-items .site-nav.open {
+    transform: translateX(0);
+    z-index: 500;
+  }
 }
-@media (min-width: 1100px) {
-  .header-items .menu-hamburger {
+@media (min-width: 850px) {
+  .header-items .menu-hamburger, .header-items .exit-menu {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -659,13 +708,10 @@ section text-content h2 {
   }
 }
 .site-nav a {
+  color: var(--system-grey--800);
   text-decoration: none;
 }
-
-:is(body.home, body.blue) .site-nav a {
-  color: var(--system-grey--800);
-}
-:is(body.home, body.blue) .site-nav a.active {
+.site-nav a.active {
   color: var(--origin);
   font-weight: 700;
 }
@@ -677,12 +723,14 @@ body.home .language-dropdown span {
   color: var(--system-grey--700);
 }
 
-body.wavy .site-nav a {
-  color: var(--system-grey--300);
-}
-body.wavy .site-nav a.active {
-  color: var(--white);
-  font-weight: 700;
+@media (min-width: 850px) {
+  body.wavy .site-nav a {
+    color: var(--system-grey--300);
+  }
+  body.wavy .site-nav a.active {
+    color: var(--white);
+    font-weight: 700;
+  }
 }
 body.wavy :is(.menu-hamburger, .language-dropdown svg) {
   stroke: var(--white);

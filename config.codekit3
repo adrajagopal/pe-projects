@@ -2146,9 +2146,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/projects\/creating-a-design-system\/css\/_site.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/creating-a-design-system\/css\/site-min.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -2182,18 +2182,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/projects\/creating-a-design-system\/css\/site-min-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/projects\/creating-a-design-system\/css\/site-min-min-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/projects\/creating-a-design-system\/css\/site-min.css" : {
       "aP" : 1,
@@ -2477,6 +2465,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/projects\/creating-a-design-system\/images\/plus.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/projects\/creating-a-design-system\/images\/square-cross.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/projects\/creating-a-design-system\/images\/square-cross.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -2796,6 +2794,28 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/projects\/creating-a-design-system\/script-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/creating-a-design-system\/script-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/projects\/creating-a-design-system\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/creating-a-design-system\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/projects\/creating-a-design-system\/site-footer.php" : {
       "cB" : 0,
