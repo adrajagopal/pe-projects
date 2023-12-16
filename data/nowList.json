@@ -9,10 +9,10 @@
 	{
 		"category": "Learning",
 		"items": [
-			"VueJS and working with build tools",
-			"JavaScript fundamentals",
-			"Design systems",
-			"Complex layouts"
+			"JavaScript fundamentals & VueJS",
+			"Asynchronous programming",
+			"Build tools and package management",
+			"Design systems & building complex layouts"
 		]
 	},
 	{
