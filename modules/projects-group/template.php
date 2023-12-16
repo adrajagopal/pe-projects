@@ -33,7 +33,7 @@
 			'oneLiner' => $projectData['oneLiner'],
 			'hasCaseStudy' => $projectData['hasCaseStudy'],
 			'projectId' => $projectData['projectId'],
-			'liveDemo' => $projectData['liveDemo'],
+			'liveDemo' => $projectData['liveDemo'] ?? null,
 		];
 
 		array_push($projectDetails, $projectCopy);
