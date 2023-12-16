@@ -372,6 +372,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/data\/projects\/comingSoon.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/data\/projects\/comingSoon-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/data\/projects\/designSystem.json" : {
       "ft" : 524288,
       "oA" : 1,
