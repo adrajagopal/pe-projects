@@ -20,6 +20,7 @@
 
 <!-- delete this comment once you've replaced the template content -->
 	<title>Ad Rajagopal</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.svg">
 
 <!-- delete this comment once you've replaced the template content -->
 	<meta name="description" content="Front end developer">
