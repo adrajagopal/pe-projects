@@ -47,12 +47,13 @@
 			<?php include(getFile('components/company-logo/template.php'));?>
 
 			<nav class="site-nav">
+				<button class="exit-menu">
+					<?php include('images/square-cross.svg'); ?>
+				</button>
 				<ul class="site-nav-items">
-					<li><a class="<?php if ($page === 'home') { echo 'active';}?>" href="">Home</a></li>
-					<li><a class="<?php if ($page === 'wavy') { echo 'active';}?>" href="?page=wavy">Updates</a></li>
-					<li><a class="<?php if ($page === 'blue') { echo 'active';}?>" href="?page=blue">Services</a></li>
-					<li><a href="">Features</a></li>
-					<li><a href="">About Us</a></li>
+					<li><a class="<?php if ($page === 'home') { echo 'active';}?>" href="">Theme One</a></li>
+					<li><a class="<?php if ($page === 'wavy') { echo 'active';}?>" href="?page=wavy">Theme Two</a></li>
+					<li><a class="<?php if ($page === 'blue') { echo 'active';}?>" href="?page=blue">Theme Three</a></li>
 				</ul>
 			</nav>
 
@@ -77,9 +78,9 @@
 				?>
 			</div>
 
-			<a href="" class="menu-hamburger">
+			<button class="menu-hamburger">
 				<?php include('images/three-lines.svg'); ?>
-			</a>
+			</button>
 		</div>
 	</inner-column>
 </header>
