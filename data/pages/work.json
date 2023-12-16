@@ -21,7 +21,7 @@
 			"name": "projects-group",
 			"title": "Programming",
 			"category": "programming",
-			"description": "Using JavaScript and PHP to build interactive UIs"
+			"description": "Using JavaScript, Vue, and other tools to build interactive web applications"
 		}
 	]
 }
