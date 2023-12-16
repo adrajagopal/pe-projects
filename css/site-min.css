@@ -977,14 +977,24 @@ biography-controls input::after {
   margin-top: calc(0.5 * var(--gap));
 }
 
-.skill-list {
+.skills-card {
+  display: grid;
+  gap: 10px;
+}
+.skills-card .skill-group {
+  display: grid;
+  gap: 10px;
+}
+.skills-card .skill-group + .skill-group {
+  margin-top: 10px;
+}
+.skills-card .skill-list {
   display: flex;
   flex-direction: row;
   gap: 10px;
   flex-wrap: wrap;
 }
-
-.skill {
+.skills-card .skill {
   padding: 0.5em 1em;
   border-radius: var(--button-radius);
   background-color: var(--paper-accent);

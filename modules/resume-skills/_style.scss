@@ -1,14 +1,30 @@
-.skill-list {
-	display: flex;
-	flex-direction: row;
+.skills-card {
+	display: grid;
 	gap: 10px;
-	flex-wrap: wrap;
+
+	.skill-group {
+		display: grid;
+		gap: 10px;
+	}
+
+	.skill-group + .skill-group {
+		margin-top: 10px;
+	}
+
+	.skill-list {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+
+	.skill {
+		padding: 0.5em 1em;
+		border-radius: var(--button-radius);
+		background-color: var(--paper-accent);
+		color: var(--ink);
+		font-weight: 500;
+	}
 }
 
-.skill {
-	padding: 0.5em 1em;
-	border-radius: var(--button-radius);
-	background-color: var(--paper-accent);
-	color: var(--ink);
-	font-weight: 500;
-}
+
