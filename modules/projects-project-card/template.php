@@ -7,7 +7,10 @@
 
 
 	<div class="card-links">
-		<?php if ($detail['hasCaseStudy']) { ?>
+		<?php 
+			if ($detail['title'] === 'Coming Soon...') {
+
+			} elseif ($detail['hasCaseStudy']) { ?>
 			<!-- show case study + live demo link -->
 			<a href="?page=projectDetails&projectId=<?=$detail['projectId']?>">Read more</a>
 
