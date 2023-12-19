@@ -36,6 +36,7 @@ figcaption {
 a, p a {
 	color: var(--ink);
 	text-decoration: underline;
+	font-family: var(--primary-font);
 }
 
 @media (prefers-color-scheme: dark) {
