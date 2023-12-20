@@ -1,5 +1,5 @@
 <form class="email-form-2 <?=$action['typeClass']?>">
-	<div class="email-container"> <!--add another class to this to handle the input styling on the child -->
+	<div class="email-container">
 		<label>
 			<span class="icon-container"><?php include('images/envelope.svg');?></span>
 			<input type="text" placeholder="Email address">

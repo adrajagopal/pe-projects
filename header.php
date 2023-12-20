@@ -23,7 +23,7 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.svg">
 
 <!-- delete this comment once you've replaced the template content -->
-	<meta name="description" content="Front end developer">
+	<meta name="description" content="Product- & design-focused frontend dev">
 	
 <!-- delete this comment once you've replaced the template content -->
 	<meta property="og:title" content="">
@@ -36,7 +36,7 @@
 <!-- delete this comment once you've replaced the template content -->
 	<meta
 	  property="og:image"
-	  content="[[INSERT CONTENT]].png">
+	  content="https://adrajagopal.com/images/favicon.svg">
 	
 	<link rel="stylesheet" href="css/site-min.css">
 
