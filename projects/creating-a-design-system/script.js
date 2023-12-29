@@ -1,6 +1,7 @@
 const button = document.querySelector('.menu-hamburger');
 const nav = document.querySelector('.site-nav');
 const exitMenuButton = document.querySelector('.exit-menu');
+const body = document.querySelector('body');
 let menuOpen = false;
 
 nav.classList.add('closed');
@@ -9,24 +10,27 @@ function toggleMenu() {
 	menuOpen = !menuOpen;
 }
 
-function updateNavClass() {
+function updateMenuClasses() {
 	if (menuOpen === true) {
 		nav.classList.add('open');
 		nav.classList.remove('closed');
+		body.classList.add('noScroll');
 	} else {
 		nav.classList.remove('open');
 		nav.classList.add('closed');
+		body.classList.remove('noScroll');
 	}
 }
 
 function closeMenu() {
 	menuOpen = false;
-	updateNavClass();
+	body.classList.remove('noScroll');
+	updateMenuClasses();
 }
 
 button.addEventListener('click', function() {
 	toggleMenu();
-	updateNavClass();
+	updateMenuClasses();
 });
 
 exitMenuButton.addEventListener('click', function() {
