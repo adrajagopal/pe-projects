@@ -2,7 +2,7 @@
 	"name": "Resume",
 	"slug": "resume",
 	"skills": ["Visual design","Version control", "Project management", "Testing"],
-	"languages": ["HTML", "CSS", "JavaScript", "VueJS", "basic SQL", "PHP"],
+	"languages": ["HTML", "CSS", "JavaScript", "PHP", "VueJS", "React"],
 	"leftSections": [
 		{
 			"name": "hero",

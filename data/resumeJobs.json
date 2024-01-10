@@ -1,30 +1,28 @@
 [
 	{
-		"role": "Career Break",
-		"organization": "Perpetual Education",
+		"role": "Frontend Web Development Student",
+		"organization": "Design for the Web",
 		"tenure": {
-			"startDate": "01-02-2023",
+			"startDate": "01-04-2023",
 			"endDate": "31-12-2023"
 		},
 		"actions": [
-			"Learned web development at Perpetual Education",
-			"Reset my vision for the future and my approach to my career",
-			"Worked on my physical and mental health",
-			"Walked my dogs 3-4 miles a day, almost every day"
+			"Spent 4-6 hours a day, 6 days a week learning HTML, CSS, Vanilla JavaScript, and web design in a project-based curriculum",
+			"Designed and created a basic CMS to run my website using PHP, HTML, SCSS, and JavaScript; created a design system to manage page layouts, reusable components and modules; created a programmatic theme switcher with dark mode",
+			"Built a web application to show local vegan restaurants using Supabase, Nuxt/Vue, SCSS and LeafletJS"
 		]
 	},
 	{
-		"role": "Product Manager",
+		"role": "Product Manager, Patient Experience",
 		"organization": "Oshi Health",
 		"tenure": {
 			"startDate": "01-05-2021",
 			"endDate": "27-01-2023"
 		},
 		"actions": [
-			"Joined as the second member of the product team, directly responsible for mobile app, web app, and web platform products. Led product operations from seed stage through Series A and in preparation for Series B fundraising",
-			"Played many roles, working on everything from typical product tasks to user research, data analysis, project management, QA/feature testing, copy & design reviews",
-			"Improved product quality - in other words, my features shipped more predictably and with fewer bugs - through clear product documentation, increased transparency with stakeholders, better collaboration with design and engineering, and more getting in the weeds to test",
-			"Drove key metrics with major releases: reduced appointment no-shows/late cancelations, reduced overhead on routine tasks for clinical support staff, and simplified time to complete intake paperwork"
+			"Led redesign of signup and onboarding flows, resulting in increased lead capture and conversion rates",
+			"Built out a clinical operations dashboard MVP with automated workflows, resulting in reduced overhead on administrative tasks and faster patient care",
+			"Introduced better product team practices, resulting in improved product quality via significantly fewer bugs across my product surfaces"
 		]
 	},
 	{
@@ -35,8 +33,7 @@
 			"endDate": "01-05-2021"
 		},
 		"actions": [
-			"Helped start a product management team to turn the ad-hoc consulting offering into an off-the-shelf software library for data scientists, in order to grow sales at a faster rate",
-			"Played a leading role in defining the MVP, and worked closely with both clients and data science & engineering to improve the offering",
+			"Helped start a product management team to turn our ad-hoc consulting offering into an off-the-shelf software library for data scientists, supporting team goal to increase sales 20% year over year",
 			"Led the build of internal tooling to reduce project delivery times by up to 50%, roughly doubling profit margins across projects",
 			"Trained consultants on methodology, model interpretation, client communication, and other project delivery skills"
 		]
@@ -49,8 +46,8 @@
 			"endDate": "01-01-2020"
 		},
 		"actions": [
-			"Joined as an early member of a startup team focused on building a first-in-class machine learning application for predicting rare disease diagnoses and disease progressions in large healthcare datasets",
-			"Led the delivery of machine learning projects for large pharmaceutical clients, and my performance was a significant factor in a Fortune 500 client's decision to sign a 4-year contract extension and extend our work to their entire immunology portfolio",
+			"Led the delivery of machine learning projects for large pharmaceutical clients, predicting rare disease diagnoses and disease progressions in large healthcare datasets",
+			"Turned around a struggling relationship with a Fortune 500 client, resulting in their decision to sign a 4-year contract extension and extend our work to their entire immunology portfolio",
 			"Led hiring and interviews for the consulting team, helping grow the team from 4 to 15 people in two years while maintaining a happy, healthy, inclusive culture"
 		]
 	},
