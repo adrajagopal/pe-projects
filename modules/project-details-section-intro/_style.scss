@@ -1,3 +1,14 @@
 .section-intro {
 	margin-top: calc(1.5 * var(--gap));
+
+}
+
+article section:first-of-type {
+	.section-intro {
+		margin-top: 12px;
+
+		h2 {
+			 margin-top: 0;
+		}
+	}
 }

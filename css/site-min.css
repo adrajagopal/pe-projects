@@ -1045,6 +1045,13 @@ biography-controls input::after {
   margin-top: calc(1.5 * var(--gap));
 }
 
+article section:first-of-type .section-intro {
+  margin-top: 12px;
+}
+article section:first-of-type .section-intro h2 {
+  margin-top: 0;
+}
+
 .project-text {
   margin-top: var(--gap);
 }
