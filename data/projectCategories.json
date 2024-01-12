@@ -2,7 +2,7 @@
 	{
 		"name": "design",
 		"id": "design",
-		"projects": ["designSystem", "layoutGarden", "styleGuide", "themeChallenge"]
+		"projects": ["designSystem", "themeChallenge", "layoutGarden", "styleGuide"]
 	},
 	{
 		"name": "programming",
