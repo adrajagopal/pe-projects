@@ -1,0 +1,57 @@
+{
+	"title": "Dueling CodePens: Vanilla JS vs. Vue",
+	"projectId": "modTools",
+	"internalTitle": "Mod Tools",
+	"category": "programming",
+	"oneLiner": "Comparing what it's like to build basic forum moderation functionality in Vanilla JavaScript vs. Vue 3.",
+	"hasCaseStudy": true,
+	"tags": ["JavaScript", "Vue 3", "HTML", "CSS", "homemade iconography"],
+	"sections": [
+		{
+			"title": "brief",
+			"ariaLabel" : "brief",
+			"modules": [
+				{
+					"type": "section-intro",
+					"title": "Overview",
+					"text" : "I was checking out a company that specialized in community forum software, and I opened up CodePen to get into the headspace of a forum builder."
+				},
+				{
+					"type": "text",
+					"text": "I had been looking for an excuse to see how much faster I could build something in Vue than in Vanilla JS, and so I decided to build a small example of a forum thread, from the point of view of a moderator."
+				},
+				{
+					"type": "text",
+					"text": "In total, I completed the Vue version about 4 times faster than the Vanilla JavaScript version. Granted, I was able to reuse most of my functions, but even still, it was significantly simpler."
+				},
+				{
+					"type": "text",
+					"text": "When the user takes an action -- pin, delete, or flag posts -- this updates the data in the posts database (aka memory, just for ease of use). In JavaScript, I set up event listeners for each of those actions, which triggered a series of functions: update the data, construct the HTML template for each post, construct the HTML for the list of posts, split into pinned vs. unpinned posts, and then update the DOM."
+				},
+				{
+					"type": "text",
+					"text": "With Vue, this was much simpler. I used Vue's data binding to connect my HTML elements to their underlying data, and then declared that data to be reactive in my script. After adding a couple of computed arrays which derived from my reactive data, everything was easy. I simply used functions to change my data, and then Vue worked its magic to update the underlying data and render the UI."
+				},
+				{
+					"type": "text",
+					"text": "You can check out each version here:"
+				},
+				{
+					"type": "link-group",
+					"submodules": [
+						{
+							"type": "link-out",
+							"linkCopy": "Vanilla JS Version",
+							"linkURL": "https://codepen.io/aditya-rajagopal/pen/RwdagJm"
+						},
+						{
+							"type": "link-out",
+							"linkCopy": "Vue 3 Version",
+							"linkURL": "https://codepen.io/aditya-rajagopal/pen/OJqXMQb"
+						}
+					]
+				}
+			]
+		}
+	]
+}
