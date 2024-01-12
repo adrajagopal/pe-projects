@@ -4,7 +4,7 @@
 	"liveDemo": "layout-garden",
 	"internalTitle": "Layout garden",
 	"category": "design",
-	"oneLiner": "A showcase of responsive layouts. modules for all garden and screen sizes",
+	"oneLiner": "A showcase of responsive layouts: modules for all devices and screen sizes",
 	"hasCaseStudy": false,
 	"tags": ["CSS", "responsive design", "grid-template-areas is a hammer", "everything is a nail"]
 }
