@@ -372,14 +372,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/data\/projects\/comingSoon.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/data\/projects\/comingSoon-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/data\/projects\/designSystem.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -400,6 +392,14 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/data\/projects\/litter-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/data\/projects\/modTools.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/data\/projects\/modTools-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
