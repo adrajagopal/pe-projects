@@ -15,20 +15,35 @@
 				{
 					"type": "section-intro",
 					"title": "Brief",
-					"text" : "This project exemplifies my ability to create an implement a design system, spanning 3 marketing landing pages, each with slightly different content and components."
+					"text" : "The purpose of this project was to take a Figma file and create a scalable design system to handle variants of a marketing landing page. I grabbed a Figma file for a generic business site design, built the page skeleton, used JSON and HTML modules to drive the page content, and then created a design system in SCSS."
 				},
 				{
 					"type": "figure",
-					"src": "ad-portrait-blonde.jpg",
-					"alt": "",
-					"figcaption": "" 
+					"src": "designSystem/figma-snapshot.jpg",
+					"alt": "A screenshot of 3 slightly different Figma designs of a website landing page -- including header, hero banner, and some list components",
+					"figcaption": "The original designs, each with slightly different modules and styles" 
 				},
 				{
-					"type": "link-out",
-					"linkCopy": "See the live project"
+					"type": "link-group",
+					"submodules": [
+						{
+							"type": "link-out",
+							"linkCopy": "See the Figma design",
+							"linkURL": "https://www.figma.com/file/86ah7dNddRxhiPV7mz22BL/Design-System-Challenge?type=design&node-id=0-1&mode=design&t=IWP3gcCiwJFpnQNE-0"
+						},
+						{
+							"type": "link-out",
+							"linkCopy": "See the live project"
+						}
+					]
+				},
+				{
+					"type": "text",
+					"text": "Note: in the live project, click the menu items to switch between themes!"
 				}
 			]
 		},
+
 		{
 			"title": "challenges",
 			"ariaLabel" : "challenges",
@@ -36,7 +51,21 @@
 				{
 					"type": "section-intro",
 					"title": "Challenges",
-					"text" : ""
+					"text" : "What makes this project difficult is the human aspect, not the technical one. The designs are for 3 variations of a marketing landing page. In my previous life as a product manager, I was responsible for the engineering side of our marketing pages. We didn’t have a UI editor set up yet, so when our marketing team wanted to make changes (which happened multiple times a week), we had to make changes directly in the code. With that experience in mind, I structured this project in a way that would allow a developer to quickly swap out components, links, and update copy without having to make major changes to the code."
+				},
+				{
+					"type": "text",
+					"text": "I built a flexible content data structure, with each page looping through a list of sections, each section looping through a list of components, and each component looping through content inputs. I made a design system to handle layouts, typography, spacing, colors, and image/icon styling."
+				},
+				{
+					"type": "text",
+					"text": "As you can see in the figure below, it's not as elegant as a GUI, but it's easily readable. If a marketing manager wants to change some copy, I can just pull up the JSON file and walk them through it."
+				},
+				{
+					"type": "figure",
+					"src": "designSystem/data-driven-page-structure.jpg",
+					"alt": "A side-by-side comparison showing the PHP template that loops through each section of my page, next to the JSON data file that actually contains the page content",
+					"figcaption": "My PHP/HTML template and the corresponding content data for one variant" 
 				}
 			]
 		},
@@ -47,7 +76,11 @@
 				{
 					"type": "section-intro",
 					"title": "Process",
-					"text" : ""
+					"text" : "After figuring out how I wanted to structure my pages, the rest came down to just cranking out modules and components. Each module and component is made up of a PHP partial and a SCSS file scoped to the partial."
+				},
+				{
+					"type": "text",
+					"text": "I had a number of reusable components -- a button, company logo container, email subscribes, and an external link -- that served as the building blocks for the content modules. Then I created the modules -- the header, hero banner, FAQ section, and so on. Each of those modules pulled in data from the JSON file to populate content and tailor the styling."
 				}
 			]
 		},
@@ -58,7 +91,35 @@
 				{
 					"type": "section-intro",
 					"title": "Learnings",
-					"text" : ""
+					"text" : "Once this project was complete, making changes was a breeze."
+				},
+				{
+					"type": "text",
+					"text": "For a project of any significant size, it's worth investing in a scalable, maintainable content framework. Even if you don't have a proper CMS, you can still benefit massively by aligning design, engineering and marketing around a way of working and a reusable template."
+				},
+				{
+					"type": "text",
+					"text": "So learning this design approach was invaluable -- I can take this and apply it to a number of situations, whether it's a static marketing website, a signup flow, or an interactive experience within an app."
+				},
+				{
+					"type": "figure",
+					"src": "designSystem/final-product.jpg",
+					"alt": "The 3rd variant's site header and hero banner, with a bold blue background and hero text in all caps.",
+					"figcaption": "The final product for variant #3"
+				},
+				{
+					"type": "link-group",
+					"submodules": [
+						{
+							"type": "link-out",
+							"linkCopy": "See the Figma design",
+							"linkURL": "https://www.figma.com/file/86ah7dNddRxhiPV7mz22BL/Design-System-Challenge?type=design&node-id=0-1&mode=design&t=IWP3gcCiwJFpnQNE-0"
+						},
+						{
+							"type": "link-out",
+							"linkCopy": "See the live project"
+						}
+					]
 				}
 			]
 		}
