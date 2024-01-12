@@ -1,5 +1,5 @@
 <?php
-	$url = "projects/$pageData[liveDemo]";
+	$url = $module['linkURL'] ?? "projects/$pageData[liveDemo]";
 	$copy = $module['linkCopy'];
 ?>
 
