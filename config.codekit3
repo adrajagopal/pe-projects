@@ -525,6 +525,45 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/images\/designSystem\/data-driven-page-structure.jpg" : {
+      "ft" : 16384,
+      "iS" : 162295,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/designSystem\/data-driven-page-structure.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/designSystem\/figma-snapshot.jpg" : {
+      "ft" : 16384,
+      "iS" : 85300,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/designSystem\/figma-snapshot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/designSystem\/final-product.jpg" : {
+      "ft" : 16384,
+      "iS" : 141481,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/designSystem\/final-product.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/favicon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1175,6 +1214,29 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/modules\/project-details-figure\/template.php",
+      "oF" : 0
+    },
+    "\/modules\/project-details-link-group\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/modules\/project-details-link-group\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/modules\/project-details-link-group\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/project-details-link-group\/template.php",
       "oF" : 0
     },
     "\/modules\/project-details-link-out\/_style.scss" : {
