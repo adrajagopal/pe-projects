@@ -1,6 +1,7 @@
 .external-link-component {
 	display: flex;
 	align-items: center;
+	white-space: nowrap;
 	gap: 0.25rem;
 
 	[class^="icon-"], [class*=" icon-"] {
