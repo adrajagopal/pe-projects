@@ -1190,7 +1190,7 @@ graphic-diptych.layout-garden .button {
   background-color: var(--ink);
   margin-top: 2rem;
   width: 150px;
-  color: white;
+  color: var(--paper);
 }
 
 @media (min-width: 700px) {
