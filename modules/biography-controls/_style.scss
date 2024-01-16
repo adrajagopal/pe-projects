@@ -40,6 +40,10 @@ biography-controls {
 		background-color: var(--ink);
 		transition: all 250ms;
 
+		&:has(:focus) {
+			// border: 10px solid red;//var(--highlight);
+		}
+
 		label {
 			color: var(--paper);
 			font-weight: 500;
