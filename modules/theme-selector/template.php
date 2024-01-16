@@ -13,7 +13,7 @@
 					$class = "";
 				}
 			?>
-				<div data-hue="<?=$palette?>" class="color <?=$class?>"></div>				
+				<button data-hue="<?=$palette?>" class="color <?=$class?>"></button>				
 		<?php	}
 
 		?>

@@ -9,8 +9,11 @@
 		gap: 5px;
 	}
 
-	.palettes div {
+	.palettes button {
+		min-width: 0;
+		padding: 0;
 		width: 24px;
+		border: 1px solid transparent;
 		border-radius: 5px;
 		aspect-ratio: 1/1;
 		cursor: pointer;
@@ -19,15 +22,21 @@
 			border-radius: 25px;
 		}
 
-	}
-
-	.active {
-		border: 2px solid hsl(var(--hue), 100%, 30%);;
-
-		@media (prefers-color-scheme:dark) {
-			border: 2px solid hsl(var(--hue), 100%, 98%);
+		&:focus {
+			border-radius: 25px;
+			border: 2px solid var(--highlight);
 		}
+
+		&.active {
+			border: 2px solid hsl(var(--hue), 100%, 30%);
+
+			@media (prefers-color-scheme:dark) {
+				border: 2px solid hsl(var(--hue), 100%, 98%);
+			}
+		}
+
 	}
+
 
 	[data-hue="0"] {
 		background-color: hsl(0, 40%, 75%);
