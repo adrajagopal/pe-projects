@@ -182,28 +182,6 @@ radio-container, checkbox-container {
 	}
 }
 
-button {
-	background-color: var(--paper);
-	color: var(--ink);
-	border: 1px solid var(--ink);
-	min-width: 150px;
-	border-radius: var(--button-radius);
-	padding: 0.5rem 1rem;
-	font-family: var(--secondary-font);
-	font-size: 1rem;
-	font-weight: 500;
-/*	margin-top: 20px;*/
-/*	margin-bottom: 5px;*/
-	justify-self: start;
-	text-wrap: nowrap;
-
-}
-
-button:active {
-	background-color: var(--ink);
-	color: var(--paper);
-}
-
 /*utility classes*/
 
 .span-one {
