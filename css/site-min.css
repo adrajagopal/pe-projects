@@ -568,27 +568,6 @@ radio-container, checkbox-container {
   padding-left: 0;
 }
 
-button {
-  background-color: var(--paper);
-  color: var(--ink);
-  border: 1px solid var(--ink);
-  min-width: 150px;
-  border-radius: var(--button-radius);
-  padding: 0.5rem 1rem;
-  font-family: var(--secondary-font);
-  font-size: 1rem;
-  font-weight: 500;
-  /*	margin-top: 20px;*/
-  /*	margin-bottom: 5px;*/
-  justify-self: start;
-  text-wrap: nowrap;
-}
-
-button:active {
-  background-color: var(--ink);
-  color: var(--paper);
-}
-
 /*utility classes*/
 .span-one {
   grid-column: span 1;
@@ -748,20 +727,27 @@ input[type=range]:focus::-moz-range-thumb {
   grid-template-columns: repeat(6, 1fr);
   gap: 5px;
 }
-.themeSelector .palettes div {
+.themeSelector .palettes button {
+  min-width: 0;
+  padding: 0;
   width: 24px;
+  border: 1px solid transparent;
   border-radius: 5px;
   aspect-ratio: 1/1;
   cursor: pointer;
 }
-.themeSelector .palettes div:hover {
+.themeSelector .palettes button:hover {
   border-radius: 25px;
 }
-.themeSelector .active {
+.themeSelector .palettes button:focus {
+  border-radius: 25px;
+  border: 2px solid var(--highlight);
+}
+.themeSelector .palettes button.active {
   border: 2px solid hsl(var(--hue), 100%, 30%);
 }
 @media (prefers-color-scheme: dark) {
-  .themeSelector .active {
+  .themeSelector .palettes button.active {
     border: 2px solid hsl(var(--hue), 100%, 98%);
   }
 }
@@ -800,6 +786,27 @@ input[type=range]:focus::-moz-range-thumb {
 }
 .themeSelector [data-hue="330"] {
   background-color: hsl(330, 40%, 75%);
+}
+
+button {
+  background-color: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  min-width: 150px;
+  border-radius: var(--button-radius);
+  padding: 0.5rem 1rem;
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+  font-weight: 500;
+  /*	margin-top: 20px;*/
+  /*	margin-bottom: 5px;*/
+  justify-self: start;
+  text-wrap: nowrap;
+  outline: 0;
+}
+button:active {
+  background-color: var(--ink);
+  color: var(--paper);
 }
 
 biography-card {
