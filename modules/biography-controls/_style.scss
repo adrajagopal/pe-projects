@@ -14,9 +14,14 @@ biography-controls {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 16px;
-		border: none;
-		border-radius: 0;
+		border: 2px solid transparent;
+		border-radius: 5px;
 		padding-left: 0;
+	
+		&:has(:focus) {
+			border: 2px solid var(--highlight);
+		}
+
 	}
 
 	.option {
@@ -49,6 +54,7 @@ biography-controls {
 
 	input[type="radio"]:focus {
 		outline: none;
+		border: 5px solid red;
 	}
 
 	input::after {

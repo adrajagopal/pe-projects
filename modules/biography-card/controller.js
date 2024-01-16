@@ -41,3 +41,19 @@ form.addEventListener('input', function(event) {
 	bioCard.innerHTML = renderBio(found);
 		//when you can, work on getting this into one line of code inside the event listener
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

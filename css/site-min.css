@@ -909,9 +909,12 @@ biography-controls .controlsForm {
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  border: none;
-  border-radius: 0;
+  border: 2px solid transparent;
+  border-radius: 5px;
   padding-left: 0;
+}
+biography-controls .controlsForm:has(:focus) {
+  border: 2px solid var(--highlight);
 }
 biography-controls .option {
   position: relative;
@@ -938,6 +941,7 @@ biography-controls .option:has(:checked) input {
 }
 biography-controls input[type=radio]:focus {
   outline: none;
+  border: 5px solid red;
 }
 biography-controls input::after {
   top: 0;
