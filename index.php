@@ -16,6 +16,13 @@
 	}
 
 	$pageData = json_decode($json, true);
+
+	if (isset($projectId)) {
+		$queryString = "?page=$page&projectId=$projectId";
+	} else {
+		$queryString = "?page=$page";
+	}
+
 ?>
 
 <?php include("header.php");?>

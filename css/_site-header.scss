@@ -1,3 +1,16 @@
+a.skiplink {
+	display: block;
+	transform: translateX(-100%);
+	text-align: center;
+	height: 0;
+
+	&:focus {
+		transform: translateX(0);
+		padding: 12px 0;
+		height: unset;
+	}
+}
+
 .header-items {
 
 	display: flex;

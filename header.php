@@ -52,9 +52,9 @@ Inter -->
 <body style="--hue: <?=$activeHue?>">
 	
 <?php include('icons.php');?>
-
 <header class="site-header" aria-label="Site navigation menu">
 	<inner-column>
+		<a href="<?=$queryString?>#maincontent" class="skiplink">Skip to main content</a>
 		<div class="header-items">
 			<nav class="site-nav">
 				<ul class="site-nav-items">
