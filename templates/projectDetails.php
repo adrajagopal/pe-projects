@@ -1,4 +1,4 @@
-<div class="page-wrapper <?=$page?>">
+<div id="maincontent" class="page-wrapper <?=$page?>">
 	<left-side>
 		<div class="left-content">
 

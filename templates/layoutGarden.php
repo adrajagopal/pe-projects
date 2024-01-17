@@ -1,4 +1,4 @@
-<div class="page-wrapper <?=$page?>">
+<div id="maincontent" class="page-wrapper <?=$page?>">
 	<main>
 		<?php
 			foreach ($pageData['sections'] as $section) { ?>
