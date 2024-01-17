@@ -28,7 +28,7 @@ function renderBio(input) {
 			<p>${input.bioClosingSentence}</p>
 		</text-content>
 
-		<div class="button-container"><button><a href="?page=work">See his work</a></button></div>
+		<a class="button" href="?page=work">See his work</a>
 	`;
 }
 
@@ -41,12 +41,6 @@ form.addEventListener('input', function(event) {
 	bioCard.innerHTML = renderBio(found);
 		//when you can, work on getting this into one line of code inside the event listener
 });
-
-
-
-
-
-
 
 
 

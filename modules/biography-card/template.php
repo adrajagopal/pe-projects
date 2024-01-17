@@ -1,11 +1,11 @@
 
 <!-- if you update this card, make sure you update it in the renderBio() function as well -->
 
-<biography-card>
-	<!-- outlet -->
+<biography-card><!-- outlet -->
 	<picture>
 		<img src="images/ad-portrait-blonde.jpg">
 	</picture>
+
 	<ul class="medium-voice bio-attributes">
 		<li>
 			<h3><strong>Type: </strong>Collaborative dev</h3>
@@ -23,6 +23,6 @@
 		<p>He loves feeling like part of a team and making your days (and meetings) a little more joyful.</p>
 	</text-content>
 
-	<div class="button-container"><button><a href="?page=work">See his work</a></button></div>
+	<a class="button" href="?page=work">See his work</a>
 </biography-card>
 <script src="modules/biography-card/controller.js" type="module"></script>
