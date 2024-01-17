@@ -11,9 +11,15 @@ biography-card {
 
 	box-shadow: var(--card-shadow);
 
+	grid-template-areas:
+		"portrait traits"
+		"biography biography"
+	;
+	grid-template-columns: 1fr 1fr;
+
 	&:hover {
 		background-color: var(--ink);
-		*:not(button a) {
+		*:not(a.button) {
 			color: var(--paper);
 		}
 	}
@@ -33,40 +39,6 @@ biography-card {
 		gap: var(--gap);
 		justify-self: start;
 	}
-
-	button {
-
-		position: relative; 
-
-		a {
-			text-decoration: none;
-			font-weight: 500;
-		}
-
-		a::after {
-			top: 0;
-			left: 0;
-			position: absolute;
-			display: block;
-			width: 100%;
-			height: 100%;
-			content: "";
-		}
-
-		&:active {
-			border-color: var(--paper);
-
-			a {
-				color: var(--paper);
-			}
-		}
-	}
-
-	grid-template-areas:
-		"portrait traits"
-		"biography biography"
-	;
-	grid-template-columns: 1fr 1fr;
 
 	picture {
 		grid-area: portrait;
