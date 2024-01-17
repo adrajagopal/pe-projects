@@ -1,6 +1,7 @@
-button {
+button, .button {
 	background-color: var(--paper);
 	color: var(--ink);
+	font-weight: 500;
 	border: 1px solid var(--ink);
 	min-width: 150px;
 	border-radius: var(--button-radius);
@@ -17,5 +18,18 @@ button {
 	&:active {
 		background-color: var(--ink);
 		color: var(--paper);
+	}
+
+	&:focus {
+		box-shadow: var(--focus-shadow);
+	}
+}
+
+a.button {
+	text-decoration: none;
+	text-align: center;
+
+	&:active {
+		border-color: var(--paper);
 	}
 }
