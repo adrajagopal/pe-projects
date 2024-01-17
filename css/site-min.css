@@ -118,6 +118,7 @@ body {
   --ink-grey: hsl(var(--hue), 15%, 50%);
   --ink: hsl(var(--hue), 70%, 15%);
   --highlight: hsl(calc(var(--hue) + 210), 70%, 70%);
+  --focus: hsl(25, 100%, 60%);
   --primary-font: "Inter";
   --secondary-font: "Inter";
   --gap: 20px;
@@ -125,6 +126,7 @@ body {
   --button-radius: 15px;
   --card-padding: 20px;
   --card-shadow: 8px 8px 2px hsla(var(--hue), 70%, 15%, 0.2);
+  --focus-shadow: 0 0 2px 2px var(--focus);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -675,6 +677,18 @@ input[type=range]:focus::-moz-range-thumb {
 }
 
 /*Modules*/
+a.skiplink {
+  display: block;
+  transform: translateX(-100%);
+  text-align: center;
+  height: 0;
+}
+a.skiplink:focus {
+  transform: translateX(0);
+  padding: 12px 0;
+  height: unset;
+}
+
 .header-items {
   display: flex;
   justify-content: space-between;
@@ -741,7 +755,6 @@ input[type=range]:focus::-moz-range-thumb {
 }
 .themeSelector .palettes button:focus {
   border-radius: 25px;
-  border: 2px solid var(--highlight);
 }
 .themeSelector .palettes button.active {
   border: 2px solid hsl(var(--hue), 100%, 30%);
@@ -788,9 +801,10 @@ input[type=range]:focus::-moz-range-thumb {
   background-color: hsl(330, 40%, 75%);
 }
 
-button {
+button, .button {
   background-color: var(--paper);
   color: var(--ink);
+  font-weight: 500;
   border: 1px solid var(--ink);
   min-width: 150px;
   border-radius: var(--button-radius);
@@ -804,9 +818,20 @@ button {
   text-wrap: nowrap;
   outline: 0;
 }
-button:active {
+button:active, .button:active {
   background-color: var(--ink);
   color: var(--paper);
+}
+button:focus, .button:focus {
+  box-shadow: var(--focus-shadow);
+}
+
+a.button {
+  text-decoration: none;
+  text-align: center;
+}
+a.button:active {
+  border-color: var(--paper);
 }
 
 biography-card {
@@ -826,7 +851,7 @@ biography-card {
 biography-card:hover {
   background-color: var(--ink);
 }
-biography-card:hover *:not(button a) {
+biography-card:hover *:not(a.button) {
   color: var(--paper);
 }
 biography-card picture {
@@ -842,28 +867,6 @@ biography-card .bio-attributes {
   flex-direction: column;
   gap: var(--gap);
   justify-self: start;
-}
-biography-card button {
-  position: relative;
-}
-biography-card button a {
-  text-decoration: none;
-  font-weight: 500;
-}
-biography-card button a::after {
-  top: 0;
-  left: 0;
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  content: "";
-}
-biography-card button:active {
-  border-color: var(--paper);
-}
-biography-card button:active a {
-  color: var(--paper);
 }
 biography-card picture {
   grid-area: portrait;
