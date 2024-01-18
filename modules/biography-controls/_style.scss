@@ -15,11 +15,11 @@ biography-controls {
 		align-items: flex-start;
 		gap: 16px;
 		border: 2px solid transparent;
-		border-radius: 5px;
+		border-radius: 10px;
 		padding-left: 0;
 	
 		&:has(:focus) {
-			border: 2px solid var(--highlight);
+			box-shadow: var(--focus-shadow);
 		}
 
 	}
@@ -40,25 +40,20 @@ biography-controls {
 		background-color: var(--ink);
 		transition: all 250ms;
 
-		&:has(:focus) {
-			// border: 10px solid red;//var(--highlight);
-		}
-
 		label {
 			color: var(--paper);
 			font-weight: 500;
 		}
 
 		input {
-			outline: none;
+			outline: 0;
 			border: none;
 			accent-color: var(--paper);
-		}
-	}
 
-	input[type="radio"]:focus {
-		outline: none;
-		border: 5px solid red;
+			&:focus {
+				box-shadow: unset;
+			}
+		}
 	}
 
 	input::after {
