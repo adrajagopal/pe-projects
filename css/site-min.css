@@ -677,6 +677,56 @@ input[type=range]:focus::-moz-range-thumb {
   width: 1rem;
 }
 
+button, .button {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-weight: 500;
+  border: 1px solid var(--ink);
+  min-width: 150px;
+  border-radius: var(--button-radius);
+  padding: 0.5rem 1rem;
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+  font-weight: 500;
+  /*	margin-top: 20px;*/
+  /*	margin-bottom: 5px;*/
+  justify-self: start;
+  text-wrap: nowrap;
+  outline: 0;
+}
+button:active, .button:active {
+  background-color: var(--ink);
+  color: var(--paper);
+}
+button:focus, .button:focus {
+  box-shadow: var(--focus-shadow);
+}
+
+a.button {
+  text-decoration: none;
+  text-align: center;
+}
+a.button:active {
+  border-color: var(--paper);
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+*:focus {
+  box-shadow: var(--focus-shadow);
+  border-radius: inherit;
+  border: none;
+  outline: 0;
+}
+
 /*Modules*/
 a.skiplink {
   display: block;
@@ -735,35 +785,63 @@ a.skiplink:focus {
 
 .themeSelector {
   display: flex;
-  gap: 8px;
+  gap: 4px;
+  align-items: center;
+}
+.themeSelector:focus-within {
+  box-shadow: var(--focus-shadow);
+}
+.themeSelector p {
+  height: 24px;
 }
 .themeSelector .palettes {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 5px;
+  border: none;
 }
-.themeSelector .palettes button {
+.themeSelector .palettes * {
+  cursor: pointer;
+}
+.themeSelector .colorSwatch {
+  position: relative;
+  display: flex;
+  align-items: center;
   min-width: 0;
   padding: 0;
   width: 24px;
   border: 1px solid transparent;
   border-radius: 5px;
   aspect-ratio: 1/1;
-  cursor: pointer;
 }
-.themeSelector .palettes button:hover {
-  border-radius: 25px;
-}
-.themeSelector .palettes button:focus {
-  border-radius: 25px;
-}
-.themeSelector .palettes button.active {
+.themeSelector .colorSwatch.active {
   border: 2px solid hsl(var(--hue), 100%, 30%);
 }
 @media (prefers-color-scheme: dark) {
-  .themeSelector .palettes button.active {
+  .themeSelector .colorSwatch.active {
     border: 2px solid hsl(var(--hue), 100%, 98%);
   }
+}
+.themeSelector .colorSwatch:hover {
+  border-radius: 25px;
+}
+.themeSelector .colorSwatch:focus-within {
+  border-radius: 25px;
+  box-shadow: var(--focus-shadow);
+}
+.themeSelector .colorSwatch input {
+  opacity: 0;
+}
+.themeSelector .colorSwatch input:focus {
+  box-shadow: unset;
+}
+.themeSelector .colorSwatch input::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
 }
 .themeSelector [data-hue="0"] {
   background-color: hsl(0, 40%, 75%);
@@ -800,56 +878,6 @@ a.skiplink:focus {
 }
 .themeSelector [data-hue="330"] {
   background-color: hsl(330, 40%, 75%);
-}
-
-button, .button {
-  background-color: var(--paper);
-  color: var(--ink);
-  font-weight: 500;
-  border: 1px solid var(--ink);
-  min-width: 150px;
-  border-radius: var(--button-radius);
-  padding: 0.5rem 1rem;
-  font-family: var(--secondary-font);
-  font-size: 1rem;
-  font-weight: 500;
-  /*	margin-top: 20px;*/
-  /*	margin-bottom: 5px;*/
-  justify-self: start;
-  text-wrap: nowrap;
-  outline: 0;
-}
-button:active, .button:active {
-  background-color: var(--ink);
-  color: var(--paper);
-}
-button:focus, .button:focus {
-  box-shadow: var(--focus-shadow);
-}
-
-a.button {
-  text-decoration: none;
-  text-align: center;
-}
-a.button:active {
-  border-color: var(--paper);
-}
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-*:focus {
-  box-shadow: var(--focus-shadow);
-  border-radius: inherit;
-  border: none;
-  outline: 0;
 }
 
 biography-card {
