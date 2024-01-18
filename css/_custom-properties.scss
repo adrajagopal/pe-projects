@@ -31,6 +31,7 @@ body {
 		--paper-grey: hsl(var(--hue), 15%, 50%);
 		--ink-grey: hsl(var(--hue), 15%, 70%);
 		--highlight: hsl(calc(var(--hue) + 150), 50%, 50%);
+		--card-shadow: 8px 8px 2px hsla(var(--hue), 70%, 40%, 0.4);
 	}
 }
 
