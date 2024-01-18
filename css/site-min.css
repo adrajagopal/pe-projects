@@ -847,7 +847,7 @@ a.button:active {
 
 *:focus {
   box-shadow: var(--focus-shadow);
-  border-radius: 5px;
+  border-radius: inherit;
   border: none;
   outline: 0;
 }
