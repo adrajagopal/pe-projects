@@ -23,6 +23,6 @@
 		<p>He loves feeling like part of a team and making your days (and meetings) a little more joyful.</p>
 	</text-content>
 
-	<a class="button" href="?page=work">See his work</a>
+	<div class="button-container"><a class="button" href="?page=work">See his work</a></div>
 </biography-card>
 <script src="modules/biography-card/controller.js" type="module"></script>
