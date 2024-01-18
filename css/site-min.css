@@ -137,6 +137,7 @@ body {
     --paper-grey: hsl(var(--hue), 15%, 50%);
     --ink-grey: hsl(var(--hue), 15%, 70%);
     --highlight: hsl(calc(var(--hue) + 150), 50%, 50%);
+    --card-shadow: 8px 8px 2px hsla(var(--hue), 70%, 40%, 0.4);
   }
 }
 /*Type patterns*/
@@ -834,6 +835,23 @@ a.button:active {
   border-color: var(--paper);
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+*:focus {
+  box-shadow: var(--focus-shadow);
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+}
+
 biography-card {
   display: block;
   display: grid;
@@ -913,11 +931,11 @@ biography-controls .controlsForm {
   align-items: flex-start;
   gap: 16px;
   border: 2px solid transparent;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-left: 0;
 }
 biography-controls .controlsForm:has(:focus) {
-  border: 2px solid var(--highlight);
+  box-shadow: var(--focus-shadow);
 }
 biography-controls .option {
   position: relative;
@@ -938,13 +956,12 @@ biography-controls .option:has(:checked) label {
   font-weight: 500;
 }
 biography-controls .option:has(:checked) input {
-  outline: none;
+  outline: 0;
   border: none;
   accent-color: var(--paper);
 }
-biography-controls input[type=radio]:focus {
-  outline: none;
-  border: 5px solid red;
+biography-controls .option:has(:checked) input:focus {
+  box-shadow: unset;
 }
 biography-controls input::after {
   top: 0;
