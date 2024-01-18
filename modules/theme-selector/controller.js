@@ -2,15 +2,15 @@ import {palettes, body} from './../../main.js';
 
 palettes.addEventListener('click', function(event) {
 
-	if (event.target.matches('.color')) {
-		const currentTheme = document.querySelector('.palettes .active'); //the preexisting theme
+	if (event.target.matches('input[type="radio"]')) {
+		const currentSwatch = document.querySelector('.palettes .active'); //the preexisting theme
 
-		let hue = event.target.dataset.hue; //the new theme
+		let newHue = event.target.dataset.hue; //the new theme
 
-		document.cookie = `themeCode=${hue}`;
-		body.style.setProperty('--hue', hue);
+		document.cookie = `themeCode=${newHue}`;
+		body.style.setProperty('--hue', newHue);
 
-		currentTheme.classList.remove("active");
-		event.target.classList.add("active"); //handle the border colors
+		currentSwatch.classList.remove("active");
+		event.target.closest('.colorSwatch').classList.add("active"); //handle the border colors
 	}
 });

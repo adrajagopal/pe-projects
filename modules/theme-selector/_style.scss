@@ -1,30 +1,37 @@
 .themeSelector {
 	display: flex;
-	gap: 8px;
+	gap: 4px;
+	align-items: center;
 
+	&:focus-within {
+		box-shadow: var(--focus-shadow);
+	}
+
+	p {
+		height: 24px; //to match the height of .colorSwatch
+	}
 
 	.palettes {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
 		gap: 5px;
+		border: none;
+
+		* {
+			cursor: pointer;
+		}
 	}
 
-	.palettes button {
+	.colorSwatch {
+		position: relative;
+		display: flex;
+		align-items: center;
 		min-width: 0;
 		padding: 0;
 		width: 24px;
 		border: 1px solid transparent;
 		border-radius: 5px;
 		aspect-ratio: 1/1;
-		cursor: pointer;
-
-		&:hover {
-			border-radius: 25px;
-		}
-
-		&:focus {
-			border-radius: 25px;
-		}
 
 		&.active {
 			border: 2px solid hsl(var(--hue), 100%, 30%);
@@ -34,8 +41,32 @@
 			}
 		}
 
-	}
+		&:hover {
+			border-radius: 25px;
+		}
 
+		&:focus-within {
+			border-radius: 25px;
+			box-shadow: var(--focus-shadow);
+		}
+
+		input {
+			opacity: 0;
+
+			&:focus {
+				box-shadow: unset;
+			}
+		}
+
+		input::after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			content: "";
+		}
+	}
 
 	[data-hue="0"] {
 		background-color: hsl(0, 40%, 75%);
