@@ -4,7 +4,7 @@
 	$nowGroups = json_decode($json, true);
 ?>
 
-<ul class="now-grid">
+<ul class="now-grid" aria-label="What I'm up to right now">
 	
 <?php
 	foreach ($nowGroups as $nowGroup) {
