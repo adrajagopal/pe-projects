@@ -1,5 +1,5 @@
 <div class="themeSelector">
-	<p>Theme:</p>
+	<h2 class="medium-voice" aria-label="Select a theme color">Theme:</h2>
 	<form class="palettes">
 
 		<?php
@@ -22,7 +22,7 @@
 				}
 			?>
 				<div data-hue="<?=$palette['hue']?>" class="colorSwatch color <?=$class?>">
-					<input data-hue="<?=$palette['hue']?>" type="radio" name="hue" aria-label="<?=$palette['name']?>" >	
+					<input data-hue="<?=$palette['hue']?>" type="radio" name="hue" aria-label="<?=$palette['name']?> theme">	
 				</div>
 		<?php	}
 
