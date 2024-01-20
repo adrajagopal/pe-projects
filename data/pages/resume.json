@@ -1,5 +1,5 @@
 {
-	"name": "Resume",
+	"name": "Résumé ",
 	"slug": "resume",
 	"skills": ["Visual design","Version control", "Project management", "Testing"],
 	"languages": ["HTML", "CSS", "JavaScript", "PHP", "VueJS", "React"],
@@ -7,7 +7,7 @@
 		{
 			"name": "hero",
 			"content": {
-				"heading": "Resume",
+				"heading": "Résumé",
 				"description": "Where I've been"
 			}
 		},

@@ -60,7 +60,7 @@ Inter -->
 				<ul class="site-nav-items">
 					<li><a href="?page=home" class="<?php if ($page === "home") { echo "active";} ?>">Home</a></li>
 					<li><a href="?page=work" class="<?php if ($page === "work") { echo "active";} ?>">Work</a></li>
-					<li><a href="?page=resume" class="<?php if ($page === "resume") { echo "active";} ?>">Resume</a></li>
+					<li><a href="?page=resume" class="<?php if ($page === "resume") { echo "active";} ?>">Résumé </a></li>
 					<li><a href="?page=now" class="<?php if ($page === "now") { echo "active";} ?>">Now</a></li>
 				</ul>
 			</nav>
