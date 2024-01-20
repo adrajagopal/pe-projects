@@ -1,6 +1,6 @@
 <biography-controls>
 	<text-content>
-		<h3 class="large-voice">Get to know me:</h3>
+		<h3 class="large-voice" aria-label="Choose a biography to hear a description of me">Get to know me:</h3>
 	</text-content>
 	<form class="controlsForm" role="list">
 		<div class="option">
