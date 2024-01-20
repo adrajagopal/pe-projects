@@ -48,7 +48,7 @@ a, p a {
 /*margin & padding*/
 text-content {
 
-	h1 + :is(p, ul) {
+	h1 + :is(h2, p, ul) {
 		margin-top: 1rem;
 	}
 

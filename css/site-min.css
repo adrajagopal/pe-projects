@@ -359,7 +359,7 @@ a, p a {
   }
 }
 /*margin & padding*/
-text-content h1 + :is(p, ul) {
+text-content h1 + :is(h2, p, ul) {
   margin-top: 1rem;
 }
 text-content :is(h2, h3) + :is(p, ul) {
