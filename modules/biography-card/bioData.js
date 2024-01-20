@@ -2,6 +2,7 @@ export const bios = [
 	{
 		"version" : "normal",
 		"portrait" : "ad-portrait-blonde.jpg",
+		"alt" : "Me, smiling and looking confident. Wearing a WIRED magazine hat.",
 		"type" : "Collaborative dev",
 		"rarity" : "Extremely common",
 		"interests" : "Pair programming, design systems, health tech, the outdoors, personal finance",
@@ -11,6 +12,7 @@ export const bios = [
 	{
 		"version" : "anxious",
 		"portrait" : "ad-portrait-anxious.jpg",
+		"alt" : "A minimalist cartoon of my face, perfectly symmetrical and overlaid on a grid. It's giving nervous, obsessive vibes.",
 		"type" : "Anxious perfectionist",
 		"rarity" : "Somewhat common",
 		"interests" : "Worrying, pacing, double-checking, reading ingredient lists, financial planning",
@@ -20,6 +22,7 @@ export const bios = [
 	{
 		"version" : "personal",
 		"portrait" : "ad-portrait-outdoorsy.jpg",
+		"alt" : "Me, beaming and hugging my late beagle mix, sitting at the top of a small peak of a mountain range in North Carolina, under a clear sky and warm sun",
 		"type" : "Outdoorsy dog-lover",
 		"rarity" : "Extremely common",
 		"interests" : "Rock climbing, paddling, biking, tennis, cooking vegan, board games",

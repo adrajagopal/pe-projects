@@ -3,7 +3,7 @@
 
 <biography-card aria-live="assertive"><!-- outlet -->
 	<picture>
-		<img src="images/ad-portrait-blonde.jpg">
+		<img src="images/ad-portrait-blonde.jpg" alt="Me, smiling and looking confident. Wearing a WIRED magazine hat.">
 	</picture>
 
 	<ul class="medium-voice bio-attributes">

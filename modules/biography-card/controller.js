@@ -8,7 +8,7 @@ const bioCard = document.querySelector('biography-card');
 function renderBio(input) {
 	return `
 		<picture>
-			<img src="images/${input.portrait}">
+			<img src="images/${input.portrait}" alt="${input.alt}">
 		</picture>
 
 		<ul class="medium-voice bio-attributes">
