@@ -2,7 +2,7 @@
 	<text-content>
 		<h3 class="large-voice">Get to know me:</h3>
 	</text-content>
-	<form class="controlsForm">
+	<form class="controlsForm" role="list">
 		<div class="option">
 			<input 
 				id="normal"

@@ -1,7 +1,7 @@
 
 <!-- if you update this card, make sure you update it in the renderBio() function as well -->
 
-<biography-card><!-- outlet -->
+<biography-card aria-live="assertive"><!-- outlet -->
 	<picture>
 		<img src="images/ad-portrait-blonde.jpg">
 	</picture>
