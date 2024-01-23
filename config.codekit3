@@ -3788,6 +3788,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/robots.txt",
+      "oF" : 0
+    },
     "\/site-footer.php" : {
       "cB" : 0,
       "ft" : 8192,
