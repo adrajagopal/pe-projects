@@ -17,23 +17,20 @@
 	<base href="<?=BASE_URL?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Ad - Frontend + Design</title>
-	<link rel="icon" type="image/x-icon" href="images/favicon.svg">
+	<title>Ad | Frontend Dev</title>
+	<link id="favicon" rel="icon" type="image/x-icon" href=<?="images/favicon-$activeHue.svg"?>>
 
 	<meta name="description" content="Product- & design-focused frontend dev">
 
 	<meta
 	  property="og:image"
-	  content="https://adrajagopal.com/images/favicon.svg">
+	  content="https://adrajagopal.com/images/open-graph-landscape.svg">
 	
 	<link rel="stylesheet" href="css/site-min.css">
 
-<!-- 	fonts used:
-Inter -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
 </head>
 
