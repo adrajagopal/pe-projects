@@ -23,8 +23,9 @@
 	<meta name="description" content="Product- & design-focused frontend dev">
 
 	<meta
-	  property="og:image"
-	  content="https://adrajagopal.com/images/open-graph-landscape.svg">
+		property="og:image"
+		content="https://adrajagopal.com/images/open-graph-landscape.svg"
+	>
 	
 	<link rel="stylesheet" href="css/site-min.css">
 
