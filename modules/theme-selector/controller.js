@@ -12,5 +12,6 @@ palettes.addEventListener('click', function(event) {
 
 		currentSwatch.classList.remove("active");
 		event.target.closest('.colorSwatch').classList.add("active"); //handle the border colors
+		document.querySelector('#favicon').setAttribute('href', `images/favicon-${newHue}.svg`);
 	}
 });
