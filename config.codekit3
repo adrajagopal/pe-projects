@@ -659,15 +659,18 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/images\/open-graph-landscape.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/open-graph-landscape.svg",
+    "\/images\/open-graph-landscape.jpg" : {
+      "ft" : 16384,
+      "iS" : 88104,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/open-graph-landscape.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/images\/themeChallenge\/health-tech-screenshots.jpg" : {
       "ft" : 16384,
