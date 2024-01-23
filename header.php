@@ -17,7 +17,7 @@
 	<base href="<?=BASE_URL?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Ad Rajagopal | Design & Dev</title>
+	<title>Ad Does Dev & Design</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.svg">
 
 	<meta name="description" content="Product- & design-focused frontend dev">
