@@ -9,31 +9,19 @@
 	}
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<base href="<?=BASE_URL?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 
-<!-- delete this comment once you've replaced the template content -->
 	<title>Ad Rajagopal</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.svg">
 
-<!-- delete this comment once you've replaced the template content -->
 	<meta name="description" content="Product- & design-focused frontend dev">
-	
-<!-- delete this comment once you've replaced the template content -->
-	<meta property="og:title" content="">
 
-<!-- delete this comment once you've replaced the template content -->
-	<!-- <meta
-	  property="og:description"
-	  content="[[INSERT CONTENT]]"> -->
-
-<!-- delete this comment once you've replaced the template content -->
 	<meta
 	  property="og:image"
 	  content="https://adrajagopal.com/images/favicon.svg">
