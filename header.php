@@ -24,7 +24,7 @@
 
 	<meta
 		property="og:image"
-		content="https://adrajagopal.com/images/open-graph-landscape.svg"
+		content="https://adrajagopal.com/images/open-graph-landscape.jpg"
 	>
 	
 	<link rel="stylesheet" href="css/site-min.css">
