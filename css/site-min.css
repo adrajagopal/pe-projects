@@ -1088,12 +1088,6 @@ biography-controls input::after {
   display: flex;
   gap: 20px;
 }
-.project-card:hover {
-  background-color: var(--ink);
-}
-.project-card:hover h3, .project-card:hover p, .project-card:hover a {
-  color: var(--paper);
-}
 
 .section-intro {
   margin-top: calc(1.5 * var(--gap));
@@ -1159,12 +1153,6 @@ article section:first-of-type .section-intro h2 {
 }
 .now-card li {
   font-weight: 300;
-}
-.now-card:hover {
-  background-color: var(--ink);
-}
-.now-card:hover h2, .now-card:hover li {
-  color: var(--paper);
 }
 
 .now-grid .now-card + .now-card {
