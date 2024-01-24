@@ -17,12 +17,12 @@ biography-card {
 	;
 	grid-template-columns: 1fr 1fr;
 
-	&:hover {
-		background-color: var(--ink);
-		*:not(a.button) {
-			color: var(--paper);
-		}
-	}
+	// &:hover {
+	// 	background-color: var(--ink);
+	// 	*:not(a.button) {
+	// 		color: var(--paper);
+	// 	}
+	// }
 
 	picture {
 		width: 100%;

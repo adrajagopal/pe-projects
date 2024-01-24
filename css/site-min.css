@@ -894,12 +894,6 @@ biography-card {
   grid-template-areas: "portrait traits" "biography biography";
   grid-template-columns: 1fr 1fr;
 }
-biography-card:hover {
-  background-color: var(--ink);
-}
-biography-card:hover *:not(a.button) {
-  color: var(--paper);
-}
 biography-card picture {
   width: 100%;
   max-width: 300px;
