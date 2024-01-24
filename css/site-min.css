@@ -117,6 +117,7 @@ body {
   --paper-grey: hsl(var(--hue), 15%, 90%);
   --ink-grey: hsl(var(--hue), 15%, 50%);
   --ink: hsl(var(--hue), 70%, 15%);
+  --ink-light: hsl(var(--hue) 50% 30%);
   --highlight: hsl(calc(var(--hue) + 210), 70%, 70%);
   --focus: hsl(25, 100%, 60%);
   --primary-font: "Inter";
@@ -334,7 +335,7 @@ p, ul, ol, li, legend, label, .medium-voice {
   font-family: var(--secondary-font);
   font-size: 1rem;
   font-weight: 300;
-  color: var(--ink);
+  color: var(--ink-light);
   line-height: 1.4;
 }
 
@@ -790,6 +791,9 @@ a.skiplink:focus {
 }
 .themeSelector:focus-within {
   box-shadow: var(--focus-shadow);
+}
+.themeSelector h2 {
+  color: var(--ink);
 }
 .themeSelector p {
   height: 24px;
