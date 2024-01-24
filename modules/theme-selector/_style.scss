@@ -7,6 +7,10 @@
 		box-shadow: var(--focus-shadow);
 	}
 
+	h2 {
+		color: var(--ink);
+	}
+
 	p {
 		height: 24px; //to match the height of .colorSwatch
 	}

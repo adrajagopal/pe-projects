@@ -13,10 +13,10 @@ function renderBio(input) {
 
 		<ul class="medium-voice bio-attributes">
 			<li>
-				<h3><strong>Type: </strong>${input.type}</h3>
+				<h3><strong>Type: </strong><span class="medium-voice">${input.type}</span></h3>
 			</li>
 			<li>
-				<h3><strong>Interests: </strong>${input.interests}</h3>
+				<h3><strong>Interests: </strong><span class="medium-voice">${input.interests}</span></h3>
 			</li>
 		</ul>
 

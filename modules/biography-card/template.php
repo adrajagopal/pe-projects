@@ -8,10 +8,10 @@
 
 	<ul class="medium-voice bio-attributes">
 		<li>
-			<h3><strong>Type: </strong>Collaborative dev</h3>
+			<h3><strong>Type: </strong><span class="medium-voice">Collaborative dev</span></h3>
 		</li>
 		<li>
-			<h3><strong>Interests: </strong>Pair programming, design systems, health tech, the outdoors, personal finance</h3>
+			<h3><strong>Interests: </strong><span class="medium-voice">Pair programming, design systems, health tech, the outdoors, personal finance</span></h3>
 		</li>
 	</ul>
 
