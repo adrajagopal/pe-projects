@@ -2,15 +2,14 @@ button, .button {
 	background-color: var(--paper);
 	color: var(--ink);
 	font-weight: 500;
-	border: 1px solid var(--ink);
+	border: var(--card-border);
+	box-shadow: var(--card-shadow);
 	min-width: 150px;
 	border-radius: var(--button-radius);
 	padding: 0.5rem 1rem;
 	font-family: var(--secondary-font);
 	font-size: 1rem;
 	font-weight: 500;
-/*	margin-top: 20px;*/
-/*	margin-bottom: 5px;*/
 	justify-self: start;
 	text-wrap: nowrap;
 	outline: 0;
@@ -22,6 +21,7 @@ button, .button {
 
 	&:focus {
 		box-shadow: var(--focus-shadow);
+		border-radius: var(--button-radius);
 	}
 }
 

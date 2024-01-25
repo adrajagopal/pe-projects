@@ -3,7 +3,7 @@
 		<h3 class="large-voice" aria-label="Choose a biography to hear a description of me">Get to know me:</h3>
 	</text-content>
 	<form class="controlsForm" role="list">
-		<div class="option">
+		<div class="option button">
 			<input 
 				id="normal"
 				value="normal"
@@ -14,7 +14,7 @@
 			<label for="normal">The collaborative dev</label>
 		</div>
 
-		<div class="option">
+		<div class="option button">
 			<input 
 				id="anxious"
 				value="anxious"
@@ -24,7 +24,7 @@
 			<label for="anxious">The anxious perfectionist</label>
 		</div>
 
-		<div class="option">
+		<div class="option button">
 			<input 
 				id="personal"
 				value="personal"

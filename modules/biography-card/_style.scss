@@ -5,7 +5,7 @@ biography-card {
 	transition: 250ms background-color, color ease-in;
 	max-width: 600px;
 	background-color: var(--paper-accent);
-	border: 1px solid var(--ink);
+	border: var(--card-border);
 	border-radius: var(--box-radius);
 	padding: calc(1.5 * var(--card-padding));
 
@@ -21,7 +21,8 @@ biography-card {
 		width: 100%;
 		max-width: 300px;
 		aspect-ratio: 1 / 1;
-		border: 1px solid var(--ink);
+		border: var(--card-border);
+		box-shadow: var(--card-shadow);
 		border-radius: 20px;
 		overflow: hidden;
 	}
