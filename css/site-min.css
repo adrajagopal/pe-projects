@@ -114,10 +114,10 @@ body {
   --hue: 210;
   --paper: hsl(var(--hue), 60%, 98%);
   --paper-accent: hsl(var(--hue), 30%, 90%);
-  --paper-grey: hsl(var(--hue), 15%, 90%);
-  --ink-grey: hsl(var(--hue), 15%, 50%);
+  --paper-grey: hsl(var(--hue), 15%, 75%);
   --ink: hsl(var(--hue), 70%, 15%);
-  --ink-light: hsl(var(--hue) 50% 30%);
+  --ink-light: hsl(var(--hue) 15% 35%);
+  --ink-grey: hsl(var(--hue), 15%, 50%);
   --highlight: hsl(calc(var(--hue) + 210), 70%, 70%);
   --focus: hsl(25, 100%, 60%);
   --primary-font: "Inter";
@@ -126,19 +126,21 @@ body {
   --box-radius: 20px;
   --button-radius: 15px;
   --card-padding: 20px;
-  --card-shadow: 8px 8px 2px hsla(var(--hue), 70%, 15%, 0.2);
+  --card-border: 1px solid hsl(var(--hue), 30%, 70%);
+  --card-shadow: 0px 2px 3px 1px var(--paper-grey);
   --focus-shadow: 0 0 2px 2px var(--focus);
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    --paper: hsl(var(--hue), 50%, 10%);
-    --paper-accent: hsl(var(--hue), 25%, 25%);
-    --ink: hsl(var(--hue), 60%, 98%);
+    --paper: hsl(var(--hue), 30%, 10%);
+    --paper-accent: hsl(var(--hue), 25%, 20%);
     --paper-grey: hsl(var(--hue), 15%, 50%);
+    --ink: hsl(var(--hue), 60%, 98%);
+    --ink-light: hsl(var(--hue) 15% 85%);
     --ink-grey: hsl(var(--hue), 15%, 70%);
     --highlight: hsl(calc(var(--hue) + 150), 50%, 50%);
-    --card-shadow: 8px 8px 2px hsla(var(--hue), 70%, 40%, 0.4);
+    --card-border: 1px solid hsl(var(--hue), 30%, 50%);
   }
 }
 /*Type patterns*/
@@ -682,15 +684,14 @@ button, .button {
   background-color: var(--paper);
   color: var(--ink);
   font-weight: 500;
-  border: 1px solid var(--ink);
+  border: var(--card-border);
+  box-shadow: var(--card-shadow);
   min-width: 150px;
   border-radius: var(--button-radius);
   padding: 0.5rem 1rem;
   font-family: var(--secondary-font);
   font-size: 1rem;
   font-weight: 500;
-  /*	margin-top: 20px;*/
-  /*	margin-bottom: 5px;*/
   justify-self: start;
   text-wrap: nowrap;
   outline: 0;
@@ -701,6 +702,7 @@ button:active, .button:active {
 }
 button:focus, .button:focus {
   box-shadow: var(--focus-shadow);
+  border-radius: var(--button-radius);
 }
 
 a.button {
@@ -891,7 +893,7 @@ biography-card {
   transition: 250ms background-color, color ease-in;
   max-width: 600px;
   background-color: var(--paper-accent);
-  border: 1px solid var(--ink);
+  border: var(--card-border);
   border-radius: var(--box-radius);
   padding: calc(1.5 * var(--card-padding));
   box-shadow: var(--card-shadow);
@@ -902,7 +904,8 @@ biography-card picture {
   width: 100%;
   max-width: 300px;
   aspect-ratio: 1/1;
-  border: 1px solid var(--ink);
+  border: var(--card-border);
+  box-shadow: var(--card-shadow);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -1075,7 +1078,7 @@ biography-controls input::after {
 }
 
 .project-card {
-  border: 1px solid var(--ink);
+  border: var(--card-border);
   background-color: var(--paper-accent);
   border-radius: var(--box-radius);
   padding: var(--card-padding);
@@ -1127,7 +1130,7 @@ article section:first-of-type .section-intro h2 {
   color: var(--paper);
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border-radius: 25px;
+  border-radius: var(--button-radius);
 }
 
 .link-group {
@@ -1149,7 +1152,7 @@ article section:first-of-type .section-intro h2 {
   max-width: 600px;
   border-radius: var(--box-radius);
   background-color: var(--paper-accent);
-  border: 1px solid var(--ink);
+  border: var(--card-border);
   box-shadow: var(--card-shadow);
 }
 .now-card h2 {
