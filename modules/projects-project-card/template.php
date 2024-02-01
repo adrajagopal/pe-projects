@@ -23,7 +23,7 @@
 
 		<?php } 
 
-		elseif (($detail['projectId'] === 'layoutGarden') OR ($detail['projectId'] === 'styleGuide')) { 
+		elseif (($detail['projectId'] === 'componentLibrary') OR ($detail['projectId'] === 'styleGuide')) { 
 			// link straight to the projectId
 			$url = "?page=$detail[projectId]";
 			$copy = "See it live";

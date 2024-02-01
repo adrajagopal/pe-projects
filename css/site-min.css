@@ -221,17 +221,17 @@ main {
   margin-top: calc(1.5 * var(--gap));
 }
 
-body:has(.layoutGarden) inner-column {
+body:has(.componentLibrary) inner-column {
   max-width: 1200px;
 }
-body:has(.layoutGarden) section {
+body:has(.componentLibrary) section {
   padding-top: calc(2 * var(--gap));
   padding-bottom: calc(2 * var(--gap));
 }
-body:has(.layoutGarden) section:nth-of-type(odd) {
+body:has(.componentLibrary) section:nth-of-type(odd) {
   background-color: var(--paper-accent);
 }
-body:has(.layoutGarden) section:nth-of-type(even) {
+body:has(.componentLibrary) section:nth-of-type(even) {
   background-color: var(--paper);
 }
 
@@ -240,53 +240,53 @@ body:has(.styleGuide) right-side main section:not(:first-child) {
 }
 
 @media (min-width: 1000px) {
-  body:not(:has(.layoutGarden)) {
+  body:not(:has(.componentLibrary)) {
     display: grid;
     grid-template-columns: auto repeat(12, minmax(0, 75px)) auto;
     grid-template-rows: auto 1fr auto;
     gap: 0 var(--gap);
     min-height: 100dvh;
   }
-  body:not(:has(.layoutGarden)) main {
+  body:not(:has(.componentLibrary)) main {
     margin-top: 0;
   }
-  body:not(:has(.layoutGarden)) .page-wrapper {
+  body:not(:has(.componentLibrary)) .page-wrapper {
     padding-top: 0;
     padding-bottom: 0;
   }
-  body:not(:has(.layoutGarden)) inner-column {
+  body:not(:has(.componentLibrary)) inner-column {
     margin: 0;
     max-width: unset;
     padding: 0;
   }
-  body:not(:has(.layoutGarden)) .site-header, body:not(:has(.layoutGarden)) .site-footer, body:not(:has(.layoutGarden)) .page-wrapper {
+  body:not(:has(.componentLibrary)) .site-header, body:not(:has(.componentLibrary)) .site-footer, body:not(:has(.componentLibrary)) .page-wrapper {
     display: grid;
     grid-template-columns: subgrid;
   }
-  body:not(:has(.layoutGarden)) .site-header, body:not(:has(.layoutGarden)) .page-wrapper, body:not(:has(.layoutGarden)) .site-footer {
+  body:not(:has(.componentLibrary)) .site-header, body:not(:has(.componentLibrary)) .page-wrapper, body:not(:has(.componentLibrary)) .site-footer {
     grid-column: 1/-1;
   }
-  body:not(:has(.layoutGarden)) :is(.site-header, .site-footer, .page-wrapper) inner-column {
+  body:not(:has(.componentLibrary)) :is(.site-header, .site-footer, .page-wrapper) inner-column {
     grid-column: 2/-2;
   }
-  body:not(:has(.layoutGarden)) left-side {
+  body:not(:has(.componentLibrary)) left-side {
     grid-column: 1/7;
     margin-right: calc(-1 * var(--gap));
     display: grid;
     grid-template-columns: subgrid;
     grid-template-rows: auto;
   }
-  body:not(:has(.layoutGarden)) right-side {
+  body:not(:has(.componentLibrary)) right-side {
     grid-column: 7/-1;
     display: grid;
     grid-template-columns: subgrid;
     grid-template-rows: auto;
   }
-  body:not(:has(.layoutGarden)) .left-content {
+  body:not(:has(.componentLibrary)) .left-content {
     grid-column: 2/-1;
     padding-right: calc(0.5 * var(--gap));
   }
-  body:not(:has(.layoutGarden)) .right-content {
+  body:not(:has(.componentLibrary)) .right-content {
     grid-column: 1/-2;
     padding-left: calc(0.5 * var(--gap));
     padding-top: calc(2 * var(--gap));

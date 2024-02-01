@@ -17,6 +17,241 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/component-library-modules\/article-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/component-library-modules\/article-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/component-library-modules\/article-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/article-card\/template.php",
+      "oF" : 0
+    },
+    "\/component-library-modules\/faq-card\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/component-library-modules\/faq-card\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/component-library-modules\/faq-card\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/faq-card\/template.php",
+      "oF" : 0
+    },
+    "\/component-library-modules\/faq-list\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/component-library-modules\/faq-list\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/component-library-modules\/faq-list\/component-library-faqs.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/component-library-modules\/faq-list\/component-library-faqs-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/component-library-modules\/faq-list\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/faq-list\/template.php",
+      "oF" : 0
+    },
+    "\/component-library-modules\/images\/blue-triangles.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/component-library-modules\/images\/blue-triangles.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/component-library-modules\/images\/green-clouds.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/component-library-modules\/images\/green-clouds.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/component-library-modules\/images\/patient-green-background.jpg" : {
+      "ft" : 16384,
+      "iS" : 168913,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/images\/patient-green-background.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/component-library-modules\/images\/peach-circles.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/component-library-modules\/images\/peach-circles.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/component-library-modules\/images\/phone-gradient.jpg" : {
+      "ft" : 16384,
+      "iS" : 138491,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/images\/phone-gradient.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/component-library-modules\/images\/phone-screenshot.jpg" : {
+      "ft" : 16384,
+      "iS" : 153439,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/images\/phone-screenshot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/component-library-modules\/images\/phone-silhouette.jpg" : {
+      "ft" : 16384,
+      "iS" : 23218,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/images\/phone-silhouette.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/component-library-modules\/images\/purple-polygons.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/component-library-modules\/images\/purple-polygons.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/component-library-modules\/images\/squares.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/component-library-modules\/images\/squares.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/component-library-modules\/images\/yellow-squares.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/component-library-modules\/images\/yellow-squares.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/component-library-modules\/layout-garden-heading\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/component-library-modules\/layout-garden-heading\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/component-library-modules\/layout-garden-heading\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/layout-garden-heading\/template.php",
+      "oF" : 0
+    },
+    "\/component-library-modules\/section-intro\/_style.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/component-library-modules\/section-intro\/_style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/component-library-modules\/section-intro\/template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/component-library-modules\/section-intro\/template.php",
+      "oF" : 0
+    },
     "\/components\/external-link\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -331,18 +566,18 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/data\/pages\/home.json" : {
+    "\/data\/pages\/componentLibrary.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/data\/pages\/home-min.json",
+      "oAP" : "\/data\/pages\/componentLibrary-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/data\/pages\/layoutGarden.json" : {
+    "\/data\/pages\/home.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/data\/pages\/layoutGarden-min.json",
+      "oAP" : "\/data\/pages\/home-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -387,18 +622,18 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/data\/projects\/designSystem.json" : {
+    "\/data\/projects\/componentLibrary.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/data\/projects\/designSystem-min.json",
+      "oAP" : "\/data\/projects\/componentLibrary-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/data\/projects\/layoutGarden.json" : {
+    "\/data\/projects\/designSystem.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/data\/projects\/layoutGarden-min.json",
+      "oAP" : "\/data\/projects\/designSystem-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -743,241 +978,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/article-card\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/article-card\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/article-card\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/article-card\/template.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/faq-card\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/faq-card\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/faq-card\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/faq-card\/template.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/faq-list\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/faq-list\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/faq-list\/layout-garden-faqs.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/faq-list\/layout-garden-faqs-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/layout-garden-modules\/faq-list\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/faq-list\/template.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/images\/blue-triangles.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/layout-garden-modules\/images\/blue-triangles.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/layout-garden-modules\/images\/green-clouds.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/layout-garden-modules\/images\/green-clouds.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/layout-garden-modules\/images\/patient-green-background.jpg" : {
-      "ft" : 16384,
-      "iS" : 168913,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/images\/patient-green-background.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/layout-garden-modules\/images\/peach-circles.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/layout-garden-modules\/images\/peach-circles.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/layout-garden-modules\/images\/phone-gradient.jpg" : {
-      "ft" : 16384,
-      "iS" : 138491,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/images\/phone-gradient.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/layout-garden-modules\/images\/phone-screenshot.jpg" : {
-      "ft" : 16384,
-      "iS" : 153439,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/images\/phone-screenshot.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/layout-garden-modules\/images\/phone-silhouette.jpg" : {
-      "ft" : 16384,
-      "iS" : 23218,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/images\/phone-silhouette.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/layout-garden-modules\/images\/purple-polygons.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/layout-garden-modules\/images\/purple-polygons.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/layout-garden-modules\/images\/squares.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/layout-garden-modules\/images\/squares.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/layout-garden-modules\/images\/yellow-squares.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/layout-garden-modules\/images\/yellow-squares.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/layout-garden-modules\/layout-garden-heading\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/layout-garden-heading\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/layout-garden-heading\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/layout-garden-heading\/template.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/section-intro\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/section-intro\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/section-intro\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/section-intro\/template.php",
       "oF" : 0
     },
     "\/main-min.js" : {
@@ -3681,12 +3681,12 @@
       "oAP" : "\/socials.php",
       "oF" : 0
     },
-    "\/templates\/layoutGarden.php" : {
+    "\/templates\/componentLibrary.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/templates\/layoutGarden.php",
+      "oAP" : "\/templates\/componentLibrary.php",
       "oF" : 0
     },
     "\/templates\/main.php" : {

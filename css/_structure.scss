@@ -39,7 +39,7 @@ main {
 	margin-top: calc(1.5 * var(--gap));
 }
 
-body:has(.layoutGarden) {
+body:has(.componentLibrary) {
 	inner-column {
 		max-width: 1200px;
 	}
@@ -64,7 +64,7 @@ body:has(.styleGuide) {
 	}
 }
 
-body:not(:has(.layoutGarden)) {
+body:not(:has(.componentLibrary)) {
 
 @media (min-width: 1000px) { //handle the split screen design
 

@@ -28,8 +28,8 @@
 <?php include("header.php");?>
 
 <?php 
-	if ($page === "layoutGarden") {
-		include(getFile('templates/layoutGarden.php'));
+	if ($page === "componentLibrary") {
+		include(getFile('templates/componentLibrary.php'));
 	} elseif ($page === "projectDetails") { 
 		include(getFile('templates/projectDetails.php'));
 	} else { 

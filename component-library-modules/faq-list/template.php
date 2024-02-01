@@ -6,14 +6,14 @@
 
 	<ul>
 		<?php
-			$json = file_get_contents(getFile('layout-garden-modules/faq-list/layout-garden-faqs.json'));
+			$json = file_get_contents(getFile('component-library-modules/faq-list/component-library-faqs.json'));
 	
 			$faqs = json_decode($json, true);
 	
 			foreach ($faqs as $faq) { ?>
 	
 				<li>
-					<?php include(getFile('layout-garden-modules/faq-card/template.php'));?>
+					<?php include(getFile('component-library-modules/faq-card/template.php'));?>
 				</li>
 		<?php } ?>
 	</ul>

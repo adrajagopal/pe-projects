@@ -1,0 +1,10 @@
+{
+	"title": "Component Library",
+	"projectId": "componentLibrary",
+	"liveDemo": "component-library",
+	"internalTitle": "Component Library",
+	"category": "design",
+	"oneLiner": "Components and modules used commonly across the web.",
+	"hasCaseStudy": false,
+	"tags": ["CSS", "responsive design", "grid-template-areas is a hammer", "everything is a nail"]
+}
