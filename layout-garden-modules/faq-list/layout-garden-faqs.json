@@ -1,22 +1,22 @@
 [
 	{
-		"question" : "How soon will my order ship?",
-		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+		"question" : "What are your strengths as a developer?",
+		"answer" : "I have a heavy focus on product and design, so I can contribute from low-fi wireframes through dev execution. Also: attention to detail, communication, and quickly learning new things."
 	},
 	{
-		"question" : "Are there any warranty exclusions?",
-		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+		"question" : "What are your favorite CSS frameworks?",
+		"answer" : "In general, I try to do as much as I can with native CSS. A lot of framework functionality has become native over the years, like nesting and variables. I like that in SASS, the nesting syntax is simpler. I like the simplicity of mixins in LESS. But I'm more excited about what native CSS has to offer these days -- for example: subgrid, :has(), nesting and container queries."
 	},
 	{
-		"question" : "Are there any return exclusions?",
-		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+		"question" : "What do you know about accessibility?",
+		"answer" : "That the basics go a long way. I'm by no means an expert, but I do know that maintaining semantics in your HTML templating is crucial. My process is to build with semantics in mind, then test for keyboard navigation and screenreader functionality, and iterate until it works. For content, that means being able to understand the hierarchy of an article or text module. For interactive modules, that means being able to access all the functionality that form inputs provide, even if a module doesn't look like a form; and making sure to announce changes that aren't apparent to the user. Of course, there's also color contrast, writing good alt text/ARIA labels, ARIA roles, and more."
 	},
 	{
-		"question" : "Will I be charged for a replacement item?",
-		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+		"question" : "Tell me about how you learned to code.",
+		"answer" : "I joined Design for the Web, a 9-month mentorship that focuses on the fundamentals of visual design, HTML, CSS, and JavaScript through practical applications. I spent 9 months writing code and designing interfaces in short sprints. I learned about semantic HTML an accessibility, became an expert in CSS, built small applications entirely in Vanilla JavaScript, and then progressed to building full-stack applications in VueJS (though I am not a backend developer). You can see a selection of my projects on my Work page."
 	},
 	{
-		"question" : "How can I track my orders and payment?",
-		"answer" : "Tincidunt purus at amet, eu nisl urna at. Pellentesque diam dictum consectetur leo ipsum. Lectus gravida id aliquam"
+		"question" : "Where do you want to be in five years?",
+		"answer" : "In five years I'll be an experienced frontend developer who works at the intersection of design and engineering, building out design systems or internal resources for other engineers. I'll be working at a small to medium-sized company that focuses on a social good -- health, fitness, community, or music."
 	}
 ]

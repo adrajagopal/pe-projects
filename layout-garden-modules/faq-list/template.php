@@ -1,7 +1,7 @@
 <div class="faq-list-container">
 	<text-content>
 		<h2 class="xl-voice">Frequently Asked Questions</h2>
-		<p class="medium-voice">Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.</p>
+		<p class="medium-voice">Some things you might want to know about me as a developer. You can always ask me more by getting in touch!</p>
 	</text-content>
 
 	<ul>
