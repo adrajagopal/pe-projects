@@ -3,10 +3,23 @@
 	"slug": "component-library",
 	"sections": [
 		{
-			"name": "layout-garden-heading"
+			"name": "component-library-heading",
+			"type": "heading"
 		},
 		{
-			"name": "faq-list"
+			"name": "Menus and information",
+			"type": "group",
+			"modules": [
+				{
+					"name": "faq-list"
+				},
+				{
+					"name": "faq-list"
+				},
+				{
+					"name": "faq-list"
+				}
+			]
 		}
 	]
 }

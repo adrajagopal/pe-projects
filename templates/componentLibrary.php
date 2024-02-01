@@ -4,7 +4,15 @@
 			foreach ($pageData['sections'] as $section) { ?>
 				<section class="<?=$section['name']?>">
 					<inner-column>
-						<?php include(getFile("component-library-modules/$section[name]/template.php")); ?>
+						<?php
+							$type = $section['type'];
+
+							if ($type === "heading") {
+								include(getFile("component-library-modules/component-library-heading/template.php"));
+							} elseif ($type === "group") {
+								include(getFile("component-library-modules/section-container/template.php"));
+							}
+						?>
 					</inner-column>
 				</section>
 
