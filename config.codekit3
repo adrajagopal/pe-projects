@@ -17,7 +17,7 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/component-library-modules\/article-card\/_style.scss" : {
+    "\/component-library-modules\/component-library-heading\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -26,18 +26,18 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/component-library-modules\/article-card\/_style.css",
+      "oAP" : "\/component-library-modules\/component-library-heading\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/component-library-modules\/article-card\/template.php" : {
+    "\/component-library-modules\/component-library-heading\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/component-library-modules\/article-card\/template.php",
+      "oAP" : "\/component-library-modules\/component-library-heading\/template.php",
       "oF" : 0
     },
     "\/component-library-modules\/faq-card\/_style.scss" : {
@@ -206,7 +206,7 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/component-library-modules\/layout-garden-heading\/_style.scss" : {
+    "\/component-library-modules\/section-container\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -215,41 +215,18 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/component-library-modules\/layout-garden-heading\/_style.css",
+      "oAP" : "\/component-library-modules\/section-container\/_style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/component-library-modules\/layout-garden-heading\/template.php" : {
+    "\/component-library-modules\/section-container\/template.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/component-library-modules\/layout-garden-heading\/template.php",
-      "oF" : 0
-    },
-    "\/component-library-modules\/section-intro\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/component-library-modules\/section-intro\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/component-library-modules\/section-intro\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/component-library-modules\/section-intro\/template.php",
+      "oAP" : "\/component-library-modules\/section-container\/template.php",
       "oF" : 0
     },
     "\/components\/external-link\/_style.scss" : {

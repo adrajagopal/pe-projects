@@ -1167,34 +1167,37 @@ article section:first-of-type .section-intro h2 {
 }
 
 /*Page heading*/
-/*Article card*/
-.layout-article-card {
+.category-dropdown ::-webkit-details-marker {
+  display: none;
+}
+.category-dropdown summary {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-radius: 10px;
-  background-color: var(--paper);
+  cursor: pointer;
+  align-items: center;
+  color: var(--ink-grey);
 }
-
-.layout-article-card :is(picture, img) {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.category-dropdown .icon-container {
+  width: 64px;
+  aspect-ratio: 1/1;
 }
-
-.layout-article-card text-content {
-  margin-top: 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 0 1rem 1rem;
+.category-dropdown .icon-container svg {
+  stroke: var(--ink);
+  transition: transform 250ms ease;
 }
-
-.layout-article-card text-content :is(h1, p, a) {
-  margin-top: 0px;
+.category-dropdown:has(details[open]) summary {
+  color: var(--ink-dark);
 }
-
-.layout-article-card text-content a {
-  margin-top: 1.25rem;
+.category-dropdown:has(details[open]) .icon-container svg {
+  transform: rotate(90deg);
+  stroke: var(--ink);
+}
+.category-dropdown .module-list {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+.category-dropdown .module-list .module {
+  max-width: unset;
 }
 
 .faq-list-container {
@@ -1258,7 +1261,7 @@ article section:first-of-type .section-intro h2 {
   width: 32px;
   height: 32px;
   padding: 0.25rem;
-  transform: translateX(50%);
+  transform: translateX(50%) rotate(-90deg);
 }
 .faq-list-container faq-card .icon-container svg {
   stroke: var(--ink-grey);
@@ -1267,11 +1270,14 @@ article section:first-of-type .section-intro h2 {
 .faq-list-container faq-card:has(details[open]) {
   border-bottom: 1px solid var(--ink);
 }
+.faq-list-container faq-card:has(details[open]) p.question {
+  font-weight: 600;
+}
 .faq-list-container faq-card:has(details[open]) summary {
   color: var(--ink-dark);
 }
 .faq-list-container faq-card:has(details[open]) .icon-container svg {
-  transform: rotate(-90deg);
+  transform: rotate(180deg);
   stroke: var(--ink);
 }
 
