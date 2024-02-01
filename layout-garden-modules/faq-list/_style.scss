@@ -23,6 +23,10 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 2rem;
 
+		li:first-of-type {
+			padding-top: 16px;
+		}
+
 		text-content {
 			align-self: start;
 

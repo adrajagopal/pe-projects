@@ -1,14 +1,10 @@
-.faq-list-container {
+.faq-list-container faq-card {
+	display: block;
+	padding: 1rem 1rem 1rem 0;
+	border-bottom: 1px solid var(--ink-grey);
 
-	faq-card {
-		// border: 1px solid red;
-		display: block;
-		padding: clamp(20px, 5vh, 36px) 1rem 1rem 0;
-		border-bottom: 1px solid var(--ink-grey);
-
-		details summary::-webkit-details-marker {
-			display: none;
-		}
+	details summary::-webkit-details-marker {
+		display: none;
 	}
 
 	summary {
@@ -19,7 +15,7 @@
 		color: var(--ink-grey);
 	}
 
-	details p {
+	details p.answer {
 		margin-top: 0.75rem;
 		padding-right: 2rem;
 	}
@@ -33,10 +29,11 @@
 
 		svg {
 			stroke: var(--ink-grey);
+			transition: transform 250ms ease;
 		}
 	}
 
-	faq-card:has(details[open]) {
+	&:has(details[open]) {
 		border-bottom: 1px solid var(--ink);
 
 		summary {
