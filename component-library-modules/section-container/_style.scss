@@ -1,0 +1,46 @@
+.category-dropdown {
+	::-webkit-details-marker {
+		display: none;
+	}
+
+	summary {
+		display: flex;
+		cursor: pointer;
+		align-items: center;
+		color: var(--ink-grey);
+	}
+
+	.icon-container {
+		width: 64px;
+		aspect-ratio: 1 / 1;
+
+		svg {
+			stroke: var(--ink);
+			transition: transform 250ms ease;
+		}
+	}
+
+	&:has(details[open]) {
+		summary {
+			color: var(--ink-dark);
+		}
+
+		.icon-container svg {
+			transform: rotate(90deg);
+			stroke: var(--ink);
+		}
+	}
+
+	.module-list {
+		margin-top: 20px;
+		display: grid;
+		gap: 20px;
+		// justify-items: stretch;
+		// align-items: stretch;
+
+		.module {
+			max-width: unset;
+		}
+	}
+
+}
