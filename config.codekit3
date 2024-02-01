@@ -822,52 +822,6 @@
       "oAP" : "\/layout-garden-modules\/faq-list\/template.php",
       "oF" : 0
     },
-    "\/layout-garden-modules\/gallery-1\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/gallery-1\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/gallery-1\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/gallery-1\/template.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/helfy-diptych\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/helfy-diptych\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/helfy-diptych\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/helfy-diptych\/template.php",
-      "oF" : 0
-    },
     "\/layout-garden-modules\/images\/blue-triangles.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -980,29 +934,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/layout-garden-modules\/imessage-diptych\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/imessage-diptych\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/imessage-diptych\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/imessage-diptych\/template.php",
-      "oF" : 0
-    },
     "\/layout-garden-modules\/layout-garden-heading\/_style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1024,37 +955,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/layout-garden-modules\/layout-garden-heading\/template.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/news-page\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/news-page\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/news-page\/data\/articles.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/news-page\/data\/articles-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/layout-garden-modules\/news-page\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/news-page\/template.php",
       "oF" : 0
     },
     "\/layout-garden-modules\/section-intro\/_style.scss" : {
@@ -1079,37 +979,6 @@
       "oA" : 0,
       "oAP" : "\/layout-garden-modules\/section-intro\/template.php",
       "oF" : 0
-    },
-    "\/layout-garden-modules\/trail-grid\/_style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/trail-grid\/_style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/layout-garden-modules\/trail-grid\/template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layout-garden-modules\/trail-grid\/template.php",
-      "oF" : 0
-    },
-    "\/layout-garden-modules\/trail-grid\/trail-grid-data.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/layout-garden-modules\/trail-grid\/trail-grid-data-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
     },
     "\/main-min.js" : {
       "bF" : 0,
