@@ -1,4 +1,9 @@
 .category-dropdown {
+	box-shadow: var(--item-shadow);
+	border-radius: var(--box-radius);
+	padding: 16px 12px;
+
+
 	::-webkit-details-marker {
 		display: none;
 	}
@@ -11,7 +16,7 @@
 	}
 
 	.icon-container {
-		width: 64px;
+		// width: 64px;
 		aspect-ratio: 1 / 1;
 
 		svg {
