@@ -128,6 +128,7 @@ body {
   --card-padding: 20px;
   --card-border: 1px solid hsl(var(--hue), 30%, 70%);
   --card-shadow: 0px 2px 3px 1px var(--paper-grey);
+  --item-shadow: 0.5px 1px 3px 0 var(--paper-grey);
   --focus-shadow: 0 0 2px 2px var(--focus);
 }
 
@@ -1167,6 +1168,11 @@ article section:first-of-type .section-intro h2 {
 }
 
 /*Page heading*/
+.category-dropdown {
+  box-shadow: var(--item-shadow);
+  border-radius: var(--box-radius);
+  padding: 16px 12px;
+}
 .category-dropdown ::-webkit-details-marker {
   display: none;
 }
@@ -1177,7 +1183,6 @@ article section:first-of-type .section-intro h2 {
   color: var(--ink-grey);
 }
 .category-dropdown .icon-container {
-  width: 64px;
   aspect-ratio: 1/1;
 }
 .category-dropdown .icon-container svg {
