@@ -7,6 +7,15 @@
 			"type": "heading"
 		},
 		{
+			"name": "Common form elements",
+			"type": "group",
+			"modules": [
+				{
+					"name": "faq-list"
+				}
+			]
+		},
+		{
 			"name": "Menus and information",
 			"type": "group",
 			"modules": [
