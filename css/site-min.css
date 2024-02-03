@@ -226,14 +226,12 @@ body:has(.componentLibrary) inner-column {
   max-width: 1200px;
 }
 body:has(.componentLibrary) section {
-  padding-top: calc(2 * var(--gap));
-  padding-bottom: calc(2 * var(--gap));
-}
-body:has(.componentLibrary) section:nth-of-type(odd) {
-  background-color: var(--paper-accent);
-}
-body:has(.componentLibrary) section:nth-of-type(even) {
+  padding-top: var(--gap);
   background-color: var(--paper);
+}
+body:has(.componentLibrary) section:first-of-type {
+  padding: calc(1.5 * var(--gap)) 0;
+  background-color: var(--paper-accent);
 }
 
 body:has(.styleGuide) right-side main section:not(:first-child) {
