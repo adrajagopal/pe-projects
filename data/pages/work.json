@@ -13,15 +13,15 @@
 	"rightSections": [
 		{
 			"name": "projects-group",
-			"title": "Design",
-			"category": "design",
-			"description": "Using HTML & CSS to build responsive layouts, accessible content, and design systems"
-		},
-		{
-			"name": "projects-group",
 			"title": "Programming",
 			"category": "programming",
 			"description": "Using JavaScript, Vue, and other tools to build interactive web applications"
+		},
+		{
+			"name": "projects-group",
+			"title": "Design",
+			"category": "design",
+			"description": "Using HTML & CSS to build responsive layouts, accessible content, and design systems"
 		}
 	]
 }
