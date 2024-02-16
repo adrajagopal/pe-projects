@@ -25,6 +25,8 @@ biography-card {
 		box-shadow: var(--card-shadow);
 		border-radius: 20px;
 		overflow: hidden;
+
+		grid-area: portrait;
 	}
 
 	.bio-attributes {
@@ -34,10 +36,6 @@ biography-card {
 		justify-self: start;
 	}
 
-	picture {
-		grid-area: portrait;
-	}
-
 	.bio-attributes {
 		grid-area: traits;
 		align-self: center;
@@ -45,6 +43,10 @@ biography-card {
 
 	text-content {
 		grid-area: biography;
+	}
+
+	.button {
+		width: 200px;
 	}
 
 	@media (max-width: 450px) {
