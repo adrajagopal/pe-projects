@@ -124,12 +124,12 @@ body {
   --secondary-font: "Inter";
   --gap: 20px;
   --box-radius: 20px;
-  --button-radius: 15px;
+  --button-radius: 12px;
+  --focus-radius: 5px;
   --card-padding: 20px;
   --card-border: 1px solid hsl(var(--hue), 30%, 70%);
   --card-shadow: 0px 2px 3px 1px var(--paper-grey);
   --item-shadow: 0.5px 1px 3px 0 var(--paper-grey);
-  --focus-shadow: 0 0 2px 2px var(--focus);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -270,7 +270,6 @@ body:has(.styleGuide) right-side main section:not(:first-child) {
   }
   body:not(:has(.componentLibrary)) left-side {
     grid-column: 1/7;
-    margin-right: calc(-1 * var(--gap));
     display: grid;
     grid-template-columns: subgrid;
     grid-template-rows: auto;
@@ -700,7 +699,7 @@ button:active, .button:active {
   color: var(--paper);
 }
 button:focus, .button:focus {
-  box-shadow: var(--focus-shadow);
+  outline: 2px solid var(--focus);
   border-radius: var(--button-radius);
 }
 
@@ -723,10 +722,8 @@ a.button:active {
 }
 
 *:focus {
-  box-shadow: var(--focus-shadow);
-  border-radius: inherit;
-  border: none;
-  outline: 0;
+  border-radius: var(--focus-radius);
+  outline: 2px solid var(--focus);
 }
 
 /*Modules*/
@@ -791,7 +788,8 @@ a.skiplink:focus {
   align-items: center;
 }
 .themeSelector:focus-within {
-  box-shadow: var(--focus-shadow);
+  outline: 2px solid var(--focus);
+  border-radius: var(--focus-radius);
 }
 .themeSelector h2 {
   color: var(--ink);
@@ -907,6 +905,7 @@ biography-card picture {
   box-shadow: var(--card-shadow);
   border-radius: 20px;
   overflow: hidden;
+  grid-area: portrait;
 }
 biography-card .bio-attributes {
   display: flex;
@@ -914,15 +913,15 @@ biography-card .bio-attributes {
   gap: var(--gap);
   justify-self: start;
 }
-biography-card picture {
-  grid-area: portrait;
-}
 biography-card .bio-attributes {
   grid-area: traits;
   align-self: center;
 }
 biography-card text-content {
   grid-area: biography;
+}
+biography-card .button {
+  width: 200px;
 }
 @media (max-width: 450px) {
   biography-card {
@@ -963,7 +962,8 @@ biography-controls .controlsForm {
   padding-left: 0;
 }
 biography-controls .controlsForm:has(:focus) {
-  box-shadow: var(--focus-shadow);
+  outline: 2px solid var(--focus);
+  border-radius: var(--focus-radius);
 }
 biography-controls .option {
   position: relative;
