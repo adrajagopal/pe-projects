@@ -19,7 +19,8 @@ biography-controls {
 		padding-left: 0;
 	
 		&:has(:focus) {
-			box-shadow: var(--focus-shadow);
+			outline: 2px solid var(--focus);
+			border-radius: var(--focus-radius);
 		}
 
 	}

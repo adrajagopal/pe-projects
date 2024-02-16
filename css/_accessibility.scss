@@ -9,8 +9,6 @@
 }
 
 *:focus {
-	box-shadow: var(--focus-shadow);
-	border-radius: inherit;
-	border: none;
-	outline: 0;
+	border-radius: var(--focus-radius);
+	outline: 2px solid var(--focus);
 }

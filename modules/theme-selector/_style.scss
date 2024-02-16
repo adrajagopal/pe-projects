@@ -4,7 +4,8 @@
 	align-items: center;
 
 	&:focus-within {
-		box-shadow: var(--focus-shadow);
+		outline: 2px solid var(--focus);
+		border-radius: var(--focus-radius);
 	}
 
 	h2 {
