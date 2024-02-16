@@ -105,7 +105,7 @@ body:not(:has(.componentLibrary)) {
 
 	left-side {
 		grid-column: 1 / 7;
-		margin-right: calc(-1 * var(--gap)); //gets rid of the gap between left and right side
+		// margin-right: calc(-1 * var(--gap)); //gets rid of the gap between left and right side, but also removes any helpful whitespace on the case study
 
 		display: grid;
 		grid-template-columns: subgrid;
